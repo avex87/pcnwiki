@@ -35,6 +35,7 @@ export default function CoffeeKB() {
   const [selectedVariety, setSelectedVariety] = useState(null);
   const [selectedFarm, setSelectedFarm] = useState(null);
   const [farmCountry, setFarmCountry] = useState("All");
+  const [flagshipOnly, setFlagshipOnly] = useState(false);
   const [tastings, setTastings] = useState(SEED_TASTINGS);
   const [showAdd, setShowAdd] = useState(false);
 
@@ -75,12 +76,13 @@ export default function CoffeeKB() {
     return FARMS.filter(f => {
       const reg = regionById[f.regionId];
       const byCountry = farmCountry === "All" || (reg && reg.country === farmCountry);
+      const byFlagship = !flagshipOnly || f.flagship;
       const grownVarieties = (f.varietyIds || []).map(id => varietyById[id] && varietyById[id].name).filter(Boolean);
       const matchQ = !q || [f.name, f.people, f.note, f.altitude, reg && reg.region, reg && reg.country]
         .some(field => (field || "").toLowerCase().includes(q)) || grownVarieties.some(n => n.toLowerCase().includes(q));
-      return byCountry && matchQ;
+      return byCountry && byFlagship && matchQ;
     });
-  }, [query, farmCountry, regionById, varietyById]);
+  }, [query, farmCountry, flagshipOnly, regionById, varietyById]);
 
   return (
     <div style={{ minHeight: "100vh", background: "#F7F4EF", color: ROAST, fontFamily: "'Inter', system-ui, sans-serif" }}>
@@ -210,6 +212,14 @@ export default function CoffeeKB() {
                 {countries.map(c => (
                   <button key={c} className={`chip ${farmCountry === c ? "on" : ""}`} onClick={() => setFarmCountry(c)}>{c}</button>
                 ))}
+                <span style={{ width: 1, height: 18, background: "rgba(43,29,20,.15)", margin: "0 4px" }} />
+                <button
+                  className={`chip ${flagshipOnly ? "on" : ""}`}
+                  onClick={() => setFlagshipOnly(v => !v)}
+                  style={{ display: "flex", alignItems: "center", gap: 5, fontWeight: 600 }}
+                >
+                  <Star size={12} fill={flagshipOnly ? "#fff" : "none"} /> Flagship only
+                </button>
               </div>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 16 }}>
                 {farms.map(f => {
