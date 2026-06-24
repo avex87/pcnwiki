@@ -384,6 +384,61 @@
       "id": "r_campo_vertentes",
       "country": "Brazil",
       "region": "Campo das Vertentes (Minas Gerais)"
+    },
+    {
+      "id": "r_kiambu",
+      "country": "Kenya",
+      "region": "Kiambu"
+    },
+    {
+      "id": "r_ngozi",
+      "country": "Burundi",
+      "region": "Ngozi"
+    },
+    {
+      "id": "r_pichincha",
+      "country": "Ecuador",
+      "region": "Pichincha (Quito)"
+    },
+    {
+      "id": "r_imbabura",
+      "country": "Ecuador",
+      "region": "Imbabura / Intag"
+    },
+    {
+      "id": "r_puno",
+      "country": "Peru",
+      "region": "Puno / Inambari"
+    },
+    {
+      "id": "r_loja",
+      "country": "Ecuador",
+      "region": "Loja"
+    },
+    {
+      "id": "r_gedeo",
+      "country": "Ethiopia",
+      "region": "Gedeo (Gedeb)"
+    },
+    {
+      "id": "r_arbegona",
+      "country": "Ethiopia",
+      "region": "Arbegona (Sidama)"
+    },
+    {
+      "id": "r_murumvya",
+      "country": "Burundi",
+      "region": "Muramvya"
+    },
+    {
+      "id": "r_santabarbara_hn",
+      "country": "Honduras",
+      "region": "Santa Bárbara"
+    },
+    {
+      "id": "r_gitega",
+      "country": "Burundi",
+      "region": "Gitega"
     }
   ],
   "varieties": [
@@ -1797,6 +1852,80 @@
         "honey",
         "nutty",
         "complex"
+      ]
+    },
+    {
+      "id": "v_sl9",
+      "name": "SL9 (\"Gesha Inca\")",
+      "species": "Arabica",
+      "origin": "Peru (via Scott Labs selection)",
+      "group": "Ethiopian-landrace type",
+      "parents": "Scott Laboratories selection; genetically Gesha-like / Ethiopian landrace",
+      "note": "A Gesha-like variety grown in the Cusco highlands of Peru, colloquially called \"Gesha Inca.\" Genetic testing suggests it is close to an old Scott Laboratories (SL) selection; Gesha-like in stature and a berry-forward, floral, Ethiopian-landrace cup profile.",
+      "refNotes": [
+        "berry",
+        "floral",
+        "grape",
+        "tea-like",
+        "complex"
+      ]
+    },
+    {
+      "id": "v_las_tolas",
+      "name": "Las Tolas",
+      "species": "Arabica",
+      "origin": "Ecuador",
+      "group": "Bourbon-like (uncertain)",
+      "parents": "Undetermined; Bourbon-like in habit and cup",
+      "note": "A variety colloquially known as Las Tolas, grown in Pichincha, Ecuador (notably at Terrazas del Pisque). Bourbon-like in format with dark-fruit, dried-berry and cacao character; its precise lineage is not formally established.",
+      "refNotes": [
+        "dried fruit",
+        "cocoa",
+        "honey",
+        "nutty"
+      ]
+    },
+    {
+      "id": "v_mejorado",
+      "name": "Mejorado",
+      "species": "Arabica",
+      "origin": "Ecuador",
+      "group": "Bourbon/Ethiopian cross (uncertain)",
+      "parents": "Reportedly a natural Bourbon × Ethiopian-landrace cross found in Ecuador",
+      "note": "An Ecuadorian variety (“improved”) associated with high-end farms such as Finca Soledad; thought to be a natural cross with Ethiopian-landrace character, prized for floral, tropical cups.",
+      "refNotes": [
+        "floral",
+        "tropical fruit",
+        "stone fruit",
+        "complex"
+      ]
+    },
+    {
+      "id": "v_aruzi",
+      "name": "Aruzi",
+      "species": "Arabica",
+      "origin": "Colombia (uncertain)",
+      "group": "Uncertain",
+      "parents": "Not formally documented",
+      "note": "A rare variety name encountered in Huila, Colombia (e.g. Victor Bonilla, Finca La Chorrera). Limited public documentation of its lineage.",
+      "refNotes": [
+        "floral",
+        "sweet",
+        "complex"
+      ]
+    },
+    {
+      "id": "v_caturron",
+      "name": "Caturrón",
+      "species": "Arabica",
+      "origin": "Colombia",
+      "group": "Caturra-type (large-bean selection)",
+      "parents": "A large-seeded selection associated with Caturra",
+      "note": "A \"Caturrón\" (large-bean Caturra-type) selection grown in Huila, Colombia, e.g. by Café Ticuna in Garzón.",
+      "refNotes": [
+        "sweet",
+        "citrus",
+        "balanced"
       ]
     }
   ],
@@ -3627,6 +3756,906 @@
       ],
       "note": "Kirinyaga, on the southern slopes of Mt Kenya. A wet mill of the Rung'eto FCS (with Kii and Karimikui), serving ~950–1,150 smallholders. Classic clean, layered, fruit-driven Kenyan washed coffees; an International Taste Award winner.",
       "flagship": false
+    },
+    {
+      "id": "p_alvarovargas",
+      "name": "Alvaro Vargas",
+      "people": "Álvaro Vargas",
+      "regionId": "r_antioquia",
+      "altitude": "2200 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. A small, meticulously kept garden-farm of Chiroso run by Álvaro Vargas, who comes from a coffee and cattle-ranching family and has emerged as a competition finalist since 2025. Washed Chiroso with dulce de leche, ripe citrus and sugar-cane sweetness; long open-tank fermentation and sun-bed drying.",
+      "flagship": false
+    },
+    {
+      "id": "p_isaacespinoza",
+      "name": "Isaac Espinoza",
+      "people": "Isaac (Don Isaac) Espinoza",
+      "regionId": "r_cusco",
+      "altitude": "2150 m",
+      "varietyIds": [
+        "v_sl9"
+      ],
+      "note": "Inkawasi, Cusco, Peru. One of the first to establish a coffee plantation and beneficio in Inkawasi, inspiring a district now making a name in specialty. Grows SL9 (\"Gesha Inca\") — a double-fermented washed lot with silky berries, melon, golden grape and coffee blossom.",
+      "flagship": false
+    },
+    {
+      "id": "p_nkanda",
+      "name": "Nkanda Washing Station",
+      "people": "Ngozi-hill smallholders",
+      "regionId": "r_ngozi",
+      "altitude": "1700–2200 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Ngozi, Burundi. A washing station that has built a strong local reputation for quality; lots are separated by hill and multigenerational family. Double-fermented washed Red Bourbon (12h wet + 12h in cement tanks) dried 20–25 days on raised beds — tea-like, with dried cherry, citrus and persimmon.",
+      "flagship": false
+    },
+    {
+      "id": "p_imani",
+      "name": "Imani Estate",
+      "people": "Imani estate (Kiambu)",
+      "regionId": "r_kiambu",
+      "altitude": "1700+ m",
+      "varietyIds": [
+        "v_sl34",
+        "v_sl28",
+        "v_ruiru11"
+      ],
+      "note": "Kiambu, Kenya. A ~500-acre estate (280 acres in forest, dams and marshland) on deep red volcanic Nitisol/Andosol soils, with a 16-lagoon water-recirculation system. AA washed separations of SL34 (and various) prized for raspberry, cherry and wild-rose clarity.",
+      "flagship": false
+    },
+    {
+      "id": "p_busambo",
+      "name": "Busambo (Umoco Washing Station)",
+      "people": "Busambo community smallholders",
+      "regionId": "r_kayanza",
+      "altitude": "1700–1900 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Busambo community, Kayanza, Burundi. Smallholders carry cherry on foot to the Umoco washing station (\"light\" in Kirundi). Washed Red Bourbon — double fermentation in wet and cement tanks, 20–25 days on raised beds — sparkling, floral and clean with cranberry, toffee and orange peel.",
+      "flagship": false
+    },
+    {
+      "id": "p_erickbravo",
+      "name": "Erick Bravo (Finca El Chaferote)",
+      "people": "Erick Bravo",
+      "regionId": "r_huila",
+      "altitude": "1600 m",
+      "varietyIds": [
+        "v_pink_bourbon",
+        "v_castillo",
+        "v_catimor"
+      ],
+      "note": "San Agustín, Huila, Colombia. Finca El Chaferote sits at the edge of the Magdalena River, whose cool air helps cherries mature evenly. Erick Bravo is a Flowerchild favourite who places highly in Colombia's Cup of Excellence and Huila Mágico; his focus is Pink Bourbon, double-fermented (48h in cherry + 36h dry) and greenhouse-dried.",
+      "flagship": false
+    },
+    {
+      "id": "p_astridmedina",
+      "name": "Astrid Medina (Finca Buenavista)",
+      "people": "Astrid Medina",
+      "regionId": "r_tolima",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra",
+        "v_castillo"
+      ],
+      "note": "Planadas, Tolima, Colombia. Astrid Medina is one of Colombia's most celebrated producers — a Cup of Excellence winner (2015) known for immaculate, consistent processing. Her washed Gesha is a benchmark, silky and layered with dark fruit, boysenberry and honeysuckle.",
+      "flagship": true
+    },
+    {
+      "id": "p_terrazaspisque",
+      "name": "Terrazas del Pisque",
+      "people": "Sebastián Garcés & Arnaud Causse",
+      "regionId": "r_pichincha",
+      "altitude": "1900–2080 m",
+      "varietyIds": [
+        "v_pacamara",
+        "v_bourbon",
+        "v_caturra",
+        "v_java",
+        "v_sidra",
+        "v_las_tolas"
+      ],
+      "note": "Pichincha, Quito, Ecuador. A 39-ha regenerative farm (17 ha in coffee, ~10,000 trees) managed by Sebastián Garcés with Arnaud Causse — an incubator of exotic varieties using chickens, sheep, bees and home-made biochar in place of chemical inputs. Clean, lively washed lots across Pacamara, Bourbon, Sidra, Java and the local Las Tolas.",
+      "flagship": false
+    },
+    {
+      "id": "p_luiscuellar",
+      "name": "Luis Cuellar (Finca La Pradera)",
+      "people": "Luis Enrique Cuellar & Robinson Cuellar",
+      "regionId": "r_huila",
+      "altitude": "2050 m",
+      "varietyIds": [
+        "v_pink_bourbon",
+        "v_caturra",
+        "v_pacamara",
+        "v_chiroso",
+        "v_gesha"
+      ],
+      "note": "Santa María, Huila, Colombia. A 6-ha farm (3.5 ha in coffee, ~13,000 trees) run by agronomist Luis Enrique Cuellar and his brother Robinson — Luis manages plots and commercialisation, Robinson the processing. Pickers paid ~40% above average for ripe-only selection. Known for fruit-forward Pink Bourbon.",
+      "flagship": false
+    },
+    {
+      "id": "p_albeiroramirez",
+      "name": "Albeiro Ramirez",
+      "people": "Albeiro Ramirez",
+      "regionId": "r_antioquia",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. A lifelong coffee farmer recognised for meticulous, standardised, traceable processing. His two-stage fermented washed Chiroso is distinctively buttery and chocolate-weighted — a Flowerchild standout from Urrao.",
+      "flagship": false
+    },
+    {
+      "id": "p_gorobedessa",
+      "name": "Goro Bedessa Washing Station",
+      "people": "Ismael Hassen (station); Guji Oromo smallholders",
+      "regionId": "r_guji",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112"
+      ],
+      "note": "Goro Bedessa, Hambela Wamena, Guji, Ethiopia. A high-altitude (~2,100 m) washing station run by Ismael Hassen, drawing cherry from several hundred Guji Oromo smallholders. Consistently among Flowerchild's top-scoring Ethiopians — washed, with elderberry, blueberry, black tea and jasmine florals.",
+      "flagship": false
+    },
+    {
+      "id": "p_joseflores",
+      "name": "Jose Flores (Finca El Silencio)",
+      "people": "Jose Flores & Marta",
+      "regionId": "r_antioquia",
+      "altitude": "2050 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. A family farm worked by Jose Flores and his wife Marta, meticulous about drying. His washed Chiroso uses a ~6-day water-changed concrete-tank ferment, giving a bigger-bodied, dark-berry, vanilla-and-cane-sugar profile.",
+      "flagship": false
+    },
+    {
+      "id": "p_duvancalderon",
+      "name": "Duvan Calderon",
+      "people": "Duván Calderón",
+      "regionId": "r_huila",
+      "altitude": "1760 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Salado Blanco, Huila, Colombia. A third-generation producer (28) who took over after his father's passing and runs the farm with his sister, specialising in Pink Bourbon (Bourbon Rosado). Temperature-controlled oxidation ferment under 45°C; rich, full-bodied, balanced cup.",
+      "flagship": false
+    },
+    {
+      "id": "p_sookoo",
+      "name": "Sookoo Tima",
+      "people": "Ture Waji (coordinator); Tima kebele farmers",
+      "regionId": "r_guji",
+      "altitude": "2200 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112"
+      ],
+      "note": "Odo Shakiso, Guji, Ethiopia. A group effort from the kebeles of Tima coordinated by Ture Waji, drying Gibrinna 74110 and Serto 74112 on raised beds at ~2,173 m in thin layers. Vibrant, pristine washed cup — blackberry, citrus, nectarine, floral.",
+      "flagship": false
+    },
+    {
+      "id": "p_telila",
+      "name": "Telila Washing Station",
+      "people": "Mike Mamo & Gure Kesso kebele",
+      "regionId": "r_jimma",
+      "altitude": "2150 m",
+      "varietyIds": [
+        "v_74112",
+        "v_74110"
+      ],
+      "note": "Gure Kesso, Jimma, western Ethiopia. A newer private washing station run by Mike Mamo's team, producing an atypical Jimma profile — big, viscous, creamy, with wild honey, orange and papaya rather than the usual tea-like berry. Predominantly 74112 landrace field blend.",
+      "flagship": false
+    },
+    {
+      "id": "p_buncho",
+      "name": "Buncho Washing Station",
+      "people": "Asefa Dukamo Korma; Shantawene producers",
+      "regionId": "r_bensa",
+      "altitude": "1920–2020 m",
+      "varietyIds": [
+        "v_74158"
+      ],
+      "note": "Bensa, Sidama, Ethiopia. A washing station owned by Asefa Dukamo Korma (Daye Bensa) drawing on Shantawene producers, pooling primarily Landrace 74158 plus native garden varieties. Exceptionally clean honey processing — wild-hive honey, white nectarine, navel orange.",
+      "flagship": false
+    },
+    {
+      "id": "p_oscargarcia",
+      "name": "Oscar Garcia (Finca San Isidro)",
+      "people": "Oscar Garcia",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra",
+        "v_pink_bourbon"
+      ],
+      "note": "Santa Clara, San Agustín, Huila, Colombia. A young San Agustín producer whose washed Gesha is intensely tropical — mangosteen, lychee, kumquat, Angel's-Trumpet florals. 48h underwater ferment, raised-bed dried.",
+      "flagship": false
+    },
+    {
+      "id": "p_brayanjoven",
+      "name": "Brayan Joven (Finca La Esperanza)",
+      "people": "Brayan Joven",
+      "regionId": "r_huila",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Timaná, Huila, Colombia. A 2.5-ha, 6,000-tree third-generation farm. Brayan uses a striking staggered harvest (picking Mon–Fri, washing all batches together Friday) to build a 12–96h fermentation gradient; works alongside his father's and brother's nearby farms.",
+      "flagship": false
+    },
+    {
+      "id": "p_davidgomez",
+      "name": "David Ruben Gomez (Finca El Refugio)",
+      "people": "David Ruben Gomez",
+      "regionId": "r_huila",
+      "altitude": "1960 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra",
+        "v_colombia"
+      ],
+      "note": "Vereda La Florida, La Plata, Huila, Colombia. A ~4-ha farm run by David Gomez, a 20-year coffee veteran from a large coffee-growing family moving into specialty. Full-bodied, stewed-fruit washed Gesha with marmalade, persimmon and panela.",
+      "flagship": false
+    },
+    {
+      "id": "p_pepejijon",
+      "name": "Finca Soledad (Pepe Jijon)",
+      "people": "Pepe Jijon",
+      "regionId": "r_imbabura",
+      "altitude": "1515 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sidra",
+        "v_mejorado"
+      ],
+      "note": "Intag valley, Imbabura, Ecuador — a 120-ha farm (only 5 ha in coffee) inside a UNESCO World Heritage GEOPARK, founded 2010. Pepe Jijon is a celebrated biodynamic producer whose “Nature Wave” philosophy minimises stress on the bean; rainwater-only, indirect-dried washed Gesha of remarkable cleanliness.",
+      "flagship": true
+    },
+    {
+      "id": "p_consuelrubio",
+      "name": "Consuelo Rubio",
+      "people": "Consuelo Rubio Peralta & family (Richard, Roxana, Blanca Flor)",
+      "regionId": "r_cajamarca",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_sidra",
+        "v_tabi"
+      ],
+      "note": "Cajamarca, Peru. A family operation revived by Consuelo Rubio's children returning from the city after their father's passing; sealed-bag double fermentation and solar-tent drying. Known for round, floral Sidra and Tabi — a distinctive Peruvian take on these cultivars.",
+      "flagship": false
+    },
+    {
+      "id": "p_germanpena",
+      "name": "German Peña (Finca El Roblar)",
+      "people": "German Peña Zuta",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Suaza, Huila, Colombia. German Peña built Finca El Roblar from a bare plot his father left him into a world-renowned operation, working with his wife, kids and extended family. His washed Pink Bourbon took 4th at Osito's Copa de Oro — a hyper-sweet strawberry-reduction profile with blackberry, Muscadine grape and passionfruit.",
+      "flagship": false
+    },
+    {
+      "id": "p_jhondidier",
+      "name": "Jhon Didier (Finca Villa Flor)",
+      "people": "Jhon Didier Trujillo",
+      "regionId": "r_antioquia",
+      "altitude": "1950 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. A fast-rising farmer on the Penderisco River growing lulo, avocado, plantains and coffee. His washed Chiroso (up to 4-day clean-water ferment, shade-tent dried) is clean and lightly fruited — dried blueberry, raisin, mandarin.",
+      "flagship": false
+    },
+    {
+      "id": "p_yesicallanqui",
+      "name": "Yesica Ale Llanqui",
+      "people": "Yesica Ale Llanqui",
+      "regionId": "r_cusco",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Cusco, Peru. A producer earning recognition in Cusco competitions for a washed Gesha.",
+      "flagship": false
+    },
+    {
+      "id": "p_familiaccapa",
+      "name": "Familia Ccapa (Palanganayoc)",
+      "people": "Familia Ccapa",
+      "regionId": "r_cusco",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_typica"
+      ],
+      "note": "Palanganayoc, Cusco, Peru. A family-grown 100% Typica washed lot from the Cusco highlands.",
+      "flagship": false
+    },
+    {
+      "id": "p_joaquinlipa",
+      "name": "Joaquin Lipa (Santa Juana)",
+      "people": "Joaquin Coaquira Lipa",
+      "regionId": "r_puno",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Inambari, Puno, Peru. Finca Santa Juana — a washed Bourbon from the remote Puno selva.",
+      "flagship": false
+    },
+    {
+      "id": "p_lisbethmarino",
+      "name": "Lisbeth Mariño",
+      "people": "Lisbeth Mariño",
+      "regionId": "r_cusco",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_sl9"
+      ],
+      "note": "Pacaybamba, Cusco, Peru. A new Flowerchild partner whose double-fermented washed SL9 (\"Gesha Inca\") highlights the Cusco district's rise.",
+      "flagship": false
+    },
+    {
+      "id": "p_robertoflores",
+      "name": "Roberto Palomino Flores (La Rinconada)",
+      "people": "Roberto Palomino Flores",
+      "regionId": "r_cusco",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "La Rinconada, Cusco, Peru. A washed Gesha from the Cusco valleys.",
+      "flagship": false
+    },
+    {
+      "id": "p_manuelmarlo",
+      "name": "Manuel Marlo (Pacpa)",
+      "people": "Manuel Marlo",
+      "regionId": "r_amazonas_pe",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Lonya Grande, Amazonas, Peru. Finca Pacpa — a washed Gesha from northern Peru.",
+      "flagship": false
+    },
+    {
+      "id": "p_abelsalinas",
+      "name": "Abel Salinas (Arashi)",
+      "people": "Abel Salinas",
+      "regionId": "r_loja",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_mejorado"
+      ],
+      "note": "Saraguro, Loja, Ecuador. Finca Arashi — a washed Mejorado from southern Ecuador.",
+      "flagship": false
+    },
+    {
+      "id": "p_migueldota",
+      "name": "Miguel Dota",
+      "people": "Miguel Dota",
+      "regionId": "r_loja",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_sidra"
+      ],
+      "note": "Saraguro, Loja, Ecuador. A washed Sidra from the Ecuadorian highlands.",
+      "flagship": false
+    },
+    {
+      "id": "p_carlosmario",
+      "name": "Carlos Mario",
+      "people": "Carlos Mario",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Pitalito, Huila, Colombia. A washed Pink Bourbon from the Pitalito hills.",
+      "flagship": false
+    },
+    {
+      "id": "p_cafeticuna",
+      "name": "Café Ticuna",
+      "people": "Café Ticuna",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_caturron"
+      ],
+      "note": "Garzón, Huila, Colombia. A Colombian project working SL-28 and a large-bean Caturrón — unusual Kenyan/selection varieties for Huila, washed.",
+      "flagship": false
+    },
+    {
+      "id": "p_reinel",
+      "name": "Reinel (El Espejo)",
+      "people": "Reinel",
+      "regionId": "r_huila",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Santa María, Huila, Colombia. Finca El Espejo — a washed Pink Bourbon (Borbón Rosado).",
+      "flagship": false
+    },
+    {
+      "id": "p_victorbonilla",
+      "name": "Victor Bonilla (La Chorrera)",
+      "people": "Victor Bonilla",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_aruzi"
+      ],
+      "note": "La Argentina, Huila, Colombia. Finca La Chorrera — a washed lot of the rare Aruzi variety.",
+      "flagship": false
+    },
+    {
+      "id": "p_sergiocaro",
+      "name": "Sergio Caro (Los Pinos)",
+      "people": "Sergio Caro",
+      "regionId": "r_antioquia",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Caicedo, Antioquia, Colombia. Finca Los Pinos — a washed Chiroso.",
+      "flagship": false
+    },
+    {
+      "id": "p_andresosorio",
+      "name": "Andrés Felipe Osorio (El Nogal)",
+      "people": "Andrés Felipe Osorio",
+      "regionId": "r_huila",
+      "altitude": "1700 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Santa María, Huila, Colombia. An 11-ha farm where Andrés focuses exclusively on Pink Bourbon, washed.",
+      "flagship": false
+    },
+    {
+      "id": "p_josemartinez",
+      "name": "José Martínez (El Casino)",
+      "people": "José Martínez",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Huila, Colombia. Finca El Casino — a washed Pink Bourbon.",
+      "flagship": false
+    },
+    {
+      "id": "p_wilsonalba",
+      "name": "Wilson Alba",
+      "people": "Wilson Alba",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Palestina, Huila, Colombia. A fully washed 100% Pink Bourbon; Wilson worked the farm alongside his brother Jose.",
+      "flagship": false
+    },
+    {
+      "id": "p_nemesioramos",
+      "name": "Nemesio Ramos (Galaxia)",
+      "people": "Nemesio Ramos",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon",
+        "v_caturra"
+      ],
+      "note": "Vereda El Carmen, Tarqui, Huila, Colombia. Finca Galaxia — washed Pink Bourbon & Caturra.",
+      "flagship": false
+    },
+    {
+      "id": "p_marthacartagena",
+      "name": "Martha Cartagena (Hoyo Rico)",
+      "people": "Martha Cartagena",
+      "regionId": "r_antioquia",
+      "altitude": "2050 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Inza/Anza, Antioquia, Colombia. Finca Hoyo Rico — a washed 100% Chiroso.",
+      "flagship": false
+    },
+    {
+      "id": "p_santiagocaro",
+      "name": "Santiago Caro (La Falda)",
+      "people": "Santiago Caro",
+      "regionId": "r_antioquia",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. Santiago's father bet on Chiroso a decade ago; a washed, family-grown heirloom lot.",
+      "flagship": false
+    },
+    {
+      "id": "p_serviobotina",
+      "name": "Servio Botina (El Cedro)",
+      "people": "Servio Tulio Botina",
+      "regionId": "r_huila",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "San Agustín, Huila, Colombia. Finca El Cedro — among Flowerchild's most dynamic washed Pink Bourbon lots, deep dark-and-red-fruit.",
+      "flagship": false
+    },
+    {
+      "id": "p_gilbertochilito",
+      "name": "Gilberto Chilito (Villa Caney)",
+      "people": "Gilberto Chilito",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Llanada de Naranjos, San Agustín, Huila, Colombia. Finca Villa Caney — a washed Gesha.",
+      "flagship": false
+    },
+    {
+      "id": "p_victorpineda",
+      "name": "Victor Pineda (La Cenovia)",
+      "people": "Victor Pineda",
+      "regionId": "r_antioquia",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Caicedo, Antioquia, Colombia. Finca La Cenovia — a washed Chiroso.",
+      "flagship": false
+    },
+    {
+      "id": "p_faverninco",
+      "name": "Faver Ninco",
+      "people": "Faver Ninco",
+      "regionId": "r_huila",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Santa María, Huila, Colombia. A mountain farm producing a washed Gesha.",
+      "flagship": false
+    },
+    {
+      "id": "p_jhonbermudez",
+      "name": "Jhon Bermudez (La Estrella)",
+      "people": "Jhon Alexander Bermudez",
+      "regionId": "r_antioquia",
+      "altitude": "2050 m",
+      "varietyIds": [
+        "v_chiroso"
+      ],
+      "note": "Urrao, Antioquia, Colombia. Finca La Estrella — a second-generation washed Chiroso.",
+      "flagship": false
+    },
+    {
+      "id": "p_ernedisrodriguez",
+      "name": "Ernedis Rodriguez (El Paraiso, Gigante)",
+      "people": "Ernedis Rodriguez",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_sidra",
+        "v_caturra"
+      ],
+      "note": "Gigante, Huila, Colombia. A Colombian farm named El Paraiso (distinct from Diego Bermúdez's El Paraíso in Cauca) producing washed Sidra, Caturra and field-blend lots.",
+      "flagship": false
+    },
+    {
+      "id": "p_julioalberto",
+      "name": "Julio Alberto (El Tabor)",
+      "people": "Julio Alberto",
+      "regionId": "r_antioquia",
+      "altitude": "2050 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Urrao, Antioquia, Colombia. Finca El Tabor — a washed Borbón Rosado (Pink Bourbon).",
+      "flagship": false
+    },
+    {
+      "id": "p_joseever",
+      "name": "Jose Ever Muñoz (La Esperanza, Suaza)",
+      "people": "Jose Ever Muñoz",
+      "regionId": "r_huila",
+      "altitude": "1700 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Bajo Horizonte, Suaza, Huila, Colombia. A honey-processed Pink Bourbon; a Copa de Oro-recognised lot.",
+      "flagship": false
+    },
+    {
+      "id": "p_cerromiraflores",
+      "name": "Cerro Miraflores (group)",
+      "people": "Garzón producers (Osito)",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Garzón, Huila, Colombia. A group lot of washed Gesha from producers around Cerro Miraflores.",
+      "flagship": false
+    },
+    {
+      "id": "p_alirio",
+      "name": "Alirio Muñoz (El Roble)",
+      "people": "Alirio Muñoz",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_pink_bourbon"
+      ],
+      "note": "Bruselas, Huila, Colombia. Finca El Roble — a washed Pink Bourbon.",
+      "flagship": false
+    },
+    {
+      "id": "p_divonino",
+      "name": "Divo Niño (group)",
+      "people": "Suaza producers (Osito)",
+      "regionId": "r_huila",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Suaza, Huila, Colombia. \"Divine Child\" — an Osito producer group pooling Gesha so small farmers get top price rather than losing it in a field blend; washed.",
+      "flagship": false
+    },
+    {
+      "id": "p_nimrodpineda",
+      "name": "Nimrod Pineda",
+      "people": "Nimrod Pineda",
+      "regionId": "r_santabarbara_hn",
+      "altitude": "1500 m",
+      "varietyIds": [
+        "v_sl28"
+      ],
+      "note": "Santa Bárbara, Honduras. A 25-year-old who started his own nursery at 20; a washed 100% SL-28.",
+      "flagship": false
+    },
+    {
+      "id": "p_ruberizaguirre",
+      "name": "Ruber Izaguirre (El Pino)",
+      "people": "Ruber Izaguirre",
+      "regionId": "r_santabarbara_hn",
+      "altitude": "1500 m",
+      "varietyIds": [
+        "v_pacas"
+      ],
+      "note": "El Cedral, Las Vegas, Santa Bárbara, Honduras. Finca El Pino — a washed Pacas.",
+      "flagship": false
+    },
+    {
+      "id": "p_rumudamo",
+      "name": "Rumudamo Washing Station",
+      "people": "Asefa Dukamo Korma",
+      "regionId": "r_arbegona",
+      "altitude": "2100 m",
+      "varietyIds": [
+        "v_74112"
+      ],
+      "note": "Arbegona, Sidama, Ethiopia. Managed by Asefa Dukamo Korma with 600+ farmers; placed 2nd & 3rd at 2020 Ethiopia CoE. A barrel-fermented washed landrace (74112) lot.",
+      "flagship": false
+    },
+    {
+      "id": "p_bokusayisa",
+      "name": "Boku Sayisa Washing Station",
+      "people": "Western Guji smallholders",
+      "regionId": "r_guji",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112"
+      ],
+      "note": "Western Guji, Ethiopia. A washed landrace lot from smallholders delivering to the Boku Sayisa station.",
+      "flagship": false
+    },
+    {
+      "id": "p_udesafora",
+      "name": "Udesa Fora Washing Station",
+      "people": "Guji smallholders",
+      "regionId": "r_guji",
+      "altitude": "1900–2100 m",
+      "varietyIds": [
+        "v_74112",
+        "v_74158"
+      ],
+      "note": "Guji, Ethiopia. Farmers grow heirloom 74112 and 74158 at 1,900–2,100 m; 72-hour ferment, washed, 8–12 day raised-bed drying.",
+      "flagship": false
+    },
+    {
+      "id": "p_chelbessa",
+      "name": "Chelbessa Washing Station",
+      "people": "Gedeb smallholders",
+      "regionId": "r_gedeo",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112"
+      ],
+      "note": "Gedeb, Gedeo, Ethiopia. A renowned Yirgacheffe-area washing station; washed landrace with classic floral-citrus clarity.",
+      "flagship": false
+    },
+    {
+      "id": "p_keramo",
+      "name": "Keramo Washing Station",
+      "people": "Asefa Dukamo Korma",
+      "regionId": "r_bensa",
+      "altitude": "2000 m",
+      "varietyIds": [
+        "v_74158",
+        "v_74112"
+      ],
+      "note": "Keramo village, Bensa, Sidama, Ethiopia. An Asefa Dukamo (Daye Bensa) station; washed landrace.",
+      "flagship": false
+    },
+    {
+      "id": "p_gititu",
+      "name": "Gititu Factory",
+      "people": "Kiambu-area society",
+      "regionId": "r_kiambu",
+      "altitude": "1700 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_batian",
+        "v_ruiru11"
+      ],
+      "note": "Kiambu, Kenya. A washing station (\"factory\") drawing on Kiambu-area smallholders; washed SL-28/SL-34/Batian/Ruiru 11.",
+      "flagship": false
+    },
+    {
+      "id": "p_kathakwa",
+      "name": "Kathakwa Factory",
+      "people": "Kibingu society (Embu)",
+      "regionId": "r_embu",
+      "altitude": "1600 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_batian",
+        "v_ruiru11"
+      ],
+      "note": "Kibingu, Embu, Kenya. A washed Kenyan factory lot of SL-28/SL-34/Batian/Ruiru 11.",
+      "flagship": false
+    },
+    {
+      "id": "p_kiamugumo",
+      "name": "Kiamugumo Factory",
+      "people": "Ngariama-area society",
+      "regionId": "r_kirinyaga",
+      "altitude": "1700 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11",
+        "v_batian"
+      ],
+      "note": "Ngariama, Nyangeni, Kirinyaga, Kenya. On the slopes of Mount Kenya, processed with Kii-river water; washed SL-28/SL-34/Ruiru 11/Batian.",
+      "flagship": false
+    },
+    {
+      "id": "p_gachatha",
+      "name": "Gachatha Factory",
+      "people": "Nyeri-area cooperative",
+      "regionId": "r_nyeri",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11",
+        "v_batian"
+      ],
+      "note": "Nyeri, Kenya. A well-regarded factory with water-recirculating wet processing; washed SL-28/SL-34/Ruiru 11/Batian.",
+      "flagship": false
+    },
+    {
+      "id": "p_kayu",
+      "name": "Kayu Factory",
+      "people": "Kangema society (Murang'a)",
+      "regionId": "r_murang",
+      "altitude": "1700 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11",
+        "v_batian"
+      ],
+      "note": "Kangema Division, Murang'a, Kenya. Established 1964 on a 7-acre site serving Kayu, Njumbi, Rwathia and Mihuti villages (~1,191 members); washed SL-28/SL-34/Ruiru 11/Batian.",
+      "flagship": false
+    },
+    {
+      "id": "p_gaharo",
+      "name": "Gaharo Hill (Long Miles)",
+      "people": "Long Miles Coffee Project",
+      "regionId": "r_gitega",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Gitega, Burundi. Where the Long Miles Coffee Project began; cherries from Gaharo Hill processed at the Bukeye washing station. Washed Bourbon — bright, juicy, currant and oolong.",
+      "flagship": false
+    },
+    {
+      "id": "p_giku",
+      "name": "Giku Hill (Long Miles)",
+      "people": "Long Miles Coffee Project",
+      "regionId": "r_kayanza",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Kayanza, Burundi. A remote hill near the Kibira Forest; Long Miles built a new washing station nearby. A honey-processed Bourbon community lot.",
+      "flagship": false
+    },
+    {
+      "id": "p_ninga",
+      "name": "Ninga Washing Station",
+      "people": "Muramvya smallholders",
+      "regionId": "r_murumvya",
+      "altitude": "1800–2000 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Muramvya, Burundi. A washing station with its own borehole; \"footed\" fermentation and density grading. Washed Bourbon field blend — apricot, persimmon, dried berry.",
+      "flagship": false
+    },
+    {
+      "id": "p_remera",
+      "name": "Remera Washing Station",
+      "people": "Kayanza smallholders",
+      "regionId": "r_kayanza",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Kayanza, Burundi. A community that planted 38,000+ trees; 12h wet + 12h dry cement-tank ferment, 20–25 day raised-bed drying. Washed Red Bourbon.",
+      "flagship": false
+    },
+    {
+      "id": "p_bumba",
+      "name": "Bumba Washing Station",
+      "people": "Kayanza smallholders",
+      "regionId": "r_kayanza",
+      "altitude": "1800 m",
+      "varietyIds": [
+        "v_bourbon"
+      ],
+      "note": "Kayanza, Burundi. A washed Bourbon community lot from the Kayanza hills.",
+      "flagship": false
+    },
+    {
+      "id": "p_juanpena",
+      "name": "Hacienda La Papaya (Juan Peña)",
+      "people": "Juan Peña",
+      "regionId": "r_loja",
+      "altitude": "1900 m",
+      "varietyIds": [
+        "v_sidra",
+        "v_mejorado"
+      ],
+      "note": "Saraguro, Loja, Ecuador. Juan Peña's Hacienda La Papaya is one of Ecuador's most acclaimed farms, a repeat Cup of Excellence performer known for fully washed Sidra and Mejorado of exceptional clarity.",
+      "flagship": true
     }
   ],
   "processes": [
@@ -5327,6 +6356,638 @@
       "processId": "pr_natural",
       "year": 2025,
       "name": "Iris Estate Odyssey (Natural)"
+    },
+    {
+      "id": "l_alvarovargas_chiroso",
+      "producerId": "p_alvarovargas",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Alvaro Vargas Chiroso Washed (Flowerchild)"
+    },
+    {
+      "id": "l_isaacespinoza_sl9",
+      "producerId": "p_isaacespinoza",
+      "varietyId": "v_sl9",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Isaac Espinoza SL9 / Gesha Inca Washed (Flowerchild)"
+    },
+    {
+      "id": "l_nkanda_redbourbon",
+      "producerId": "p_nkanda",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Nkanda Red Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_imani_sl34",
+      "producerId": "p_imani",
+      "varietyId": "v_sl34",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Imani AA SL34 Washed (Flowerchild)"
+    },
+    {
+      "id": "l_busambo_redbourbon",
+      "producerId": "p_busambo",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Busambo Red Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_erickbravo_pinkbourbon",
+      "producerId": "p_erickbravo",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Erick Bravo Pink Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_astridmedina_gesha",
+      "producerId": "p_astridmedina",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2022,
+      "name": "Astrid Medina Gesha Washed (Flowerchild)"
+    },
+    {
+      "id": "l_terrazas_lastolas",
+      "producerId": "p_terrazaspisque",
+      "varietyId": "v_las_tolas",
+      "processId": "pr_washed",
+      "year": 2023,
+      "name": "Terrazas del Pisque Las Tolas Washed (Flowerchild)"
+    },
+    {
+      "id": "l_terrazas_pacamara",
+      "producerId": "p_terrazaspisque",
+      "varietyId": "v_pacamara",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Arnaud Causse Pacamara Washed (Flowerchild)"
+    },
+    {
+      "id": "l_terrazas_bourbon",
+      "producerId": "p_terrazaspisque",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Arnaud Causse Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_luiscuellar_pinkbourbon",
+      "producerId": "p_luiscuellar",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Luis Cuellar Pink Bourbon Hyper-Light Honey (Flowerchild)"
+    },
+    {
+      "id": "l_luiscuellar_gesha",
+      "producerId": "p_luiscuellar",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Robinson & Luis Gesha Washed (Flowerchild)"
+    },
+    {
+      "id": "l_albeiroramirez_chiroso",
+      "producerId": "p_albeiroramirez",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Albeiro Ramirez Chiroso Washed (Flowerchild)"
+    },
+    {
+      "id": "l_gorobedessa_washed",
+      "producerId": "p_gorobedessa",
+      "varietyId": "v_74110",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Goro Bedessa Washed Landrace (Flowerchild)"
+    },
+    {
+      "id": "l_joseflores_chiroso",
+      "producerId": "p_joseflores",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Jose Flores El Silencio Chiroso Washed (Flowerchild)"
+    },
+    {
+      "id": "l_duvancalderon_pinkbourbon",
+      "producerId": "p_duvancalderon",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Duvan Calderon Pink Bourbon Oxidation (Flowerchild)"
+    },
+    {
+      "id": "l_sookoo_washed",
+      "producerId": "p_sookoo",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Sookoo Tima Washed Landrace (Flowerchild)"
+    },
+    {
+      "id": "l_telila_washed",
+      "producerId": "p_telila",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Telila Washed 74112 (Flowerchild)"
+    },
+    {
+      "id": "l_buncho_honey",
+      "producerId": "p_buncho",
+      "varietyId": "v_74158",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Buncho Shantawene Honey 74158 (Flowerchild)"
+    },
+    {
+      "id": "l_oscargarcia_gesha",
+      "producerId": "p_oscargarcia",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Oscar Garcia Gesha Washed (Flowerchild)"
+    },
+    {
+      "id": "l_brayanjoven_pinkbourbon",
+      "producerId": "p_brayanjoven",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Brayan Joven Pink Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_davidgomez_gesha",
+      "producerId": "p_davidgomez",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "David Ruben Gomez Gesha Washed (Flowerchild)"
+    },
+    {
+      "id": "l_pepejijon_gesha",
+      "producerId": "p_pepejijon",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Pepe Jijon Soledad Gesha Washed (Flowerchild)"
+    },
+    {
+      "id": "l_pepejijon_mejorado",
+      "producerId": "p_pepejijon",
+      "varietyId": "v_mejorado",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Pepe Jijon Soledad Mejorado Washed (Flowerchild)"
+    },
+    {
+      "id": "l_consuelrubio_sidra",
+      "producerId": "p_consuelrubio",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Consuelo Rubio Sidra Washed (Flowerchild)"
+    },
+    {
+      "id": "l_consuelrubio_tabi",
+      "producerId": "p_consuelrubio",
+      "varietyId": "v_tabi",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Consuelo Rubio Tabi Washed (Flowerchild)"
+    },
+    {
+      "id": "l_germanpena_pinkbourbon",
+      "producerId": "p_germanpena",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "German Peña El Roblar Pink Bourbon Washed (Flowerchild)"
+    },
+    {
+      "id": "l_jhondidier_chiroso",
+      "producerId": "p_jhondidier",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Jhon Didier Villa Flor Chiroso Washed (Flowerchild)"
+    },
+    {
+      "id": "l_yesicallanqui_gesha",
+      "producerId": "p_yesicallanqui",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Yesica Ale Llanqui (Flowerchild)"
+    },
+    {
+      "id": "l_familiaccapa_typica",
+      "producerId": "p_familiaccapa",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Familia Ccapa (Flowerchild)"
+    },
+    {
+      "id": "l_joaquinlipa_bourbon",
+      "producerId": "p_joaquinlipa",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Joaquin Lipa (Flowerchild)"
+    },
+    {
+      "id": "l_lisbethmarino_sl9",
+      "producerId": "p_lisbethmarino",
+      "varietyId": "v_sl9",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Lisbeth Mariño (Flowerchild)"
+    },
+    {
+      "id": "l_robertoflores_gesha",
+      "producerId": "p_robertoflores",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Roberto Palomino Flores (Flowerchild)"
+    },
+    {
+      "id": "l_manuelmarlo_gesha",
+      "producerId": "p_manuelmarlo",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Manuel Marlo (Flowerchild)"
+    },
+    {
+      "id": "l_abelsalinas_mejorado",
+      "producerId": "p_abelsalinas",
+      "varietyId": "v_mejorado",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Abel Salinas (Flowerchild)"
+    },
+    {
+      "id": "l_migueldota_sidra",
+      "producerId": "p_migueldota",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Miguel Dota (Flowerchild)"
+    },
+    {
+      "id": "l_carlosmario_pink_bourbon",
+      "producerId": "p_carlosmario",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Carlos Mario (Flowerchild)"
+    },
+    {
+      "id": "l_reinel_pink_bourbon",
+      "producerId": "p_reinel",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Reinel (Flowerchild)"
+    },
+    {
+      "id": "l_victorbonilla_aruzi",
+      "producerId": "p_victorbonilla",
+      "varietyId": "v_aruzi",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Victor Bonilla (Flowerchild)"
+    },
+    {
+      "id": "l_sergiocaro_chiroso",
+      "producerId": "p_sergiocaro",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Sergio Caro (Flowerchild)"
+    },
+    {
+      "id": "l_andresosorio_pink_bourbon",
+      "producerId": "p_andresosorio",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Andrés Felipe Osorio (Flowerchild)"
+    },
+    {
+      "id": "l_josemartinez_pink_bourbon",
+      "producerId": "p_josemartinez",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "José Martínez (Flowerchild)"
+    },
+    {
+      "id": "l_wilsonalba_pink_bourbon",
+      "producerId": "p_wilsonalba",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Wilson Alba (Flowerchild)"
+    },
+    {
+      "id": "l_nemesioramos_pink_bourbon",
+      "producerId": "p_nemesioramos",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Nemesio Ramos (Flowerchild)"
+    },
+    {
+      "id": "l_marthacartagena_chiroso",
+      "producerId": "p_marthacartagena",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Martha Cartagena (Flowerchild)"
+    },
+    {
+      "id": "l_santiagocaro_chiroso",
+      "producerId": "p_santiagocaro",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Santiago Caro (Flowerchild)"
+    },
+    {
+      "id": "l_serviobotina_pink_bourbon",
+      "producerId": "p_serviobotina",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Servio Botina (Flowerchild)"
+    },
+    {
+      "id": "l_gilbertochilito_gesha",
+      "producerId": "p_gilbertochilito",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Gilberto Chilito (Flowerchild)"
+    },
+    {
+      "id": "l_victorpineda_chiroso",
+      "producerId": "p_victorpineda",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Victor Pineda (Flowerchild)"
+    },
+    {
+      "id": "l_faverninco_gesha",
+      "producerId": "p_faverninco",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Faver Ninco (Flowerchild)"
+    },
+    {
+      "id": "l_jhonbermudez_chiroso",
+      "producerId": "p_jhonbermudez",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Jhon Bermudez (Flowerchild)"
+    },
+    {
+      "id": "l_julioalberto_pink_bourbon",
+      "producerId": "p_julioalberto",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Julio Alberto (Flowerchild)"
+    },
+    {
+      "id": "l_joseever_pink_bourbon",
+      "producerId": "p_joseever",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Jose Ever Muñoz (Flowerchild)"
+    },
+    {
+      "id": "l_cerromiraflores_gesha",
+      "producerId": "p_cerromiraflores",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Cerro Miraflores (Flowerchild)"
+    },
+    {
+      "id": "l_alirio_pink_bourbon",
+      "producerId": "p_alirio",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Alirio Muñoz (Flowerchild)"
+    },
+    {
+      "id": "l_divonino_gesha",
+      "producerId": "p_divonino",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Divo Niño (Flowerchild)"
+    },
+    {
+      "id": "l_nimrodpineda_sl28",
+      "producerId": "p_nimrodpineda",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Nimrod Pineda (Flowerchild)"
+    },
+    {
+      "id": "l_ruberizaguirre_pacas",
+      "producerId": "p_ruberizaguirre",
+      "varietyId": "v_pacas",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Ruber Izaguirre (Flowerchild)"
+    },
+    {
+      "id": "l_rumudamo_74112",
+      "producerId": "p_rumudamo",
+      "varietyId": "v_74112",
+      "processId": "pr_anaerobic",
+      "year": 2025,
+      "name": "Rumudamo Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_bokusayisa_74112",
+      "producerId": "p_bokusayisa",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Boku Sayisa Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_udesafora_74112",
+      "producerId": "p_udesafora",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Udesa Fora Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_chelbessa_74112",
+      "producerId": "p_chelbessa",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Chelbessa Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_keramo_74158",
+      "producerId": "p_keramo",
+      "varietyId": "v_74158",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Keramo Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_gititu_sl28",
+      "producerId": "p_gititu",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Gititu Factory (Flowerchild)"
+    },
+    {
+      "id": "l_kathakwa_sl28",
+      "producerId": "p_kathakwa",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Kathakwa Factory (Flowerchild)"
+    },
+    {
+      "id": "l_kiamugumo_sl28",
+      "producerId": "p_kiamugumo",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Kiamugumo Factory (Flowerchild)"
+    },
+    {
+      "id": "l_gachatha_sl28",
+      "producerId": "p_gachatha",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Gachatha Factory (Flowerchild)"
+    },
+    {
+      "id": "l_kayu_sl28",
+      "producerId": "p_kayu",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Kayu Factory (Flowerchild)"
+    },
+    {
+      "id": "l_gaharo_bourbon",
+      "producerId": "p_gaharo",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Gaharo Hill (Flowerchild)"
+    },
+    {
+      "id": "l_giku_bourbon",
+      "producerId": "p_giku",
+      "varietyId": "v_bourbon",
+      "processId": "pr_honey",
+      "year": 2025,
+      "name": "Giku Hill (Flowerchild)"
+    },
+    {
+      "id": "l_ninga_bourbon",
+      "producerId": "p_ninga",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Ninga Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_remera_bourbon",
+      "producerId": "p_remera",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Remera Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_bumba_bourbon",
+      "producerId": "p_bumba",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Bumba Washing Station (Flowerchild)"
+    },
+    {
+      "id": "l_cafeticuna_sl28",
+      "producerId": "p_cafeticuna",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Café Ticuna SL-28 Washed (Flowerchild)"
+    },
+    {
+      "id": "l_cafeticuna_caturron",
+      "producerId": "p_cafeticuna",
+      "varietyId": "v_caturron",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Café Ticuna Caturrón Washed (Flowerchild)"
+    },
+    {
+      "id": "l_ernedis_sidra",
+      "producerId": "p_ernedisrodriguez",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Ernedis Rodriguez Sidra Washed (Flowerchild)"
+    },
+    {
+      "id": "l_ernedis_caturra",
+      "producerId": "p_ernedisrodriguez",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2026,
+      "name": "Ernedis Rodriguez El Paraiso Caturra Washed (Flowerchild)"
+    },
+    {
+      "id": "l_juanpena_sidra",
+      "producerId": "p_juanpena",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Juan Peña La Papaya Sidra Washed (Flowerchild)"
+    },
+    {
+      "id": "l_juanpena_mejorado",
+      "producerId": "p_juanpena",
+      "varietyId": "v_mejorado",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Juan Peña La Papaya Mejorado Washed (Flowerchild)"
     }
   ],
   "seedTastings": [
