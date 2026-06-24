@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { Search, Coffee, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, NotebookPen } from "lucide-react";
 import data from "./data/coffee-data.json";
+import pcnLogo from "./assets/pcn-wiki-logo.png";
 
 /* ────────────────────────────────────────────────────────────────────────────
    PCN WIKI — specialty coffee knowledge base
@@ -376,19 +377,11 @@ function CardFact({ label, value, accent }) {
 
 function PcgnLogo() {
   return (
-    <svg viewBox="0 0 300 60" width="100%" style={{ maxWidth: 240, display: "block" }} role="img" aria-label="PCN Wiki">
-      <defs>
-        <linearGradient id="pcgnNeon" x1="0" y1="0" x2="1" y2="0.4">
-          <stop offset="0%" stopColor="#FF2D9B" />
-          <stop offset="38%" stopColor="#A64BFF" />
-          <stop offset="70%" stopColor="#2BE5FF" />
-          <stop offset="100%" stopColor="#39FFB0" />
-        </linearGradient>
-      </defs>
-      <text x="0" y="44"
-        style={{ fontFamily: "Arial, Helvetica, sans-serif", fontWeight: 700, fontSize: 48, letterSpacing: "-2px" }}
-        fill="none" stroke="url(#pcgnNeon)" strokeWidth="1.4">PCNwiki</text>
-    </svg>
+    <img
+      src={pcnLogo}
+      alt="PCN Wiki"
+      style={{ height: 46, width: "auto", maxWidth: "100%", display: "block" }}
+    />
   );
 }
 
