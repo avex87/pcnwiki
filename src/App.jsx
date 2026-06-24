@@ -405,10 +405,26 @@ function PcgnLogo() {
 function CountLine({ shown, total, noun }) {
   const filtered = shown !== total;
   return (
-    <div className="mono" style={{ fontSize: 12, letterSpacing: 0.5, color: "rgba(43,29,20,.5)", margin: "0 0 16px", fontWeight: 600 }}>
-      {filtered
-        ? `Showing ${shown} of ${total} ${noun}`
-        : `Total ${total} ${noun}`}
+    <div style={{ margin: "0 0 16px" }}>
+      <span
+        className="mono"
+        style={{
+          display: "inline-block",
+          fontSize: 11,
+          letterSpacing: 1,
+          fontWeight: 700,
+          textTransform: "uppercase",
+          color: PINK,
+          background: "rgba(232,90,140,.1)",
+          border: "1px solid rgba(232,90,140,.25)",
+          padding: "4px 11px",
+          borderRadius: 999,
+        }}
+      >
+        {filtered
+          ? `${shown} of ${total} ${noun}`
+          : `${total} ${noun}`}
+      </span>
     </div>
   );
 }
