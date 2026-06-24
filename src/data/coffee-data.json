@@ -2947,6 +2947,100 @@
       ],
       "note": "Bensa, Sidama. A prominent producer-exporter working closely with local farmers; celebrated for high-scoring Bensa naturals and washed lots (Keramo, Shantawene, Bombe) that feature on top-roaster menus worldwide.",
       "flagship": false
+    },
+    {
+      "id": "p_iris",
+      "name": "Iris Estate",
+      "people": "Jamison Savage, Sasa Sestic & Elvin Siew",
+      "regionId": "r_volcan",
+      "altitude": "1850–2300 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sl28"
+      ],
+      "note": "Volcán, Panama. A super-specialty collaboration between Jamison Savage (Finca Deborah / Morgan Estate), 2015 World Barista Champion Sasa Sestic (Ona Coffee / Project Origin) and Elvin Siew. Coffee trees were planted within the existing forest without clearing the landscape, and the project is built around terroir-driven processing and meticulous carbonic-maceration work. Named lots (Aril, Enigma, Ambrosia, Odyssey, Vivid) have won barista-championship recognition.",
+      "flagship": true
+    },
+    {
+      "id": "p_lahuerta",
+      "name": "Finca La Huerta",
+      "people": "Jorge Lanza family",
+      "regionId": "r_santa_barbara",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_catuai",
+        "v_pacas"
+      ],
+      "note": "El Cielito mountain, Santa Bárbara. A Cup of Excellence winner (2013) on a mountain that has produced many of Honduras’ top COE lots; the farm whose neighbour Sasa Sestic bought, sparking his Project Origin work in Honduras.",
+      "flagship": false
+    },
+    {
+      "id": "p_fincabeti",
+      "name": "Finca Beti",
+      "people": "Sasa Sestic / Project Origin",
+      "regionId": "r_santa_barbara",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_catuai",
+        "v_pacas"
+      ],
+      "note": "El Cielito, Santa Bárbara. World Barista Champion Sasa Sestic’s own Honduran farm (neighbouring Finca La Huerta), with a quality lab and guest house; a base for Project Origin’s controlled-fermentation and carbonic-maceration experiments.",
+      "flagship": false
+    },
+    {
+      "id": "p_elarbol",
+      "name": "Finca El Árbol",
+      "people": "Sasa Sestic / Project Origin",
+      "regionId": "r_nueva_segovia",
+      "altitude": "1300–1550 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_catuai",
+        "v_gesha"
+      ],
+      "note": "Nicaragua. One of Project Origin’s three owned farms (with Iris Estate in Panama and Finca Beti in Honduras); a site for terroir-driven processing experiments.",
+      "flagship": false
+    },
+    {
+      "id": "p_morgan",
+      "name": "Morgan Estate",
+      "people": "Jamison Savage",
+      "regionId": "r_volcan",
+      "altitude": "1700–2000 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Volcán, Panama. One of Jamison Savage’s super-specialty Geisha farms (alongside Finca Deborah and Iris Estate), known for meticulous, innovative carbonic-maceration and natural processing.",
+      "flagship": false
+    },
+    {
+      "id": "p_herbazu",
+      "name": "Cafetalera Herbazú",
+      "people": "Barrantes Zúñiga family (“Toño” Barrantes)",
+      "regionId": "r_west_valley_cr",
+      "altitude": "1400–1700 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_villa_sarchi",
+        "v_catuai"
+      ],
+      "note": "Lourdes de Naranjo, West Valley. A pioneering micro-mill founded out of the 2001 coffee crisis and a 10-time Cup of Excellence winner; credited with inspiring the 200+ micro-mill movement across Costa Rica.",
+      "flagship": true
+    },
+    {
+      "id": "p_granadilla",
+      "name": "Finca La Granadilla",
+      "people": "Luis Ricardo Calderón",
+      "regionId": "r_los_santos",
+      "altitude": "1800–1950 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_catuai"
+      ],
+      "note": "Santa María de Dota, Tarrazú. A third-generation farm and CoE “Legends”-recognised producer; bright, complex Tarrazú cup from careful fermentation and drying protocols.",
+      "flagship": false
     }
   ],
   "processes": [
@@ -4279,6 +4373,78 @@
       "processId": "pr_natural",
       "year": 2024,
       "name": "Daye Bensa Keramo Natural"
+    },
+    {
+      "id": "l_iris_aril",
+      "producerId": "p_iris",
+      "varietyId": "v_gesha",
+      "processId": "pr_carbonic",
+      "year": 2025,
+      "name": "Iris Estate Aril (CM Natural, Washed Finish)"
+    },
+    {
+      "id": "l_iris_enigma",
+      "producerId": "p_iris",
+      "varietyId": "v_gesha",
+      "processId": "pr_carbonic",
+      "year": 2025,
+      "name": "Iris Estate Enigma (CM Washed)"
+    },
+    {
+      "id": "l_iris_ambrosia",
+      "producerId": "p_iris",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2025,
+      "name": "Iris Estate Ambrosia (N2 Fermentation Washed)"
+    },
+    {
+      "id": "l_lahuerta_bourbon",
+      "producerId": "p_lahuerta",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Huerta Bourbon Washed (CoE 2013 lineage)"
+    },
+    {
+      "id": "l_fincabeti_carbonic",
+      "producerId": "p_fincabeti",
+      "varietyId": "v_catuai",
+      "processId": "pr_carbonic",
+      "year": 2024,
+      "name": "Finca Beti Carbonic Maceration"
+    },
+    {
+      "id": "l_elarbol_gesha",
+      "producerId": "p_elarbol",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Árbol Gesha Natural"
+    },
+    {
+      "id": "l_morgan_gesha",
+      "producerId": "p_morgan",
+      "varietyId": "v_gesha",
+      "processId": "pr_carbonic",
+      "year": 2024,
+      "name": "Morgan Estate Gesha CM"
+    },
+    {
+      "id": "l_herbazu_villasarchi",
+      "producerId": "p_herbazu",
+      "varietyId": "v_villa_sarchi",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Herbazú Villa Sarchí Honey"
+    },
+    {
+      "id": "l_granadilla_caturra",
+      "producerId": "p_granadilla",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Granadilla Caturra Washed"
     }
   ],
   "seedTastings": [
