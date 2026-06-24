@@ -374,6 +374,16 @@
       "id": "r_bensa",
       "country": "Ethiopia",
       "region": "Bensa (Sidama)"
+    },
+    {
+      "id": "r_oaxaca",
+      "country": "Mexico",
+      "region": "Pluma Hidalgo (Oaxaca)"
+    },
+    {
+      "id": "r_campo_vertentes",
+      "country": "Brazil",
+      "region": "Campo das Vertentes (Minas Gerais)"
     }
   ],
   "varieties": [
@@ -1743,6 +1753,51 @@
         "woody",
         "full body"
       ]
+    },
+    {
+      "id": "v_yellow_catucai",
+      "name": "Yellow Catucaí",
+      "species": "Arabica",
+      "origin": "Brazil",
+      "group": "Catuaí/Icatu",
+      "parents": "Catuaí × Icatu (yellow-fruited)",
+      "note": "A high-yielding, rust-tolerant Brazilian cultivar from the Catucaí line (a Catuaí × Icatu natural cross), ripening yellow. Common in Minas Gerais specialty lots, especially fermentation-focused ones.",
+      "refNotes": [
+        "caramel",
+        "chocolate",
+        "sweet",
+        "full body"
+      ]
+    },
+    {
+      "id": "v_topazio",
+      "name": "Topázio",
+      "species": "Arabica",
+      "origin": "Brazil",
+      "group": "Bourbon×Typica",
+      "parents": "Mundo Novo × Catuaí (IAC/EPAMIG)",
+      "note": "A Brazilian cultivar (Topázio MG-1190) from a Mundo Novo × Catuaí cross, ripening yellow. Valued for sweetness and consistency; used in many specialty and experimentally-fermented Minas lots.",
+      "refNotes": [
+        "caramel",
+        "honey",
+        "sweet",
+        "balanced"
+      ]
+    },
+    {
+      "id": "v_esperanza",
+      "name": "Esperanza (F1)",
+      "species": "Arabica",
+      "origin": "CATIE / Costa Rica",
+      "group": "F1 Hybrid",
+      "parents": "Sarchimor T-5296 × Ethiopian landrace ET25",
+      "note": "An F1 hybrid created by CATIE/CIRAD/World Coffee Research crossing rust-resistant Sarchimor T-5296 with Ethiopian landrace ET25. Rare at commercial scale; grown notably at Aquiares Estate. Clean, sweet, floral-leaning cup.",
+      "refNotes": [
+        "floral",
+        "honey",
+        "nutty",
+        "complex"
+      ]
     }
   ],
   "farms": [
@@ -2675,7 +2730,7 @@
     {
       "id": "p_labolsa",
       "name": "Finca La Bolsa",
-      "people": "Vides family",
+      "people": "María Elena Vides & Renardo \"Nayo\" Ovalle Vides (Vides 58)",
       "regionId": "r_huehuetenango",
       "altitude": "1500–1750 m",
       "varietyIds": [
@@ -2684,7 +2739,7 @@
         "v_catuai",
         "v_pacamara"
       ],
-      "note": "La Libertad, Huehuetenango. A long-respected Huehue estate; its La Bolsa lot took 2nd in the 2002 Cup of Excellence (94.98). Clean, structured high-altitude profiles.",
+      "note": "La Libertad, Huehuetenango (~1,300–1,600 m). A 108-ha estate founded 1958 by Dr Jorge Vides and now run by his daughter María Elena Vides and grandson Renardo \"Nayo\" Ovalle under the \"Vides 58\" name. A Cup of Excellence farm (2002) and one of Guatemala's most recognised specialty families, known for community programs and a quality-first ethos.",
       "flagship": false
     },
     {
@@ -2735,7 +2790,7 @@
     {
       "id": "p_donmayo",
       "name": "Don Mayo Micro Mill",
-      "people": "Bonilla family",
+      "people": "Héctor Bonilla Cruz & Pablo Bonilla (Bonilla family)",
       "regionId": "r_los_santos",
       "altitude": "1700–1950 m",
       "varietyIds": [
@@ -2743,7 +2798,7 @@
         "v_catuai",
         "v_villa_sarchi"
       ],
-      "note": "Tarrazú. The Bonilla family's acclaimed micromill, pioneers of red-honey processing; their Las Nubes and Los Nacientes lots are recurring Cup of Excellence performers.",
+      "note": "León Cortés / Tarrazú. Founded 2003 by Héctor Bonilla Cruz and his sons — one of Costa Rica's oldest and most respected micromills and a pioneer of the farm-to-mill micromill movement. Processes the family's own farms (La Loma, La Ladera, Bella Vista) plus neighbours' cherry; first place in the Costa Rica Cup of Excellence in 2009 and 2020.",
       "flagship": true
     },
     {
@@ -2776,16 +2831,18 @@
     {
       "id": "p_aquiares",
       "name": "Hacienda Aquiares",
-      "people": "Aquiares Estate",
+      "people": "Diego Robelo (Aquiares Estate)",
       "regionId": "r_tarrazu",
       "altitude": "1000–1400 m",
       "varietyIds": [
         "v_caturra",
         "v_catuai",
-        "v_marsellesa"
+        "v_marsellesa",
+        "v_esperanza",
+        "v_centroamericano"
       ],
-      "note": "Turrialba. One of Costa Rica's largest single estates and a Rainforest Alliance pioneer; clean, balanced cups and a model of estate sustainability.",
-      "flagship": false
+      "note": "Turrialba, founded 1890 — Costa Rica's largest and one of its oldest estates (~924 ha, an 1,800-person community), carbon-neutral and a Rainforest Alliance pioneer. Managed by Diego Robelo, who has driven varietal innovation (WCR trials) and is one of the few growing the rare F1 hybrids Esperanza and Centroamericano at commercial scale.",
+      "flagship": true
     },
     {
       "id": "p_santarosa_sv",
@@ -2831,14 +2888,14 @@
     {
       "id": "p_elcarmen_sv",
       "name": "Finca El Carmen",
-      "people": "El Carmen Estate",
+      "people": "Fernando Alfaro (Alfaro family)",
       "regionId": "r_apaneca",
       "altitude": "1300–1600 m",
       "varietyIds": [
         "v_bourbon",
         "v_pacamara"
       ],
-      "note": "Apaneca. A shade-grown estate known for red and orange Bourbon; a long-standing Salvadoran specialty name with farm tours and accommodation.",
+      "note": "Ataco, Apaneca-Ilamatepec, El Salvador (~1,300 m). Owned by the Alfaro family for over a century and now run by Fernando Alfaro, the fourth generation; founded mid-19th century by Antonio José Alfaro. Meticulous lot separation — Red, Orange and Pink Bourbon picked and processed separately — with sun-drying on clay patios.",
       "flagship": false
     },
     {
@@ -3250,7 +3307,8 @@
         "v_sidra",
         "v_caturra",
         "v_yellow_bourbon",
-        "v_bourbon"
+        "v_bourbon",
+        "v_tekisic"
       ],
       "note": "Valle del Cauca (since 1945). A pioneering producer-exporter across Potosí, Cerro Azul, Las Margaritas and a Panama farm; 50+ international awards, a WBC presence, and the founder of Colombia's first private coffee auction (2021). Famed for benchmark Geisha and bubblegum-sweet experimental lots.",
       "flagship": true
@@ -3366,7 +3424,8 @@
       "varietyIds": [
         "v_74110",
         "v_74112",
-        "v_dega"
+        "v_dega",
+        "v_74158"
       ],
       "note": "Bensa, Sidama. A prominent producer-exporter working closely with local farmers; celebrated for high-scoring Bensa naturals and washed lots (Keramo, Shantawene, Bombe) that feature on top-roaster menus worldwide.",
       "flagship": false
@@ -3463,6 +3522,110 @@
         "v_catuai"
       ],
       "note": "Santa María de Dota, Tarrazú. A third-generation farm and CoE “Legends”-recognised producer; bright, complex Tarrazú cup from careful fermentation and drying protocols.",
+      "flagship": false
+    },
+    {
+      "id": "p_buku",
+      "name": "Buku Washing Station",
+      "people": "Smallholders via Buku (Hambela, Guji)",
+      "regionId": "r_hambela",
+      "altitude": "2200–2350 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112",
+        "v_74158"
+      ],
+      "note": "Buku kebele, Hambela, West Guji — among the highest coffee in Ethiopia (~2,350 m). A sought-after cherry source (Buku Abel/Hurufa/Sisa stations) where slow maturation yields dense, small, intensely fruity beans from JARC 74110/74112/74158. Naturals and anaerobic naturals.",
+      "flagship": false
+    },
+    {
+      "id": "p_lospinos",
+      "name": "Finca Los Pinos",
+      "people": "Byron Corrales",
+      "regionId": "r_matagalpa",
+      "altitude": "1400–1500 m",
+      "varietyIds": [
+        "v_maracaturra",
+        "v_pacamara",
+        "v_maragogipe"
+      ],
+      "note": "Matagalpa, Nicaragua. An organic farm run by Byron Corrales, one of the best-known Maracaturra specialists — producing washed, honey and natural Maracaturra microlots prized for clean, fruit-forward cups.",
+      "flagship": false
+    },
+    {
+      "id": "p_cambalache",
+      "name": "El Cambalache & La Esperanza (Zavala)",
+      "people": "Abner Samuel Zavala",
+      "regionId": "r_nueva_segovia",
+      "altitude": "1300–1600 m",
+      "varietyIds": [
+        "v_maracaturra",
+        "v_sidra",
+        "v_chiroso",
+        "v_gesha"
+      ],
+      "note": "Dipilto, Nueva Segovia. Two farms run by third-generation producer Samuel Zavala, who won the 2025 Nicaragua Cup of Excellence. Planted to rare varieties (Sidra, Chiroso, Geisha, Bourbon Rosado, Maracaturra) with unconventional processing.",
+      "flagship": true
+    },
+    {
+      "id": "p_brujufinca",
+      "name": "La Brujufinca",
+      "people": "Bosque Mora family",
+      "regionId": "r_oaxaca",
+      "altitude": "1100–1500 m",
+      "varietyIds": [
+        "v_pluma_hidalgo",
+        "v_gesha",
+        "v_java",
+        "v_pacamara",
+        "v_maragogipe"
+      ],
+      "note": "Pluma Hidalgo, Oaxaca — within the protected \"Pluma\" denomination of origin. A cloud-forest farm producing sweet, elegant, milk-chocolate-toned cups, including competition Geisha and the heritage Pluma Hidalgo (Typica) variety.",
+      "flagship": false
+    },
+    {
+      "id": "p_mantoniebla",
+      "name": "Manto Niebla",
+      "people": "Francisco Villarreal",
+      "regionId": "r_oaxaca",
+      "altitude": "1200–1600 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_marsellesa",
+        "v_typica",
+        "v_pluma_hidalgo"
+      ],
+      "note": "Pluma Hidalgo, Oaxaca. A newer mountaintop estate (planted from 2016, ~70 ha) helping revive Oaxacan specialty; grows Geisha, Marsellesa and the heritage Pluma Hidalgo Typica.",
+      "flagship": false
+    },
+    {
+      "id": "p_guariroba",
+      "name": "Fazenda Guariroba",
+      "people": "Paiva & Lamounier family (Gabriel Lamounier, Homero Aguiar Paiva)",
+      "regionId": "r_campo_vertentes",
+      "altitude": "1100–1250 m",
+      "varietyIds": [
+        "v_yellow_catucai",
+        "v_topazio",
+        "v_yellow_bourbon",
+        "v_catuai"
+      ],
+      "note": "Santo Antônio do Amparo, Campo das Vertentes. A five-generation family farm and a renowned fermentation specialist — Gabriel Lamounier ferments with native microbiota (no introduced strains) using meticulous protocols. Won the 2016 Cup of Excellence (Brazil Natural, 90.5) and has placed repeatedly since; grows 10+ varieties.",
+      "flagship": true
+    },
+    {
+      "id": "p_kiangoi",
+      "name": "Kiangoi Factory (Rung'eto)",
+      "people": "Rung'eto Farmers Co-operative Society",
+      "regionId": "r_kirinyaga",
+      "altitude": "1600–1800 m",
+      "varietyIds": [
+        "v_sl34",
+        "v_sl28",
+        "v_k7",
+        "v_ruiru11"
+      ],
+      "note": "Kirinyaga, on the southern slopes of Mt Kenya. A wet mill of the Rung'eto FCS (with Kii and Karimikui), serving ~950–1,150 smallholders. Classic clean, layered, fruit-driven Kenyan washed coffees; an International Taste Award winner.",
       "flagship": false
     }
   ],
@@ -4868,6 +5031,302 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "La Granadilla Caturra Washed"
+    },
+    {
+      "id": "l_buku_natural",
+      "producerId": "p_buku",
+      "varietyId": "v_74158",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Buku Abel 74158 Natural"
+    },
+    {
+      "id": "l_lospinos_maracaturra",
+      "producerId": "p_lospinos",
+      "varietyId": "v_maracaturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Byron's Maracaturra Washed"
+    },
+    {
+      "id": "l_cambalache_maracaturra",
+      "producerId": "p_cambalache",
+      "varietyId": "v_maracaturra",
+      "processId": "pr_anaerobic",
+      "year": 2025,
+      "name": "El Cambalache Maracaturra (COE-winning producer)"
+    },
+    {
+      "id": "l_brujufinca_pluma",
+      "producerId": "p_brujufinca",
+      "varietyId": "v_pluma_hidalgo",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Brujufinca Pluma Hidalgo Washed"
+    },
+    {
+      "id": "l_mantoniebla_gesha",
+      "producerId": "p_mantoniebla",
+      "varietyId": "v_gesha",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Manto Niebla Geisha Honey"
+    },
+    {
+      "id": "l_granjaesp_tekisic",
+      "producerId": "p_granjaesperanza",
+      "varietyId": "v_tekisic",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Las Margaritas Tekisic Washed"
+    },
+    {
+      "id": "l_dayebensa_hamasho74158",
+      "producerId": "p_dayebensa",
+      "varietyId": "v_74158",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Daye Bensa Hamasho 74158 Washed"
+    },
+    {
+      "id": "l_guariroba_catucai",
+      "producerId": "p_guariroba",
+      "varietyId": "v_yellow_catucai",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Guariroba Yellow Catucaí Double Anaerobic (Black Honey)"
+    },
+    {
+      "id": "l_guariroba_natural",
+      "producerId": "p_guariroba",
+      "varietyId": "v_catuai",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Guariroba Catuaí Natural (CoE lineage)"
+    },
+    {
+      "id": "l_kiangoi_sl",
+      "producerId": "p_kiangoi",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kiangoi AA Washed (SL28/SL34)"
+    },
+    {
+      "id": "l_aquiares_esperanza",
+      "producerId": "p_aquiares",
+      "varietyId": "v_esperanza",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Aquiares Esperanza Washed"
+    },
+    {
+      "id": "l_aquiares_centro",
+      "producerId": "p_aquiares",
+      "varietyId": "v_centroamericano",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Aquiares Centroamericano Washed"
+    },
+    {
+      "id": "l_paraiso_gesha_double",
+      "producerId": "p_elparaiso",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Paraíso Double Anaerobic Geisha"
+    },
+    {
+      "id": "l_paraiso_pacamara",
+      "producerId": "p_elparaiso",
+      "varietyId": "v_pacamara",
+      "processId": "pr_carbonic",
+      "year": 2024,
+      "name": "El Paraíso Pacamara Carbonic Maceration"
+    },
+    {
+      "id": "l_paraiso_laurina",
+      "producerId": "p_elparaiso",
+      "varietyId": "v_laurina",
+      "processId": "pr_thermal",
+      "year": 2024,
+      "name": "El Paraíso Laurina Thermal Shock"
+    },
+    {
+      "id": "l_monteblanco_gesha",
+      "producerId": "p_monteblanco",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Monteblanco Geisha Anaerobic"
+    },
+    {
+      "id": "l_monteblanco_caturra",
+      "producerId": "p_monteblanco",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Monteblanco Caturra Washed"
+    },
+    {
+      "id": "l_lospinos_maracaturra_honey",
+      "producerId": "p_lospinos",
+      "varietyId": "v_maracaturra",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Los Pinos Maracaturra Honey"
+    },
+    {
+      "id": "l_lospinos_maracaturra_natural",
+      "producerId": "p_lospinos",
+      "varietyId": "v_maracaturra",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Los Pinos Maracaturra Natural"
+    },
+    {
+      "id": "l_guariroba_topazio",
+      "producerId": "p_guariroba",
+      "varietyId": "v_topazio",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Guariroba Topázio Induced Fermentation"
+    },
+    {
+      "id": "l_guariroba_ybourbon",
+      "producerId": "p_guariroba",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Guariroba Yellow Bourbon Natural"
+    },
+    {
+      "id": "l_granjaesp_sidra",
+      "producerId": "p_granjaesperanza",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Granja La Esperanza Sidra Washed"
+    },
+    {
+      "id": "l_granjaesp_ybourbon",
+      "producerId": "p_granjaesperanza",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Granja La Esperanza Yellow Bourbon Natural"
+    },
+    {
+      "id": "l_donmayo_catuai_washed",
+      "producerId": "p_donmayo",
+      "varietyId": "v_catuai",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Don Mayo La Ladera Catuaí Washed"
+    },
+    {
+      "id": "l_donmayo_villasarchi",
+      "producerId": "p_donmayo",
+      "varietyId": "v_villa_sarchi",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Don Mayo Villa Sarchí Honey"
+    },
+    {
+      "id": "l_labolsa_pacamara_natural",
+      "producerId": "p_labolsa",
+      "varietyId": "v_pacamara",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "La Bolsa Pacamara Natural"
+    },
+    {
+      "id": "l_labolsa_caturra",
+      "producerId": "p_labolsa",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Bolsa Caturra Washed"
+    },
+    {
+      "id": "l_elcarmen_pacamara",
+      "producerId": "p_elcarmen_sv",
+      "varietyId": "v_pacamara",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Carmen Pacamara Washed"
+    },
+    {
+      "id": "l_kiangoi_k7",
+      "producerId": "p_kiangoi",
+      "varietyId": "v_k7",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kiangoi K7 Washed"
+    },
+    {
+      "id": "l_buku_74110",
+      "producerId": "p_buku",
+      "varietyId": "v_74110",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Buku 74110 Anaerobic Natural"
+    },
+    {
+      "id": "l_buku_74112",
+      "producerId": "p_buku",
+      "varietyId": "v_74112",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Buku 74112 Washed"
+    },
+    {
+      "id": "l_cambalache_sidra",
+      "producerId": "p_cambalache",
+      "varietyId": "v_sidra",
+      "processId": "pr_anaerobic",
+      "year": 2025,
+      "name": "El Cambalache Sidra Anaerobic"
+    },
+    {
+      "id": "l_cambalache_gesha",
+      "producerId": "p_cambalache",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2025,
+      "name": "La Esperanza Geisha Natural (Zavala)"
+    },
+    {
+      "id": "l_cambalache_chiroso",
+      "producerId": "p_cambalache",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "El Cambalache Chiroso Washed"
+    },
+    {
+      "id": "l_brujufinca_gesha",
+      "producerId": "p_brujufinca",
+      "varietyId": "v_gesha",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Brujufinca Geisha Honey (DO Pluma)"
+    },
+    {
+      "id": "l_brujufinca_java",
+      "producerId": "p_brujufinca",
+      "varietyId": "v_java",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Brujufinca Java Natural"
+    },
+    {
+      "id": "l_iris_odyssey",
+      "producerId": "p_iris",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2025,
+      "name": "Iris Estate Odyssey (Natural)"
     }
   ],
   "seedTastings": [
