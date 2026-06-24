@@ -364,6 +364,16 @@
       "id": "r_chiangmai",
       "country": "Thailand",
       "region": "Chiang Mai (Doi Saket)"
+    },
+    {
+      "id": "r_mococa",
+      "country": "Brazil",
+      "region": "Mococa / Caconde (São Paulo–Minas border)"
+    },
+    {
+      "id": "r_bensa",
+      "country": "Ethiopia",
+      "region": "Bensa (Sidama)"
     }
   ],
   "varieties": [
@@ -2866,6 +2876,77 @@
       ],
       "note": "A laboratory-minded processing center documented for open-tank oxidation, thermal shock and tightly logged drying schedules; its coffees appear in high-profile competitions and selective-roaster offerings.",
       "flagship": false
+    },
+    {
+      "id": "p_faf",
+      "name": "Fazenda Ambiental Fortaleza (FAF)",
+      "people": "Croce family (Silvia Barretto & Marcos Croce)",
+      "regionId": "r_mococa",
+      "altitude": "1000–1300 m",
+      "varietyIds": [
+        "v_yellow_bourbon",
+        "v_mundo_novo",
+        "v_catuai",
+        "v_acaia"
+      ],
+      "note": "Mococa/Caconde. The farm behind Brazil’s sustainable/biodynamic specialty movement — the Croce family returned in 2001, slashed coffee from most of the estate and rewilded it. A pioneer of selective raised-bed naturals and the anchor of a satellite microlot community (the “Bob-o-link” / FAF growers network).",
+      "flagship": true
+    },
+    {
+      "id": "p_joaohamilton",
+      "name": "Sítio (Serra do Cigano) — João Hamilton",
+      "people": "João Hamilton",
+      "regionId": "r_mococa",
+      "altitude": "1100–1300 m",
+      "varietyIds": [
+        "v_yellow_bourbon",
+        "v_catuai",
+        "v_mundo_novo"
+      ],
+      "note": "Caconde. A smallholder mentored within the FAF community who built a centralised hilltop processing site, “Serra do Cigano” (Gypsy Hill); his highly selective raised-bed naturals helped spark a satellite microlot movement across the watershed.",
+      "flagship": false
+    },
+    {
+      "id": "p_portofmokha",
+      "name": "Port of Mokha",
+      "people": "Mokhtar Alkhanshali",
+      "regionId": "r_haraz",
+      "altitude": "1500–2200 m",
+      "varietyIds": [
+        "v_typica",
+        "v_bourbon"
+      ],
+      "note": "Across remote Yemeni villages. Founded by Mokhtar Alkhanshali (subject of Dave Eggers’ “The Monk of Mokha”), a social-entrepreneur producer-exporter who pays growers roughly 3× open-market rates and helped reverse the decline of Yemeni coffee quality; co-founder of the Mokha Institute.",
+      "flagship": true
+    },
+    {
+      "id": "p_kerchanshe",
+      "name": "Kerchanshe Trading",
+      "people": "Israel Degfa",
+      "regionId": "r_sidama",
+      "altitude": "1800–2200 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112",
+        "v_dega",
+        "v_wolisho"
+      ],
+      "note": "Sidama/Guji/Yirgacheffe. Founded 2005 by Israel Degfa; the largest coffee producer and exporter in Ethiopia, working with over a million farmers and a major force in washed and natural lots across the south.",
+      "flagship": true
+    },
+    {
+      "id": "p_dayebensa",
+      "name": "Daye Bensa Coffee Export",
+      "people": "Asefa & Mulugeta Dukamo",
+      "regionId": "r_bensa",
+      "altitude": "1900–2300 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112",
+        "v_dega"
+      ],
+      "note": "Bensa, Sidama. A prominent producer-exporter working closely with local farmers; celebrated for high-scoring Bensa naturals and washed lots (Keramo, Shantawene, Bombe) that feature on top-roaster menus worldwide.",
+      "flagship": false
     }
   ],
   "processes": [
@@ -4158,6 +4239,46 @@
       "processId": "pr_thermal",
       "year": 2024,
       "name": "Peñas Blancas Oxidation / Thermal Shock"
+    },
+    {
+      "id": "l_faf_yellowbourbon",
+      "producerId": "p_faf",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "FAF Yellow Bourbon Natural"
+    },
+    {
+      "id": "l_joaohamilton_natural",
+      "producerId": "p_joaohamilton",
+      "varietyId": "v_catuai",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "João Hamilton Serra do Cigano Natural"
+    },
+    {
+      "id": "l_portofmokha_natural",
+      "producerId": "p_portofmokha",
+      "varietyId": "v_typica",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Port of Mokha Yemeni Natural"
+    },
+    {
+      "id": "l_kerchanshe_guji",
+      "producerId": "p_kerchanshe",
+      "varietyId": "v_74110",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kerchanshe Guji Washed"
+    },
+    {
+      "id": "l_dayebensa_keramo",
+      "producerId": "p_dayebensa",
+      "varietyId": "v_74112",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Daye Bensa Keramo Natural"
     }
   ],
   "seedTastings": [
