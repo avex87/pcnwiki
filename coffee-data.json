@@ -214,6 +214,16 @@
       "id": "r_johor",
       "country": "Malaysia",
       "region": "Johor"
+    },
+    {
+      "id": "r_cundinamarca",
+      "country": "Colombia",
+      "region": "Cundinamarca"
+    },
+    {
+      "id": "r_renacimiento",
+      "country": "Panama",
+      "region": "Renacimiento (Chiriquí)"
     }
   ],
   "varieties": [
@@ -1745,6 +1755,287 @@
       ],
       "note": "Johor, Malaysia. A pioneering specialty-Liberica producer-roaster elevating a once-overlooked species; jackfruit, floral and smoky-woody character. Used by a WBC finalist in 2021.",
       "flagship": false
+    },
+    {
+      "id": "p_labohemia",
+      "name": "Finca La Bohemia",
+      "people": "Raquel Lasso Muñoz / Carlos Alberto Belalcázar",
+      "regionId": "r_narino",
+      "altitude": "1900–2050 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_castillo",
+        "v_caturra",
+        "v_colombia"
+      ],
+      "note": "Nariño. Won 1st place in the 2022 Colombia Cup of Excellence (washed Gesha, ~90.6) and placed again in 2023. The family rebuilt depleted land over decades, moving from Caturra to Colombia (for rust) and planting Gesha in 2019.",
+      "flagship": true
+    },
+    {
+      "id": "p_elvergel",
+      "name": "Finca El Vergel (Vergel Estate)",
+      "people": "Elias Roa & family",
+      "regionId": "r_tolima",
+      "altitude": "1300–1600 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_pink_bourbon",
+        "v_sidra",
+        "v_castillo",
+        "v_tabi"
+      ],
+      "note": "Líbano, Tolima. An internationally roasted experimental-processing estate (Vergel Estate / Forest Coffee) known for co-fermentation and exotic-fruit-forward lots; a fixture in modern Colombian specialty and competition circuits.",
+      "flagship": true
+    },
+    {
+      "id": "p_lapalma",
+      "name": "La Palma y El Tucán",
+      "people": "Felipe Sardi & Elisa Madriñán",
+      "regionId": "r_cundinamarca",
+      "altitude": "1750–1950 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sidra",
+        "v_pink_bourbon",
+        "v_bourbon",
+        "v_caturra"
+      ],
+      "note": "Zipacón, Cundinamarca. An avant-garde estate famous for its Neighbours & Crops model and pioneering controlled-fermentation lots; a frequent presence in barista-championship sourcing and high-end auctions.",
+      "flagship": true
+    },
+    {
+      "id": "p_cerroazul",
+      "name": "Cerro Azul (Granja La Esperanza)",
+      "people": "Rigoberto & Luis Eduardo Herrera",
+      "regionId": "r_valle",
+      "altitude": "1750–2000 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sidra",
+        "v_caturra",
+        "v_bourbon"
+      ],
+      "note": "Trujillo, Valle del Cauca. The elite Geisha site of the historic Granja La Esperanza group, whose Cerro Azul Geisha is one of Colombia’s most awarded and sought-after competition coffees worldwide.",
+      "flagship": true
+    },
+    {
+      "id": "p_sanalberto",
+      "name": "Hacienda San Alberto",
+      "people": "San Alberto family estate",
+      "regionId": "r_quindio",
+      "altitude": "1500–1800 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_castillo",
+        "v_colombia"
+      ],
+      "note": "Buenavista, Quindío. A premium estate brand known for a triple-selection of the cherry and multiple national quality awards; one of Colombia’s best-known specialty marques.",
+      "flagship": false
+    },
+    {
+      "id": "p_elzafiro",
+      "name": "Finca El Zafiro",
+      "people": "Hayder & family (Popayán)",
+      "regionId": "r_cauca",
+      "altitude": "1900–2100 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sidra",
+        "v_pink_bourbon",
+        "v_caturra"
+      ],
+      "note": "Popayán, Cauca. A high-altitude, volcanic-soil farm respected for clean, exotic competition-grade lots and experimental fermentations.",
+      "flagship": false
+    },
+    {
+      "id": "p_inmaculada",
+      "name": "La Inmaculada (Inmaculada Coffee Farms)",
+      "people": "Pedro Echavarría & family",
+      "regionId": "r_cauca",
+      "altitude": "1700–2000 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_castillo",
+        "v_gesha",
+        "v_bourbon"
+      ],
+      "note": "Cauca / Valle. A large, internationally recognised producer-exporter combining estate production with smallholder partnerships; a long-standing specialty and competition supplier.",
+      "flagship": false
+    },
+    {
+      "id": "p_sophia",
+      "name": "Finca Sophia",
+      "people": "Willem Boot, David Pohl & Kelly Hartmann",
+      "regionId": "r_volcan",
+      "altitude": "1900–2130 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai"
+      ],
+      "note": "Nueva Suiza, Volcán, near Cerro Punta — one of the highest farms in Panama (>2,000 m). Founded 2008 as an experimental high-altitude Geisha farm; multiple Best of Panama wins incl. 1st place Washed Geisha (2017, 2020). Famed for extreme-altitude clarity and florality.",
+      "flagship": true
+    },
+    {
+      "id": "p_hartmann",
+      "name": "Finca Hartmann",
+      "people": "Hartmann family",
+      "regionId": "r_renacimiento",
+      "altitude": "1300–1900 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_typica",
+        "v_caturra"
+      ],
+      "note": "Santa Clara, near the Parque Internacional La Amistad. A multi-generational, biodiversity-focused estate; consistent Best of Panama performer and source of the celebrated Black Jaguar Geisha (2022 BoP winner).",
+      "flagship": true
+    },
+    {
+      "id": "p_carmen",
+      "name": "Carmen Estate",
+      "people": "Carmen Estate (Tasón / family)",
+      "regionId": "r_volcan",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_caturra"
+      ],
+      "note": "Paso Ancho, Volcán. Over 50 years of coffee-growing; a premier Geisha estate with repeated Best of Panama podiums (incl. 2nd place Geisha Natural 2024 for Carmen Geisha Especial Natural).",
+      "flagship": false
+    },
+    {
+      "id": "p_janson",
+      "name": "Janson Coffee Farm",
+      "people": "Janson family (4th generation)",
+      "regionId": "r_renacimiento",
+      "altitude": "1450–1600 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_caturra",
+        "v_pacamara"
+      ],
+      "note": "Volcán/Tisingal slopes. Founded 1941; solar-powered, pesticide-free estate now run by the fourth generation. A regular Best of Panama and World Brewers Cup name; Janson Geisha is widely exported.",
+      "flagship": false
+    },
+    {
+      "id": "p_lamula",
+      "name": "Finca La Mula",
+      "people": "Willem Boot (Boot Coffee)",
+      "regionId": "r_boquete",
+      "altitude": "1600–1900 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Boquete. Willem Boot’s single-variety Geisha farm; a recurring top-scoring Best of Panama lot known for intense, perfumed high-altitude Geisha.",
+      "flagship": false
+    },
+    {
+      "id": "p_auromar",
+      "name": "Finca Auromar",
+      "people": "Auromar S.A.",
+      "regionId": "r_volcan",
+      "altitude": "1900–2130 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai"
+      ],
+      "note": "Nueva Suiza, Volcán (est. 2008). A high-elevation estate producing washed, natural and experimental Geisha, plus the local Guayabita; a consistent BoP and auction presence.",
+      "flagship": false
+    },
+    {
+      "id": "p_donpepe",
+      "name": "Don Pepe Estate",
+      "people": "Vasquez family (5th generation)",
+      "regionId": "r_volcan",
+      "altitude": "1400–1700 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_caturra",
+        "v_typica"
+      ],
+      "note": "Volcán Barú foothills. Opened 1898 — the oldest coffee farm in the region and the first in Panama to specialise in coffee; now a fifth-generation Geisha producer across natural, honey and washed.",
+      "flagship": false
+    },
+    {
+      "id": "p_lerida",
+      "name": "Finca Lérida",
+      "people": "Founded by Toleff Mönniche",
+      "regionId": "r_boquete",
+      "altitude": "1500–1750 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_caturra",
+        "v_typica",
+        "v_pacamara"
+      ],
+      "note": "Boquete (est. 1924). Exported the first-ever shipment of Panamanian coffee (to Germany, 1929). A historic 900-acre estate growing Geisha and classic varieties; a long-standing specialty name.",
+      "flagship": false
+    },
+    {
+      "id": "p_blackmoon",
+      "name": "Black Moon Farm",
+      "people": "Hunter Tedman & family",
+      "regionId": "r_volcan",
+      "altitude": "1700–1900 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_chiroso"
+      ],
+      "note": "Volcán. A regenerative-farming estate; won the Best of Panama 2024 Varietals category with its Black Moon Constellation Chiroso lot, and continues to place with Geisha.",
+      "flagship": false
+    },
+    {
+      "id": "p_adaura",
+      "name": "Adaura Coffee (Finca Loreyne)",
+      "people": "Marcus Duran",
+      "regionId": "r_boquete",
+      "altitude": "1600–1850 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Boquete. Took 1st place Washed Geisha at Best of Panama 2024 with the Kaizen lot (also a 2024 auction record near US0,002/kg). A rising precision-processing producer.",
+      "flagship": true
+    },
+    {
+      "id": "p_altieri",
+      "name": "Altieri Coffee (Mima Estate)",
+      "people": "Altieri family",
+      "regionId": "r_volcan",
+      "altitude": "1600–1850 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Volcán. A newer estate making a name at Best of Panama (e.g. 3rd place Geisha Natural 2024 with the Satori DFC lot); innovative processing.",
+      "flagship": false
+    },
+    {
+      "id": "p_mounttotumas",
+      "name": "Mount Totumas (De La Rosa)",
+      "people": "Mount Totumas Cloud Forest",
+      "regionId": "r_renacimiento",
+      "altitude": "1800–1900 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai"
+      ],
+      "note": "A cloud-forest farm bordering protected reserve; its De La Rosa Geisha scored 96.25 at Best of Panama 2023. Shade-grown, biodiversity-led production.",
+      "flagship": false
+    },
+    {
+      "id": "p_nuguo",
+      "name": "Finca Nuguo (Café Gallardo)",
+      "people": "Jose \"Pocho\" Gallardo",
+      "regionId": "r_volcan",
+      "altitude": "1600–1850 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Volcán. A consistent Best of Panama placer (3rd Washed Geisha 2024 with Nuguo Washed); Gallardo-family precision washed Geisha.",
+      "flagship": false
     }
   ],
   "processes": [
@@ -2389,6 +2680,238 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "Jamaica Blue Mountain Washed"
+    },
+    {
+      "id": "l_labohemia_gesha",
+      "producerId": "p_labohemia",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2022,
+      "name": "La Bohemia Washed Gesha (CoE #1)"
+    },
+    {
+      "id": "l_elvergel_pink",
+      "producerId": "p_elvergel",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Vergel Pink Bourbon Co-Ferment"
+    },
+    {
+      "id": "l_elvergel_gesha",
+      "producerId": "p_elvergel",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Vergel Gesha Natural"
+    },
+    {
+      "id": "l_lapalma_gesha",
+      "producerId": "p_lapalma",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2023,
+      "name": "La Palma y El Tucán Gesha Lactic"
+    },
+    {
+      "id": "l_cerroazul_gesha",
+      "producerId": "p_cerroazul",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2023,
+      "name": "Cerro Azul Geisha Washed"
+    },
+    {
+      "id": "l_elzafiro_sidra",
+      "producerId": "p_elzafiro",
+      "varietyId": "v_sidra",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Zafiro Sidra Anaerobic"
+    },
+    {
+      "id": "l_esmeralda_gw01_2025",
+      "producerId": "p_esmeralda",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "La Esmeralda GW-01 Washed Geisha (BoP 2025, 98 pts)"
+    },
+    {
+      "id": "l_esmeralda_gn01_2025",
+      "producerId": "p_esmeralda",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2025,
+      "name": "La Esmeralda GN-01 Natural Geisha (BoP 2025, 97 pts)"
+    },
+    {
+      "id": "l_esmeralda_laurina_2025",
+      "producerId": "p_esmeralda",
+      "varietyId": "v_laurina",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "La Esmeralda V-01 Laurina (BoP 2025 Varietals)"
+    },
+    {
+      "id": "l_elida_natural_vuelta",
+      "producerId": "p_elida",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Elida Geisha Natural Vuelta (BoP 2024)"
+    },
+    {
+      "id": "l_sophia_olympus",
+      "producerId": "p_sophia",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2025,
+      "name": "Finca Sophia Olympus Washed Geisha"
+    },
+    {
+      "id": "l_hartmann_blackjaguar",
+      "producerId": "p_hartmann",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2022,
+      "name": "Hartmann Black Jaguar Geisha (BoP 2022)"
+    },
+    {
+      "id": "l_carmen_especial",
+      "producerId": "p_carmen",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Carmen Geisha Especial Natural"
+    },
+    {
+      "id": "l_adaura_kaizen",
+      "producerId": "p_adaura",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Adaura Kaizen Washed Geisha (BoP 2024 #1 Washed)"
+    },
+    {
+      "id": "l_blackmoon_chiroso",
+      "producerId": "p_blackmoon",
+      "varietyId": "v_chiroso",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Black Moon Constellation Chiroso (BoP 2024 Varietals #1)"
+    },
+    {
+      "id": "l_janson_geisha",
+      "producerId": "p_janson",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2023,
+      "name": "Janson Family Geisha Washed"
+    },
+    {
+      "id": "l_mounttotumas_gesha",
+      "producerId": "p_mounttotumas",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2023,
+      "name": "Mount Totumas De La Rosa Geisha (BoP 2023, 96.25 pts)"
+    },
+    {
+      "id": "l_nuguo_washed",
+      "producerId": "p_nuguo",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Nuguo Washed Geisha (BoP 2024 #3 Washed)"
+    },
+    {
+      "id": "l_lamula_gesha",
+      "producerId": "p_lamula",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2023,
+      "name": "Finca La Mula Geisha Washed"
+    },
+    {
+      "id": "l_auromar_gesha",
+      "producerId": "p_auromar",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Auromar Geisha Natural"
+    },
+    {
+      "id": "l_donpepe_gesha",
+      "producerId": "p_donpepe",
+      "varietyId": "v_gesha",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Don Pepe Estate Geisha Honey"
+    },
+    {
+      "id": "l_lerida_gesha",
+      "producerId": "p_lerida",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Finca Lerida Geisha Washed"
+    },
+    {
+      "id": "l_altieri_satori",
+      "producerId": "p_altieri",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Altieri Satori Geisha Natural (BoP 2024 #3 Natural)"
+    },
+    {
+      "id": "l_sanalberto_caturra",
+      "producerId": "p_sanalberto",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Hacienda San Alberto Caturra Washed"
+    },
+    {
+      "id": "l_inmaculada_gesha",
+      "producerId": "p_inmaculada",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Inmaculada Geisha Washed"
+    },
+    {
+      "id": "l_nuevalinda_bourbon",
+      "producerId": "p_nueva_linda",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Finca Nueva Linda Bourbon Washed"
+    },
+    {
+      "id": "l_cajamarca_caturra",
+      "producerId": "p_cajamarca",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Cajamarca Caturra Washed"
+    },
+    {
+      "id": "l_songyue_gesha",
+      "producerId": "p_songyue",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2023,
+      "name": "Songyue Estate Gukeng Gesha Natural"
+    },
+    {
+      "id": "l_puer_catimor",
+      "producerId": "p_puer",
+      "varietyId": "v_catimor",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Puer Catimor Washed"
     }
   ],
   "seedTastings": [
