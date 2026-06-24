@@ -1,0 +1,25 @@
+/* Base resets and global defaults.
+   Component-specific classes (.card, .chip, .navbtn, etc.) are defined in the
+   <style> block inside App.jsx, alongside the colours they reference. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f7f4ef;
+  color: #2b1d14;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
