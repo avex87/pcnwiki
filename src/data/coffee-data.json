@@ -224,6 +224,131 @@
       "id": "r_renacimiento",
       "country": "Panama",
       "region": "Renacimiento (Chiriquí)"
+    },
+    {
+      "id": "r_huehuetenango",
+      "country": "Guatemala",
+      "region": "Huehuetenango"
+    },
+    {
+      "id": "r_antigua",
+      "country": "Guatemala",
+      "region": "Antigua (Sacatepéquez)"
+    },
+    {
+      "id": "r_atitlan",
+      "country": "Guatemala",
+      "region": "Atitlán (Sololá)"
+    },
+    {
+      "id": "r_fraijanes",
+      "country": "Guatemala",
+      "region": "Fraijanes Plateau"
+    },
+    {
+      "id": "r_nuevo_oriente",
+      "country": "Guatemala",
+      "region": "Nuevo Oriente"
+    },
+    {
+      "id": "r_coban",
+      "country": "Guatemala",
+      "region": "Cobán (Alta Verapaz)"
+    },
+    {
+      "id": "r_san_marcos",
+      "country": "Guatemala",
+      "region": "San Marcos"
+    },
+    {
+      "id": "r_los_santos",
+      "country": "Costa Rica",
+      "region": "Los Santos (Tarrazú zone)"
+    },
+    {
+      "id": "r_west_valley_cr",
+      "country": "Costa Rica",
+      "region": "West Valley (Naranjo)"
+    },
+    {
+      "id": "r_apaneca",
+      "country": "El Salvador",
+      "region": "Apaneca-Ilamatepec"
+    },
+    {
+      "id": "r_chalatenango",
+      "country": "El Salvador",
+      "region": "Chalatenango"
+    },
+    {
+      "id": "r_santa_barbara",
+      "country": "Honduras",
+      "region": "Santa Bárbara"
+    },
+    {
+      "id": "r_comayagua",
+      "country": "Honduras",
+      "region": "Comayagua"
+    },
+    {
+      "id": "r_mantiqueira",
+      "country": "Brazil",
+      "region": "Mantiqueira de Minas"
+    },
+    {
+      "id": "r_sul_minas",
+      "country": "Brazil",
+      "region": "Sul de Minas"
+    },
+    {
+      "id": "r_caranavi",
+      "country": "Bolivia",
+      "region": "Caranavi (La Paz)"
+    },
+    {
+      "id": "r_cusco",
+      "country": "Peru",
+      "region": "Cusco / Valle"
+    },
+    {
+      "id": "r_amazonas_pe",
+      "country": "Peru",
+      "region": "Amazonas / Cajamarca highlands"
+    },
+    {
+      "id": "r_matagalpa",
+      "country": "Nicaragua",
+      "region": "Matagalpa"
+    },
+    {
+      "id": "r_jinotega",
+      "country": "Nicaragua",
+      "region": "Jinotega"
+    },
+    {
+      "id": "r_nueva_segovia",
+      "country": "Nicaragua",
+      "region": "Nueva Segovia"
+    },
+    {
+      "id": "r_hambela",
+      "country": "Ethiopia",
+      "region": "Hambela (Guji)"
+    },
+    {
+      "id": "r_jimma",
+      "country": "Ethiopia",
+      "region": "Jimma / Limu"
+    },
+    {
+      "id": "r_murang",
+      "country": "Kenya",
+      "region": "Murang'a"
+    },
+    {
+      "id": "r_embu",
+      "country": "Kenya",
+      "region": "Embu"
     }
   ],
   "varieties": [
@@ -2036,6 +2161,496 @@
       ],
       "note": "Volcán. A consistent Best of Panama placer (3rd Washed Geisha 2024 with Nuguo Washed); Gallardo-family precision washed Geisha.",
       "flagship": false
+    },
+    {
+      "id": "p_elinjerto",
+      "name": "Finca El Injerto",
+      "people": "Aguirre family (Arturo Sr. & Jr.)",
+      "regionId": "r_huehuetenango",
+      "altitude": "1500–2000 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_pacamara",
+        "v_gesha",
+        "v_maragogipe",
+        "v_sl28",
+        "v_caturra"
+      ],
+      "note": "La Libertad, Huehuetenango. Coffee since ~1900, run by the 3rd/4th-generation Aguirre family. One of Central America’s most decorated farms with eight Cup of Excellence wins; first Guatemalan farm to earn Carbon Neutral certification (2017). Famous Pacamara and Gesha micro-lots.",
+      "flagship": true
+    },
+    {
+      "id": "p_elsocorro",
+      "name": "Finca El Socorro",
+      "people": "Diego De La Cerda Colom",
+      "regionId": "r_antigua",
+      "altitude": "1700–2100 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_bourbon",
+        "v_pacamara",
+        "v_maragogipe",
+        "v_caturra"
+      ],
+      "note": "Palencia, near Antigua. 19th-century roots; the 3rd-generation De La Cerda family transformed it into a CoE powerhouse with multiple 1st-place Cup of Excellence wins. Renowned Gesha and exotic varietals across diverse microclimates.",
+      "flagship": true
+    },
+    {
+      "id": "p_bellavista",
+      "name": "Bella Vista (Finca Santa Clara)",
+      "people": "Luis Pedro Zelaya Zamora",
+      "regionId": "r_antigua",
+      "altitude": "1500–1900 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_typica",
+        "v_pacamara"
+      ],
+      "note": "Antigua. Over a century of Zelaya-family heritage; 4th-generation agronomist Luis Pedro Zelaya manages farm-to-export traceability. Multiple Cup of Excellence and Genuine Antigua-certified micro-lots; the Bella Vista mill is a regional benchmark.",
+      "flagship": true
+    },
+    {
+      "id": "p_labolsa",
+      "name": "Finca La Bolsa",
+      "people": "Vides family",
+      "regionId": "r_huehuetenango",
+      "altitude": "1500–1750 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_catuai",
+        "v_pacamara"
+      ],
+      "note": "La Libertad, Huehuetenango. A long-respected Huehue estate; its La Bolsa lot took 2nd in the 2002 Cup of Excellence (94.98). Clean, structured high-altitude profiles.",
+      "flagship": false
+    },
+    {
+      "id": "p_huixoc",
+      "name": "Finca Huixoc",
+      "people": "family estate (since 1911)",
+      "regionId": "r_huehuetenango",
+      "altitude": "1500–1800 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_typica"
+      ],
+      "note": "San Pedro Necta, Huehuetenango. A historic hacienda (founded 1911) with full on-site milling; one of the consistently top Huehue coffees, often ranked beside El Injerto.",
+      "flagship": false
+    },
+    {
+      "id": "p_filadelfia",
+      "name": "Finca Filadelfia",
+      "people": "Hahn / Dalton family",
+      "regionId": "r_antigua",
+      "altitude": "1500–1800 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_typica",
+        "v_catuai"
+      ],
+      "note": "Antigua (coffee since 1870). A historic Antigua estate with Genuine Antigua certification; classic chocolate-and-spice Antigua cup, plus tourism and on-site processing.",
+      "flagship": false
+    },
+    {
+      "id": "p_santafelisa",
+      "name": "Finca Santa Felisa",
+      "people": "Zelaya Aguilar family",
+      "regionId": "r_acatenango",
+      "altitude": "1500–1900 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_bourbon",
+        "v_pacamara",
+        "v_pacas",
+        "v_villa_sarchi"
+      ],
+      "note": "Acatenango. A research-minded estate experimenting widely with varietals and processing (incl. Gesha, Pacamara, anaerobic and natural lots); a recurring competition and direct-trade name.",
+      "flagship": false
+    },
+    {
+      "id": "p_donmayo",
+      "name": "Don Mayo Micro Mill",
+      "people": "Bonilla family",
+      "regionId": "r_los_santos",
+      "altitude": "1700–1950 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_catuai",
+        "v_villa_sarchi"
+      ],
+      "note": "Tarrazú. The Bonilla family's acclaimed micromill, pioneers of red-honey processing; their Las Nubes and Los Nacientes lots are recurring Cup of Excellence performers.",
+      "flagship": true
+    },
+    {
+      "id": "p_volcanazul",
+      "name": "Finca Volcán Azul",
+      "people": "Alejo Castro Jiménez (5th gen)",
+      "regionId": "r_west_valley_cr",
+      "altitude": "1600–1750 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_gesha",
+        "v_villa_sarchi"
+      ],
+      "note": "West Valley. A fifth-generation farm known for extended anaerobic fermentations and a repeat Cup of Excellence placer (e.g. CoE #2, 2017; later top-ranked anaerobic lots).",
+      "flagship": false
+    },
+    {
+      "id": "p_lasnubes_cr",
+      "name": "Finca Las Nubes (Ureña)",
+      "people": "Alex Ureña Marín",
+      "regionId": "r_los_santos",
+      "altitude": "1800–1950 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra"
+      ],
+      "note": "Los Santos. Took 1st place Honey/Natural at the 2026 Costa Rica Cup of Excellence with a Geisha (91.06), processed at the Roger Ureña Hidalgo mill.",
+      "flagship": false
+    },
+    {
+      "id": "p_aquiares",
+      "name": "Hacienda Aquiares",
+      "people": "Aquiares Estate",
+      "regionId": "r_tarrazu",
+      "altitude": "1000–1400 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_catuai",
+        "v_marsellesa"
+      ],
+      "note": "Turrialba. One of Costa Rica's largest single estates and a Rainforest Alliance pioneer; clean, balanced cups and a model of estate sustainability.",
+      "flagship": false
+    },
+    {
+      "id": "p_santarosa_sv",
+      "name": "Finca Santa Rosa",
+      "people": "Rivera family (J. Raul Rivera)",
+      "regionId": "r_chalatenango",
+      "altitude": "1300–1600 m",
+      "varietyIds": [
+        "v_pacamara",
+        "v_bourbon"
+      ],
+      "note": "Chalatenango. Founded 1979; shifted from pine to Pacamara in 2003. Won the 2019 El Salvador Cup of Excellence (honey Pacamara, 90.57) — a posthumous victory that lifted Chalatenango's coffee scene.",
+      "flagship": true
+    },
+    {
+      "id": "p_lapacaya_sv",
+      "name": "Finca La Pacaya (MAVCOFFEE)",
+      "people": "MAVCOFFEE",
+      "regionId": "r_apaneca",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_bourbon",
+        "v_pacamara"
+      ],
+      "note": "Apaneca-Ilamatepec. Geisha from seeds acquired in Panama in 2013; multiple CoE awards including 1st place 2025 for a natural Geisha.",
+      "flagship": true
+    },
+    {
+      "id": "p_lailusion_sv",
+      "name": "Finca La Ilusión / Las Brumas",
+      "people": "Carlos & Francisco Menéndez",
+      "regionId": "r_apaneca",
+      "altitude": "1450–1650 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_sl28",
+        "v_pacamara"
+      ],
+      "note": "Apaneca-Ilamatepec. The Menéndez family's multiple-CoE-winning farms; their SL28 from Las Brumas fuelled a World Barista Championship win (Dale Harris, 2017).",
+      "flagship": false
+    },
+    {
+      "id": "p_elcarmen_sv",
+      "name": "Finca El Carmen",
+      "people": "El Carmen Estate",
+      "regionId": "r_apaneca",
+      "altitude": "1300–1600 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_pacamara"
+      ],
+      "note": "Apaneca. A shade-grown estate known for red and orange Bourbon; a long-standing Salvadoran specialty name with farm tours and accommodation.",
+      "flagship": false
+    },
+    {
+      "id": "p_lasalsa",
+      "name": "Finca La Salsa",
+      "people": "Benjamin Paz",
+      "regionId": "r_santa_barbara",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_pacas",
+        "v_bourbon",
+        "v_catuai"
+      ],
+      "note": "Santa Bárbara (planted 2018). A five-time Cup of Excellence winner (incl. two 1st places) and a mentorship hub — Benjamin Paz shares seeds and fermentation know-how, lifting many Santa Bárbara producers to auction.",
+      "flagship": true
+    },
+    {
+      "id": "p_karmel",
+      "name": "Finca Karmél",
+      "people": "Elías Yeltsin Hernández Tejada",
+      "regionId": "r_santa_barbara",
+      "altitude": "1500–1650 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_catuai",
+        "v_pacas"
+      ],
+      "note": "San Luis Planes, Santa Bárbara. A family farm ('Garden of God') that took 3rd place in the Cup of Excellence; balanced, honey-and-stone-fruit cups.",
+      "flagship": false
+    },
+    {
+      "id": "p_santalucia_hn",
+      "name": "Desarrollos Santa Lucía (Mierisch)",
+      "people": "Mierisch family",
+      "regionId": "r_comayagua",
+      "altitude": "1400–1650 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai",
+        "v_bourbon"
+      ],
+      "note": "Comayagua. Won the 2019 Honduras Cup of Excellence with a washed Geisha (94.84); part of the renowned Mierisch family's multi-country specialty operation.",
+      "flagship": false
+    },
+    {
+      "id": "p_santaines",
+      "name": "Fazenda Santa Inês",
+      "people": "Pereira family",
+      "regionId": "r_mantiqueira",
+      "altitude": "1100–1350 m",
+      "varietyIds": [
+        "v_yellow_bourbon",
+        "v_mundo_novo",
+        "v_catuai"
+      ],
+      "note": "Carmo de Minas, Mantiqueira. A historic, repeatedly CoE-winning estate famed for Yellow Bourbon; one of Brazil's benchmark fine-cup farms.",
+      "flagship": true
+    },
+    {
+      "id": "p_riobrilhante",
+      "name": "Fazenda Rio Verde",
+      "people": "family estate (founded 1887)",
+      "regionId": "r_mantiqueira",
+      "altitude": "1000–1250 m",
+      "varietyIds": [
+        "v_yellow_bourbon",
+        "v_catuai",
+        "v_gesha"
+      ],
+      "note": "Mantiqueira de Minas. A 19th-century estate and CoE competitor; its Geisha won the Experimental category at Cup of Excellence Brazil 2025.",
+      "flagship": false
+    },
+    {
+      "id": "p_samambaia",
+      "name": "Fazenda Samambaia",
+      "people": "Sertãozinho / family estate",
+      "regionId": "r_sul_minas",
+      "altitude": "1100–1300 m",
+      "varietyIds": [
+        "v_yellow_bourbon",
+        "v_acaia",
+        "v_catuai"
+      ],
+      "note": "Santo Antônio do Amparo, Sul de Minas. A long-respected estate and frequent competition name; clean, sweet, chocolate-and-nut Sul de Minas profiles.",
+      "flagship": false
+    },
+    {
+      "id": "p_alasitas",
+      "name": "Finca Las Alasitas",
+      "people": "Pedro Rodríguez / Agricafe (Los Rodríguez)",
+      "regionId": "r_caranavi",
+      "altitude": "1550–1750 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra",
+        "v_java"
+      ],
+      "note": "Caranavi. Part of the Rodríguez family's Sol de la Mañana program; their Geisha micro-lots are among Bolivia's highest-scoring and most awarded.",
+      "flagship": true
+    },
+    {
+      "id": "p_jatunhuasi",
+      "name": "Finca Java / Los Rodríguez lots",
+      "people": "Agricafe (Los Rodríguez)",
+      "regionId": "r_caranavi",
+      "altitude": "1500–1700 m",
+      "varietyIds": [
+        "v_java",
+        "v_caturra",
+        "v_gesha"
+      ],
+      "note": "Caranavi. Agricafe's farm network revitalising Bolivian specialty through the Sol de la Mañana producer-training program; notable Java-variety lots.",
+      "flagship": false
+    },
+    {
+      "id": "p_alpesandinos",
+      "name": "Alpes Andinos cooperative",
+      "people": "Cajamarca smallholders",
+      "regionId": "r_amazonas_pe",
+      "altitude": "1700–2050 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_gesha",
+        "v_catimor"
+      ],
+      "note": "Cajamarca highlands. A cooperative producing increasingly awarded washed lots (incl. Geisha); a fixture of Peru's rising Cup of Excellence presence.",
+      "flagship": false
+    },
+    {
+      "id": "p_pangoa",
+      "name": "Cooperativa Pangoa",
+      "people": "Satipo / Junín smallholders",
+      "regionId": "r_cusco",
+      "altitude": "1200–1700 m",
+      "varietyIds": [
+        "v_bourbon",
+        "v_caturra",
+        "v_catimor",
+        "v_typica"
+      ],
+      "note": "Junín. A long-running, women-and-organics-focused cooperative; a recognised name in Peruvian specialty and Fairtrade circuits.",
+      "flagship": false
+    },
+    {
+      "id": "p_limoncillo",
+      "name": "Finca El Limoncillo (Fincas Mierisch)",
+      "people": "Mierisch family",
+      "regionId": "r_matagalpa",
+      "altitude": "1100–1350 m",
+      "varietyIds": [
+        "v_java",
+        "v_catuai",
+        "v_bourbon",
+        "v_pacamara"
+      ],
+      "note": "Matagalpa. A flagship of the Mierisch family's Nicaraguan estates, internationally celebrated for its Java-variety lots and meticulous separation by plot and altitude.",
+      "flagship": true
+    },
+    {
+      "id": "p_losalpes_ni",
+      "name": "Finca Los Alpes",
+      "people": "Inversiones Valladares Acevo S.A.",
+      "regionId": "r_nueva_segovia",
+      "altitude": "1300–1550 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_caturra",
+        "v_catuai"
+      ],
+      "note": "Nueva Segovia. Won the 2023 Nicaragua Cup of Excellence with a natural Geisha; blackcurrant, mango and peach character from a distinctive microclimate.",
+      "flagship": false
+    },
+    {
+      "id": "p_finca_sanjose_ni",
+      "name": "Finca San José (Jinotega)",
+      "people": "Jinotega producers",
+      "regionId": "r_jinotega",
+      "altitude": "1200–1500 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_catuai",
+        "v_bourbon",
+        "v_laurina"
+      ],
+      "note": "Jinotega. Representative of Jinotega's balanced, characterful estates; a region producing the bulk of Nicaragua's higher-grown specialty.",
+      "flagship": false
+    },
+    {
+      "id": "p_hambela",
+      "name": "Hambela Washing Stations",
+      "people": "Hambela / Guji producers",
+      "regionId": "r_hambela",
+      "altitude": "1900–2200 m",
+      "varietyIds": [
+        "v_wolisho",
+        "v_dega",
+        "v_74110",
+        "v_74112"
+      ],
+      "note": "Guji. A celebrated cluster of washing stations known for vivid, fruit-forward naturals and clean washed lots; among the most sought-after Guji profiles.",
+      "flagship": true
+    },
+    {
+      "id": "p_aricha",
+      "name": "Aricha Washing Station",
+      "people": "Yirgacheffe-area producers",
+      "regionId": "r_yirga",
+      "altitude": "1900–2100 m",
+      "varietyIds": [
+        "v_wolisho",
+        "v_dega",
+        "v_74110"
+      ],
+      "note": "Yirgacheffe. A well-known washing station famed for explosive blueberry/strawberry naturals — a benchmark for the Ethiopian natural style.",
+      "flagship": false
+    },
+    {
+      "id": "p_limu_jimma",
+      "name": "Limu / Jimma cooperatives",
+      "people": "Oromia smallholder co-ops",
+      "regionId": "r_jimma",
+      "altitude": "1400–2000 m",
+      "varietyIds": [
+        "v_74110",
+        "v_74112",
+        "v_dega"
+      ],
+      "note": "Western Ethiopia. Washed Limu and predominantly natural Jimma/Djimmah; rounded, low-acid, balanced cups distinct from the southern Yirgacheffe/Guji profile.",
+      "flagship": false
+    },
+    {
+      "id": "p_tegu",
+      "name": "Tegu Factory",
+      "people": "Mugaga Farmers Co-op Society",
+      "regionId": "r_murang",
+      "altitude": "1600–1800 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11",
+        "v_batian"
+      ],
+      "note": "Murang'a. A respected washing station producing the classic Murang'a profile — bold blackcurrant, tomato and citrus over a heavy body.",
+      "flagship": false
+    },
+    {
+      "id": "p_kainamui",
+      "name": "Kainamui Factory",
+      "people": "Mutira Farmers Co-op Society",
+      "regionId": "r_kirinyaga",
+      "altitude": "1700–1850 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11"
+      ],
+      "note": "Kirinyaga. A consistently high-scoring factory; intense, sweet-savoury Kirinyaga lots with blackcurrant, plum and bright citric acidity.",
+      "flagship": true
+    },
+    {
+      "id": "p_gaturiri",
+      "name": "Gaturiri Factory",
+      "people": "Embu / Rianjagi-area society",
+      "regionId": "r_embu",
+      "altitude": "1600–1800 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_ruiru11",
+        "v_batian"
+      ],
+      "note": "Embu. A washing station turning out clean, juicy, berry-and-citrus Embu coffees; a lesser-known but high-quality Kenyan source.",
+      "flagship": false
     }
   ],
   "processes": [
@@ -2912,6 +3527,286 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "Puer Catimor Washed"
+    },
+    {
+      "id": "l_injerto_pacamara",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_pacamara",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Injerto Pacamara Washed"
+    },
+    {
+      "id": "l_injerto_gesha",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Injerto Gesha Natural"
+    },
+    {
+      "id": "l_socorro_gesha",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2023,
+      "name": "El Socorro Gesha Washed (CoE #1)"
+    },
+    {
+      "id": "l_bellavista_bourbon",
+      "producerId": "p_bellavista",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Bella Vista / Santa Clara Bourbon Washed"
+    },
+    {
+      "id": "l_labolsa_bourbon",
+      "producerId": "p_labolsa",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Bolsa Bourbon Washed"
+    },
+    {
+      "id": "l_huixoc_bourbon",
+      "producerId": "p_huixoc",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Huixoc Bourbon Washed"
+    },
+    {
+      "id": "l_filadelfia_bourbon",
+      "producerId": "p_filadelfia",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Filadelfia Antigua Bourbon Washed"
+    },
+    {
+      "id": "l_santafelisa_pacamara",
+      "producerId": "p_santafelisa",
+      "varietyId": "v_pacamara",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Santa Felisa Pacamara Anaerobic"
+    },
+    {
+      "id": "l_donmayo_lasnubes",
+      "producerId": "p_donmayo",
+      "varietyId": "v_caturra",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Don Mayo Las Nubes Red Honey"
+    },
+    {
+      "id": "l_volcanazul_anaerobic",
+      "producerId": "p_volcanazul",
+      "varietyId": "v_caturra",
+      "processId": "pr_anaerobic",
+      "year": 2023,
+      "name": "Volcán Azul Caturra Anaerobic (CoE)"
+    },
+    {
+      "id": "l_lasnubescr_gesha",
+      "producerId": "p_lasnubes_cr",
+      "varietyId": "v_gesha",
+      "processId": "pr_honey",
+      "year": 2026,
+      "name": "Las Nubes Gesha Honey (CoE 2026 #1 Honey/Natural)"
+    },
+    {
+      "id": "l_aquiares_catuai",
+      "producerId": "p_aquiares",
+      "varietyId": "v_catuai",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Aquiares Catuaí Washed"
+    },
+    {
+      "id": "l_santarosa_pacamara",
+      "producerId": "p_santarosa_sv",
+      "varietyId": "v_pacamara",
+      "processId": "pr_honey",
+      "year": 2019,
+      "name": "Santa Rosa Pacamara Honey (CoE 2019 #1)"
+    },
+    {
+      "id": "l_lapacaya_gesha",
+      "producerId": "p_lapacaya_sv",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2025,
+      "name": "La Pacaya Gesha Natural (CoE 2025 #1)"
+    },
+    {
+      "id": "l_lasbrumas_sl28",
+      "producerId": "p_lailusion_sv",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Las Brumas SL28 Washed"
+    },
+    {
+      "id": "l_elcarmen_bourbon",
+      "producerId": "p_elcarmen_sv",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Carmen Red Bourbon Washed"
+    },
+    {
+      "id": "l_lasalsa_pacas",
+      "producerId": "p_lasalsa",
+      "varietyId": "v_pacas",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "La Salsa Pacas Anaerobic (CoE)"
+    },
+    {
+      "id": "l_karmel_bourbon",
+      "producerId": "p_karmel",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Karmél Bourbon Washed (CoE #3)"
+    },
+    {
+      "id": "l_santalucia_gesha",
+      "producerId": "p_santalucia_hn",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2019,
+      "name": "Santa Lucía Washed Geisha (CoE 2019 #1, 94.84)"
+    },
+    {
+      "id": "l_santaines_yellow",
+      "producerId": "p_santaines",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Santa Inês Yellow Bourbon Natural"
+    },
+    {
+      "id": "l_rioverde_gesha",
+      "producerId": "p_riobrilhante",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2025,
+      "name": "Rio Verde Gesha (CoE Brazil 2025 Experimental #1)"
+    },
+    {
+      "id": "l_samambaia_acaia",
+      "producerId": "p_samambaia",
+      "varietyId": "v_acaia",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Samambaia Acaiá Natural"
+    },
+    {
+      "id": "l_alasitas_gesha",
+      "producerId": "p_alasitas",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Las Alasitas Geisha Washed"
+    },
+    {
+      "id": "l_rodriguez_java",
+      "producerId": "p_jatunhuasi",
+      "varietyId": "v_java",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Los Rodríguez Java Natural"
+    },
+    {
+      "id": "l_alpesandinos_gesha",
+      "producerId": "p_alpesandinos",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Alpes Andinos Geisha Washed"
+    },
+    {
+      "id": "l_pangoa_bourbon",
+      "producerId": "p_pangoa",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Pangoa Organic Bourbon Washed"
+    },
+    {
+      "id": "l_limoncillo_java",
+      "producerId": "p_limoncillo",
+      "varietyId": "v_java",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Limoncillo Java Natural"
+    },
+    {
+      "id": "l_losalpesni_gesha",
+      "producerId": "p_losalpes_ni",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2023,
+      "name": "Los Alpes Geisha Natural (CoE 2023 #1)"
+    },
+    {
+      "id": "l_sanjoseni_laurina",
+      "producerId": "p_finca_sanjose_ni",
+      "varietyId": "v_laurina",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Finca San José Laurina Washed"
+    },
+    {
+      "id": "l_hambela_natural",
+      "producerId": "p_hambela",
+      "varietyId": "v_dega",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Hambela Guji Natural"
+    },
+    {
+      "id": "l_aricha_natural",
+      "producerId": "p_aricha",
+      "varietyId": "v_wolisho",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Aricha Natural"
+    },
+    {
+      "id": "l_limu_washed",
+      "producerId": "p_limu_jimma",
+      "varietyId": "v_74110",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Limu 74110 Washed"
+    },
+    {
+      "id": "l_tegu_sl28",
+      "producerId": "p_tegu",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Tegu SL28 AA Washed"
+    },
+    {
+      "id": "l_kainamui_sl34",
+      "producerId": "p_kainamui",
+      "varietyId": "v_sl34",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kainamui SL34 Washed"
+    },
+    {
+      "id": "l_gaturiri_sl28",
+      "producerId": "p_gaturiri",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Gaturiri SL28 Washed"
     }
   ],
   "seedTastings": [
