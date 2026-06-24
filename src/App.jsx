@@ -157,7 +157,9 @@ export default function CoffeeKB() {
 
         {/* ── VARIETIES ── */}
         {view === "varieties" && (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))", gap: 16 }}>
+          <div>
+            <CountLine shown={filteredVarieties.length} total={VARIETIES.length} noun="varieties" />
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))", gap: 16 }}>
             {filteredVarieties.map(v => (
               <div key={v.id} className="card" style={{ padding: 18, cursor: "pointer" }} onClick={() => setSelectedVariety(v)}>
                 <h3 style={{ fontSize: 21, fontWeight: 600, margin: "0 0 12px", letterSpacing: "-0.01em" }}>{v.name}</h3>
@@ -175,12 +177,15 @@ export default function CoffeeKB() {
               </div>
             ))}
             {filteredVarieties.length === 0 && <EmptyState msg="No varieties match those filters. Try clearing a tasting note." />}
+            </div>
           </div>
         )}
 
         {/* ── LOTS ── */}
         {view === "lots" && (
-          <div style={{ display: "grid", gap: 12 }}>
+          <div>
+            <CountLine shown={filteredLots.length} total={LOTS.length} noun="lots" />
+            <div style={{ display: "grid", gap: 12 }}>
             {filteredLots.map(l => {
               const v = varietyById[l.varietyId], p = farmById[l.producerId], pr = processById[l.processId], reg = p && regionById[p.regionId];
               return (
@@ -198,6 +203,7 @@ export default function CoffeeKB() {
               );
             })}
             {filteredLots.length === 0 && <EmptyState msg="No lots match. Lots link a producer, a variety and a process — add one from your log." />}
+            </div>
           </div>
         )}
 
@@ -221,6 +227,7 @@ export default function CoffeeKB() {
                   <Star size={12} fill={flagshipOnly ? "#fff" : "none"} /> Flagship only
                 </button>
               </div>
+              <CountLine shown={farms.length} total={FARMS.length} noun="farms" />
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 16 }}>
                 {farms.map(f => {
                   const reg = regionById[f.regionId];
@@ -392,6 +399,17 @@ function PcgnLogo() {
       alt="PCN Wiki"
       style={{ height: 46, width: "auto", maxWidth: "100%", display: "block" }}
     />
+  );
+}
+
+function CountLine({ shown, total, noun }) {
+  const filtered = shown !== total;
+  return (
+    <div className="mono" style={{ fontSize: 12, letterSpacing: 0.5, color: "rgba(43,29,20,.5)", margin: "0 0 16px", fontWeight: 600 }}>
+      {filtered
+        ? `Showing ${shown} of ${total} ${noun}`
+        : `Total ${total} ${noun}`}
+    </div>
   );
 }
 
