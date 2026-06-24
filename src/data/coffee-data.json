@@ -349,6 +349,21 @@
       "id": "r_embu",
       "country": "Kenya",
       "region": "Embu"
+    },
+    {
+      "id": "r_nantou",
+      "country": "Taiwan",
+      "region": "Nantou (Ren'ai / Xinyi)"
+    },
+    {
+      "id": "r_hualien",
+      "country": "Taiwan",
+      "region": "Hualien"
+    },
+    {
+      "id": "r_chiangmai",
+      "country": "Thailand",
+      "region": "Chiang Mai (Doi Saket)"
     }
   ],
   "varieties": [
@@ -1280,6 +1295,20 @@
         "stone fruit",
         "complex",
         "clean"
+      ]
+    },
+    {
+      "id": "v_purple_caturra",
+      "name": "Purple Caturra",
+      "species": "Arabica",
+      "origin": "Colombia (Huila)",
+      "group": "Caturra mutation",
+      "parents": "A Caturra whose cherries ripen deep purple",
+      "note": "A Caturra type whose cherries ripen to a deep purple. Nearly proprietary to Finca Monteblanco (Rodrigo Sánchez), where it was rediscovered among 1980s plantings; higher Brix and a distinctive sweet, dark-fruited cup, used for special processing.",
+      "refNotes": [
+        "chocolate",
+        "sweet",
+        "full body"
       ]
     }
   ],
@@ -2651,6 +2680,192 @@
       ],
       "note": "Embu. A washing station turning out clean, juicy, berry-and-citrus Embu coffees; a lesser-known but high-quality Kenyan source.",
       "flagship": false
+    },
+    {
+      "id": "p_royalbean",
+      "name": "Royal Bean Geisha Estate",
+      "people": "Fu-Sen Tseng",
+      "regionId": "r_alishan",
+      "altitude": "1200–1400 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_typica"
+      ],
+      "note": "Alishan, Chiayi. Described as the largest Gesha estate in Taiwan, with a full post-harvest mill and precise washed processing. Won the inaugural Taiwan competition (washed Gesha, 89.59, sold at US$183.50/lb in the 2022 Private Collection) and multiple top COE Taiwan placements; a 2025 Presidential Award winner.",
+      "flagship": true
+    },
+    {
+      "id": "p_chuang_alishan",
+      "name": "Chia-Jung Chuang Estate",
+      "people": "Chia-Jung Chuang",
+      "regionId": "r_alishan",
+      "altitude": "1200–1300 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Alishan misty forest. Gesha grown under natural canopy with cool nights and wide day-night swings; a clean, elegant, terroir-driven cup and a Cup of Excellence Taiwan name.",
+      "flagship": false
+    },
+    {
+      "id": "p_melastoma",
+      "name": "Melastoma Estate (Bao-Si Huang)",
+      "people": "Bao-Si Huang",
+      "regionId": "r_alishan",
+      "altitude": "1300 m",
+      "varietyIds": [
+        "v_gesha"
+      ],
+      "note": "Chiayi highlands. A long-time tea farmer applying tea-like discipline to Gesha cultivation and honey processing; refined, sweet, floral cups and a COE Taiwan competitor.",
+      "flagship": false
+    },
+    {
+      "id": "p_nita",
+      "name": "Nita Cafe",
+      "people": "Janna & Abone",
+      "regionId": "r_hualien",
+      "altitude": "800–1100 m",
+      "varietyIds": [
+        "v_typica",
+        "v_gesha"
+      ],
+      "note": "Hualien, eastern Taiwan. A family farm in a topographically diverse region (mountains meeting the ocean); part of Taiwan's rising small-volume, high-quality estate scene.",
+      "flagship": false
+    },
+    {
+      "id": "p_nantou",
+      "name": "Nantou estates (Ren'ai / Xinyi)",
+      "people": "Nantou highland growers",
+      "regionId": "r_nantou",
+      "altitude": "1100–1300 m",
+      "varietyIds": [
+        "v_typica",
+        "v_gesha",
+        "v_sl34"
+      ],
+      "note": "Central Taiwan. A diverse highland growing area (Ren'ai, Xinyi, Guoxing) producing clean, sweet Arabica; a recurring source of competition lots alongside Alishan.",
+      "flagship": false
+    },
+    {
+      "id": "p_discovery_th",
+      "name": "Discovery Coffee Farm",
+      "people": "Chartchai Saetao",
+      "regionId": "r_chiangmai",
+      "altitude": "1400–1600 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_java"
+      ],
+      "note": "Northern Thailand. A precision-focused estate where every stage is managed by the owner; premium Gesha and Java grown under natural shade — a Cup of Excellence Thailand competitor.",
+      "flagship": true
+    },
+    {
+      "id": "p_saenchai_th",
+      "name": "Saenchai Estate",
+      "people": "Saenchai Jupo",
+      "regionId": "r_doichang",
+      "altitude": "1200–1450 m",
+      "varietyIds": [
+        "v_catimor",
+        "v_caturra",
+        "v_typica"
+      ],
+      "note": "Set in Asia's largest pine forest with a year-round cool climate; shade-grown coffee under mature canopy. A Cup of Excellence Thailand name reflecting the country's rising specialty scene.",
+      "flagship": false
+    },
+    {
+      "id": "p_campohermoso",
+      "name": "Finca Campo Hermoso",
+      "people": "Edwin Noreña (“El Alquimista”)",
+      "regionId": "r_quindio",
+      "altitude": "1500–1900 m",
+      "varietyIds": [
+        "v_pink_bourbon",
+        "v_yellow_bourbon",
+        "v_caturra",
+        "v_sidra",
+        "v_gesha",
+        "v_cenicafe1",
+        "v_rume_sudan",
+        "v_wush"
+      ],
+      "note": "Circasia, Quindío. A ~15–25 ha fourth-generation family farm run by Edwin Noreña, an agro-industrial engineer, Q-grader and Cup of Excellence judge nicknamed “El Alquimista” (the alchemist). A coffee R&D lab famous for layered, multi-stage fermentations and co-ferments — using “mossto” (recycled cherry must) plus hops, chili, and fresh/dehydrated fruit. Released under his El Alquimista brand and used in barista competitions worldwide.",
+      "flagship": true
+    },
+    {
+      "id": "p_elparaiso",
+      "name": "Finca El Paraíso",
+      "people": "Diego Samuel Bermúdez",
+      "regionId": "r_cauca",
+      "altitude": "1700–1900 m",
+      "varietyIds": [
+        "v_castillo",
+        "v_gesha",
+        "v_pacamara",
+        "v_laurina"
+      ],
+      "note": "Piendamó / Bolívar, Cauca. One of the world's most famous processing laboratories, run by Diego Bermúdez — a pioneer of scientifically-controlled fermentation: bioreactors, selected microorganisms, ozone-disinfected cherries, and the signature “thermal shock” washed method. Globally sought-after “designed” profiles (lychee, peach candy) sold under the Hachi/Letty lines.",
+      "flagship": true
+    },
+    {
+      "id": "p_granjaesperanza",
+      "name": "Café Granja La Esperanza",
+      "people": "Herrera family (Rigoberto & Luis Eduardo)",
+      "regionId": "r_valle",
+      "altitude": "1450–2000 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_sidra",
+        "v_caturra",
+        "v_yellow_bourbon",
+        "v_bourbon"
+      ],
+      "note": "Valle del Cauca (since 1945). A pioneering producer-exporter across Potosí, Cerro Azul, Las Margaritas and a Panama farm; 50+ international awards, a WBC presence, and the founder of Colombia's first private coffee auction (2021). Famed for benchmark Geisha and bubblegum-sweet experimental lots.",
+      "flagship": true
+    },
+    {
+      "id": "p_monteblanco",
+      "name": "Finca Monteblanco",
+      "people": "Rodrigo Sánchez Valencia & Claudia Samboni",
+      "regionId": "r_huila",
+      "altitude": "1730–1900 m",
+      "varietyIds": [
+        "v_purple_caturra",
+        "v_pink_bourbon",
+        "v_gesha",
+        "v_caturra",
+        "v_castillo"
+      ],
+      "note": "San Adolfo / Acevedo, Huila. A family farm (Aromas del Sur group) and a famous processing innovator — one of the original homes of Pink Bourbon and the near-proprietary Purple Caturra. Known for cultured ferments, long cold fermentations and co-infused lots that double as competition and year-round café coffees.",
+      "flagship": true
+    },
+    {
+      "id": "p_elobraje",
+      "name": "Hacienda El Obraje",
+      "people": "Pablo Guerrero",
+      "regionId": "r_narino",
+      "altitude": "2100–2300 m",
+      "varietyIds": [
+        "v_caturra",
+        "v_gesha",
+        "v_castillo",
+        "v_pink_bourbon"
+      ],
+      "note": "Tangua, Nariño. A high-altitude (~2,200 m) estate that transitioned to specialty over the 2010s; respected washed and natural Geisha, Caturra and Castillo, and a stop on the US/World Coffee Championship origin trips.",
+      "flagship": false
+    },
+    {
+      "id": "p_penasblancas",
+      "name": "Peñas Blancas (processing center)",
+      "people": "Cauca/Valle processing team",
+      "regionId": "r_cauca",
+      "altitude": "1700–1950 m",
+      "varietyIds": [
+        "v_castillo",
+        "v_caturra",
+        "v_gesha"
+      ],
+      "note": "A laboratory-minded processing center documented for open-tank oxidation, thermal shock and tightly logged drying schedules; its coffees appear in high-profile competitions and selective-roaster offerings.",
+      "flagship": false
     }
   ],
   "processes": [
@@ -3807,6 +4022,142 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "Gaturiri SL28 Washed"
+    },
+    {
+      "id": "l_royalbean_gesha",
+      "producerId": "p_royalbean",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Royal Bean Geisha Estate Washed Gesha (COE Taiwan)"
+    },
+    {
+      "id": "l_chuang_gesha",
+      "producerId": "p_chuang_alishan",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Chuang Alishan Gesha Natural"
+    },
+    {
+      "id": "l_melastoma_honey",
+      "producerId": "p_melastoma",
+      "varietyId": "v_gesha",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Melastoma Gesha Honey"
+    },
+    {
+      "id": "l_nita_typica",
+      "producerId": "p_nita",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Nita Cafe Hualien Typica Washed"
+    },
+    {
+      "id": "l_nantou_gesha",
+      "producerId": "p_nantou",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Nantou Gesha Washed"
+    },
+    {
+      "id": "l_discovery_gesha",
+      "producerId": "p_discovery_th",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Discovery Coffee Farm Gesha Natural (COE Thailand)"
+    },
+    {
+      "id": "l_saenchai_catimor",
+      "producerId": "p_saenchai_th",
+      "varietyId": "v_catimor",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Saenchai Estate Catimor Washed"
+    },
+    {
+      "id": "l_campohermoso_watermelon",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_caturra",
+      "processId": "pr_carbonic",
+      "year": 2024,
+      "name": "Edwin Noreña Watermelon Co-Ferment (Caturra)"
+    },
+    {
+      "id": "l_campohermoso_ipa",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Edwin Noreña IPA/Hops Mossto (Pink Bourbon)"
+    },
+    {
+      "id": "l_campohermoso_sidra",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_sidra",
+      "processId": "pr_yeast",
+      "year": 2024,
+      "name": "Edwin Noreña Sidra Mossto 72h"
+    },
+    {
+      "id": "l_paraiso_thermal",
+      "producerId": "p_elparaiso",
+      "varietyId": "v_castillo",
+      "processId": "pr_thermal",
+      "year": 2024,
+      "name": "El Paraíso Lychee Thermal Shock (Castillo)"
+    },
+    {
+      "id": "l_paraiso_gesha",
+      "producerId": "p_elparaiso",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Paraíso Letty Geisha"
+    },
+    {
+      "id": "l_granjaesp_gesha",
+      "producerId": "p_granjaesperanza",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Granja La Esperanza Geisha Washed"
+    },
+    {
+      "id": "l_monteblanco_purple",
+      "producerId": "p_monteblanco",
+      "varietyId": "v_purple_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Monteblanco Purple Caturra Washed"
+    },
+    {
+      "id": "l_monteblanco_pink",
+      "producerId": "p_monteblanco",
+      "varietyId": "v_pink_bourbon",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Monteblanco Pink Bourbon Cold Ferment"
+    },
+    {
+      "id": "l_obraje_gesha",
+      "producerId": "p_elobraje",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Obraje Geisha Natural"
+    },
+    {
+      "id": "l_penasblancas_oxidation",
+      "producerId": "p_penasblancas",
+      "varietyId": "v_castillo",
+      "processId": "pr_thermal",
+      "year": 2024,
+      "name": "Peñas Blancas Oxidation / Thermal Shock"
     }
   ],
   "seedTastings": [
