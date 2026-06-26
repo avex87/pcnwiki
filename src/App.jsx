@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { Search, Coffee, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen } from "lucide-react";
+import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen } from "lucide-react";
 import data from "./data/coffee-data.json";
 import pcnLogo from "./assets/pcn-wiki-logo.png";
 
@@ -25,6 +25,21 @@ const USED_TAGS = [...new Set(VARIETIES.flatMap(v => v.refNotes))].sort();
 const PINK = "#E85A8C";
 const BEAN = "#3A5A40";
 const ROAST = "#2B1D14";
+
+// Custom coffee-sack icon (lucide has no sack). Stroke-based to match the
+// lucide icon set: takes a `size` prop and inherits color via currentColor.
+function Sack({ size = 16, ...props }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      {/* cinched, tied neck */}
+      <path d="M9 2h6l-1.2 2.2a2 2 0 0 0 .15 2.13C15.3 7.9 16 9.4 16 11" />
+      <path d="M9 2l1.2 2.2a2 2 0 0 1-.15 2.13C8.7 7.9 8 9.4 8 11" />
+      {/* rounded body of the sack */}
+      <path d="M8 11c-1.5 1.4-2.5 3.6-2.5 6 0 2.5 1.8 5 6.5 5s6.5-2.5 6.5-5c0-2.4-1-4.6-2.5-6" />
+    </svg>
+  );
+}
 
 export default function CoffeeKB() {
   const [view, setView] = useState("varieties"); // varieties | lots | log
@@ -84,11 +99,9 @@ export default function CoffeeKB() {
   return (
     <div style={{ minHeight: "100vh", background: "#F7F4EF", color: ROAST, fontFamily: "'Inter', system-ui, sans-serif" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
         * { box-sizing: border-box; }
         .mono { font-family: 'JetBrains Mono', monospace; }
-        .serif { font-family: 'Newsreader', serif; }
-        .display { font-family: 'Instrument Serif', serif; font-weight: 400; }
         .chip { cursor:pointer; border:1px solid rgba(43,29,20,.18); background:transparent; padding:4px 10px; border-radius:999px; font-size:12px; transition:all .15s; }
         .chip:hover { border-color:${PINK}; }
         .chip.on { background:${PINK}; color:#fff; border-color:${PINK}; }
@@ -116,7 +129,7 @@ export default function CoffeeKB() {
           <nav style={{ display: "flex", gap: 22 }}>
             <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties</button>
             <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms</button>
-            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Coffee size={15} />Lots</button>
+            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Sack size={15} />Lots</button>
             <button className={`navbtn ${view === "add" ? "on" : ""}`} onClick={() => setView("add")}><Plus size={15} />Add</button>
           </nav>
         </div>
@@ -189,7 +202,7 @@ export default function CoffeeKB() {
                 <div key={l.id} className="card" style={{ padding: 18, display: "flex", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
                   <div style={{ flex: 1, minWidth: 220 }}>
                     <div className="mono" style={{ fontSize: 10, color: PINK, letterSpacing: 1 }}>{l.id.toUpperCase()} · {l.year}</div>
-                    <h3 className="serif" style={{ fontSize: 19, margin: "3px 0 8px", fontWeight: 600 }}>{l.name}</h3>
+                    <h3 style={{ fontSize: 19, margin: "3px 0 8px", fontWeight: 600, letterSpacing: "-0.01em" }}>{l.name}</h3>
                     <div style={{ display: "flex", gap: 16, flexWrap: "wrap", fontSize: 13, color: "rgba(43,29,20,.7)" }}>
                       <span style={{ display: "flex", gap: 5, alignItems: "center" }}><Leaf size={13} color={BEAN} />{v.name}</span>
                       <span style={{ display: "flex", gap: 5, alignItems: "center" }}><MapPin size={13} color={BEAN} />{p ? p.name : "—"}{reg ? `, ${reg.region}` : ""}</span>
@@ -439,7 +452,7 @@ function AddContribute() {
   }, [queue, API]);
 
   const options = [
-    { key: "lot", label: "Add a lot", icon: Coffee,
+    { key: "lot", label: "Add a lot", icon: Sack,
       blurb: "A specific coffee — a named lot from a farm.",
       fields: [
         { name: "lotName", label: "Lot name", placeholder: "e.g. Pink Bourbon Washed" },
@@ -521,7 +534,7 @@ function AddContribute() {
 
   return (
     <div style={{ maxWidth: 640 }}>
-      <h2 className="display" style={{ fontSize: 30, margin: "0 0 10px", letterSpacing: "-0.02em" }}>Add to the database</h2>
+      <h2 style={{ fontSize: 30, margin: "0 0 10px", fontWeight: 600, letterSpacing: "-0.02em" }}>Add to the database</h2>
       <p style={{ margin: "0 0 24px", color: "rgba(43,29,20,.7)", fontSize: 15, lineHeight: 1.6 }}>
         Just sipped and enjoyed a coffee you can't find in the database? Contribute your experience via the forms below based on the information you have handy, and Eugene and his AI friend Claude will vet and fact-check weekly before adding it to the database.
       </p>
@@ -541,7 +554,7 @@ function AddContribute() {
                   <Icon size={18} />
                 </span>
                 <span style={{ flex: 1 }}>
-                  <span className="serif" style={{ display: "block", fontSize: 17, fontWeight: 600, color: ROAST }}>{opt.label}</span>
+                  <span style={{ display: "block", fontSize: 17, fontWeight: 600, color: ROAST, letterSpacing: "-0.01em" }}>{opt.label}</span>
                   <span style={{ fontSize: 13, color: "rgba(43,29,20,.55)" }}>{opt.blurb}</span>
                 </span>
                 <Plus size={18} style={{ color: "rgba(43,29,20,.4)", flexShrink: 0, transform: isOpen ? "rotate(45deg)" : "none", transition: "transform .18s" }} />
@@ -562,7 +575,7 @@ function AddContribute() {
       {/* ── QUEUE ── publicly visible list of pending submissions */}
       <div style={{ marginTop: 40 }}>
         <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12, marginBottom: 4 }}>
-          <h3 className="display" style={{ fontSize: 22, margin: 0, letterSpacing: "-0.01em" }}>
+          <h3 style={{ fontSize: 22, margin: 0, fontWeight: 600, letterSpacing: "-0.01em" }}>
             Queue {queue.length > 0 && <span style={{ color: PINK }}>({queue.length})</span>}
           </h3>
           {queue.length > 0 && (
