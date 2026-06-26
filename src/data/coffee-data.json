@@ -2956,7 +2956,7 @@
       "id": "p_janson",
       "name": "Janson Coffee Farm",
       "people": "Janson family (4th generation)",
-      "regionId": "r_renacimiento",
+      "regionId": "r_volcan",
       "altitude": "1450–1600 m",
       "varietyIds": [
         "v_gesha",
@@ -3063,27 +3063,33 @@
     {
       "id": "p_mounttotumas",
       "name": "Mount Totumas (De La Rosa)",
-      "people": "Mount Totumas Cloud Forest",
-      "regionId": "r_renacimiento",
+      "people": "Jeff & Michael Dietrich; Karin de la Rosa (coffee lead), Alma Dietrich",
+      "regionId": "r_volcan",
       "altitude": "1800–1900 m",
       "varietyIds": [
         "v_gesha",
-        "v_catuai"
+        "v_caturra",
+        "v_catuai",
+        "v_typica",
+        "v_pacamara"
       ],
-      "note": "A cloud-forest farm bordering protected reserve; its De La Rosa Geisha scored 96.25 at Best of Panama 2023. Shade-grown, biodiversity-led production.",
-      "flagship": false
+      "note": "Tierras Altas (west of Volcán toward Santa Clara), Chiriquí, Panama — a 140-ha private cloud-forest reserve and off-grid eco-lodge bordering La Amistad International Park, just kilometres from the Costa Rican border. Founded in 2008 by brothers Jeff and Michael Dietrich, who reforested 30 ha of former cow pasture with native shade trees; mentored by the Hartmann family, they planted their first 500 Geisha trees in 2014 and now tend ~10,000 trees. Coffee is led by Jeff's daughter Karin de la Rosa under an ecology-first, biodiversity-driven philosophy. Won 1st place Geisha Natural at Best of Panama 2023 (96.25 pts, ~US$2,504/kg) and placed 6th in 2024. Washed, natural and experimental lots.",
+      "flagship": true
     },
     {
       "id": "p_nuguo",
       "name": "Finca Nuguo (Café Gallardo)",
-      "people": "Jose \"Pocho\" Gallardo",
-      "regionId": "r_volcan",
-      "altitude": "1600–1850 m",
+      "people": "José \"Pocho\" Gallardo Araúz & Aileene Gallardo",
+      "regionId": "r_renacimiento",
+      "altitude": "1750–1950 m",
       "varietyIds": [
-        "v_gesha"
+        "v_gesha",
+        "v_caturra",
+        "v_catuai",
+        "v_typica"
       ],
-      "note": "Volcán. A consistent Best of Panama placer (3rd Washed Geisha 2024 with Nuguo Washed); Gallardo-family precision washed Geisha.",
-      "flagship": false
+      "note": "Jurutungo, Renacimiento, Chiriquí, Panama — nestled against La Amistad International Park (Central America's largest rainforest reserve) on the Costa Rican border. Café Gallardo began when José Gallardo's father planted coffee in the region in 1960; in 2006 José \"Pocho\" Gallardo Araúz (who holds a PhD in civil engineering and applies it to processing and drying) saw Finca Nuguo's potential and planted Geisha. Nuguo's cold nights, high wind and heavy rainfall give low yields but intense flavour. José was the 2021 Best of Panama overall winner and a repeat placer; the family runs lower-altitude farms (La Santa, Zambrano, Guisado, Santa Clara) in traditional varieties, with Nuguo as the flagship Geisha. Washed, natural and long-fermented lots, micro-separated by day and plot, dried 3–6 weeks on covered raised beds.",
+      "flagship": true
     },
     {
       "id": "p_elinjerto",
@@ -4644,7 +4650,7 @@
       "id": "p_julioalberto",
       "name": "Julio Alberto (El Tabor)",
       "people": "Julio Alberto Muñoz Ordoñez",
-      "regionId": "r_antioquia",
+      "regionId": "r_huila",
       "altitude": "1850 m",
       "varietyIds": [
         "v_pink_bourbon"
@@ -5791,6 +5797,19 @@
         "v_pacas"
       ],
       "note": "Santa Ana (Ilamatepec/Apaneca), El Salvador. A historic farm associated with Aída Batlle, one of El Salvador's most influential producers and an early champion of meticulous picking and processing. Classic Salvadoran Bourbon — red fruit, caramel, citrus.",
+      "flagship": false
+    },
+    {
+      "id": "p_abucoffee",
+      "name": "Hacienda Cañas Verdes (Abu Coffee)",
+      "people": "José Luttrell",
+      "regionId": "r_chiriqui",
+      "altitude": "1550 m",
+      "varietyIds": [
+        "v_gesha",
+        "v_catuai"
+      ],
+      "note": "Cañas Verdes district, Boquete, Chiriquí, Panama. A ~11-ha farm on high-organic volcanic soil (pH 5.0–6.0, ~3,500 mm rainfall), producing Geisha and Catuai. 'Abu' (short for abuelo) honours José Guillermo Luttrell Tedman, the third-generation producer whose grand-uncle bought the original Geisha seed in 1971; current producer José Luttrell has earned multiple Best of Panama auction placements in only a few years (a Natural Geisha placed 11th). Known for double-phase anaerobic washed processing — jasmine, lychee, tangerine, chocolate and mixed berries.",
       "flagship": false
     }
   ],
@@ -8740,6 +8759,62 @@
       "processId": "pr_natural",
       "year": 2024,
       "name": "Ana Sora Natural"
+    },
+    {
+      "id": "l_abucoffee_geisha_washed",
+      "producerId": "p_abucoffee",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Abu Coffee Geisha Washed (Double-Phase Anaerobic)"
+    },
+    {
+      "id": "l_abucoffee_geisha_natural",
+      "producerId": "p_abucoffee",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Abu Coffee Geisha Natural (Best of Panama)"
+    },
+    {
+      "id": "l_abucoffee_catuai",
+      "producerId": "p_abucoffee",
+      "varietyId": "v_catuai",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Abu Coffee Catuai Washed"
+    },
+    {
+      "id": "l_nuguo_natural",
+      "producerId": "p_nuguo",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2022,
+      "name": "Nuguo Geisha Natural (Café Gallardo)"
+    },
+    {
+      "id": "l_nuguo_fermented",
+      "producerId": "p_nuguo",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2021,
+      "name": "Nuguo Geisha Fermented (BoP 2021 Winner, Café Gallardo)"
+    },
+    {
+      "id": "l_totumas_washed",
+      "producerId": "p_mounttotumas",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Mount Totumas Geisha Washed (Milky Way / Del Rio)"
+    },
+    {
+      "id": "l_totumas_pacamara",
+      "producerId": "p_mounttotumas",
+      "varietyId": "v_pacamara",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Mount Totumas Pacamara Natural"
     }
   ],
   "seedTastings": [
