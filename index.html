@@ -11,6 +11,10 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Shared submission queue backend. Paste your deployed Worker URL here to
+         make the Add-page queue public/shared across all visitors. Leave empty
+         to fall back to per-browser localStorage. See worker/README.md. -->
+    <script>window.PCN_QUEUE_API = "";</script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
