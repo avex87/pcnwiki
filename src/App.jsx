@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from "react";
-import { Search, Coffee, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, NotebookPen } from "lucide-react";
+import React, { useState, useMemo, useEffect } from "react";
+import { Search, Coffee, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen } from "lucide-react";
 import data from "./data/coffee-data.json";
 import pcnLogo from "./assets/pcn-wiki-logo.png";
 
@@ -17,7 +17,6 @@ const FARMS = data.farms;
 const PROCESSES = data.processes;
 const TASTING_NOTES = data.tastingNotes;
 const LOTS = data.lots;
-const SEED_TASTINGS = data.seedTastings;
 
 // ── derived tag sets ────────────────────────────────────────────────────────────
 const ALL_TAGS = [...new Set(Object.values(TASTING_NOTES).flat())].sort();
@@ -36,8 +35,6 @@ export default function CoffeeKB() {
   const [selectedFarm, setSelectedFarm] = useState(null);
   const [farmCountry, setFarmCountry] = useState("All");
   const [flagshipOnly, setFlagshipOnly] = useState(false);
-  const [tastings, setTastings] = useState(SEED_TASTINGS);
-  const [showAdd, setShowAdd] = useState(false);
 
   const regionById = useMemo(() => Object.fromEntries(REGIONS.map(r => [r.id, r])), []);
   const varietyById = useMemo(() => Object.fromEntries(VARIETIES.map(v => [v.id, v])), []);
@@ -120,7 +117,7 @@ export default function CoffeeKB() {
             <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties</button>
             <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms</button>
             <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Coffee size={15} />Lots</button>
-            <button className={`navbtn ${view === "log" ? "on" : ""}`} onClick={() => setView("log")}><NotebookPen size={15} />My Log</button>
+            <button className={`navbtn ${view === "add" ? "on" : ""}`} onClick={() => setView("add")}><Plus size={15} />Add</button>
           </nav>
         </div>
       </header>
@@ -257,43 +254,9 @@ export default function CoffeeKB() {
           );
         })()}
 
-        {/* ── MY LOG ── */}
-        {view === "log" && (
-          <div>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-              <h2 className="serif" style={{ fontSize: 24, margin: 0 }}>Tasting log</h2>
-              <button onClick={() => setShowAdd(true)} style={{ display: "flex", gap: 6, alignItems: "center", background: ROAST, color: "#fff", border: "none", padding: "9px 16px", borderRadius: 9, fontSize: 14, fontWeight: 600, cursor: "pointer" }}>
-                <Plus size={16} /> Log a tasting
-              </button>
-            </div>
-            <div style={{ display: "grid", gap: 12 }}>
-              {tastings.map(t => {
-                const lot = lotById[t.lotId];
-                const v = lot ? varietyById[lot.varietyId] : null;
-                return (
-                  <div key={t.id} className="card" style={{ padding: 18 }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12 }}>
-                      <div>
-                        <h3 className="serif" style={{ fontSize: 18, margin: 0, fontWeight: 600 }}>{lot ? lot.name : "Unknown lot"}</h3>
-                        <div className="mono" style={{ fontSize: 11, color: "rgba(43,29,20,.5)", marginTop: 3 }}>
-                          {t.roaster} · {t.date} {t.isPublic ? "· PUBLIC" : "· private"}
-                        </div>
-                      </div>
-                      <div style={{ display: "flex", alignItems: "center", gap: 4, background: "rgba(232,90,140,.1)", color: PINK, padding: "5px 10px", borderRadius: 8, fontWeight: 700 }}>
-                        <Star size={14} fill={PINK} /> {t.score}
-                      </div>
-                    </div>
-                    <p style={{ fontSize: 14, lineHeight: 1.55, color: "rgba(43,29,20,.8)", margin: "10px 0" }}>{t.notes}</p>
-                    <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-                      {t.tags.map(tag => (
-                        <span key={tag} style={{ fontSize: 11, padding: "2px 8px", borderRadius: 999, background: "rgba(58,90,64,.1)", color: BEAN }}>{tag}</span>
-                      ))}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
+        {/* ── ADD ── */}
+        {view === "add" && (
+          <AddContribute />
         )}
       </main>
 
@@ -366,15 +329,6 @@ export default function CoffeeKB() {
         );
       })()}
 
-      {/* add tasting modal */}
-      {showAdd && (
-        <AddTasting
-          onClose={() => setShowAdd(false)}
-          lots={LOTS}
-          lotById={lotById}
-          onSave={(rec) => { setTastings(t => [{ ...rec, id: "t" + (t.length + 1) }, ...t]); setShowAdd(false); }}
-        />
-      )}
     </div>
   );
 }
@@ -449,59 +403,239 @@ function Drawer({ children, onClose }) {
   );
 }
 
-function AddTasting({ onClose, lots, lotById, onSave }) {
-  const [lotId, setLotId] = useState(lots[0]?.id || "");
-  const [roaster, setRoaster] = useState("");
-  const [date, setDate] = useState(new Date().toISOString().slice(0, 10));
-  const [score, setScore] = useState(88);
-  const [notes, setNotes] = useState("");
-  const [tags, setTags] = useState([]);
-  const [isPublic, setIsPublic] = useState(false);
+function AddContribute() {
+  const [open, setOpen] = useState(null); // 'lot' | 'farm' | 'variety' | null
+  const [queue, setQueue] = useState([]);
+  const [copied, setCopied] = useState(false);
 
-  const toggle = (t) => setTags(a => a.includes(t) ? a.filter(x => x !== t) : [...a, t]);
-  const inputStyle = { width: "100%", padding: "9px 12px", borderRadius: 9, border: "1px solid rgba(43,29,20,.15)", fontSize: 14, marginTop: 5, background: "#fff" };
+  // If a Worker URL is configured (window.PCN_QUEUE_API, set in index.html),
+  // the queue is shared across all visitors via that backend. Otherwise it
+  // falls back to this browser's localStorage so the page still works offline.
+  const API = (typeof window !== "undefined" && window.PCN_QUEUE_API) || "";
+
+  // Load the queue on mount — from the Worker if configured, else localStorage.
+  useEffect(() => {
+    let cancelled = false;
+    if (API) {
+      fetch(API + "/queue")
+        .then(r => r.json())
+        .then(d => { if (!cancelled && Array.isArray(d.queue)) setQueue(d.queue); })
+        .catch(() => { /* network/Worker down — leave queue empty */ });
+    } else {
+      try {
+        const raw = window.localStorage.getItem("pcn-queue");
+        if (raw) setQueue(JSON.parse(raw));
+      } catch (e) { /* storage unavailable — run in-memory */ }
+    }
+    return () => { cancelled = true; };
+  }, [API]);
+
+  // In localStorage mode, persist on every change. (In Worker mode the backend
+  // is the source of truth, so we don't mirror to localStorage.)
+  useEffect(() => {
+    if (API) return;
+    try { window.localStorage.setItem("pcn-queue", JSON.stringify(queue)); }
+    catch (e) { /* ignore */ }
+  }, [queue, API]);
+
+  const options = [
+    { key: "lot", label: "Add a lot", icon: Coffee,
+      blurb: "A specific coffee — a named lot from a farm.",
+      fields: [
+        { name: "lotName", label: "Lot name", placeholder: "e.g. Pink Bourbon Washed" },
+        { name: "lotFarm", label: "Farm", placeholder: "Which farm grew it?" },
+        { name: "country", label: "Country of origin", placeholder: "e.g. Colombia" },
+      ] },
+    { key: "farm", label: "Add a farm", icon: MapPin,
+      blurb: "A producer or estate that grows coffee.",
+      fields: [
+        { name: "farmName", label: "Farm name", placeholder: "e.g. Finca El Mirador" },
+        { name: "owner", label: "Owner's name", placeholder: "Who runs the farm?" },
+        { name: "country", label: "Country", placeholder: "e.g. Ethiopia" },
+      ] },
+    { key: "variety", label: "Add a variety", icon: Leaf,
+      blurb: "A coffee cultivar or landrace.",
+      fields: [
+        { name: "varietyName", label: "Variety name", placeholder: "e.g. Sidra" },
+        { name: "country", label: "Country of origin", placeholder: "e.g. Ecuador" },
+      ] },
+  ];
+  const optByKey = Object.fromEntries(options.map(o => [o.key, o]));
+
+  const addToQueue = (type, vals) => {
+    if (API) {
+      // optimistic: show immediately, reconcile with the server's entry
+      const temp = { id: "tmp" + Date.now(), type, vals, date: new Date().toISOString().slice(0, 10) };
+      setQueue(q => [temp, ...q]);
+      fetch(API + "/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type, vals }),
+      })
+        .then(r => r.json())
+        .then(d => { if (d.entry) setQueue(q => q.map(e => e.id === temp.id ? d.entry : e)); })
+        .catch(() => { /* keep optimistic entry; it'll sync on next load */ });
+      return;
+    }
+    const entry = {
+      id: "q" + Date.now() + Math.random().toString(36).slice(2, 6),
+      type,
+      vals,
+      date: new Date().toISOString().slice(0, 10),
+    };
+    setQueue(q => [entry, ...q]);
+  };
+
+  const removeFromQueue = (id) => {
+    setQueue(q => q.filter(e => e.id !== id));
+    if (API) {
+      fetch(API + "/remove", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      }).catch(() => {});
+    }
+  };
+
+  const clearQueue = () => {
+    setQueue([]);
+    if (API) {
+      fetch(API + "/clear", { method: "POST" }).catch(() => {});
+    }
+  };
+
+  // one-line, paste-friendly text for a single entry
+  const entryToText = (e) => {
+    const opt = optByKey[e.type];
+    const parts = opt.fields.map(f => e.vals[f.name]).filter(Boolean);
+    return e.type.toUpperCase() + " — " + parts.join(" | ") + "  (submitted " + e.date + ")";
+  };
+  const copyAll = () => {
+    const text = queue.map(entryToText).join("\n");
+    try {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1800);
+    } catch (e) { /* clipboard blocked — user can still select text manually */ }
+  };
 
   return (
-    <Drawer onClose={onClose}>
-      <h2 className="display" style={{ fontSize: 34, margin: "0 0 18px" }}>Log a tasting</h2>
-      <div style={{ display: "grid", gap: 14 }}>
-        <div><Label>Lot</Label>
-          <select value={lotId} onChange={e => setLotId(e.target.value)} style={inputStyle}>
-            {lots.map(l => <option key={l.id} value={l.id}>{l.name}</option>)}
-          </select>
-        </div>
-        <div><Label>Roaster</Label>
-          <input value={roaster} onChange={e => setRoaster(e.target.value)} placeholder="Who roasted it?" style={inputStyle} />
-        </div>
-        <div style={{ display: "flex", gap: 12 }}>
-          <div style={{ flex: 1 }}><Label>Date</Label>
-            <input type="date" value={date} onChange={e => setDate(e.target.value)} style={inputStyle} />
-          </div>
-          <div style={{ width: 100 }}><Label>Score</Label>
-            <input type="number" min={0} max={100} step={0.25} value={score} onChange={e => setScore(parseFloat(e.target.value))} style={inputStyle} />
-          </div>
-        </div>
-        <div><Label>Notes</Label>
-          <textarea value={notes} onChange={e => setNotes(e.target.value)} rows={3} placeholder="Aroma, acidity, body, finish…" style={{ ...inputStyle, resize: "vertical" }} />
-        </div>
-        <div><Label>Tasting notes</Label>
-          <div style={{ display: "flex", gap: 5, flexWrap: "wrap", marginTop: 8 }}>
-            {ALL_TAGS.map(t => (
-              <button key={t} className={`chip ${tags.includes(t) ? "on" : ""}`} onClick={() => toggle(t)}>{t}</button>
-            ))}
-          </div>
-        </div>
-        <label style={{ display: "flex", gap: 8, alignItems: "center", fontSize: 14, cursor: "pointer" }}>
-          <input type="checkbox" checked={isPublic} onChange={e => setIsPublic(e.target.checked)} />
-          Share to community view
-        </label>
-        <button
-          onClick={() => onSave({ lotId, roaster: roaster || "—", date, score, notes: notes || "—", tags, isPublic })}
-          style={{ background: ROAST, color: "#fff", border: "none", padding: "11px", borderRadius: 9, fontSize: 15, fontWeight: 600, cursor: "pointer", marginTop: 4 }}
-        >
-          Save tasting
-        </button>
+    <div style={{ maxWidth: 640 }}>
+      <h2 className="display" style={{ fontSize: 30, margin: "0 0 10px", letterSpacing: "-0.02em" }}>Add to the database</h2>
+      <p style={{ margin: "0 0 24px", color: "rgba(43,29,20,.7)", fontSize: 15, lineHeight: 1.6 }}>
+        Just sipped and enjoyed a coffee you can't find in the database? Contribute your experience via the forms below based on the information you have handy, and Eugene and his AI friend Claude will vet and fact-check weekly before adding it to the database.
+      </p>
+
+      <div style={{ display: "grid", gap: 12 }}>
+        {options.map(opt => {
+          const Icon = opt.icon;
+          const isOpen = open === opt.key;
+          return (
+            <div key={opt.key} className="card" style={{ overflow: "hidden" }}>
+              <button
+                onClick={() => setOpen(isOpen ? null : opt.key)}
+                aria-expanded={isOpen}
+                style={{ width: "100%", display: "flex", alignItems: "center", gap: 13, padding: "16px 18px", background: "none", border: "none", cursor: "pointer", textAlign: "left" }}
+              >
+                <span style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 38, height: 38, borderRadius: 10, background: isOpen ? PINK : "rgba(232,90,140,.1)", color: isOpen ? "#fff" : PINK, flexShrink: 0, transition: "background .15s, color .15s" }}>
+                  <Icon size={18} />
+                </span>
+                <span style={{ flex: 1 }}>
+                  <span className="serif" style={{ display: "block", fontSize: 17, fontWeight: 600, color: ROAST }}>{opt.label}</span>
+                  <span style={{ fontSize: 13, color: "rgba(43,29,20,.55)" }}>{opt.blurb}</span>
+                </span>
+                <Plus size={18} style={{ color: "rgba(43,29,20,.4)", flexShrink: 0, transform: isOpen ? "rotate(45deg)" : "none", transition: "transform .18s" }} />
+              </button>
+
+              {isOpen && (
+                <ContributeForm
+                  fields={opt.fields}
+                  submitLabel={opt.label}
+                  onSubmit={(vals) => { addToQueue(opt.key, vals); setOpen(null); }}
+                />
+              )}
+            </div>
+          );
+        })}
       </div>
-    </Drawer>
+
+      {/* ── QUEUE ── publicly visible list of pending submissions */}
+      <div style={{ marginTop: 40 }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12, marginBottom: 4 }}>
+          <h3 className="display" style={{ fontSize: 22, margin: 0, letterSpacing: "-0.01em" }}>
+            Queue {queue.length > 0 && <span style={{ color: PINK }}>({queue.length})</span>}
+          </h3>
+          {queue.length > 0 && (
+            <div style={{ display: "flex", gap: 8 }}>
+              <button onClick={copyAll} style={{ display: "flex", gap: 6, alignItems: "center", background: ROAST, color: "#fff", border: "none", padding: "7px 13px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
+                {copied ? "Copied ✓" : "Copy queue"}
+              </button>
+              <button onClick={clearQueue} style={{ background: "none", color: "rgba(43,29,20,.5)", border: "1px solid rgba(43,29,20,.15)", padding: "7px 13px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
+                Clear
+              </button>
+            </div>
+          )}
+        </div>
+        <p style={{ margin: "0 0 14px", fontSize: 13, color: "rgba(43,29,20,.55)", lineHeight: 1.55 }}>
+          Pending submissions awaiting review. Copy the list and send it to Claude to look up, fact-check and add.
+        </p>
+
+        {queue.length === 0 ? (
+          <div className="card" style={{ padding: "22px 18px", textAlign: "center", color: "rgba(43,29,20,.45)", fontSize: 14 }}>
+            Nothing in the queue yet. Submitted coffees will appear here.
+          </div>
+        ) : (
+          <div style={{ display: "grid", gap: 8 }}>
+            {queue.map(e => {
+              const opt = optByKey[e.type];
+              const parts = opt.fields.map(f => e.vals[f.name]).filter(Boolean);
+              return (
+                <div key={e.id} className="card" style={{ padding: "12px 14px", display: "flex", alignItems: "center", gap: 12 }}>
+                  <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", color: PINK, background: "rgba(232,90,140,.1)", padding: "3px 8px", borderRadius: 6, flexShrink: 0 }}>
+                    {e.type}
+                  </span>
+                  <span className="mono" style={{ flex: 1, fontSize: 13, color: "rgba(43,29,20,.85)" }}>
+                    {parts.join("  ·  ") || "—"}
+                  </span>
+                  <button onClick={() => removeFromQueue(e.id)} aria-label="Remove" style={{ background: "none", border: "none", cursor: "pointer", color: "rgba(43,29,20,.35)", padding: 4, lineHeight: 0 }}>
+                    <X size={15} />
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function ContributeForm({ fields, submitLabel, onSubmit }) {
+  const [vals, setVals] = useState({});
+  const inputStyle = { width: "100%", padding: "9px 12px", borderRadius: 9, border: "1px solid rgba(43,29,20,.15)", fontSize: 14, marginTop: 5, background: "#fff", boxSizing: "border-box" };
+  const set = (n, v) => setVals(s => ({ ...s, [n]: v }));
+  const hasInput = fields.some(f => (vals[f.name] || "").trim());
+
+  return (
+    <div style={{ padding: "4px 18px 20px", borderTop: "1px solid rgba(43,29,20,.08)", display: "grid", gap: 14 }}>
+      {fields.map(f => (
+        <div key={f.name}>
+          <Label>{f.label}</Label>
+          <input
+            value={vals[f.name] || ""}
+            onChange={e => set(f.name, e.target.value)}
+            placeholder={f.placeholder}
+            style={inputStyle}
+          />
+        </div>
+      ))}
+      <button
+        onClick={() => hasInput && onSubmit(vals)}
+        disabled={!hasInput}
+        style={{ background: hasInput ? ROAST : "rgba(43,29,20,.2)", color: "#fff", border: "none", padding: "11px", borderRadius: 9, fontSize: 15, fontWeight: 600, cursor: hasInput ? "pointer" : "not-allowed", marginTop: 2 }}
+      >
+        Add to queue
+      </button>
+    </div>
   );
 }
