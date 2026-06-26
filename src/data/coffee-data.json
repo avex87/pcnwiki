@@ -2203,6 +2203,54 @@
         "berry",
         "tea-like"
       ]
+    },
+    {
+      "id": "v_gori_gesha",
+      "name": "Gori Gesha",
+      "species": "Arabica",
+      "origin": "Ethiopia (Gori Gesha forest, Bench Maji)",
+      "group": "Ethiopian Gesha landrace",
+      "parents": "Wild heirloom from the Gori Gesha forest",
+      "note": "An heirloom Gesha selection harvested from the Gori Gesha forest near Gesha Village — the forest genetically identified as the collection site of the Panamanian Geisha. Replicates the wild forest population diversity.",
+      "refNotes": [
+        "floral",
+        "bergamot",
+        "stone fruit",
+        "tea-like",
+        "citrus"
+      ]
+    },
+    {
+      "id": "v_illubabor",
+      "name": "Illubabor Forest",
+      "species": "Arabica",
+      "origin": "Ethiopia (Illubabor forest)",
+      "group": "Ethiopian landrace selection",
+      "parents": "Selected from a 1974 Illubabor coffee-forest expedition",
+      "note": "A disease-resistant Ethiopian landrace selection made from a 1974 expedition to the Illubabor coffee forest; grown at Gesha Village alongside its Gesha types.",
+      "refNotes": [
+        "blueberry",
+        "grape",
+        "bergamot",
+        "peach",
+        "floral"
+      ]
+    },
+    {
+      "id": "v_sudan_rume",
+      "name": "Sudan Rume",
+      "species": "Arabica",
+      "origin": "Sudan (Boma Plateau)",
+      "group": "Wild Ethiopian-adjacent landrace",
+      "parents": "Wild landrace collected on the Sudan–Ethiopia border",
+      "note": "A rare wild landrace collected from the Boma Plateau on the Sudan border, prized as a breeding parent (a parent of the Centroamericano F1 hybrid) and grown in tiny quantities at elite farms for its intense, complex, syrupy cup.",
+      "refNotes": [
+        "tropical fruit",
+        "floral",
+        "stone fruit",
+        "complex",
+        "sweet"
+      ]
     }
   ],
   "farms": [
@@ -2331,7 +2379,9 @@
       "regionId": "r_gesha_village",
       "altitude": "1909–2069 m",
       "varietyIds": [
-        "v_gesha"
+        "v_gesha",
+        "v_gori_gesha",
+        "v_illubabor"
       ],
       "note": "Bench Maji, near the Gori Gesha forest where Gesha originated. Large estate planted from local Gesha selections; its annual Gesha Village Auction is a global benchmark.",
       "flagship": true
@@ -2532,7 +2582,8 @@
       "varietyIds": [
         "v_caturra",
         "v_catuai",
-        "v_villa_sarchi"
+        "v_villa_sarchi",
+        "v_bourbon"
       ],
       "note": "Sabanilla, Central Valley. Organic third-generation micromill that pioneered Costa Rican naturals and honeys — 'Perla Negra', 'Alma Negra', and the yellow/red/black honey spectrum.",
       "flagship": true
@@ -2830,7 +2881,10 @@
         "v_pink_bourbon",
         "v_sidra",
         "v_castillo",
-        "v_tabi"
+        "v_tabi",
+        "v_pacamara",
+        "v_java",
+        "v_bourbon"
       ],
       "note": "Líbano, Tolima. An internationally roasted experimental-processing estate (Vergel Estate / Forest Coffee) known for co-fermentation and exotic-fruit-forward lots; a fixture in modern Colombian specialty and competition circuits.",
       "flagship": true
@@ -3119,7 +3173,11 @@
         "v_bourbon",
         "v_pacamara",
         "v_maragogipe",
-        "v_caturra"
+        "v_caturra",
+        "v_java",
+        "v_maracaturra",
+        "v_laurina",
+        "v_yellow_bourbon"
       ],
       "note": "Palencia, near Antigua. 19th-century roots; the 3rd-generation De La Cerda family transformed it into a CoE powerhouse with multiple 1st-place Cup of Excellence wins. Renowned Gesha and exotic varietals across diverse microclimates.",
       "flagship": true
@@ -4940,7 +4998,8 @@
       "altitude": "1900–2100 m",
       "varietyIds": [
         "v_sidra",
-        "v_mejorado"
+        "v_mejorado",
+        "v_gesha"
       ],
       "note": "Saraguro, Loja, Ecuador. Hacienda La Papaya is the pioneer of specialty coffee in Saraguro — founded ~2009 by Juan Peña, a former rose farmer and agricultural engineer who began exporting to the US in 2014 and has since become one of Ecuador's most internationally recognised producers (repeated top-three Cup of Excellence finishes and a fixture on the barista-competition circuit). The ~28-acre farm runs as a research center: drip irrigation and soil sensors across all plots, an iterating nursery, and obsessive brix/fermentation/drying control. ~80% of its formally-employed workforce are women from the Saraguro region. Grows curated Sidra, Mejorado (Typica Mejorado) and Gesha; fully washed lots prized for clarity.",
       "flagship": true
@@ -4989,7 +5048,12 @@
       "altitude": "1300–1600 m",
       "varietyIds": [
         "v_pink_pacamara",
-        "v_sl28"
+        "v_sl28",
+        "v_pacamara",
+        "v_bourbon",
+        "v_pacas",
+        "v_gesha",
+        "v_sudan_rume"
       ],
       "note": "Tecapa-Chinameca, Usulután, El Salvador. One of El Salvador's most iconic farms, run by the Baraona family for 130+ years atop the Tecapa volcano; legacy of the late Gilberto Baraona continued by son Diego. Renowned for Pacamara and meticulous CM/auction lots.",
       "flagship": true
@@ -8815,6 +8879,446 @@
       "processId": "pr_natural",
       "year": 2024,
       "name": "Mount Totumas Pacamara Natural"
+    },
+    {
+      "id": "l_injerto_legendarygeisha",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Injerto Legendary Geisha Washed (Pandora)"
+    },
+    {
+      "id": "l_injerto_pacamarapandora",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_pacamara",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Injerto Pacamara Pandora Reserva del Comendador"
+    },
+    {
+      "id": "l_injerto_maragogype",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_maragogipe",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Injerto Maragogype Washed"
+    },
+    {
+      "id": "l_injerto_bourbon",
+      "producerId": "p_elinjerto",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Injerto Bourbon Washed"
+    },
+    {
+      "id": "l_socorro_pacamara_nat",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_pacamara",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Socorro Pacamara Natural"
+    },
+    {
+      "id": "l_socorro_bourbon",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Socorro Bourbon Washed"
+    },
+    {
+      "id": "l_socorro_java",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_java",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Socorro Java Washed"
+    },
+    {
+      "id": "l_socorro_maracaturra",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_maracaturra",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Socorro Maracaturra Natural"
+    },
+    {
+      "id": "l_socorro_laurina",
+      "producerId": "p_elsocorro",
+      "varietyId": "v_laurina",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Socorro Laurina Washed"
+    },
+    {
+      "id": "l_laslajas_almanegra",
+      "producerId": "p_laslajas",
+      "varietyId": "v_caturra",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Las Lajas Alma Negra Caturra Natural"
+    },
+    {
+      "id": "l_laslajas_blackhoney",
+      "producerId": "p_laslajas",
+      "varietyId": "v_caturra",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Las Lajas Black Honey Caturra"
+    },
+    {
+      "id": "l_laslajas_yellowhoney",
+      "producerId": "p_laslajas",
+      "varietyId": "v_catuai",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Las Lajas Yellow Honey Catuaí"
+    },
+    {
+      "id": "l_laslajas_villasarchi",
+      "producerId": "p_laslajas",
+      "varietyId": "v_villa_sarchi",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Las Lajas Villa Sarchí Honey"
+    },
+    {
+      "id": "l_laslajas_bourbon",
+      "producerId": "p_laslajas",
+      "varietyId": "v_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Las Lajas Bourbon Natural"
+    },
+    {
+      "id": "l_cerroazul_sidra",
+      "producerId": "p_cerroazul",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Cerro Azul Sidra Washed"
+    },
+    {
+      "id": "l_cerroazul_caturra",
+      "producerId": "p_cerroazul",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Cerro Azul Caturra Washed"
+    },
+    {
+      "id": "l_cerroazul_bourbon",
+      "producerId": "p_cerroazul",
+      "varietyId": "v_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Cerro Azul Bourbon Natural"
+    },
+    {
+      "id": "l_aquiares_caturra",
+      "producerId": "p_aquiares",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Aquiares Caturra Washed"
+    },
+    {
+      "id": "l_aquiares_marsellesa",
+      "producerId": "p_aquiares",
+      "varietyId": "v_marsellesa",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Aquiares Marsellesa Honey"
+    },
+    {
+      "id": "l_monteblanco_castillo",
+      "producerId": "p_monteblanco",
+      "varietyId": "v_castillo",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Monteblanco Castillo Washed"
+    },
+    {
+      "id": "l_daterra_stardust",
+      "producerId": "p_daterra",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Daterra Stardust Yellow Bourbon (Dried-on-Tree Natural)"
+    },
+    {
+      "id": "l_daterra_sweetyellow",
+      "producerId": "p_daterra",
+      "varietyId": "v_catuai",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Daterra Sweet Yellow Catuaí (Pulped Natural)"
+    },
+    {
+      "id": "l_daterra_blossom",
+      "producerId": "p_daterra",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Daterra Blossom (Natural + Pulped)"
+    },
+    {
+      "id": "l_geshavillage_oma_natural",
+      "producerId": "p_gesha_village",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Gesha Village Oma Gesha 1931 Natural"
+    },
+    {
+      "id": "l_geshavillage_surma_washed",
+      "producerId": "p_gesha_village",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Gesha Village Surma Gesha 1931 Washed"
+    },
+    {
+      "id": "l_geshavillage_gori",
+      "producerId": "p_gesha_village",
+      "varietyId": "v_gori_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Gesha Village Shewa-Jibabu Gori Gesha Natural"
+    },
+    {
+      "id": "l_geshavillage_illubabor_honey",
+      "producerId": "p_gesha_village",
+      "varietyId": "v_illubabor",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Gesha Village Dimma Illubabor Forest Honey"
+    },
+    {
+      "id": "l_geshavillage_illubabor_natural",
+      "producerId": "p_gesha_village",
+      "varietyId": "v_illubabor",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Gesha Village Dimma Illubabor Forest Natural"
+    },
+    {
+      "id": "l_papaya_mejorado_natural",
+      "producerId": "p_juanpena",
+      "varietyId": "v_mejorado",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "La Papaya Typica Mejorado Natural"
+    },
+    {
+      "id": "l_papaya_mejorado_anaerobic",
+      "producerId": "p_juanpena",
+      "varietyId": "v_mejorado",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "La Papaya Typica Mejorado Anaerobic Natural"
+    },
+    {
+      "id": "l_papaya_sidra_natural",
+      "producerId": "p_juanpena",
+      "varietyId": "v_sidra",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "La Papaya Sidra Natural"
+    },
+    {
+      "id": "l_papaya_gesha",
+      "producerId": "p_juanpena",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "La Papaya Gesha Washed"
+    },
+    {
+      "id": "l_pirineos_pacamara_redhoney",
+      "producerId": "p_lospirineos",
+      "varietyId": "v_pacamara",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Los Pirineos Pacamara Red Honey"
+    },
+    {
+      "id": "l_pirineos_pacamara_natural",
+      "producerId": "p_lospirineos",
+      "varietyId": "v_pacamara",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Los Pirineos Pacamara Natural"
+    },
+    {
+      "id": "l_pirineos_elitebourbon",
+      "producerId": "p_lospirineos",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Los Pirineos Elite Bourbon Washed"
+    },
+    {
+      "id": "l_pirineos_gesha",
+      "producerId": "p_lospirineos",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Los Pirineos Gesha Washed"
+    },
+    {
+      "id": "l_pirineos_sudanrume",
+      "producerId": "p_lospirineos",
+      "varietyId": "v_sudan_rume",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Los Pirineos Sudan Rume Natural"
+    },
+    {
+      "id": "l_deborah_natural",
+      "producerId": "p_deborah",
+      "varietyId": "v_gesha",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Finca Deborah Geisha Natural"
+    },
+    {
+      "id": "l_deborah_anaerobic",
+      "producerId": "p_deborah",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Finca Deborah Geisha Dry Anaerobic"
+    },
+    {
+      "id": "l_vergel_pacamara",
+      "producerId": "p_elvergel",
+      "varietyId": "v_pacamara",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Vergel Pacamara Anaerobic"
+    },
+    {
+      "id": "l_vergel_java",
+      "producerId": "p_elvergel",
+      "varietyId": "v_java",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Vergel Java Natural"
+    },
+    {
+      "id": "l_vergel_sidra",
+      "producerId": "p_elvergel",
+      "varietyId": "v_sidra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Vergel Sidra Washed"
+    },
+    {
+      "id": "l_vergel_bourbon_koji",
+      "producerId": "p_elvergel",
+      "varietyId": "v_bourbon",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Vergel Bourbon Koji"
+    },
+    {
+      "id": "l_diviso_gesha",
+      "producerId": "p_ramirez",
+      "varietyId": "v_gesha",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "El Diviso Gesha Double Anaerobic"
+    },
+    {
+      "id": "l_diviso_wush",
+      "producerId": "p_ramirez",
+      "varietyId": "v_wush",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Diviso Wush Wush Natural"
+    },
+    {
+      "id": "l_campohermoso_yellowb",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_yellow_bourbon",
+      "processId": "pr_yeast",
+      "year": 2024,
+      "name": "Edwin Noreña Yellow Bourbon Double Anaerobic"
+    },
+    {
+      "id": "l_campohermoso_gesha",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_gesha",
+      "processId": "pr_yeast",
+      "year": 2024,
+      "name": "Edwin Noreña Gesha Mossto"
+    },
+    {
+      "id": "l_campohermoso_wush",
+      "producerId": "p_campohermoso",
+      "varietyId": "v_wush",
+      "processId": "pr_anaerobic",
+      "year": 2024,
+      "name": "Edwin Noreña Wush Wush Co-Ferment"
+    },
+    {
+      "id": "l_limoncillo_pacamara",
+      "producerId": "p_limoncillo",
+      "varietyId": "v_pacamara",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "El Limoncillo Red Pacamara Natural"
+    },
+    {
+      "id": "l_limoncillo_catuai",
+      "producerId": "p_limoncillo",
+      "varietyId": "v_catuai",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Limoncillo Catuaí Washed"
+    },
+    {
+      "id": "l_limoncillo_bourbon",
+      "producerId": "p_limoncillo",
+      "varietyId": "v_bourbon",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "El Limoncillo Bourbon Honey"
+    },
+    {
+      "id": "l_kii_sl28_aa",
+      "producerId": "p_kii",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kii SL28 AA Washed"
+    },
+    {
+      "id": "l_kii_ruiru",
+      "producerId": "p_kii",
+      "varietyId": "v_ruiru11",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kii Ruiru 11 Washed"
+    },
+    {
+      "id": "l_kainamui_sl28_aa",
+      "producerId": "p_kainamui",
+      "varietyId": "v_sl28",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kainamui SL28 AA Washed"
+    },
+    {
+      "id": "l_kainamui_ruiru",
+      "producerId": "p_kainamui",
+      "varietyId": "v_ruiru11",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Kainamui Ruiru 11 Washed"
     }
   ],
   "seedTastings": [
