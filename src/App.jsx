@@ -76,6 +76,17 @@ export default function CoffeeKB() {
 
   const filtering = query.trim().length > 0 || activeTags.length > 0;
 
+  // notes that actually appear on >=1 item, per view, so the picker can hide dead ones
+  const varietyNoteSet = useMemo(() => new Set(VARIETIES.flatMap(v => v.refNotes || [])), []);
+  const lotNoteSet = useMemo(() => {
+    const s = new Set();
+    for (const l of LOTS) {
+      const notes = (l.notes && l.notes.length) ? l.notes : (varietyById[l.varietyId]?.refNotes || []);
+      notes.forEach(n => s.add(n));
+    }
+    return s;
+  }, [varietyById]);
+
   const filteredVarieties = useMemo(() => {
     const q = normalize(query);
     return VARIETIES.filter(v => {
@@ -91,10 +102,12 @@ export default function CoffeeKB() {
     return LOTS.filter(l => {
       const v = varietyById[l.varietyId], p = farmById[l.producerId];
       const pr = processById[l.processId], reg = p && regionById[p.regionId];
-      const matchQ = !q || [l.name, String(l.year), v && v.name, p && p.name, p && p.people,
+      // a lot's tasting notes: its own (real, from the roaster) if present, else its variety's
+      const lotNotes = (l.notes && l.notes.length) ? l.notes : (v ? v.refNotes : []);
+      const matchQ = !q || [l.name, String(l.year), l.source, v && v.name, p && p.name, p && p.people,
         pr && pr.name, reg && reg.region, reg && reg.country]
-        .some(f => normalize(f).includes(q));
-      const matchTags = activeTags.length === 0 || activeTags.every(t => v.refNotes.includes(t));
+        .some(f => normalize(f).includes(q)) || lotNotes.some(t => normalize(t).includes(q));
+      const matchTags = activeTags.length === 0 || activeTags.every(t => lotNotes.includes(t));
       return matchQ && matchTags;
     });
   }, [query, activeTags, varietyById, farmById, processById, regionById]);
@@ -142,10 +155,11 @@ export default function CoffeeKB() {
           <p style={{ margin: "8px 0 18px", color: "rgba(43,29,20,.6)", fontSize: 15, maxWidth: 560 }}>
             A living reference of specialty varieties, the farms and producers who grow them, and how they taste in the cup.
           </p>
-          <nav style={{ display: "flex", gap: 22 }}>
+          <nav style={{ display: "flex", gap: 22, flexWrap: "wrap", rowGap: 8, alignItems: "center" }}>
             <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
             <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
             <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Sack size={15} />Lots{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
+            <span style={{ flex: 1 }} />
             <button className={`navbtn ${view === "add" ? "on" : ""}`} onClick={() => setView("add")}><Plus size={15} />Add</button>
           </nav>
         </div>
@@ -165,7 +179,7 @@ export default function CoffeeKB() {
               />
             </div>
             {(view === "varieties" || view === "lots") && (
-              <TastingNotePicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} />
+              <TastingNotePicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} liveNotes={view === "lots" ? lotNoteSet : varietyNoteSet} />
             )}
           </div>
         )}
@@ -213,7 +227,19 @@ export default function CoffeeKB() {
                       <span style={{ display: "flex", gap: 5, alignItems: "center" }}><MapPin size={13} color={BEAN} />{p ? p.name : "—"}{reg ? `, ${reg.region}` : ""}</span>
                       <span style={{ display: "flex", gap: 5, alignItems: "center" }}><Beaker size={13} color={BEAN} />{pr.name}</span>
                     </div>
+                    {l.notes && l.notes.length > 0 && (
+                      <div style={{ display: "flex", gap: 5, flexWrap: "wrap", marginTop: 10 }}>
+                        {l.notes.map(t => (
+                          <span key={t} style={{ fontSize: 11, padding: "2px 8px", borderRadius: 999, background: "rgba(232,90,140,.1)", color: PINK }}>{t}</span>
+                        ))}
+                      </div>
+                    )}
                   </div>
+                  {l.source && (
+                    <span className="mono" title={`Documented via ${l.source}`} style={{ fontSize: 10, color: "rgba(43,29,20,.4)", whiteSpace: "nowrap", alignSelf: "flex-start" }}>
+                      via {l.source}
+                    </span>
+                  )}
                 </div>
               );
             })}
@@ -358,10 +384,14 @@ export default function CoffeeKB() {
   );
 }
 
-function TastingNotePicker({ activeTags, toggleTag, clearTags }) {
+function TastingNotePicker({ activeTags, toggleTag, clearTags, liveNotes }) {
   const [openFamily, setOpenFamily] = useState(null);
-  const families = Object.entries(TASTING_NOTES); // [familyName, [notes...]]
+  // only show families/notes that actually match something in the current view
+  const families = Object.entries(TASTING_NOTES)
+    .map(([fam, notes]) => [fam, notes.filter(n => !liveNotes || liveNotes.has(n))])
+    .filter(([, notes]) => notes.length > 0);
   const activeSet = new Set(activeTags);
+  const openNotes = openFamily ? (TASTING_NOTES[openFamily] || []).filter(n => !liveNotes || liveNotes.has(n)) : [];
 
   return (
     <div>
@@ -389,7 +419,7 @@ function TastingNotePicker({ activeTags, toggleTag, clearTags }) {
 
       {openFamily && (
         <div style={{ marginTop: 10, padding: "12px 14px", background: "rgba(43,29,20,.03)", borderRadius: 12, display: "flex", gap: 7, flexWrap: "wrap" }}>
-          {TASTING_NOTES[openFamily].map(n => (
+          {openNotes.map(n => (
             <button key={n} className={`chip ${activeSet.has(n) ? "on" : ""}`} onClick={() => toggleTag(n)}>{n}</button>
           ))}
         </div>
