@@ -530,7 +530,7 @@
       "origin": "Colombia",
       "group": "Bourbon",
       "parents": "Likely Bourbon × Typica selection",
-      "note": "A pink-cherried selection prized in Colombia. Tropical, floral and high-toned acidity.",
+      "note": "A pink-cherried Bourbon selection (its colour the result of crossing red- and yellow-fruited Bourbon) prized in Huila and Nariño, Colombia. Low-yielding and prized by specialty growers for a high-toned, complex cup — tropical fruit, intense florals, and a bright, structured acidity.",
       "refNotes": [
         "floral",
         "tropical fruit",
@@ -545,7 +545,7 @@
       "origin": "Ecuador / Colombia",
       "group": "Bourbon/Typica",
       "parents": "Reported Red Bourbon × Typica",
-      "note": "Ecuadorian-associated selection, increasingly grown in Colombia. Crisp, fruit-clarity-driven.",
+      "note": "An Ecuadorian-associated selection (often linked to Typica/Bourbon parentage and Nestlé varietal work, a sibling of Typica Mejorado) now increasingly grown in Colombia. Sought after for crystalline cup clarity — floral aromatics, layered stone fruit and citrus, and a tea-like delicacy that has made it a competition favourite.",
       "refNotes": [
         "apple",
         "floral",
@@ -560,7 +560,7 @@
       "origin": "Ethiopia (grown in Colombia)",
       "group": "Ethiopian landrace",
       "parents": "Ethiopian landrace",
-      "note": "Named for a region in Ethiopia; now a boutique selection in Colombia. Delicate, floral, juicy.",
+      "note": "Named for the Wush Wush region of southwestern Ethiopia from which the seed stock originates; now a boutique, high-value selection grown in small quantities in Colombia and Central America. Delicate and aromatic — jasmine and tropical florals over juicy stone fruit and a silky body.",
       "refNotes": [
         "floral",
         "berry",
@@ -574,7 +574,7 @@
       "origin": "Kenya",
       "group": "Bourbon",
       "parents": "Bourbon-derived (Scott Labs selection)",
-      "note": "Kenyan benchmark. Blackcurrant and bright phosphoric acidity.",
+      "note": "The benchmark Kenyan cultivar, selected at Scott Agricultural Laboratories in the 1930s from a drought-resistant Tanganyika Bourbon-type. Deep-rooted and well suited to lower, drier zones, it is famously susceptible to leaf rust yet endures for its cup: intense blackcurrant, grapefruit and a bright, structured phosphoric acidity that became the global reference for \"Kenyan\" flavour.",
       "refNotes": [
         "blackcurrant",
         "citrus",
@@ -589,7 +589,7 @@
       "origin": "Kenya",
       "group": "Bourbon/Typica",
       "parents": "Selected at Scott Labs, Kenya",
-      "note": "Performs across altitudes; full body with deep sweetness.",
+      "note": "A Bourbon-Typica-type selection made at Scott Agricultural Laboratories (Scott Labs) in Kenya in the 1930s alongside SL28. More tolerant of higher-altitude, higher-rainfall conditions than SL28 and reliant on deep soils; it gives a full body with deep, syrupy sweetness and the structured citrus-and-blackcurrant acidity that defines the classic Kenyan cup.",
       "refNotes": [
         "dried fruit",
         "sweet",
@@ -603,7 +603,7 @@
       "origin": "Ethiopia (via Yemen)",
       "group": "Typica",
       "parents": "Founding Arabica lineage",
-      "note": "One of two ancestral cultivated lineages. Clean, sweet, classic.",
+      "note": "One of the two foundational Arabica lineages (with Bourbon) from which most cultivated varieties descend — carried from Ethiopia/Yemen to India, Java, and the Americas. Tall, low-yielding and rust-susceptible, but prized for an exceptionally clean, sweet, well-balanced cup with gentle citrus and a classic, refined profile.",
       "refNotes": [
         "sweet",
         "clean",
@@ -721,7 +721,7 @@
       "origin": "Brazil",
       "group": "Typica",
       "parents": "Natural mutation of Typica",
-      "note": "The 'elephant bean' — a giant-seeded Typica mutation from Brazil. Elegant and subtle but low-yielding; a Pacamara parent.",
+      "note": "The 'elephant bean' — a giant-seeded natural mutation of Typica first found near Maragogipe, Bahia, Brazil. Low-yielding but prized for a soft, sweet, elegant, clean cup; a parent of both Pacamara and Maracaturra.",
       "refNotes": [
         "mild",
         "sweet",
@@ -1080,7 +1080,7 @@
       "origin": "Sudan (Boma Plateau)",
       "group": "Wild Sudan-origin",
       "parents": "Wild collection from Sudan (1940s)",
-      "note": "A wild, disease-resistant Sudanese type prized as a breeding parent (in Centroamericano, Ruiru 11 and Batian). On its own it can be strikingly complex, with bright acidity and fruity, floral character.",
+      "note": "A rare wild, disease-resistant Sudanese landrace collected from the Boma Plateau on the Sudan–Ethiopia border, prized as a breeding parent (in Centroamericano, Ruiru 11 and Batian). On its own it can be strikingly complex — intense and syrupy, with bright acidity and fruity, floral character — and is grown in tiny quantities at elite farms.",
       "refNotes": [
         "floral",
         "complex",
@@ -2014,7 +2014,7 @@
       "origin": "El Salvador",
       "group": "Pacamara (Pacas × Maragogipe)",
       "parents": "Pink-fruited Pacamara selection",
-      "note": "A pink-cherry selection of the large-beaned Salvadoran Pacamara, grown at Los Pirineos.",
+      "note": "A pink-cherried selection of Pacamara, the large-beaned Salvadoran cross of Pacas and Maragogipe. Grown in small quantities (notably at Los Pirineos in El Salvador) and valued for combining Pacamara’s big body and structure with delicate floral, stone-fruit and pear-like sweetness.",
       "refNotes": [
         "stone fruit",
         "pear",
@@ -2064,21 +2064,6 @@
         "citrus",
         "berry",
         "complex"
-      ]
-    },
-    {
-      "id": "v_maragogype",
-      "name": "Maragogype",
-      "species": "Arabica",
-      "origin": "Brazil (Bahia)",
-      "group": "Typica mutation (giant bean)",
-      "parents": "Natural Typica mutation",
-      "note": "A natural mutation of Typica producing very large \"elephant\" beans; low-yielding but prized for soft, sweet, clean cups. A parent of Pacamara and Maracaturra.",
-      "refNotes": [
-        "sweet",
-        "floral",
-        "citrus",
-        "balanced"
       ]
     },
     {
@@ -2169,7 +2154,7 @@
       "origin": "Indonesia (Sumatra)",
       "group": "Local Sumatran selection",
       "parents": "Local selection",
-      "note": "A locally named Sumatran Arabica selection grown among Aceh/Gayo smallholdings.",
+      "note": "A locally named Sumatran Arabica selection grown among Aceh and Gayo highland smallholdings. Part of the mixed-variety garden plantings typical of the region, contributing to the herbal, sweet, full-bodied character of Gayo coffees.",
       "refNotes": [
         "herbal",
         "sweet",
@@ -2234,22 +2219,6 @@
         "bergamot",
         "peach",
         "floral"
-      ]
-    },
-    {
-      "id": "v_sudan_rume",
-      "name": "Sudan Rume",
-      "species": "Arabica",
-      "origin": "Sudan (Boma Plateau)",
-      "group": "Wild Ethiopian-adjacent landrace",
-      "parents": "Wild landrace collected on the Sudan–Ethiopia border",
-      "note": "A rare wild landrace collected from the Boma Plateau on the Sudan border, prized as a breeding parent (a parent of the Centroamericano F1 hybrid) and grown in tiny quantities at elite farms for its intense, complex, syrupy cup.",
-      "refNotes": [
-        "tropical fruit",
-        "floral",
-        "stone fruit",
-        "complex",
-        "sweet"
       ]
     }
   ],
@@ -5053,7 +5022,7 @@
         "v_bourbon",
         "v_pacas",
         "v_gesha",
-        "v_sudan_rume"
+        "v_rume_sudan"
       ],
       "note": "Tecapa-Chinameca, Usulután, El Salvador. One of El Salvador's most iconic farms, run by the Baraona family for 130+ years atop the Tecapa volcano; legacy of the late Gilberto Baraona continued by son Diego. Renowned for Pacamara and meticulous CM/auction lots.",
       "flagship": true
@@ -5588,7 +5557,7 @@
         "v_catimor",
         "v_caturra",
         "v_typica",
-        "v_maragogype"
+        "v_maragogipe"
       ],
       "note": "San Pedro Necta, Huehuetenango, Guatemala. Virgilio Martínez farms 6.25 manzanas of mixed varieties; same-day depulping, 24–38h dry ferment, multiple washes, 3.5–6 days on concrete patios. Apricot, red apple, caramel.",
       "flagship": false
@@ -9171,7 +9140,7 @@
     {
       "id": "l_pirineos_sudanrume",
       "producerId": "p_lospirineos",
-      "varietyId": "v_sudan_rume",
+      "varietyId": "v_rume_sudan",
       "processId": "pr_natural",
       "year": 2024,
       "name": "Los Pirineos Sudan Rume Natural"
