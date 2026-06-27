@@ -6000,7 +6000,9 @@
       "blackberry",
       "blackcurrant",
       "boysenberry",
-      "black raspberry"
+      "black raspberry",
+      "cranberry",
+      "red currant"
     ],
     "Stone & orchard fruit": [
       "stone fruit",
@@ -6023,7 +6025,8 @@
       "grapefruit",
       "orange blossom",
       "bergamot",
-      "yuzu"
+      "yuzu",
+      "mandarin"
     ],
     "Tropical fruit": [
       "tropical fruit",
@@ -6035,7 +6038,8 @@
       "papaya",
       "banana",
       "jackfruit",
-      "watermelon"
+      "watermelon",
+      "pomegranate"
     ],
     "Grape & wine": [
       "grape",
@@ -6078,7 +6082,9 @@
       "molasses",
       "toffee",
       "butterscotch",
-      "vanilla"
+      "vanilla",
+      "sugar cane",
+      "maple"
     ],
     "Confectionery": [
       "cherry cola",
@@ -7659,7 +7665,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Alvaro Vargas Chiroso Washed (Flowerchild)"
+      "name": "Alvaro Vargas Chiroso Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_isaacespinoza_sl9",
@@ -7667,7 +7674,8 @@
       "varietyId": "v_sl9",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Isaac Espinoza SL9 / Gesha Inca Washed (Flowerchild)"
+      "name": "Isaac Espinoza SL9 / Gesha Inca Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_nkanda_redbourbon",
@@ -7675,7 +7683,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Nkanda Red Bourbon Washed (Flowerchild)"
+      "name": "Nkanda Red Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_imani_sl34",
@@ -7683,7 +7692,8 @@
       "varietyId": "v_sl34",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Imani AA SL34 Washed (Flowerchild)"
+      "name": "Imani AA SL34 Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_busambo_redbourbon",
@@ -7691,7 +7701,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Busambo Red Bourbon Washed (Flowerchild)"
+      "name": "Busambo Red Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_erickbravo_pinkbourbon",
@@ -7699,7 +7710,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Erick Bravo Pink Bourbon Washed (Flowerchild)"
+      "name": "Erick Bravo Pink Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_astridmedina_gesha",
@@ -7707,7 +7719,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2022,
-      "name": "Astrid Medina Gesha Washed (Flowerchild)"
+      "name": "Astrid Medina Gesha Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_terrazas_lastolas",
@@ -7715,7 +7728,8 @@
       "varietyId": "v_las_tolas",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "Terrazas del Pisque Las Tolas Washed (Flowerchild)"
+      "name": "Terrazas del Pisque Las Tolas Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_terrazas_pacamara",
@@ -7723,7 +7737,8 @@
       "varietyId": "v_pacamara",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Arnaud Causse Pacamara Washed (Flowerchild)"
+      "name": "Arnaud Causse Pacamara Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_terrazas_bourbon",
@@ -7731,7 +7746,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Arnaud Causse Bourbon Washed (Flowerchild)"
+      "name": "Arnaud Causse Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_luiscuellar_pinkbourbon",
@@ -7739,7 +7755,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Luis Cuellar Pink Bourbon Hyper-Light Honey (Flowerchild)"
+      "name": "Luis Cuellar Pink Bourbon Hyper-Light Honey",
+      "source": "Flowerchild"
     },
     {
       "id": "l_luiscuellar_gesha",
@@ -7747,7 +7764,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Robinson & Luis Gesha Washed (Flowerchild)"
+      "name": "Robinson & Luis Gesha Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_albeiroramirez_chiroso",
@@ -7755,7 +7773,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Albeiro Ramirez Chiroso Washed (Flowerchild)"
+      "name": "Albeiro Ramirez Chiroso Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_gorobedessa_washed",
@@ -7763,7 +7782,8 @@
       "varietyId": "v_74110",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Goro Bedessa Washed Landrace (Flowerchild)"
+      "name": "Goro Bedessa Washed Landrace",
+      "source": "Flowerchild"
     },
     {
       "id": "l_joseflores_chiroso",
@@ -7771,7 +7791,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Jose Flores El Silencio Chiroso Washed (Flowerchild)"
+      "name": "Jose Flores El Silencio Chiroso Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_duvancalderon_pinkbourbon",
@@ -7779,7 +7800,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Duvan Calderon Pink Bourbon Oxidation (Flowerchild)"
+      "name": "Duvan Calderon Pink Bourbon Oxidation",
+      "source": "Flowerchild"
     },
     {
       "id": "l_sookoo_washed",
@@ -7787,7 +7809,8 @@
       "varietyId": "v_74112",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Sookoo Tima Washed Landrace (Flowerchild)"
+      "name": "Sookoo Tima Washed Landrace",
+      "source": "Flowerchild"
     },
     {
       "id": "l_telila_washed",
@@ -7795,7 +7818,8 @@
       "varietyId": "v_74112",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Telila Washed 74112 (Flowerchild)"
+      "name": "Telila Washed 74112",
+      "source": "Flowerchild"
     },
     {
       "id": "l_buncho_honey",
@@ -7803,7 +7827,8 @@
       "varietyId": "v_74158",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Buncho Shantawene Honey 74158 (Flowerchild)"
+      "name": "Buncho Shantawene Honey 74158",
+      "source": "Flowerchild"
     },
     {
       "id": "l_oscargarcia_gesha",
@@ -7811,7 +7836,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Oscar Garcia Gesha Washed (Flowerchild)"
+      "name": "Oscar Garcia Gesha Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_brayanjoven_pinkbourbon",
@@ -7819,7 +7845,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Brayan Joven Pink Bourbon Washed (Flowerchild)"
+      "name": "Brayan Joven Pink Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_davidgomez_gesha",
@@ -7827,7 +7854,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "David Ruben Gomez Gesha Washed (Flowerchild)"
+      "name": "David Ruben Gomez Gesha Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_pepejijon_gesha",
@@ -7835,7 +7863,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Pepe Jijon Soledad Gesha Washed (Flowerchild)"
+      "name": "Pepe Jijon Soledad Gesha Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_pepejijon_mejorado",
@@ -7843,7 +7872,8 @@
       "varietyId": "v_mejorado",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Pepe Jijon Soledad Mejorado Washed (Flowerchild)"
+      "name": "Pepe Jijon Soledad Mejorado Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_consuelrubio_sidra",
@@ -7851,7 +7881,8 @@
       "varietyId": "v_sidra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Consuelo Rubio Sidra Washed (Flowerchild)"
+      "name": "Consuelo Rubio Sidra Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_consuelrubio_tabi",
@@ -7859,7 +7890,8 @@
       "varietyId": "v_tabi",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Consuelo Rubio Tabi Washed (Flowerchild)"
+      "name": "Consuelo Rubio Tabi Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_germanpena_pinkbourbon",
@@ -7867,7 +7899,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "German Peña El Roblar Pink Bourbon Washed (Flowerchild)"
+      "name": "German Peña El Roblar Pink Bourbon Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_jhondidier_chiroso",
@@ -7875,7 +7908,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Jhon Didier Villa Flor Chiroso Washed (Flowerchild)"
+      "name": "Jhon Didier Villa Flor Chiroso Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_yesicallanqui_gesha",
@@ -7883,7 +7917,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Yesica Ale Llanqui (Flowerchild)"
+      "name": "Yesica Ale Llanqui",
+      "source": "Flowerchild"
     },
     {
       "id": "l_familiaccapa_typica",
@@ -7891,7 +7926,8 @@
       "varietyId": "v_typica",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Familia Ccapa (Flowerchild)"
+      "name": "Familia Ccapa",
+      "source": "Flowerchild"
     },
     {
       "id": "l_joaquinlipa_bourbon",
@@ -7899,7 +7935,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Joaquin Lipa (Flowerchild)"
+      "name": "Joaquin Lipa",
+      "source": "Flowerchild"
     },
     {
       "id": "l_lisbethmarino_sl9",
@@ -7907,7 +7944,8 @@
       "varietyId": "v_sl9",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Lisbeth Mariño (Flowerchild)"
+      "name": "Lisbeth Mariño",
+      "source": "Flowerchild"
     },
     {
       "id": "l_robertoflores_gesha",
@@ -7915,7 +7953,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Roberto Palomino Flores (Flowerchild)"
+      "name": "Roberto Palomino Flores",
+      "source": "Flowerchild"
     },
     {
       "id": "l_manuelmarlo_gesha",
@@ -7923,7 +7962,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Manuel Marlo (Flowerchild)"
+      "name": "Manuel Marlo",
+      "source": "Flowerchild"
     },
     {
       "id": "l_abelsalinas_mejorado",
@@ -7931,7 +7971,8 @@
       "varietyId": "v_mejorado",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Abel Salinas (Flowerchild)"
+      "name": "Abel Salinas",
+      "source": "Flowerchild"
     },
     {
       "id": "l_migueldota_sidra",
@@ -7939,7 +7980,8 @@
       "varietyId": "v_sidra",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Miguel Dota (Flowerchild)"
+      "name": "Miguel Dota",
+      "source": "Flowerchild"
     },
     {
       "id": "l_carlosmario_pink_bourbon",
@@ -7947,7 +7989,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Carlos Mario (Flowerchild)"
+      "name": "Carlos Mario",
+      "source": "Flowerchild"
     },
     {
       "id": "l_reinel_pink_bourbon",
@@ -7955,7 +7998,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Reinel (Flowerchild)"
+      "name": "Reinel",
+      "source": "Flowerchild"
     },
     {
       "id": "l_victorbonilla_aruzi",
@@ -7963,7 +8007,8 @@
       "varietyId": "v_aruzi",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Victor Bonilla (Flowerchild)"
+      "name": "Victor Bonilla",
+      "source": "Flowerchild"
     },
     {
       "id": "l_sergiocaro_chiroso",
@@ -7971,7 +8016,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Sergio Caro (Flowerchild)"
+      "name": "Sergio Caro",
+      "source": "Flowerchild"
     },
     {
       "id": "l_andresosorio_pink_bourbon",
@@ -7979,7 +8025,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Andrés Felipe Osorio (Flowerchild)"
+      "name": "Andrés Felipe Osorio",
+      "source": "Flowerchild"
     },
     {
       "id": "l_josemartinez_pink_bourbon",
@@ -7987,7 +8034,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "José Martínez (Flowerchild)"
+      "name": "José Martínez",
+      "source": "Flowerchild"
     },
     {
       "id": "l_wilsonalba_pink_bourbon",
@@ -7995,7 +8043,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Wilson Alba (Flowerchild)"
+      "name": "Wilson Alba",
+      "source": "Flowerchild"
     },
     {
       "id": "l_nemesioramos_pink_bourbon",
@@ -8003,7 +8052,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Nemesio Ramos (Flowerchild)"
+      "name": "Nemesio Ramos",
+      "source": "Flowerchild"
     },
     {
       "id": "l_marthacartagena_chiroso",
@@ -8011,7 +8061,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Martha Cartagena (Flowerchild)"
+      "name": "Martha Cartagena",
+      "source": "Flowerchild"
     },
     {
       "id": "l_santiagocaro_chiroso",
@@ -8019,7 +8070,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Santiago Caro (Flowerchild)"
+      "name": "Santiago Caro",
+      "source": "Flowerchild"
     },
     {
       "id": "l_serviobotina_pink_bourbon",
@@ -8027,7 +8079,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Servio Botina (Flowerchild)"
+      "name": "Servio Botina",
+      "source": "Flowerchild"
     },
     {
       "id": "l_gilbertochilito_gesha",
@@ -8035,7 +8088,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Gilberto Chilito (Flowerchild)"
+      "name": "Gilberto Chilito",
+      "source": "Flowerchild"
     },
     {
       "id": "l_victorpineda_chiroso",
@@ -8043,7 +8097,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Victor Pineda (Flowerchild)"
+      "name": "Victor Pineda",
+      "source": "Flowerchild"
     },
     {
       "id": "l_faverninco_gesha",
@@ -8051,7 +8106,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Faver Ninco (Flowerchild)"
+      "name": "Faver Ninco",
+      "source": "Flowerchild"
     },
     {
       "id": "l_jhonbermudez_chiroso",
@@ -8059,7 +8115,8 @@
       "varietyId": "v_chiroso",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Jhon Bermudez (Flowerchild)"
+      "name": "Jhon Bermudez",
+      "source": "Flowerchild"
     },
     {
       "id": "l_julioalberto_pink_bourbon",
@@ -8067,7 +8124,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Julio Alberto (Flowerchild)"
+      "name": "Julio Alberto",
+      "source": "Flowerchild"
     },
     {
       "id": "l_joseever_pink_bourbon",
@@ -8075,7 +8133,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Jose Ever Muñoz (Flowerchild)"
+      "name": "Jose Ever Muñoz",
+      "source": "Flowerchild"
     },
     {
       "id": "l_cerromiraflores_gesha",
@@ -8083,7 +8142,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Cerro Miraflores (Flowerchild)"
+      "name": "Cerro Miraflores",
+      "source": "Flowerchild"
     },
     {
       "id": "l_alirio_pink_bourbon",
@@ -8091,7 +8151,8 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Alirio Muñoz (Flowerchild)"
+      "name": "Alirio Muñoz",
+      "source": "Flowerchild"
     },
     {
       "id": "l_divonino_gesha",
@@ -8099,7 +8160,8 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Divo Niño (Flowerchild)"
+      "name": "Divo Niño",
+      "source": "Flowerchild"
     },
     {
       "id": "l_nimrodpineda_sl28",
@@ -8107,7 +8169,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Nimrod Pineda (Flowerchild)"
+      "name": "Nimrod Pineda",
+      "source": "Flowerchild"
     },
     {
       "id": "l_ruberizaguirre_pacas",
@@ -8115,7 +8178,8 @@
       "varietyId": "v_pacas",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Ruber Izaguirre (Flowerchild)"
+      "name": "Ruber Izaguirre",
+      "source": "Flowerchild"
     },
     {
       "id": "l_rumudamo_74112",
@@ -8123,7 +8187,8 @@
       "varietyId": "v_74112",
       "processId": "pr_anaerobic",
       "year": 2025,
-      "name": "Rumudamo Washing Station (Flowerchild)"
+      "name": "Rumudamo Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_bokusayisa_74112",
@@ -8131,7 +8196,8 @@
       "varietyId": "v_74112",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Boku Sayisa Washing Station (Flowerchild)"
+      "name": "Boku Sayisa Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_udesafora_74112",
@@ -8139,7 +8205,8 @@
       "varietyId": "v_74112",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Udesa Fora Washing Station (Flowerchild)"
+      "name": "Udesa Fora Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_chelbessa_74112",
@@ -8147,7 +8214,8 @@
       "varietyId": "v_74112",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Chelbessa Washing Station (Flowerchild)"
+      "name": "Chelbessa Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_keramo_74158",
@@ -8155,7 +8223,8 @@
       "varietyId": "v_74158",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Keramo Washing Station (Flowerchild)"
+      "name": "Keramo Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_gititu_sl28",
@@ -8163,7 +8232,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Gititu Factory (Flowerchild)"
+      "name": "Gititu Factory",
+      "source": "Flowerchild"
     },
     {
       "id": "l_kathakwa_sl28",
@@ -8171,7 +8241,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Kathakwa Factory (Flowerchild)"
+      "name": "Kathakwa Factory",
+      "source": "Flowerchild"
     },
     {
       "id": "l_kiamugumo_sl28",
@@ -8179,7 +8250,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Kiamugumo Factory (Flowerchild)"
+      "name": "Kiamugumo Factory",
+      "source": "Flowerchild"
     },
     {
       "id": "l_gachatha_sl28",
@@ -8187,7 +8259,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Gachatha Factory (Flowerchild)"
+      "name": "Gachatha Factory",
+      "source": "Flowerchild"
     },
     {
       "id": "l_kayu_sl28",
@@ -8195,7 +8268,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Kayu Factory (Flowerchild)"
+      "name": "Kayu Factory",
+      "source": "Flowerchild"
     },
     {
       "id": "l_gaharo_bourbon",
@@ -8203,7 +8277,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Gaharo Hill (Flowerchild)"
+      "name": "Gaharo Hill",
+      "source": "Flowerchild"
     },
     {
       "id": "l_giku_bourbon",
@@ -8211,7 +8286,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_honey",
       "year": 2025,
-      "name": "Giku Hill (Flowerchild)"
+      "name": "Giku Hill",
+      "source": "Flowerchild"
     },
     {
       "id": "l_ninga_bourbon",
@@ -8219,7 +8295,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Ninga Washing Station (Flowerchild)"
+      "name": "Ninga Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_remera_bourbon",
@@ -8227,7 +8304,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Remera Washing Station (Flowerchild)"
+      "name": "Remera Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_bumba_bourbon",
@@ -8235,7 +8313,8 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Bumba Washing Station (Flowerchild)"
+      "name": "Bumba Washing Station",
+      "source": "Flowerchild"
     },
     {
       "id": "l_cafeticuna_sl28",
@@ -8243,7 +8322,8 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Café Ticuna SL-28 Washed (Flowerchild)"
+      "name": "Café Ticuna SL-28 Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_cafeticuna_caturron",
@@ -8251,7 +8331,8 @@
       "varietyId": "v_caturron",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Café Ticuna Caturrón Washed (Flowerchild)"
+      "name": "Café Ticuna Caturrón Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_ernedis_sidra",
@@ -8259,7 +8340,8 @@
       "varietyId": "v_sidra",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Ernedis Rodriguez Sidra Washed (Flowerchild)"
+      "name": "Ernedis Rodriguez Sidra Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_ernedis_caturra",
@@ -8267,7 +8349,8 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2026,
-      "name": "Ernedis Rodriguez El Paraiso Caturra Washed (Flowerchild)"
+      "name": "Ernedis Rodriguez El Paraiso Caturra Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_juanpena_sidra",
@@ -8275,7 +8358,8 @@
       "varietyId": "v_sidra",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Juan Peña La Papaya Sidra Washed (Flowerchild)"
+      "name": "Juan Peña La Papaya Sidra Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_juanpena_mejorado",
@@ -8283,7 +8367,8 @@
       "varietyId": "v_mejorado",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Juan Peña La Papaya Mejorado Washed (Flowerchild)"
+      "name": "Juan Peña La Papaya Mejorado Washed",
+      "source": "Flowerchild"
     },
     {
       "id": "l_lasalvaje_gesha",
@@ -8291,7 +8376,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "La Salvaje Geisha COE #1 Washed (Offshoot)"
+      "name": "La Salvaje Geisha COE #1 Washed",
+      "source": "Offshoot",
+      "notes": [
+        "mandarin",
+        "raspberry",
+        "nectarine"
+      ]
     },
     {
       "id": "l_lasvirginias_gesha",
@@ -8299,7 +8390,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Las Virginias Geisha Washed (Offshoot)"
+      "name": "Las Virginias Geisha Washed",
+      "source": "Offshoot",
+      "notes": [
+        "plum",
+        "grapefruit",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_plandelhoyo_gesha",
@@ -8307,7 +8404,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Plan del Hoyo Geisha Washed (Offshoot)"
+      "name": "Plan del Hoyo Geisha Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "orange",
+        "peach"
+      ]
     },
     {
       "id": "l_emiliolopez_gesha",
@@ -8315,7 +8418,12 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Emilio Lopez Geisha (Offshoot) (Offshoot)"
+      "name": "Emilio Lopez Geisha",
+      "source": "Offshoot",
+      "notes": [
+        "nutmeg",
+        "chocolate"
+      ]
     },
     {
       "id": "l_bridazul_caturra",
@@ -8323,7 +8431,11 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Bridazul Supernatural (Offshoot)"
+      "name": "Bridazul Supernatural",
+      "source": "Offshoot",
+      "notes": [
+        "chocolate"
+      ]
     },
     {
       "id": "l_henrybonilla_pink_bourbon",
@@ -8331,7 +8443,12 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2025,
-      "name": "Henry Bonilla Pink Bourbon Flor de Jamaica (Offshoot)"
+      "name": "Henry Bonilla Pink Bourbon Flor de Jamaica",
+      "source": "Offshoot",
+      "notes": [
+        "raspberry",
+        "hibiscus"
+      ]
     },
     {
       "id": "l_jhonatangasca_pacamara",
@@ -8339,7 +8456,11 @@
       "varietyId": "v_pacamara",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Jhonatan Gasca Pacamara Thermal Shock (Offshoot)"
+      "name": "Jhonatan Gasca Pacamara Thermal Shock",
+      "source": "Offshoot",
+      "notes": [
+        "dark chocolate"
+      ]
     },
     {
       "id": "l_elencanto_ff_pink_bourbon",
@@ -8347,7 +8468,13 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Encanto Pink Bourbon Washed (Offshoot)"
+      "name": "El Encanto Pink Bourbon Washed",
+      "source": "Offshoot",
+      "notes": [
+        "nectarine",
+        "berry",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_thiagocorsi_gesha",
@@ -8355,7 +8482,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Thiago Corsi Gesha Natural (Offshoot)"
+      "name": "Thiago Corsi Gesha Natural",
+      "source": "Offshoot",
+      "notes": [
+        "tropical fruit",
+        "stone fruit",
+        "cranberry"
+      ]
     },
     {
       "id": "l_santuariosul_gesha",
@@ -8363,7 +8496,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Santuario Sul Geisha Natural (Offshoot)"
+      "name": "Santuario Sul Geisha Natural",
+      "source": "Offshoot",
+      "notes": [
+        "strawberry",
+        "nectarine",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_anasanchez_caturra",
@@ -8371,7 +8510,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Ana Sanchez Washed (Offshoot)"
+      "name": "Ana Sanchez Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "berry",
+        "black tea"
+      ]
     },
     {
       "id": "l_roxanachambi_catuai",
@@ -8379,7 +8524,11 @@
       "varietyId": "v_catuai",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Roxana Chambi San Lorenzo Natural (Offshoot)"
+      "name": "Roxana Chambi San Lorenzo Natural",
+      "source": "Offshoot",
+      "notes": [
+        "prune"
+      ]
     },
     {
       "id": "l_auroramachaca_red_catuai",
@@ -8387,7 +8536,13 @@
       "varietyId": "v_red_catuai",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Aurora Machaca Washed (Offshoot)"
+      "name": "Aurora Machaca Washed",
+      "source": "Offshoot",
+      "notes": [
+        "red currant",
+        "apricot",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_milcumbres_gesha",
@@ -8395,7 +8550,12 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Mil Cumbres Geisha Natural (Offshoot)"
+      "name": "Mil Cumbres Geisha Natural",
+      "source": "Offshoot",
+      "notes": [
+        "orange",
+        "plum"
+      ]
     },
     {
       "id": "l_kokeviolet_ethiopian_landrace",
@@ -8403,7 +8563,11 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Koke Violet Natural (Offshoot)"
+      "name": "Koke Violet Natural",
+      "source": "Offshoot",
+      "notes": [
+        "papaya"
+      ]
     },
     {
       "id": "l_chelle_ethiopian_landrace",
@@ -8411,7 +8575,13 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Chelle Washed (Offshoot)"
+      "name": "Chelle Washed",
+      "source": "Offshoot",
+      "notes": [
+        "jasmine",
+        "nectarine",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_dumerso_ethiopian_landrace",
@@ -8419,7 +8589,12 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Dumerso Washed (Offshoot)"
+      "name": "Dumerso Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apricot",
+        "jasmine"
+      ]
     },
     {
       "id": "l_workasakaro_ethiopian_landrace",
@@ -8427,7 +8602,12 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_carbonic",
       "year": 2024,
-      "name": "Worka Sakaro CM Natural (Offshoot)"
+      "name": "Worka Sakaro CM Natural",
+      "source": "Offshoot",
+      "notes": [
+        "plum",
+        "grape"
+      ]
     },
     {
       "id": "l_gargari_ethiopian_landrace",
@@ -8435,7 +8615,12 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Gargari Amber CM Natural (Offshoot)"
+      "name": "Gargari Amber CM Natural",
+      "source": "Offshoot",
+      "notes": [
+        "nectarine",
+        "jasmine"
+      ]
     },
     {
       "id": "l_hafursa_ethiopian_landrace",
@@ -8443,7 +8628,12 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Hafursa Washed (Offshoot)"
+      "name": "Hafursa Washed",
+      "source": "Offshoot",
+      "notes": [
+        "mandarin",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_nansebo_ethiopian_landrace",
@@ -8451,7 +8641,12 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Nansebo Natural (Offshoot)"
+      "name": "Nansebo Natural",
+      "source": "Offshoot",
+      "notes": [
+        "cherry",
+        "molasses"
+      ]
     },
     {
       "id": "l_sharbomaro_kurume",
@@ -8459,7 +8654,11 @@
       "varietyId": "v_kurume",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Sharbo Maro Washed (Offshoot)"
+      "name": "Sharbo Maro Washed",
+      "source": "Offshoot",
+      "notes": [
+        "peach"
+      ]
     },
     {
       "id": "l_abebecherfo_kurume",
@@ -8467,7 +8666,13 @@
       "varietyId": "v_kurume",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Abebe Cherfo Washed (Offshoot)"
+      "name": "Abebe Cherfo Washed",
+      "source": "Offshoot",
+      "notes": [
+        "orange",
+        "grape",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_karatina_sl28",
@@ -8475,7 +8680,12 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Karatina AB Washed (Offshoot)"
+      "name": "Karatina AB Washed",
+      "source": "Offshoot",
+      "notes": [
+        "berry",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_kagumoini_sl28",
@@ -8483,7 +8693,13 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kagumoini AB Washed (Offshoot)"
+      "name": "Kagumoini AB Washed",
+      "source": "Offshoot",
+      "notes": [
+        "peach",
+        "berry",
+        "caramel"
+      ]
     },
     {
       "id": "l_thageini_sl28",
@@ -8491,7 +8707,12 @@
       "varietyId": "v_sl28",
       "processId": "pr_carbonic",
       "year": 2024,
-      "name": "Thageini Amber CM (Offshoot)"
+      "name": "Thageini Amber CM",
+      "source": "Offshoot",
+      "notes": [
+        "blackberry",
+        "toffee"
+      ]
     },
     {
       "id": "l_kibingo_bourbon",
@@ -8499,7 +8720,13 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kibingo Washed (Offshoot)"
+      "name": "Kibingo Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "blackberry",
+        "molasses"
+      ]
     },
     {
       "id": "l_lospirineos_pinkpacamara",
@@ -8507,7 +8734,13 @@
       "varietyId": "v_pink_pacamara",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Los Pirineos Pink Pacamara Washed (Offshoot)"
+      "name": "Los Pirineos Pink Pacamara Washed",
+      "source": "Offshoot",
+      "notes": [
+        "floral",
+        "tea-like",
+        "orange"
+      ]
     },
     {
       "id": "l_lospirineos_sl28",
@@ -8515,7 +8748,13 @@
       "varietyId": "v_sl28",
       "processId": "pr_carbonic",
       "year": 2024,
-      "name": "Los Pirineos SL28 Diamond CM (Offshoot)"
+      "name": "Los Pirineos SL28 Diamond CM",
+      "source": "Offshoot",
+      "notes": [
+        "floral",
+        "tea-like",
+        "orange"
+      ]
     },
     {
       "id": "l_elkin_striped",
@@ -8523,7 +8762,11 @@
       "varietyId": "v_striped_red_bourbon",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Elkin Guzman Striped Red Bourbon Honey (Offshoot)"
+      "name": "Elkin Guzman Striped Red Bourbon Honey",
+      "source": "Offshoot",
+      "notes": [
+        "grape"
+      ]
     },
     {
       "id": "l_elkin_tabi",
@@ -8531,7 +8774,11 @@
       "varietyId": "v_tabi",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Elkin Guzman Tabi Honey (Offshoot)"
+      "name": "Elkin Guzman Tabi Honey",
+      "source": "Offshoot",
+      "notes": [
+        "grape"
+      ]
     },
     {
       "id": "l_sebramirez_pinkb",
@@ -8539,7 +8786,13 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Sebastian Ramirez Pink Bourbon CM Honey (Offshoot)"
+      "name": "Sebastian Ramirez Pink Bourbon CM Honey",
+      "source": "Offshoot",
+      "notes": [
+        "nectarine",
+        "cardamom",
+        "mint"
+      ]
     },
     {
       "id": "l_sebramirez_sidra",
@@ -8547,7 +8800,13 @@
       "varietyId": "v_sidra",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Sebastian Ramirez Sidra (Offshoot)"
+      "name": "Sebastian Ramirez Sidra",
+      "source": "Offshoot",
+      "notes": [
+        "nectarine",
+        "cardamom",
+        "mint"
+      ]
     },
     {
       "id": "l_nestorlasso_sidra",
@@ -8555,7 +8814,12 @@
       "varietyId": "v_sidra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Nestor Lasso Sidra Double Anaerobic Thermal Shock (Offshoot)"
+      "name": "Nestor Lasso Sidra Double Anaerobic Thermal Shock",
+      "source": "Offshoot",
+      "notes": [
+        "mango",
+        "passionfruit"
+      ]
     },
     {
       "id": "l_nestorlasso_ombligon",
@@ -8563,7 +8827,12 @@
       "varietyId": "v_ombligon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Nestor Lasso Ombligon Thermal Shock (Offshoot)"
+      "name": "Nestor Lasso Ombligon Thermal Shock",
+      "source": "Offshoot",
+      "notes": [
+        "mango",
+        "passionfruit"
+      ]
     },
     {
       "id": "l_yinhui_catimor",
@@ -8571,7 +8840,12 @@
       "varietyId": "v_catimor",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Yinhui Natural (Offshoot)"
+      "name": "Yinhui Natural",
+      "source": "Offshoot",
+      "notes": [
+        "orange",
+        "grape"
+      ]
     },
     {
       "id": "l_cimizhu_catimor",
@@ -8579,7 +8853,11 @@
       "varietyId": "v_catimor",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Cimizhu Anaerobic Natural (Offshoot)"
+      "name": "Cimizhu Anaerobic Natural",
+      "source": "Offshoot",
+      "notes": [
+        "dark chocolate"
+      ]
     },
     {
       "id": "l_xiuyuan_catimor",
@@ -8587,7 +8865,12 @@
       "varietyId": "v_catimor",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Xiuyuan Fruit Candy Anaerobic Natural (Offshoot)"
+      "name": "Xiuyuan Fruit Candy Anaerobic Natural",
+      "source": "Offshoot",
+      "notes": [
+        "orange",
+        "grape"
+      ]
     },
     {
       "id": "l_xingang_catimor",
@@ -8595,7 +8878,12 @@
       "varietyId": "v_catimor",
       "processId": "pr_anaerobic",
       "year": 2023,
-      "name": "Xingang Anaerobic Natural (Offshoot)"
+      "name": "Xingang Anaerobic Natural",
+      "source": "Offshoot",
+      "notes": [
+        "grape",
+        "apricot"
+      ]
     },
     {
       "id": "l_slope_purple_caturra",
@@ -8603,7 +8891,12 @@
       "varietyId": "v_purple_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Slope Purple Caturra K72 Washed (Offshoot)"
+      "name": "Slope Purple Caturra K72 Washed",
+      "source": "Offshoot",
+      "notes": [
+        "orange",
+        "grape"
+      ]
     },
     {
       "id": "l_elhigueron_pink_bourbon",
@@ -8611,7 +8904,12 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Higueron Pink Bourbon Washed (Offshoot)"
+      "name": "El Higueron Pink Bourbon Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "blackberry"
+      ]
     },
     {
       "id": "l_lajoya_narino_caturra",
@@ -8619,7 +8917,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "La Joya Natural (Offshoot)"
+      "name": "La Joya Natural",
+      "source": "Offshoot",
+      "notes": [
+        "pineapple",
+        "raspberry",
+        "apricot"
+      ]
     },
     {
       "id": "l_elpalchimal_castillo",
@@ -8627,7 +8931,8 @@
       "varietyId": "v_castillo",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Palchimal Castillo Washed (Offshoot)"
+      "name": "El Palchimal Castillo Washed",
+      "source": "Offshoot"
     },
     {
       "id": "l_sebastiangomez_caturra",
@@ -8635,7 +8940,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Sebastian Gomez Caturra Washed (Offshoot)"
+      "name": "Sebastian Gomez Caturra Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "nectarine",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_danielcalderon_caturra",
@@ -8643,7 +8954,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Daniel Calderon Natural (Offshoot)"
+      "name": "Daniel Calderon Natural",
+      "source": "Offshoot",
+      "notes": [
+        "raisin",
+        "caramel"
+      ]
     },
     {
       "id": "l_luzhelena_caturra",
@@ -8651,7 +8967,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Luz Helena Caturra Washed (Offshoot)"
+      "name": "Luz Helena Caturra Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "plum",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_elguamo_caturra",
@@ -8659,7 +8981,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "El Guamo Caturra Natural (Offshoot)"
+      "name": "El Guamo Caturra Natural",
+      "source": "Offshoot",
+      "notes": [
+        "apple",
+        "blackberry"
+      ]
     },
     {
       "id": "l_ellimo_san_pacho",
@@ -8667,7 +8994,11 @@
       "varietyId": "v_san_pacho",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "El Limo San Pacho Anaerobic Natural (Offshoot)"
+      "name": "El Limo San Pacho Anaerobic Natural",
+      "source": "Offshoot",
+      "notes": [
+        "dark chocolate"
+      ]
     },
     {
       "id": "l_elpozo_pacamara",
@@ -8675,7 +9006,12 @@
       "varietyId": "v_pacamara",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "El Pozo Pacamara Natural (Offshoot)"
+      "name": "El Pozo Pacamara Natural",
+      "source": "Offshoot",
+      "notes": [
+        "winey",
+        "dark chocolate"
+      ]
     },
     {
       "id": "l_loschorros_gt_caturra",
@@ -8683,7 +9019,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Los Chorros Washed (Offshoot)"
+      "name": "Los Chorros Washed",
+      "source": "Offshoot",
+      "notes": [
+        "apricot",
+        "apple",
+        "caramel"
+      ]
     },
     {
       "id": "l_rogerdominguez_catuai",
@@ -8691,7 +9033,13 @@
       "varietyId": "v_catuai",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Roger Dominguez Catuai Natural (Offshoot)"
+      "name": "Roger Dominguez Catuai Natural",
+      "source": "Offshoot",
+      "notes": [
+        "plum",
+        "orange",
+        "chocolate"
+      ]
     },
     {
       "id": "l_arcila_papayo",
@@ -8699,7 +9047,12 @@
       "varietyId": "v_papayo",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Jairo Arcila Papayo Washed (Offshoot)"
+      "name": "Jairo Arcila Papayo Washed",
+      "source": "Offshoot",
+      "notes": [
+        "mandarin",
+        "nectarine"
+      ]
     },
     {
       "id": "l_harusuke_ethiopian_landrace",
@@ -8707,7 +9060,8 @@
       "varietyId": "v_ethiopian_landrace",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Harusuke Washed (Offshoot)"
+      "name": "Harusuke Washed",
+      "source": "Offshoot"
     },
     {
       "id": "l_barokah_andungsari",
@@ -8715,7 +9069,8 @@
       "varietyId": "v_andungsari",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Barokah Kerinci Anaerobic Natural (Offshoot)"
+      "name": "Barokah Kerinci Anaerobic Natural",
+      "source": "Offshoot"
     },
     {
       "id": "l_asmanarianto_abyssinia",
@@ -8723,7 +9078,11 @@
       "varietyId": "v_abyssinia",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Asman Arianto Natural (Offshoot)"
+      "name": "Asman Arianto Natural",
+      "source": "Offshoot",
+      "notes": [
+        "grapefruit"
+      ]
     },
     {
       "id": "l_asmangayo_ateng",
@@ -8731,7 +9090,13 @@
       "varietyId": "v_ateng",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Asman Gayo Washed (Offshoot)"
+      "name": "Asman Gayo Washed",
+      "source": "Offshoot",
+      "notes": [
+        "grapefruit",
+        "apricot",
+        "black tea"
+      ]
     },
     {
       "id": "l_jayatani_sigararutang",
@@ -8739,7 +9104,11 @@
       "varietyId": "v_sigararutang",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Jaya Tani Anaerobic Natural (Offshoot)"
+      "name": "Jaya Tani Anaerobic Natural",
+      "source": "Offshoot",
+      "notes": [
+        "cherry"
+      ]
     },
     {
       "id": "l_natcha_lot8",
@@ -8747,7 +9116,11 @@
       "varietyId": "v_sigararutang",
       "processId": "pr_carbonic",
       "year": 2025,
-      "name": "Natcha 8 Thermal Shock Red Wine CM (Offshoot)"
+      "name": "Natcha 8 Thermal Shock Red Wine CM",
+      "source": "Offshoot",
+      "notes": [
+        "vanilla"
+      ]
     },
     {
       "id": "l_natcha_lot2",
@@ -8755,7 +9128,11 @@
       "varietyId": "v_catimor",
       "processId": "pr_carbonic",
       "year": 2025,
-      "name": "Natcha Lot 2 CM Natural White Wine Yeast (Offshoot)"
+      "name": "Natcha Lot 2 CM Natural White Wine Yeast",
+      "source": "Offshoot",
+      "notes": [
+        "vanilla"
+      ]
     },
     {
       "id": "l_natcha_lot6",
@@ -8763,7 +9140,11 @@
       "varietyId": "v_catimor",
       "processId": "pr_carbonic",
       "year": 2025,
-      "name": "Natcha Lot 6 CM Natural White Wine Yeast (Offshoot)"
+      "name": "Natcha Lot 6 CM Natural White Wine Yeast",
+      "source": "Offshoot",
+      "notes": [
+        "vanilla"
+      ]
     },
     {
       "id": "l_hachi_okabuto",
@@ -8771,7 +9152,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Hachi Okabuto Gesha Enzyflow (Offshoot)"
+      "name": "Hachi Okabuto Gesha Enzyflow",
+      "source": "Offshoot",
+      "notes": [
+        "floral",
+        "tea-like",
+        "orange"
+      ]
     },
     {
       "id": "l_hachi_noh",
@@ -8779,7 +9166,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Hachi Noh Caturra Symbiotic (Offshoot)"
+      "name": "Hachi Noh Caturra Symbiotic",
+      "source": "Offshoot",
+      "notes": [
+        "floral",
+        "tea-like",
+        "orange"
+      ]
     },
     {
       "id": "l_brim_bamboo",
@@ -8787,7 +9180,12 @@
       "varietyId": "v_catimor",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Brim Forest Bamboo Natural (Offshoot)"
+      "name": "Brim Forest Bamboo Natural",
+      "source": "Offshoot",
+      "notes": [
+        "cinnamon",
+        "lavender"
+      ]
     },
     {
       "id": "l_brim_lavender",
@@ -8795,7 +9193,12 @@
       "varietyId": "v_catimor",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Brim Lavender Co-Ferment (Offshoot)"
+      "name": "Brim Lavender Co-Ferment",
+      "source": "Offshoot",
+      "notes": [
+        "cinnamon",
+        "lavender"
+      ]
     },
     {
       "id": "l_sukequto_washed",
