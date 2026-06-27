@@ -19,8 +19,23 @@ const TASTING_NOTES = data.tastingNotes;
 const LOTS = data.lots;
 
 // ── derived tag sets ────────────────────────────────────────────────────────────
-const ALL_TAGS = [...new Set(Object.values(TASTING_NOTES).flat())].sort();
-const USED_TAGS = [...new Set(VARIETIES.flatMap(v => v.refNotes))].sort();
+
+// ── search normalization ─────────────────────────────────────────────────────────
+// Folds accents and common spelling variants so a search for "geisha" finds
+// "Gesha", "borbon" finds "Bourbon", etc. Applied to both query and target text.
+const SYNONYMS = [
+  [/geisha/g, "gesha"],
+  [/wush ?wush/g, "wush"],
+  [/borbon/g, "bourbon"],
+  [/maragog[iy]pe?/g, "maragogipe"],
+  [/catu?ai/g, "catuai"],
+  [/yirgacheffe?/g, "yirgacheffe"],
+];
+function normalize(s) {
+  let t = (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  for (const [re, to] of SYNONYMS) t = t.replace(re, to);
+  return t;
+}
 
 const PINK = "#E85A8C";
 const BEAN = "#3A5A40";
@@ -45,7 +60,6 @@ export default function CoffeeKB() {
   const [view, setView] = useState("varieties"); // varieties | lots | log
   const [query, setQuery] = useState("");
   const [activeTags, setActiveTags] = useState([]);
-  const [showAllTags, setShowAllTags] = useState(false);
   const [selectedVariety, setSelectedVariety] = useState(null);
   const [selectedFarm, setSelectedFarm] = useState(null);
   const [farmCountry, setFarmCountry] = useState("All");
@@ -60,38 +74,40 @@ export default function CoffeeKB() {
   const toggleTag = (t) =>
     setActiveTags(a => a.includes(t) ? a.filter(x => x !== t) : [...a, t]);
 
+  const filtering = query.trim().length > 0 || activeTags.length > 0;
+
   const filteredVarieties = useMemo(() => {
-    const q = query.toLowerCase();
+    const q = normalize(query);
     return VARIETIES.filter(v => {
       const matchQ = !q || [v.name, v.group, v.note, v.origin, v.species, v.parents]
-        .some(f => (f || "").toLowerCase().includes(q)) || v.refNotes.some(t => t.toLowerCase().includes(q));
+        .some(f => normalize(f).includes(q)) || v.refNotes.some(t => normalize(t).includes(q));
       const matchTags = activeTags.length === 0 || activeTags.every(t => v.refNotes.includes(t));
       return matchQ && matchTags;
     });
   }, [query, activeTags]);
 
   const filteredLots = useMemo(() => {
-    const q = query.toLowerCase();
+    const q = normalize(query);
     return LOTS.filter(l => {
       const v = varietyById[l.varietyId], p = farmById[l.producerId];
       const pr = processById[l.processId], reg = p && regionById[p.regionId];
       const matchQ = !q || [l.name, String(l.year), v && v.name, p && p.name, p && p.people,
         pr && pr.name, reg && reg.region, reg && reg.country]
-        .some(f => (f || "").toLowerCase().includes(q));
+        .some(f => normalize(f).includes(q));
       const matchTags = activeTags.length === 0 || activeTags.every(t => v.refNotes.includes(t));
       return matchQ && matchTags;
     });
   }, [query, activeTags, varietyById, farmById, processById, regionById]);
 
   const filteredFarms = useMemo(() => {
-    const q = query.toLowerCase();
+    const q = normalize(query);
     return FARMS.filter(f => {
       const reg = regionById[f.regionId];
       const byCountry = farmCountry === "All" || (reg && reg.country === farmCountry);
       const byFlagship = !flagshipOnly || f.flagship;
       const grownVarieties = (f.varietyIds || []).map(id => varietyById[id] && varietyById[id].name).filter(Boolean);
       const matchQ = !q || [f.name, f.people, f.note, f.altitude, reg && reg.region, reg && reg.country]
-        .some(field => (field || "").toLowerCase().includes(q)) || grownVarieties.some(n => n.toLowerCase().includes(q));
+        .some(field => normalize(field).includes(q)) || grownVarieties.some(n => normalize(n).includes(q));
       return byCountry && byFlagship && matchQ;
     });
   }, [query, farmCountry, flagshipOnly, regionById, varietyById]);
@@ -127,9 +143,9 @@ export default function CoffeeKB() {
             A living reference of specialty varieties, the farms and producers who grow them, and how they taste in the cup.
           </p>
           <nav style={{ display: "flex", gap: 22 }}>
-            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties</button>
-            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms</button>
-            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Sack size={15} />Lots</button>
+            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
+            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
+            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Sack size={15} />Lots{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
             <button className={`navbtn ${view === "add" ? "on" : ""}`} onClick={() => setView("add")}><Plus size={15} />Add</button>
           </nav>
         </div>
@@ -149,18 +165,7 @@ export default function CoffeeKB() {
               />
             </div>
             {(view === "varieties" || view === "lots") && (
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                <span style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12, color: "rgba(43,29,20,.5)", fontWeight: 600 }}><Filter size={13} /> Tasting notes</span>
-                {(showAllTags ? ALL_TAGS : USED_TAGS).map(t => (
-                  <button key={t} className={`chip ${activeTags.includes(t) ? "on" : ""}`} onClick={() => toggleTag(t)}>{t}</button>
-                ))}
-                <button className="chip" onClick={() => setShowAllTags(s => !s)} style={{ color: BEAN, fontWeight: 600 }}>
-                  {showAllTags ? "fewer −" : `all ${ALL_TAGS.length} +`}
-                </button>
-                {activeTags.length > 0 && (
-                  <button className="chip" onClick={() => setActiveTags([])} style={{ color: PINK, fontWeight: 600 }}>clear ×</button>
-                )}
-              </div>
+              <TastingNotePicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} />
             )}
           </div>
         )}
@@ -186,7 +191,7 @@ export default function CoffeeKB() {
                 </div>
               </div>
             ))}
-            {filteredVarieties.length === 0 && <EmptyState msg="No varieties match those filters. Try clearing a tasting note." />}
+            {filteredVarieties.length === 0 && <EmptyState msg={filtering ? "No varieties match your search." : "No varieties yet."} elsewhere={[{ label: "farms", n: filteredFarms.length, onClick: () => setView("farms") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />}
             </div>
           </div>
         )}
@@ -212,7 +217,7 @@ export default function CoffeeKB() {
                 </div>
               );
             })}
-            {filteredLots.length === 0 && <EmptyState msg="No lots match. Lots link a producer, a variety and a process — add one from your log." />}
+            {filteredLots.length === 0 && <EmptyState msg={filtering ? "No lots match your search." : "No lots yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "farms", n: filteredFarms.length, onClick: () => setView("farms") }]} />}
             </div>
           </div>
         )}
@@ -262,7 +267,7 @@ export default function CoffeeKB() {
                   );
                 })}
               </div>
-              {farms.length === 0 && <EmptyState msg="No farms match. Try a different search term or country." />}
+              {farms.length === 0 && <EmptyState msg={filtering ? "No farms match your search." : "No farms yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />}
             </div>
           );
         })()}
@@ -346,8 +351,68 @@ export default function CoffeeKB() {
   );
 }
 
+function TastingNotePicker({ activeTags, toggleTag, clearTags }) {
+  const [openFamily, setOpenFamily] = useState(null);
+  const families = Object.entries(TASTING_NOTES); // [familyName, [notes...]]
+  const activeSet = new Set(activeTags);
+
+  return (
+    <div>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+        <span style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12, color: "rgba(43,29,20,.5)", fontWeight: 600 }}><Filter size={13} /> Tasting notes</span>
+        {families.map(([fam, notes]) => {
+          const activeInFam = notes.filter(n => activeSet.has(n)).length;
+          const isOpen = openFamily === fam;
+          return (
+            <button
+              key={fam}
+              className={`chip ${activeInFam ? "on" : ""}`}
+              aria-expanded={isOpen}
+              onClick={() => setOpenFamily(isOpen ? null : fam)}
+              style={isOpen && !activeInFam ? { borderColor: PINK, color: PINK } : undefined}
+            >
+              {fam}{activeInFam > 0 && <span style={{ marginLeft: 5, fontWeight: 700 }}>· {activeInFam}</span>}
+            </button>
+          );
+        })}
+        {activeTags.length > 0 && (
+          <button className="chip" onClick={clearTags} style={{ color: PINK, fontWeight: 600 }}>clear all ×</button>
+        )}
+      </div>
+
+      {openFamily && (
+        <div style={{ marginTop: 10, padding: "12px 14px", background: "rgba(43,29,20,.03)", borderRadius: 12, display: "flex", gap: 7, flexWrap: "wrap" }}>
+          {TASTING_NOTES[openFamily].map(n => (
+            <button key={n} className={`chip ${activeSet.has(n) ? "on" : ""}`} onClick={() => toggleTag(n)}>{n}</button>
+          ))}
+        </div>
+      )}
+
+      {activeTags.length > 0 && (
+        <div style={{ marginTop: 10, display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+          <span style={{ fontSize: 12, color: "rgba(43,29,20,.5)" }}>Filtering by:</span>
+          {activeTags.map(t => (
+            <button key={t} className="chip on" onClick={() => toggleTag(t)}>{t} ×</button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Label({ children }) {
   return <span className="mono" style={{ fontSize: 10, letterSpacing: 1.5, color: "rgba(43,29,20,.45)", textTransform: "uppercase", fontWeight: 700 }}>{children}</span>;
+}
+
+function TabCount({ n, active }) {
+  return (
+    <span style={{
+      marginLeft: 6, fontSize: 11, fontWeight: 700, lineHeight: 1,
+      padding: "2px 6px", borderRadius: 999,
+      background: active ? PINK : (n ? "rgba(232,90,140,.12)" : "rgba(43,29,20,.08)"),
+      color: active ? "#fff" : (n ? PINK : "rgba(43,29,20,.4)"),
+    }}>{n}</span>
+  );
 }
 
 function CardFact({ label, value, accent }) {
@@ -396,11 +461,26 @@ function CountLine({ shown, total, noun }) {
   );
 }
 
-function EmptyState({ msg }) {
+function EmptyState({ msg, elsewhere }) {
+  // elsewhere: [{ label, n, onClick }] — other tabs that DO have matches
+  const hits = (elsewhere || []).filter(e => e.n > 0);
   return (
     <div style={{ gridColumn: "1/-1", padding: "48px 24px", textAlign: "center", color: "rgba(43,29,20,.5)", border: "1px dashed rgba(43,29,20,.2)", borderRadius: 14 }}>
       <BookOpen size={28} style={{ opacity: .4 }} />
       <p style={{ marginTop: 10, fontSize: 14 }}>{msg}</p>
+      {hits.length > 0 && (
+        <p style={{ marginTop: 4, fontSize: 14 }}>
+          Found elsewhere:{" "}
+          {hits.map((e, i) => (
+            <React.Fragment key={e.label}>
+              {i > 0 && " · "}
+              <button onClick={e.onClick} style={{ background: "none", border: "none", padding: 0, cursor: "pointer", color: PINK, fontWeight: 600, fontSize: 14 }}>
+                {e.n} {e.label}
+              </button>
+            </React.Fragment>
+          ))}
+        </p>
+      )}
     </div>
   );
 }
