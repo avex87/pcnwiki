@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, Globe } from "lucide-react";
+import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, Flame } from "lucide-react";
 import data from "./data/coffee-data.json";
 import pcnLogo from "./assets/pcn-wiki-logo.png";
 
@@ -627,9 +627,8 @@ function AddContribute() {
         { name: "country", label: "Country of origin", placeholder: "e.g. Ecuador" },
         { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
       ] },
-    { key: "roaster", label: "Add a roaster", icon: Globe,
+    { key: "roaster", label: "Add a roaster", icon: Flame,
       blurb: "A roaster's whole lineup, sourced from their website.",
-      note: "Add your favourite roaster's coffee lineup by simply typing in the roaster's website. Claude will add them if they're unique and not already found on the database.",
       fields: [
         { name: "website", label: "Roaster's website", placeholder: "e.g. flowerchildcoffee.com" },
         { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
@@ -807,31 +806,40 @@ function AddContribute() {
 
 function ContributeForm({ fields, submitLabel, note, onSubmit }) {
   const [vals, setVals] = useState({});
+  const [error, setError] = useState(false);
   const inputStyle = { width: "100%", padding: "9px 12px", borderRadius: 9, border: "1px solid rgba(43,29,20,.15)", fontSize: 14, marginTop: 5, background: "#fff", boxSizing: "border-box" };
-  const set = (n, v) => setVals(s => ({ ...s, [n]: v }));
-  // require at least one substantive field (not just the contributor's name)
-  const hasInput = fields.some(f => f.name !== "contributor" && (vals[f.name] || "").trim());
+  const set = (n, v) => { setVals(s => ({ ...s, [n]: v })); setError(false); };
+  const allFilled = fields.every(f => (vals[f.name] || "").trim());
+  const handleSubmit = () => {
+    if (!allFilled) { setError(true); return; }
+    onSubmit(vals);
+  };
 
   return (
     <div style={{ padding: "4px 18px 20px", borderTop: "1px solid rgba(43,29,20,.08)", display: "grid", gap: 14 }}>
       {note && (
         <p style={{ margin: "10px 0 0", fontSize: 13, lineHeight: 1.55, color: "rgba(43,29,20,.6)" }}>{note}</p>
       )}
-      {fields.map(f => (
-        <div key={f.name}>
-          <Label>{f.label}</Label>
-          <input
-            value={vals[f.name] || ""}
-            onChange={e => set(f.name, e.target.value)}
-            placeholder={f.placeholder}
-            style={inputStyle}
-          />
-        </div>
-      ))}
+      {fields.map(f => {
+        const missing = error && !(vals[f.name] || "").trim();
+        return (
+          <div key={f.name}>
+            <Label>{f.label}</Label>
+            <input
+              value={vals[f.name] || ""}
+              onChange={e => set(f.name, e.target.value)}
+              placeholder={f.placeholder}
+              style={{ ...inputStyle, border: `1px solid ${missing ? PINK : "rgba(43,29,20,.15)"}` }}
+            />
+          </div>
+        );
+      })}
+      {error && (
+        <p style={{ margin: 0, fontSize: 13, color: PINK, fontWeight: 600 }}>Please fill out the form completely before adding to the queue.</p>
+      )}
       <button
-        onClick={() => hasInput && onSubmit(vals)}
-        disabled={!hasInput}
-        style={{ background: hasInput ? ROAST : "rgba(43,29,20,.2)", color: "#fff", border: "none", padding: "11px", borderRadius: 9, fontSize: 15, fontWeight: 600, cursor: hasInput ? "pointer" : "not-allowed", marginTop: 2 }}
+        onClick={handleSubmit}
+        style={{ background: ROAST, color: "#fff", border: "none", padding: "11px", borderRadius: 9, fontSize: 15, fontWeight: 600, cursor: "pointer", marginTop: 2 }}
       >
         Add to queue
       </button>
