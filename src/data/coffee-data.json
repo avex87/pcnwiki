@@ -2237,7 +2237,8 @@
         "v_wush"
       ],
       "note": "Pitalito, Huila. Third-generation family farm turned competition powerhouse through precision fermentation — oxidation, anaerobic steps, cherry lixiviates and thermal shock. Famed for Ombligón and exotic Bourbons (Ají, Rosado).",
-      "flagship": true
+      "notable": "A pioneer of thermal-shock and advanced fermentation, recognised at world barista competitions.",
+      "famous": true
     },
     {
       "id": "p_benitez",
@@ -2253,7 +2254,8 @@
         "v_rume_sudan"
       ],
       "note": "Piendamó, Cauca. Set a Colombian auction record in 2019. On-site microbiology and quality labs, 32+ exotic varietals, multi-stage controlled fermentation. Part of the Varietales Finos project with La Macarena and Las Brisas.",
-      "flagship": true
+      "notable": "Set a Colombian auction record in 2019.",
+      "famous": true
     },
     {
       "id": "p_vergara",
@@ -2269,7 +2271,7 @@
         "v_chiroso"
       ],
       "note": "Pitalito, Huila. Vergara's farm, partnered with the Lassos in the El Diviso venture; an early planter of exotic varietals and extended experimental fermentations.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_arcila",
@@ -2285,7 +2287,7 @@
         "v_papayo"
       ],
       "note": "Quindío. Arcila-family farm known for clean, well-built classic and experimental lots; widely roasted internationally.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_argote",
@@ -2299,7 +2301,7 @@
         "v_pink_bourbon"
       ],
       "note": "Worked on innovative Cauca farms before founding a family farm with partner Luz Ángela; precision thermal-shock and yeast-inoculated fermentation. Competition Ombligón.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_montoya",
@@ -2311,7 +2313,8 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia. Carmen Montoya's Chiroso won the 2014 Colombian Cup of Excellence, putting the variety — and the Caicedo growing community — on the map.",
-      "flagship": false
+      "notable": "Carmen Montoya's Chiroso won the 2014 Colombian Cup of Excellence, putting the variety — and the Caicedo growing community — on the map.",
+      "famous": true
     },
     {
       "id": "p_danche",
@@ -2326,7 +2329,8 @@
         "v_74112"
       ],
       "note": "Worka Chelbessa, Gedeb. SNAP's celebrated Danche site (est. 2019), ceramic fermentation tanks for clarity. Among the most sought-after Yirgacheffe washing stations in the world; washed, natural and experimental lots.",
-      "flagship": true
+      "notable": "SNAP Specialty Coffee’s celebrated Danche site, a benchmark Yirgacheffe-area name.",
+      "famous": true
     },
     {
       "id": "p_chelchele",
@@ -2339,7 +2343,7 @@
         "v_dega"
       ],
       "note": "Banko Chelchele, Gedeb. Built 2021 with 12 fermentation tanks and 250+ raised beds; gathers cherry from ~400 smallholders. Known for explosive, jammy Gedeb cup profiles.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gesha_village",
@@ -2353,7 +2357,8 @@
         "v_illubabor"
       ],
       "note": "Bench Maji, near the Gori Gesha forest where Gesha originated. Large estate planted from local Gesha selections; its annual Gesha Village Auction is a global benchmark.",
-      "flagship": true
+      "notable": "The landmark Ethiopian estate beside the Gori Gesha forest, source of much of the world's Gesha lineage.",
+      "famous": true
     },
     {
       "id": "p_esmeralda",
@@ -2366,7 +2371,8 @@
         "v_laurina"
       ],
       "note": "Boquete. The farm that launched the modern Gesha era at the 2004 Best of Panama. Swept all three categories at the 2025 BoP — a first in 29 years — with coffees from its high-altitude 'Nido' plot.",
-      "flagship": true
+      "notable": "The farm that launched the modern Gesha era at the 2004 Best of Panama.",
+      "famous": true
     },
     {
       "id": "p_elida",
@@ -2379,7 +2385,8 @@
         "v_catuai"
       ],
       "note": "Boquete, on Barú Volcano. A coffee legacy since 1918 across Elida, El Burro and Luito estates; repeated record-breaking Gesha auction prices. Intensely sweet, honey-forward naturals.",
-      "flagship": true
+      "notable": "Repeated record-breaking Gesha auction prices from the Lamastus family.",
+      "famous": true
     },
     {
       "id": "p_ninetyplus",
@@ -2391,7 +2398,8 @@
         "v_gesha"
       ],
       "note": "Volcán (and Ethiopia). Producer-roaster pushing extreme experimental processing; private-auction Geshas have sold for record per-kilo prices in Dubai.",
-      "flagship": false
+      "notable": "Private-auction Geshas have sold for record per-kilo prices.",
+      "famous": true
     },
     {
       "id": "p_deborah",
@@ -2403,7 +2411,7 @@
         "v_gesha"
       ],
       "note": "Volcán, high on Barú. Single-variety Gesha specialist known for delicate, champagne-like, silky cups and meticulous processing.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_pacas",
@@ -2417,7 +2425,7 @@
         "v_bourbon"
       ],
       "note": "Santa Ana, El Salvador. The estate where the Pacas mutation was discovered in 1949; a long lineage of Bourbon, Pacas and Pacamara.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_deborah_hn",
@@ -2435,7 +2443,7 @@
         "v_icatu"
       ],
       "note": "Marcala, Honduras. Third-generation farm noted for sustainable cultivation and a range including Parainema, Icatú, Catuaí, Gesha and Pacamara.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_takesi",
@@ -2448,7 +2456,7 @@
         "v_java"
       ],
       "note": "Yanacachi, Bolivia. Extremely high-altitude estate along an ancient Inca trail; rare, sought-after Bolivian Gesha.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_santa_elisa",
@@ -2463,7 +2471,7 @@
         "v_anacafe14"
       ],
       "note": "Acatenango, Guatemala. High-altitude estate producing high-toned, sweet-tart Gesha and classic Guatemalan profiles.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gatomboya",
@@ -2478,7 +2486,8 @@
         "v_batian"
       ],
       "note": "Nyeri. One of Kenya's most decorated washing stations (Barichu FCS), repeatedly among the world's top-scoring lots. Quintessential blackcurrant-and-citrus Nyeri profile.",
-      "flagship": true
+      "notable": "One of Kenya's most decorated washing stations (Barichu FCS), repeatedly among the world's top-scoring lots.",
+      "famous": true
     },
     {
       "id": "p_kii",
@@ -2493,7 +2502,8 @@
         "v_batian"
       ],
       "note": "Kirinyaga, at the foot of Mt. Kenya (built 1995). One of Rungeto FCS's three factories; complex, clean cups with jasmine, bergamot and stone fruit over a blackcurrant core.",
-      "flagship": true
+      "notable": "One of Kenya's most sought-after factories, a benchmark for SL-28 clarity.",
+      "famous": true
     },
     {
       "id": "p_ndaroini",
@@ -2508,7 +2518,7 @@
         "v_batian"
       ],
       "note": "Mathira, Nyeri. Part of Gikanda Society (with Gichathaini and Kangocho); a benchmark Nyeri washing station sourced direct by several importers.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_daterra",
@@ -2525,7 +2535,8 @@
         "v_obata"
       ],
       "note": "Patrocínio, Cerrado Mineiro. A pioneering sustainability-certified estate with an on-farm experimentation 'Masterpieces' lab; velvet-chocolate to bright-floral profiles via the Penta Process.",
-      "flagship": true
+      "notable": "A pioneering sustainability-certified estate with an on-farm experimentation 'Masterpieces' lab;",
+      "famous": true
     },
     {
       "id": "p_carmo",
@@ -2540,7 +2551,7 @@
         "v_catucai"
       ],
       "note": "Carmo de Minas, Mantiqueira de Minas. An influential producer-exporter network behind many award-winning Brazilian micro-lots; sweet, balanced, chocolate-and-stone-fruit cups.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_laslajas",
@@ -2555,7 +2566,8 @@
         "v_bourbon"
       ],
       "note": "Sabanilla, Central Valley. Organic third-generation micromill that pioneered Costa Rican naturals and honeys — 'Perla Negra', 'Alma Negra', and the yellow/red/black honey spectrum.",
-      "flagship": true
+      "notable": "Organic third-generation micromill that pioneered Costa Rican naturals and honeys — 'Perla Negra', 'Alma Negra', and the.",
+      "famous": true
     },
     {
       "id": "p_coopac",
@@ -2567,7 +2579,7 @@
         "v_bourbon"
       ],
       "note": "Lake Kivu, Western Rwanda. A long-running, Fairtrade-certified cooperative of Bourbon-type smallholders; clean, balanced, attractively fruited cups in the East African style.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kayanza",
@@ -2579,7 +2591,7 @@
         "v_bourbon"
       ],
       "note": "Kayanza, northern Burundi. High-altitude Bourbon delivered to hillside washing stations; bright, juicy, floral lots when free of the region's 'potato defect'.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_qima",
@@ -2591,7 +2603,8 @@
         "v_bourbon"
       ],
       "note": "Haraz and across Yemen. Yemen's largest specialty exporter, working cherry-level with 2,600+ farmers and researching the country's vast heirloom genetics. Deep, winey, dried-fruit and cocoa Mokha character.",
-      "flagship": true
+      "notable": "Yemen's leading specialty exporter and a multiple international award winner.",
+      "famous": true
     },
     {
       "id": "p_klasik",
@@ -2604,7 +2617,7 @@
         "v_java"
       ],
       "note": "Mt. Puntang, West Java. A cooperative reforesting with coffee and turning out clean, delicate lots that counter Indonesia's heavy-earthy reputation.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gayo",
@@ -2619,7 +2632,7 @@
         "v_typica"
       ],
       "note": "Gayo, Aceh, Sumatra. Wet-hulled (Giling Basah) smallholder coffee giving the full-bodied, low-acid, earthy-herbal profile that defines Sumatran Arabica.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_india_estate",
@@ -2634,7 +2647,7 @@
         "v_typica"
       ],
       "note": "Chikmagalur, Karnataka — where coffee first entered India. Shade-grown Arabica with low acidity and sweet, sometimes spicy notes; home of the unusual Monsooned Malabar style.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nueva_linda",
@@ -2648,7 +2661,8 @@
         "v_caturra"
       ],
       "note": "Chiapas, Mexico. A 'legendary producer' family farm; clean, sweet, balanced highland cups from classic varieties.",
-      "flagship": false
+      "notable": "A 'legendary producer' family farm;",
+      "famous": true
     },
     {
       "id": "p_cajamarca",
@@ -2662,7 +2676,7 @@
         "v_catimor"
       ],
       "note": "Cajamarca, northern Peru. High-altitude smallholder and cooperative coffee, increasingly organic and specialty-graded; sweet, mild, citric profiles.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_zouzhou",
@@ -2676,7 +2690,8 @@
         "v_sl34"
       ],
       "note": "Lalauya, Alishan. Taiwan's most famous farm, run by an indigenous Tsou family; multiple 'Best of Taiwan' wins and record auction prices. Home of the So'ngna variety, discovered here. Natural Gesha with mango purée, rose and sugarcane.",
-      "flagship": true
+      "notable": "Taiwan's most famous farm, run by an indigenous Tsou family;",
+      "famous": true
     },
     {
       "id": "p_jinglong",
@@ -2688,7 +2703,7 @@
         "v_gesha"
       ],
       "note": "Alishan, Chiayi (est. 2021). A tea-family farm turned to coffee; CO₂-infused anaerobic-washed Gesha showcasing Taiwan's experimental edge.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_songyue",
@@ -2701,7 +2716,8 @@
         "v_gesha"
       ],
       "note": "Caoling, Gukeng — 'Taiwan's coffee capital'. Gold-award estate experimenting with grafting coffee onto native shrubs for climate resilience; record auction prices.",
-      "flagship": false
+      "notable": "Known for record Taiwanese auction prices.",
+      "famous": true
     },
     {
       "id": "p_lujiangba",
@@ -2716,7 +2732,8 @@
         "v_gesha"
       ],
       "note": "Lujiangba valley, Baoshan — the cradle of Chinese Arabica, with century-old Typica and Bourbon trees. Volcanic soils and föhn winds; increasingly experimental Geisha and red-wine naturals.",
-      "flagship": true
+      "notable": "The cradle of Chinese Arabica, with century-old Typica and Bourbon trees.",
+      "famous": true
     },
     {
       "id": "p_puer",
@@ -2729,7 +2746,7 @@
         "v_typica"
       ],
       "note": "Pu'er, Yunnan — the powerhouse of Chinese coffee, famed for tea, now a full coffee ecosystem of research, trade and rising specialty lots.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_doichang",
@@ -2743,7 +2760,7 @@
         "v_typica"
       ],
       "note": "Doi Chang, Chiang Rai. A flagship Thai origin grown by Akha and Lisu communities; clean, sweet, chocolate-and-citrus highland Arabica that put Thai coffee on the specialty map.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sigri",
@@ -2757,7 +2774,8 @@
         "v_bourbon"
       ],
       "note": "Wahgi Valley, Western Highlands (est. 1950s). One of PNG's most renowned estates, growing Jamaica-derived Blue Mountain Typica and Arusha; clean, balanced, fruit-and-chocolate cups with a syrupy body.",
-      "flagship": true
+      "notable": "One of PNG's most renowned estates, growing Jamaica-derived Blue Mountain Typica and Arusha;",
+      "famous": true
     },
     {
       "id": "p_kilimanjaro",
@@ -2773,7 +2791,7 @@
         "v_bourbon"
       ],
       "note": "Slopes of Kilimanjaro and the southern Mbeya highlands. N39, K7, Kent and Arusha from smallholders; bright, winey, blackcurrant-leaning cups and the prized Tanzania Peaberry.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sipi",
@@ -2786,7 +2804,7 @@
         "v_typica"
       ],
       "note": "Mt. Elgon, eastern Uganda. Though Uganda is mostly Robusta, the Bugisu Arabica from around Sipi Falls is clean, bright and fruity — the country's specialty highlight.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kona",
@@ -2798,7 +2816,8 @@
         "v_typica"
       ],
       "note": "Slopes of Hualālai and Mauna Loa, Big Island. 'Kona Typica' grown since 1825; famously smooth, sweet, low-acid and balanced — a benchmark of gentle, clean cup character.",
-      "flagship": true
+      "notable": "Hawaii's iconic estate-grown origin, among the most recognised coffees in the world.",
+      "famous": true
     },
     {
       "id": "p_blue_mtn",
@@ -2810,7 +2829,8 @@
         "v_typica"
       ],
       "note": "Blue Mountains, eastern Jamaica. One of the world's most recognised and protected origins (Blue Mountain Typica); smooth, balanced, sweet and richly mild, with understated acidity.",
-      "flagship": true
+      "notable": "One of the world's most recognised and protected origins (Blue Mountain Typica);",
+      "famous": true
     },
     {
       "id": "p_myliberica",
@@ -2822,7 +2842,8 @@
         "v_liberica"
       ],
       "note": "Johor, Malaysia. A pioneering specialty-Liberica producer-roaster elevating a once-overlooked species; jackfruit, floral and smoky-woody character. Used by a WBC finalist in 2021.",
-      "flagship": false
+      "notable": "A pioneering specialty-Liberica producer-roaster elevating a once-overlooked species;",
+      "famous": true
     },
     {
       "id": "p_labohemia",
@@ -2837,7 +2858,8 @@
         "v_colombia"
       ],
       "note": "Nariño. Won 1st place in the 2022 Colombia Cup of Excellence (washed Gesha, ~90.6) and placed again in 2023. The family rebuilt depleted land over decades, moving from Caturra to Colombia (for rust) and planting Gesha in 2019.",
-      "flagship": true
+      "notable": "Won 1st place in the 2022 Colombia Cup of Excellence (washed Gesha, ~90.6) and placed again in 2023.",
+      "famous": true
     },
     {
       "id": "p_elvergel",
@@ -2856,7 +2878,8 @@
         "v_bourbon"
       ],
       "note": "Líbano, Tolima. An internationally roasted experimental-processing estate (Vergel Estate / Forest Coffee) known for co-fermentation and exotic-fruit-forward lots; a fixture in modern Colombian specialty and competition circuits.",
-      "flagship": true
+      "notable": "The Bayter family's Tolima estate, a pioneer of koji and cascara fermentation feeding world competitors.",
+      "famous": true
     },
     {
       "id": "p_lapalma",
@@ -2872,7 +2895,8 @@
         "v_caturra"
       ],
       "note": "Zipacón, Cundinamarca. An avant-garde estate famous for its Neighbours & Crops model and pioneering controlled-fermentation lots; a frequent presence in barista-championship sourcing and high-end auctions.",
-      "flagship": true
+      "notable": "An avant-garde estate famous for its Neighbours & Crops model and pioneering controlled-fermentation lots;",
+      "famous": true
     },
     {
       "id": "p_cerroazul",
@@ -2887,7 +2911,8 @@
         "v_bourbon"
       ],
       "note": "Trujillo, Valle del Cauca. The elite Geisha site of the historic Granja La Esperanza group, whose Cerro Azul Geisha is one of Colombia’s most awarded and sought-after competition coffees worldwide.",
-      "flagship": true
+      "notable": "The elite Geisha site of the historic Granja La Esperanza group, whose Cerro Azul Geisha is one of Colombia’s most awarded and.",
+      "famous": true
     },
     {
       "id": "p_sanalberto",
@@ -2901,7 +2926,8 @@
         "v_colombia"
       ],
       "note": "Buenavista, Quindío. A premium estate brand known for a triple-selection of the cherry and multiple national quality awards; one of Colombia’s best-known specialty marques.",
-      "flagship": false
+      "notable": "One of Colombia’s best-known specialty marques.",
+      "famous": true
     },
     {
       "id": "p_elzafiro",
@@ -2916,7 +2942,7 @@
         "v_caturra"
       ],
       "note": "Popayán, Cauca. A high-altitude, volcanic-soil farm respected for clean, exotic competition-grade lots and experimental fermentations.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_inmaculada",
@@ -2931,7 +2957,7 @@
         "v_bourbon"
       ],
       "note": "Cauca / Valle. A large, internationally recognised producer-exporter combining estate production with smallholder partnerships; a long-standing specialty and competition supplier.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sophia",
@@ -2944,7 +2970,8 @@
         "v_catuai"
       ],
       "note": "Nueva Suiza, Volcán, near Cerro Punta — one of the highest farms in Panama (>2,000 m). Founded 2008 as an experimental high-altitude Geisha farm; multiple Best of Panama wins incl. 1st place Washed Geisha (2017, 2020). Famed for extreme-altitude clarity and florality.",
-      "flagship": true
+      "notable": "Multiple Best of Panama wins for its high-altitude Gesha.",
+      "famous": true
     },
     {
       "id": "p_hartmann",
@@ -2959,7 +2986,8 @@
         "v_caturra"
       ],
       "note": "Santa Clara, near the Parque Internacional La Amistad. A multi-generational, biodiversity-focused estate; consistent Best of Panama performer and source of the celebrated Black Jaguar Geisha (2022 BoP winner).",
-      "flagship": true
+      "notable": "Consistent Best of Panama performer and source of the celebrated Black Jaguar Geisha (2022 BoP winner).",
+      "famous": true
     },
     {
       "id": "p_carmen",
@@ -2973,7 +3001,8 @@
         "v_caturra"
       ],
       "note": "Paso Ancho, Volcán. Over 50 years of coffee-growing; a premier Geisha estate with repeated Best of Panama podiums (incl. 2nd place Geisha Natural 2024 for Carmen Geisha Especial Natural).",
-      "flagship": false
+      "notable": "A premier Geisha estate with repeated Best of Panama podiums.",
+      "famous": true
     },
     {
       "id": "p_janson",
@@ -2988,7 +3017,8 @@
         "v_pacamara"
       ],
       "note": "Volcán/Tisingal slopes. Founded 1941; solar-powered, pesticide-free estate now run by the fourth generation. A regular Best of Panama and World Brewers Cup name; Janson Geisha is widely exported.",
-      "flagship": false
+      "notable": "A regular Best of Panama and World Brewers Cup name;",
+      "famous": true
     },
     {
       "id": "p_lamula",
@@ -3000,7 +3030,8 @@
         "v_gesha"
       ],
       "note": "Boquete. Willem Boot’s single-variety Geisha farm; a recurring top-scoring Best of Panama lot known for intense, perfumed high-altitude Geisha.",
-      "flagship": false
+      "notable": "A recurring top-scoring Best of Panama lot known for intense, perfumed high-altitude Geisha.",
+      "famous": true
     },
     {
       "id": "p_auromar",
@@ -3013,7 +3044,8 @@
         "v_catuai"
       ],
       "note": "Nueva Suiza, Volcán (est. 2008). A high-elevation estate producing washed, natural and experimental Geisha, plus the local Guayabita; a consistent BoP and auction presence.",
-      "flagship": false
+      "notable": "A consistent BoP and auction presence.",
+      "famous": true
     },
     {
       "id": "p_donpepe",
@@ -3028,7 +3060,7 @@
         "v_typica"
       ],
       "note": "Volcán Barú foothills. Opened 1898 — the oldest coffee farm in the region and the first in Panama to specialise in coffee; now a fifth-generation Geisha producer across natural, honey and washed.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_lerida",
@@ -3044,7 +3076,7 @@
         "v_pacamara"
       ],
       "note": "Boquete (est. 1924). Exported the first-ever shipment of Panamanian coffee (to Germany, 1929). A historic 900-acre estate growing Geisha and classic varieties; a long-standing specialty name.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_blackmoon",
@@ -3057,7 +3089,8 @@
         "v_chiroso"
       ],
       "note": "Volcán. A regenerative-farming estate; won the Best of Panama 2024 Varietals category with its Black Moon Constellation Chiroso lot, and continues to place with Geisha.",
-      "flagship": false
+      "notable": "Won the Best of Panama 2024 Varietals category with its Black Moon Constellation Chiroso lot, and continues to place with Geisha.",
+      "famous": true
     },
     {
       "id": "p_adaura",
@@ -3069,7 +3102,8 @@
         "v_gesha"
       ],
       "note": "Boquete. Took 1st place Washed Geisha at Best of Panama 2024 with the Kaizen lot (also a 2024 auction record near US0,002/kg). A rising precision-processing producer.",
-      "flagship": true
+      "notable": "Took 1st place Washed Geisha at Best of Panama 2024 with the Kaizen lot (also a 2024 auction record near US0,002/kg).",
+      "famous": true
     },
     {
       "id": "p_altieri",
@@ -3081,7 +3115,8 @@
         "v_gesha"
       ],
       "note": "Volcán. A newer estate making a name at Best of Panama (e.g. 3rd place Geisha Natural 2024 with the Satori DFC lot); innovative processing.",
-      "flagship": false
+      "notable": "A newer estate making a name at Best of Panama.",
+      "famous": true
     },
     {
       "id": "p_mounttotumas",
@@ -3097,7 +3132,8 @@
         "v_pacamara"
       ],
       "note": "Tierras Altas (west of Volcán toward Santa Clara), Chiriquí, Panama — a 140-ha private cloud-forest reserve and off-grid eco-lodge bordering La Amistad International Park, just kilometres from the Costa Rican border. Founded in 2008 by brothers Jeff and Michael Dietrich, who reforested 30 ha of former cow pasture with native shade trees; mentored by the Hartmann family, they planted their first 500 Geisha trees in 2014 and now tend ~10,000 trees. Coffee is led by Jeff's daughter Karin de la Rosa under an ecology-first, biodiversity-driven philosophy. Won 1st place Geisha Natural at Best of Panama 2023 (96.25 pts, ~US$2,504/kg) and placed 6th in 2024. Washed, natural and experimental lots.",
-      "flagship": true
+      "notable": "Won 1st place Geisha Natural at Best of Panama 2023 (96.25 pts, ~US$2,504/kg) and placed 6th in 2024.",
+      "famous": true
     },
     {
       "id": "p_nuguo",
@@ -3112,7 +3148,8 @@
         "v_typica"
       ],
       "note": "Jurutungo, Renacimiento, Chiriquí, Panama — nestled against La Amistad International Park (Central America's largest rainforest reserve) on the Costa Rican border. Café Gallardo began when José Gallardo's father planted coffee in the region in 1960; in 2006 José \"Pocho\" Gallardo Araúz (who holds a PhD in civil engineering and applies it to processing and drying) saw Finca Nuguo's potential and planted Geisha. Nuguo's cold nights, high wind and heavy rainfall give low yields but intense flavour. José was the 2021 Best of Panama overall winner and a repeat placer; the family runs lower-altitude farms (La Santa, Zambrano, Guisado, Santa Clara) in traditional varieties, with Nuguo as the flagship Geisha. Washed, natural and long-fermented lots, micro-separated by day and plot, dried 3–6 weeks on covered raised beds.",
-      "flagship": true
+      "notable": "José was the 2021 Best of Panama overall winner and a repeat placer;",
+      "famous": true
     },
     {
       "id": "p_elinjerto",
@@ -3129,7 +3166,8 @@
         "v_caturra"
       ],
       "note": "La Libertad, Huehuetenango. Coffee since ~1900, run by the 3rd/4th-generation Aguirre family. One of Central America’s most decorated farms with eight Cup of Excellence wins; first Guatemalan farm to earn Carbon Neutral certification (2017). Famous Pacamara and Gesha micro-lots.",
-      "flagship": true
+      "notable": "One of Central America’s most decorated farms with eight Cup of Excellence wins;",
+      "famous": true
     },
     {
       "id": "p_elsocorro",
@@ -3149,7 +3187,8 @@
         "v_yellow_bourbon"
       ],
       "note": "Palencia, near Antigua. 19th-century roots; the 3rd-generation De La Cerda family transformed it into a CoE powerhouse with multiple 1st-place Cup of Excellence wins. Renowned Gesha and exotic varietals across diverse microclimates.",
-      "flagship": true
+      "notable": "The De La Cerda family built it into a CoE powerhouse with multiple 1st-place Cup of Excellence wins.",
+      "famous": true
     },
     {
       "id": "p_bellavista",
@@ -3164,7 +3203,8 @@
         "v_pacamara"
       ],
       "note": "Antigua. Over a century of Zelaya-family heritage; 4th-generation agronomist Luis Pedro Zelaya manages farm-to-export traceability. Multiple Cup of Excellence and Genuine Antigua-certified micro-lots; the Bella Vista mill is a regional benchmark.",
-      "flagship": true
+      "notable": "Multiple Cup of Excellence and Genuine Antigua-certified micro-lots;",
+      "famous": true
     },
     {
       "id": "p_labolsa",
@@ -3179,7 +3219,8 @@
         "v_pacamara"
       ],
       "note": "La Libertad, Huehuetenango (~1,300–1,600 m). A 108-ha estate founded 1958 by Dr Jorge Vides and now run by his daughter María Elena Vides and grandson Renardo \"Nayo\" Ovalle under the \"Vides 58\" name. A Cup of Excellence farm (2002) and one of Guatemala's most recognised specialty families, known for community programs and a quality-first ethos.",
-      "flagship": false
+      "notable": "A Cup of Excellence farm (2002) and one of Guatemala's most recognised specialty families, known for community programs and a.",
+      "famous": true
     },
     {
       "id": "p_huixoc",
@@ -3193,7 +3234,7 @@
         "v_typica"
       ],
       "note": "San Pedro Necta, Huehuetenango. A historic hacienda (founded 1911) with full on-site milling; one of the consistently top Huehue coffees, often ranked beside El Injerto.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_filadelfia",
@@ -3208,7 +3249,7 @@
         "v_catuai"
       ],
       "note": "Antigua (coffee since 1870). A historic Antigua estate with Genuine Antigua certification; classic chocolate-and-spice Antigua cup, plus tourism and on-site processing.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_santafelisa",
@@ -3224,7 +3265,7 @@
         "v_villa_sarchi"
       ],
       "note": "Acatenango. A research-minded estate experimenting widely with varietals and processing (incl. Gesha, Pacamara, anaerobic and natural lots); a recurring competition and direct-trade name.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_donmayo",
@@ -3238,7 +3279,8 @@
         "v_villa_sarchi"
       ],
       "note": "León Cortés / Tarrazú. Founded 2003 by Héctor Bonilla Cruz and his sons — one of Costa Rica's oldest and most respected micromills and a pioneer of the farm-to-mill micromill movement. Processes the family's own farms (La Loma, La Ladera, Bella Vista) plus neighbours' cherry; first place in the Costa Rica Cup of Excellence in 2009 and 2020.",
-      "flagship": true
+      "notable": "Founded 2003 by Héctor Bonilla Cruz and his sons — one of Costa Rica's oldest and most respected micromills and a pioneer of the.",
+      "famous": true
     },
     {
       "id": "p_volcanazul",
@@ -3252,7 +3294,8 @@
         "v_villa_sarchi"
       ],
       "note": "West Valley. A fifth-generation farm known for extended anaerobic fermentations and a repeat Cup of Excellence placer (e.g. CoE #2, 2017; later top-ranked anaerobic lots).",
-      "flagship": false
+      "notable": "A fifth-generation farm and repeat Cup of Excellence placer, known for extended anaerobic ferments.",
+      "famous": true
     },
     {
       "id": "p_lasnubes_cr",
@@ -3265,7 +3308,8 @@
         "v_caturra"
       ],
       "note": "Los Santos. Took 1st place Honey/Natural at the 2026 Costa Rica Cup of Excellence with a Geisha (91.06), processed at the Roger Ureña Hidalgo mill.",
-      "flagship": false
+      "notable": "Took 1st place Honey/Natural at the 2026 Costa Rica Cup of Excellence with a Geisha (91.06), processed at the Roger Ureña Hidalgo mill.",
+      "famous": true
     },
     {
       "id": "p_aquiares",
@@ -3281,7 +3325,8 @@
         "v_centroamericano"
       ],
       "note": "Turrialba, founded 1890 — Costa Rica's largest and one of its oldest estates (~924 ha, an 1,800-person community), carbon-neutral and a Rainforest Alliance pioneer. Managed by Diego Robelo, who has driven varietal innovation (WCR trials) and is one of the few growing the rare F1 hybrids Esperanza and Centroamericano at commercial scale.",
-      "flagship": true
+      "notable": "Turrialba, founded 1890 — Costa Rica's largest and one of its oldest estates (~924 ha, an 1,800-person community), carbon-neutral and a.",
+      "famous": true
     },
     {
       "id": "p_santarosa_sv",
@@ -3294,7 +3339,8 @@
         "v_bourbon"
       ],
       "note": "Chalatenango. Founded 1979; shifted from pine to Pacamara in 2003. Won the 2019 El Salvador Cup of Excellence (honey Pacamara, 90.57) — a posthumous victory that lifted Chalatenango's coffee scene.",
-      "flagship": true
+      "notable": "Won the 2019 El Salvador Cup of Excellence (honey Pacamara, 90.57) — a posthumous victory that lifted Chalatenango's coffee scene.",
+      "famous": true
     },
     {
       "id": "p_lapacaya_sv",
@@ -3308,7 +3354,8 @@
         "v_pacamara"
       ],
       "note": "Apaneca-Ilamatepec. Geisha from seeds acquired in Panama in 2013; multiple CoE awards including 1st place 2025 for a natural Geisha.",
-      "flagship": true
+      "notable": "Multiple CoE awards including 1st place 2025 for a natural Geisha.",
+      "famous": true
     },
     {
       "id": "p_lailusion_sv",
@@ -3322,7 +3369,8 @@
         "v_pacamara"
       ],
       "note": "Apaneca-Ilamatepec. The Menéndez family's multiple-CoE-winning farms; their SL28 from Las Brumas fuelled a World Barista Championship win (Dale Harris, 2017).",
-      "flagship": false
+      "notable": "The Menéndez family's multiple-CoE-winning farms;",
+      "famous": true
     },
     {
       "id": "p_elcarmen_sv",
@@ -3335,7 +3383,7 @@
         "v_pacamara"
       ],
       "note": "Ataco, Apaneca-Ilamatepec, El Salvador (~1,300 m). Owned by the Alfaro family for over a century and now run by Fernando Alfaro, the fourth generation; founded mid-19th century by Antonio José Alfaro. Meticulous lot separation — Red, Orange and Pink Bourbon picked and processed separately — with sun-drying on clay patios.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_lasalsa",
@@ -3349,7 +3397,8 @@
         "v_catuai"
       ],
       "note": "Santa Bárbara (planted 2018). A five-time Cup of Excellence winner (incl. two 1st places) and a mentorship hub — Benjamin Paz shares seeds and fermentation know-how, lifting many Santa Bárbara producers to auction.",
-      "flagship": true
+      "notable": "A five-time Cup of Excellence winner.",
+      "famous": true
     },
     {
       "id": "p_karmel",
@@ -3363,7 +3412,8 @@
         "v_pacas"
       ],
       "note": "San Luis Planes, Santa Bárbara. A family farm ('Garden of God') that took 3rd place in the Cup of Excellence; balanced, honey-and-stone-fruit cups.",
-      "flagship": false
+      "notable": "A family farm ('Garden of God') that took 3rd place in the Cup of Excellence;",
+      "famous": true
     },
     {
       "id": "p_santalucia_hn",
@@ -3377,7 +3427,8 @@
         "v_bourbon"
       ],
       "note": "Comayagua. Won the 2019 Honduras Cup of Excellence with a washed Geisha (94.84); part of the renowned Mierisch family's multi-country specialty operation.",
-      "flagship": false
+      "notable": "Won the 2019 Honduras Cup of Excellence with a washed Geisha (94.84);",
+      "famous": true
     },
     {
       "id": "p_santaines",
@@ -3391,7 +3442,8 @@
         "v_catuai"
       ],
       "note": "Carmo de Minas, Mantiqueira. A historic, repeatedly CoE-winning estate famed for Yellow Bourbon; one of Brazil's benchmark fine-cup farms.",
-      "flagship": true
+      "notable": "A historic, repeatedly CoE-winning estate famed for Yellow Bourbon;",
+      "famous": true
     },
     {
       "id": "p_riobrilhante",
@@ -3405,7 +3457,8 @@
         "v_gesha"
       ],
       "note": "Mantiqueira de Minas. A 19th-century estate and CoE competitor; its Geisha won the Experimental category at Cup of Excellence Brazil 2025.",
-      "flagship": false
+      "notable": "A 19th-century estate and CoE competitor;",
+      "famous": true
     },
     {
       "id": "p_samambaia",
@@ -3419,7 +3472,7 @@
         "v_catuai"
       ],
       "note": "Santo Antônio do Amparo, Sul de Minas. A long-respected estate and frequent competition name; clean, sweet, chocolate-and-nut Sul de Minas profiles.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_alasitas",
@@ -3433,7 +3486,8 @@
         "v_java"
       ],
       "note": "Caranavi. Part of the Rodríguez family's Sol de la Mañana program; their Geisha micro-lots are among Bolivia's highest-scoring and most awarded.",
-      "flagship": true
+      "notable": "A celebrated high-altitude Bolivian micro-estate.",
+      "famous": true
     },
     {
       "id": "p_jatunhuasi",
@@ -3447,7 +3501,7 @@
         "v_gesha"
       ],
       "note": "Caranavi. Agricafe's farm network revitalising Bolivian specialty through the Sol de la Mañana producer-training program; notable Java-variety lots.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_alpesandinos",
@@ -3462,7 +3516,8 @@
         "v_catimor"
       ],
       "note": "Cajamarca highlands. A cooperative producing increasingly awarded washed lots (incl. Geisha); a fixture of Peru's rising Cup of Excellence presence.",
-      "flagship": false
+      "notable": "A fixture of Peru's rising Cup of Excellence presence.",
+      "famous": true
     },
     {
       "id": "p_pangoa",
@@ -3477,7 +3532,7 @@
         "v_typica"
       ],
       "note": "Junín. A long-running, women-and-organics-focused cooperative; a recognised name in Peruvian specialty and Fairtrade circuits.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_limoncillo",
@@ -3492,7 +3547,8 @@
         "v_pacamara"
       ],
       "note": "Matagalpa. A flagship of the Mierisch family's Nicaraguan estates, internationally celebrated for its Java-variety lots and meticulous separation by plot and altitude.",
-      "flagship": true
+      "notable": "A flagship of the Mierisch family's Nicaraguan estates, internationally celebrated for its Java-variety lots and meticulous separation.",
+      "famous": true
     },
     {
       "id": "p_losalpes_ni",
@@ -3506,7 +3562,8 @@
         "v_catuai"
       ],
       "note": "Nueva Segovia. Won the 2023 Nicaragua Cup of Excellence with a natural Geisha; blackcurrant, mango and peach character from a distinctive microclimate.",
-      "flagship": false
+      "notable": "Won the 2023 Nicaragua Cup of Excellence with a natural Geisha;",
+      "famous": true
     },
     {
       "id": "p_finca_sanjose_ni",
@@ -3521,7 +3578,7 @@
         "v_laurina"
       ],
       "note": "Jinotega. Representative of Jinotega's balanced, characterful estates; a region producing the bulk of Nicaragua's higher-grown specialty.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_hambela",
@@ -3536,7 +3593,8 @@
         "v_74112"
       ],
       "note": "Guji. A celebrated cluster of washing stations known for vivid, fruit-forward naturals and clean washed lots; among the most sought-after Guji profiles.",
-      "flagship": true
+      "notable": "A celebrated cluster of washing stations known for vivid, fruit-forward naturals and clean washed lots;",
+      "famous": true
     },
     {
       "id": "p_aricha",
@@ -3550,7 +3608,7 @@
         "v_74110"
       ],
       "note": "Yirgacheffe. A well-known washing station famed for explosive blueberry/strawberry naturals — a benchmark for the Ethiopian natural style.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_limu_jimma",
@@ -3564,7 +3622,7 @@
         "v_dega"
       ],
       "note": "Western Ethiopia. Washed Limu and predominantly natural Jimma/Djimmah; rounded, low-acid, balanced cups distinct from the southern Yirgacheffe/Guji profile.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_tegu",
@@ -3579,7 +3637,7 @@
         "v_batian"
       ],
       "note": "Murang'a. A respected washing station producing the classic Murang'a profile — bold blackcurrant, tomato and citrus over a heavy body.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kainamui",
@@ -3593,7 +3651,8 @@
         "v_ruiru11"
       ],
       "note": "Kirinyaga. A consistently high-scoring factory; intense, sweet-savoury Kirinyaga lots with blackcurrant, plum and bright citric acidity.",
-      "flagship": true
+      "notable": "A perennially top-scoring Kirinyaga factory, a Kenyan reference name.",
+      "famous": true
     },
     {
       "id": "p_gaturiri",
@@ -3608,7 +3667,7 @@
         "v_batian"
       ],
       "note": "Embu. A washing station turning out clean, juicy, berry-and-citrus Embu coffees; a lesser-known but high-quality Kenyan source.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_royalbean",
@@ -3621,7 +3680,8 @@
         "v_typica"
       ],
       "note": "Alishan, Chiayi. Described as the largest Gesha estate in Taiwan, with a full post-harvest mill and precise washed processing. Won the inaugural Taiwan competition (washed Gesha, 89.59, sold at US$183.50/lb in the 2022 Private Collection) and multiple top COE Taiwan placements; a 2025 Presidential Award winner.",
-      "flagship": true
+      "notable": "Won the inaugural Taiwan competition (washed Gesha, 89.59, sold at US$183.50/lb in the 2022 Private Collection) and multiple top COE.",
+      "famous": true
     },
     {
       "id": "p_chuang_alishan",
@@ -3633,7 +3693,8 @@
         "v_gesha"
       ],
       "note": "Alishan misty forest. Gesha grown under natural canopy with cool nights and wide day-night swings; a clean, elegant, terroir-driven cup and a Cup of Excellence Taiwan name.",
-      "flagship": false
+      "notable": "A clean, elegant, terroir-driven cup and a Cup of Excellence Taiwan name.",
+      "famous": true
     },
     {
       "id": "p_melastoma",
@@ -3645,7 +3706,8 @@
         "v_gesha"
       ],
       "note": "Chiayi highlands. A long-time tea farmer applying tea-like discipline to Gesha cultivation and honey processing; refined, sweet, floral cups and a COE Taiwan competitor.",
-      "flagship": false
+      "notable": "Refined, sweet, floral cups and a COE Taiwan competitor.",
+      "famous": true
     },
     {
       "id": "p_nita",
@@ -3658,7 +3720,7 @@
         "v_gesha"
       ],
       "note": "Hualien, eastern Taiwan. A family farm in a topographically diverse region (mountains meeting the ocean); part of Taiwan's rising small-volume, high-quality estate scene.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nantou",
@@ -3672,7 +3734,7 @@
         "v_sl34"
       ],
       "note": "Central Taiwan. A diverse highland growing area (Ren'ai, Xinyi, Guoxing) producing clean, sweet Arabica; a recurring source of competition lots alongside Alishan.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_discovery_th",
@@ -3685,7 +3747,8 @@
         "v_java"
       ],
       "note": "Northern Thailand. A precision-focused estate where every stage is managed by the owner; premium Gesha and Java grown under natural shade — a Cup of Excellence Thailand competitor.",
-      "flagship": true
+      "notable": "Premium Gesha and Java grown under natural shade — a Cup of Excellence Thailand competitor.",
+      "famous": true
     },
     {
       "id": "p_saenchai_th",
@@ -3699,7 +3762,8 @@
         "v_typica"
       ],
       "note": "Set in Asia's largest pine forest with a year-round cool climate; shade-grown coffee under mature canopy. A Cup of Excellence Thailand name reflecting the country's rising specialty scene.",
-      "flagship": false
+      "notable": "A Cup of Excellence Thailand name reflecting the country's rising specialty scene.",
+      "famous": true
     },
     {
       "id": "p_campohermoso",
@@ -3718,7 +3782,8 @@
         "v_wush"
       ],
       "note": "Circasia, Quindío. A ~15–25 ha fourth-generation family farm run by Edwin Noreña, an agro-industrial engineer, Q-grader and Cup of Excellence judge nicknamed “El Alquimista” (the alchemist). A coffee R&D lab famous for layered, multi-stage fermentations and co-ferments — using “mossto” (recycled cherry must) plus hops, chili, and fresh/dehydrated fruit. Released under his El Alquimista brand and used in barista competitions worldwide.",
-      "flagship": true
+      "notable": "A ~15–25 ha fourth-generation family farm run by Edwin Noreña, an agro-industrial engineer, Q-grader and Cup of Excellence judge.",
+      "famous": true
     },
     {
       "id": "p_elparaiso",
@@ -3733,7 +3798,8 @@
         "v_laurina"
       ],
       "note": "Piendamó / Bolívar, Cauca. One of the world's most famous processing laboratories, run by Diego Bermúdez — a pioneer of scientifically-controlled fermentation: bioreactors, selected microorganisms, ozone-disinfected cherries, and the signature “thermal shock” washed method. Globally sought-after “designed” profiles (lychee, peach candy) sold under the Hachi/Letty lines.",
-      "flagship": true
+      "notable": "One of the world's most famous processing laboratories, run by Diego Bermúdez — a pioneer of scientifically-controlled fermentation.",
+      "famous": true
     },
     {
       "id": "p_granjaesperanza",
@@ -3750,7 +3816,8 @@
         "v_tekisic"
       ],
       "note": "Valle del Cauca (since 1945). A pioneering producer-exporter across Potosí, Cerro Azul, Las Margaritas and a Panama farm; 50+ international awards, a WBC presence, and the founder of Colombia's first private coffee auction (2021). Famed for benchmark Geisha and bubblegum-sweet experimental lots.",
-      "flagship": true
+      "notable": "A pioneering producer-exporter across Potosí, Cerro Azul, Las Margaritas and a Panama farm;",
+      "famous": true
     },
     {
       "id": "p_monteblanco",
@@ -3766,7 +3833,8 @@
         "v_castillo"
       ],
       "note": "San Adolfo / Acevedo, Huila. A family farm (Aromas del Sur group) and a famous processing innovator — one of the original homes of Pink Bourbon and the near-proprietary Purple Caturra. Known for cultured ferments, long cold fermentations and co-infused lots that double as competition and year-round café coffees.",
-      "flagship": true
+      "notable": "Rodrigo Sánchez's renowned Huila farm and a competition-circuit fixture.",
+      "famous": true
     },
     {
       "id": "p_elobraje",
@@ -3781,7 +3849,8 @@
         "v_pink_bourbon"
       ],
       "note": "Tangua, Nariño. A high-altitude (~2,200 m) estate that transitioned to specialty over the 2010s; respected washed and natural Geisha, Caturra and Castillo, and a stop on the US/World Coffee Championship origin trips.",
-      "flagship": false
+      "notable": "Respected washed and natural Geisha, Caturra and Castillo, and a stop on the US/World Coffee Championship origin trips.",
+      "famous": true
     },
     {
       "id": "p_penasblancas",
@@ -3795,7 +3864,7 @@
         "v_gesha"
       ],
       "note": "A laboratory-minded processing center documented for open-tank oxidation, thermal shock and tightly logged drying schedules; its coffees appear in high-profile competitions and selective-roaster offerings.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_faf",
@@ -3810,7 +3879,8 @@
         "v_acaia"
       ],
       "note": "Mococa/Caconde. The farm behind Brazil’s sustainable/biodynamic specialty movement — the Croce family returned in 2001, slashed coffee from most of the estate and rewilded it. A pioneer of selective raised-bed naturals and the anchor of a satellite microlot community (the “Bob-o-link” / FAF growers network).",
-      "flagship": true
+      "notable": "A pioneer of selective raised-bed naturals and the anchor of a satellite microlot community (the “Bob-o-link” / FAF growers network).",
+      "famous": true
     },
     {
       "id": "p_joaohamilton",
@@ -3824,7 +3894,7 @@
         "v_mundo_novo"
       ],
       "note": "Caconde. A smallholder mentored within the FAF community who built a centralised hilltop processing site, “Serra do Cigano” (Gypsy Hill); his highly selective raised-bed naturals helped spark a satellite microlot movement across the watershed.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_portofmokha",
@@ -3837,7 +3907,8 @@
         "v_bourbon"
       ],
       "note": "Across remote Yemeni villages. Founded by Mokhtar Alkhanshali (subject of Dave Eggers’ “The Monk of Mokha”), a social-entrepreneur producer-exporter who pays growers roughly 3× open-market rates and helped reverse the decline of Yemeni coffee quality; co-founder of the Mokha Institute.",
-      "flagship": true
+      "notable": "The Yemeni project behind record-setting auction prices and a bestselling origin story.",
+      "famous": true
     },
     {
       "id": "p_kerchanshe",
@@ -3852,7 +3923,8 @@
         "v_wolisho"
       ],
       "note": "Sidama/Guji/Yirgacheffe. Founded 2005 by Israel Degfa; the largest coffee producer and exporter in Ethiopia, working with over a million farmers and a major force in washed and natural lots across the south.",
-      "flagship": true
+      "notable": "Ethiopia's largest specialty exporter, founded by Israel Degfa.",
+      "famous": true
     },
     {
       "id": "p_dayebensa",
@@ -3867,7 +3939,8 @@
         "v_74158"
       ],
       "note": "Bensa, Sidama. A prominent producer-exporter working closely with local farmers; celebrated for high-scoring Bensa naturals and washed lots (Keramo, Shantawene, Bombe) that feature on top-roaster menus worldwide.",
-      "flagship": false
+      "notable": "Celebrated for high-scoring Bensa naturals and washed lots (Keramo, Shantawene, Bombe) that feature on top-roaster menus worldwide.",
+      "famous": true
     },
     {
       "id": "p_iris",
@@ -3880,7 +3953,8 @@
         "v_sl28"
       ],
       "note": "Volcán, Panama. A super-specialty collaboration between Jamison Savage (Finca Deborah / Morgan Estate), 2015 World Barista Champion Sasa Sestic (Ona Coffee / Project Origin) and Elvin Siew. Coffee trees were planted within the existing forest without clearing the landscape, and the project is built around terroir-driven processing and meticulous carbonic-maceration work. Named lots (Aril, Enigma, Ambrosia, Odyssey, Vivid) have won barista-championship recognition.",
-      "flagship": true
+      "notable": "A super-specialty collaboration between Jamison Savage and 2015 World Barista Champion Sasa Sestic.",
+      "famous": true
     },
     {
       "id": "p_lahuerta",
@@ -3894,7 +3968,8 @@
         "v_pacas"
       ],
       "note": "El Cielito mountain, Santa Bárbara. A Cup of Excellence winner (2013) on a mountain that has produced many of Honduras’ top COE lots; the farm whose neighbour Sasa Sestic bought, sparking his Project Origin work in Honduras.",
-      "flagship": false
+      "notable": "A Cup of Excellence winner (2013) on a mountain that has produced many of Honduras’ top COE lots;",
+      "famous": true
     },
     {
       "id": "p_fincabeti",
@@ -3908,7 +3983,8 @@
         "v_pacas"
       ],
       "note": "El Cielito, Santa Bárbara. World Barista Champion Sasa Sestic’s own Honduran farm (neighbouring Finca La Huerta), with a quality lab and guest house; a base for Project Origin’s controlled-fermentation and carbonic-maceration experiments.",
-      "flagship": false
+      "notable": "World Barista Champion Sasa Sestic’s own Honduran farm (neighbouring Finca La Huerta), with a quality lab and guest house;",
+      "famous": true
     },
     {
       "id": "p_elarbol",
@@ -3922,7 +3998,7 @@
         "v_gesha"
       ],
       "note": "Nicaragua. One of Project Origin’s three owned farms (with Iris Estate in Panama and Finca Beti in Honduras); a site for terroir-driven processing experiments.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_morgan",
@@ -3934,7 +4010,7 @@
         "v_gesha"
       ],
       "note": "Volcán, Panama. One of Jamison Savage’s super-specialty Geisha farms (alongside Finca Deborah and Iris Estate), known for meticulous, innovative carbonic-maceration and natural processing.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_herbazu",
@@ -3948,7 +4024,8 @@
         "v_catuai"
       ],
       "note": "Lourdes de Naranjo, West Valley. A pioneering micro-mill founded out of the 2001 coffee crisis and a 10-time Cup of Excellence winner; credited with inspiring the 200+ micro-mill movement across Costa Rica.",
-      "flagship": true
+      "notable": "A pioneering micro-mill founded out of the 2001 coffee crisis and a 10-time Cup of Excellence winner;",
+      "famous": true
     },
     {
       "id": "p_granadilla",
@@ -3961,7 +4038,8 @@
         "v_catuai"
       ],
       "note": "Santa María de Dota, Tarrazú. A third-generation farm and CoE “Legends”-recognised producer; bright, complex Tarrazú cup from careful fermentation and drying protocols.",
-      "flagship": false
+      "notable": "A third-generation farm and CoE “Legends”-recognised producer;",
+      "famous": true
     },
     {
       "id": "p_buku",
@@ -3975,7 +4053,7 @@
         "v_74158"
       ],
       "note": "Buku kebele, Hambela, West Guji — among the highest coffee in Ethiopia (~2,350 m). A sought-after cherry source (Buku Abel/Hurufa/Sisa stations) where slow maturation yields dense, small, intensely fruity beans from JARC 74110/74112/74158. Naturals and anaerobic naturals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_lospinos",
@@ -3989,7 +4067,7 @@
         "v_maragogipe"
       ],
       "note": "Matagalpa, Nicaragua. An organic farm run by Byron Corrales, one of the best-known Maracaturra specialists — producing washed, honey and natural Maracaturra microlots prized for clean, fruit-forward cups.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_cambalache",
@@ -4004,7 +4082,8 @@
         "v_gesha"
       ],
       "note": "Dipilto, Nueva Segovia. Two farms run by third-generation producer Samuel Zavala, who won the 2025 Nicaragua Cup of Excellence. Planted to rare varieties (Sidra, Chiroso, Geisha, Bourbon Rosado, Maracaturra) with unconventional processing.",
-      "flagship": true
+      "notable": "Two farms run by third-generation producer Samuel Zavala, who won the 2025 Nicaragua Cup of Excellence.",
+      "famous": true
     },
     {
       "id": "p_brujufinca",
@@ -4020,7 +4099,7 @@
         "v_maragogipe"
       ],
       "note": "Pluma Hidalgo, Oaxaca — within the protected \"Pluma\" denomination of origin. A cloud-forest farm producing sweet, elegant, milk-chocolate-toned cups, including competition Geisha and the heritage Pluma Hidalgo (Typica) variety.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_mantoniebla",
@@ -4035,7 +4114,7 @@
         "v_pluma_hidalgo"
       ],
       "note": "Pluma Hidalgo, Oaxaca. A newer mountaintop estate (planted from 2016, ~70 ha) helping revive Oaxacan specialty; grows Geisha, Marsellesa and the heritage Pluma Hidalgo Typica.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_guariroba",
@@ -4050,7 +4129,8 @@
         "v_catuai"
       ],
       "note": "Santo Antônio do Amparo, Campo das Vertentes. A five-generation family farm and a renowned fermentation specialist — Gabriel Lamounier ferments with native microbiota (no introduced strains) using meticulous protocols. Won the 2016 Cup of Excellence (Brazil Natural, 90.5) and has placed repeatedly since; grows 10+ varieties.",
-      "flagship": true
+      "notable": "A five-generation family farm and renowned native-microbiota fermentation specialist.",
+      "famous": true
     },
     {
       "id": "p_kiangoi",
@@ -4065,7 +4145,8 @@
         "v_ruiru11"
       ],
       "note": "Kirinyaga, on the southern slopes of Mt Kenya. A wet mill of the Rung'eto FCS (with Kii and Karimikui), serving ~950–1,150 smallholders. Classic clean, layered, fruit-driven Kenyan washed coffees; an International Taste Award winner.",
-      "flagship": false
+      "notable": "An International Taste Award winner.",
+      "famous": true
     },
     {
       "id": "p_alvarovargas",
@@ -4077,7 +4158,7 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia, Colombia. A small, meticulously kept garden-farm of Chiroso run by Álvaro Vargas, who comes from a coffee and cattle-ranching family and has emerged as a competition finalist since 2025. Washed Chiroso with dulce de leche, ripe citrus and sugar-cane sweetness; long open-tank fermentation and sun-bed drying.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_isaacespinoza",
@@ -4089,7 +4170,7 @@
         "v_sl9"
       ],
       "note": "Inkawasi, Cusco, Peru. One of the first to establish a coffee plantation and beneficio in Inkawasi, inspiring a district now making a name in specialty. Grows SL9 (\"Gesha Inca\") — a double-fermented washed lot with silky berries, melon, golden grape and coffee blossom.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nkanda",
@@ -4101,7 +4182,7 @@
         "v_bourbon"
       ],
       "note": "Ngozi, Burundi. A washing station that has built a strong local reputation for quality; lots are separated by hill and multigenerational family. Double-fermented washed Red Bourbon (12h wet + 12h in cement tanks) dried 20–25 days on raised beds — tea-like, with dried cherry, citrus and persimmon.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_imani",
@@ -4115,7 +4196,7 @@
         "v_ruiru11"
       ],
       "note": "Kiambu, Kenya. A ~500-acre estate (280 acres in forest, dams and marshland) on deep red volcanic Nitisol/Andosol soils, with a 16-lagoon water-recirculation system. AA washed separations of SL34 (and various) prized for raspberry, cherry and wild-rose clarity.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_busambo",
@@ -4127,7 +4208,7 @@
         "v_bourbon"
       ],
       "note": "Busambo community, Kayanza, Burundi. Smallholders carry cherry on foot to the Umoco washing station (\"light\" in Kirundi). Washed Red Bourbon — double fermentation in wet and cement tanks, 20–25 days on raised beds — sparkling, floral and clean with cranberry, toffee and orange peel.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_erickbravo",
@@ -4141,7 +4222,8 @@
         "v_catimor"
       ],
       "note": "San Agustín, Huila, Colombia. Finca El Chaferote sits at the edge of the Magdalena River, whose cool air helps cherries mature evenly. Erick Bravo is a Flowerchild favourite who places highly in Colombia's Cup of Excellence and Huila Mágico; his focus is Pink Bourbon, double-fermented (48h in cherry + 36h dry) and greenhouse-dried.",
-      "flagship": false
+      "notable": "Erick Bravo is a Flowerchild favourite who places highly in Colombia's Cup of Excellence and Huila Mágico;",
+      "famous": true
     },
     {
       "id": "p_astridmedina",
@@ -4155,7 +4237,8 @@
         "v_castillo"
       ],
       "note": "Planadas, Tolima, Colombia. Astrid Medina is one of Colombia's most celebrated producers — a Cup of Excellence winner (2015) known for immaculate, consistent processing. Her washed Gesha is a benchmark, silky and layered with dark fruit, boysenberry and honeysuckle.",
-      "flagship": true
+      "notable": "Astrid Medina is one of Colombia's most celebrated producers — a Cup of Excellence winner (2015) known for immaculate, consistent.",
+      "famous": true
     },
     {
       "id": "p_terrazaspisque",
@@ -4172,7 +4255,7 @@
         "v_las_tolas"
       ],
       "note": "Pichincha, Quito, Ecuador. A 39-ha regenerative farm (17 ha in coffee, ~10,000 trees) managed by Sebastián Garcés with Arnaud Causse — an incubator of exotic varieties using chickens, sheep, bees and home-made biochar in place of chemical inputs. Clean, lively washed lots across Pacamara, Bourbon, Sidra, Java and the local Las Tolas.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_luiscuellar",
@@ -4188,7 +4271,7 @@
         "v_gesha"
       ],
       "note": "Santa María, Huila, Colombia. A 6-ha farm (3.5 ha in coffee, ~13,000 trees) run by agronomist Luis Enrique Cuellar and his brother Robinson — Luis manages plots and commercialisation, Robinson the processing. Pickers paid ~40% above average for ripe-only selection. Known for fruit-forward Pink Bourbon.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_albeiroramirez",
@@ -4200,7 +4283,7 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia, Colombia. A lifelong coffee farmer recognised for meticulous, standardised, traceable processing. His two-stage fermented washed Chiroso is distinctively buttery and chocolate-weighted — a Flowerchild standout from Urrao.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gorobedessa",
@@ -4213,7 +4296,7 @@
         "v_74112"
       ],
       "note": "Goro Bedessa, Hambela Wamena, Guji, Ethiopia. A high-altitude (~2,100 m) washing station run by Ismael Hassen, drawing cherry from several hundred Guji Oromo smallholders. Consistently among Flowerchild's top-scoring Ethiopians — washed, with elderberry, blueberry, black tea and jasmine florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_joseflores",
@@ -4225,7 +4308,7 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia, Colombia. A family farm worked by Jose Flores and his wife Marta, meticulous about drying. His washed Chiroso uses a ~6-day water-changed concrete-tank ferment, giving a bigger-bodied, dark-berry, vanilla-and-cane-sugar profile.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_duvancalderon",
@@ -4237,7 +4320,7 @@
         "v_pink_bourbon"
       ],
       "note": "Salado Blanco, Huila, Colombia. A third-generation producer (28) who took over after his father's passing and runs the farm with his sister, specialising in Pink Bourbon (Bourbon Rosado). Temperature-controlled oxidation ferment under 45°C; rich, full-bodied, balanced cup.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sookoo",
@@ -4250,7 +4333,7 @@
         "v_74112"
       ],
       "note": "Odo Shakiso, Guji, Ethiopia. A group effort from the kebeles of Tima coordinated by Ture Waji, drying Gibrinna 74110 and Serto 74112 on raised beds at ~2,173 m in thin layers. Vibrant, pristine washed cup — blackberry, citrus, nectarine, floral.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_telila",
@@ -4263,7 +4346,7 @@
         "v_74110"
       ],
       "note": "Gure Kesso, Jimma, western Ethiopia. A newer private washing station run by Mike Mamo's team, producing an atypical Jimma profile — big, viscous, creamy, with wild honey, orange and papaya rather than the usual tea-like berry. Predominantly 74112 landrace field blend.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_buncho",
@@ -4275,7 +4358,7 @@
         "v_74158"
       ],
       "note": "Bensa, Sidama, Ethiopia. A washing station owned by Asefa Dukamo Korma (Daye Bensa) drawing on Shantawene producers, pooling primarily Landrace 74158 plus native garden varieties. Exceptionally clean honey processing — wild-hive honey, white nectarine, navel orange.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_oscargarcia",
@@ -4289,7 +4372,7 @@
         "v_pink_bourbon"
       ],
       "note": "Santa Clara, San Agustín, Huila, Colombia. A young San Agustín producer whose washed Gesha is intensely tropical — mangosteen, lychee, kumquat, Angel's-Trumpet florals. 48h underwater ferment, raised-bed dried.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_brayanjoven",
@@ -4301,7 +4384,7 @@
         "v_pink_bourbon"
       ],
       "note": "Timaná, Huila, Colombia. A 2.5-ha, 6,000-tree third-generation farm. Brayan uses a striking staggered harvest (picking Mon–Fri, washing all batches together Friday) to build a 12–96h fermentation gradient; works alongside his father's and brother's nearby farms.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_davidgomez",
@@ -4315,7 +4398,7 @@
         "v_colombia"
       ],
       "note": "Vereda La Florida, La Plata, Huila, Colombia. A ~4-ha farm run by David Gomez, a 20-year coffee veteran from a large coffee-growing family moving into specialty. Full-bodied, stewed-fruit washed Gesha with marmalade, persimmon and panela.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_pepejijon",
@@ -4329,7 +4412,8 @@
         "v_mejorado"
       ],
       "note": "Intag valley, Imbabura, Ecuador — a 120-ha farm (only 5 ha in coffee) inside a UNESCO World Heritage GEOPARK, founded 2010. Pepe Jijon is a celebrated biodynamic producer whose “Nature Wave” philosophy minimises stress on the bean; rainwater-only, indirect-dried washed Gesha of remarkable cleanliness.",
-      "flagship": true
+      "notable": "Pepe Jijon is a celebrated biodynamic producer whose “Nature Wave” philosophy minimises stress on the bean;",
+      "famous": true
     },
     {
       "id": "p_consuelrubio",
@@ -4342,7 +4426,7 @@
         "v_tabi"
       ],
       "note": "Cajamarca, Peru. A family operation revived by Consuelo Rubio's children returning from the city after their father's passing; sealed-bag double fermentation and solar-tent drying. Known for round, floral Sidra and Tabi — a distinctive Peruvian take on these cultivars.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_germanpena",
@@ -4354,7 +4438,8 @@
         "v_pink_bourbon"
       ],
       "note": "Suaza, Huila, Colombia. German Peña built Finca El Roblar from a bare plot his father left him into a world-renowned operation, working with his wife, kids and extended family. His washed Pink Bourbon took 4th at Osito's Copa de Oro — a hyper-sweet strawberry-reduction profile with blackberry, Muscadine grape and passionfruit.",
-      "flagship": false
+      "notable": "German Peña built Finca El Roblar from a bare plot his father left him into a world-renowned operation, working with his wife, kids and.",
+      "famous": true
     },
     {
       "id": "p_jhondidier",
@@ -4366,7 +4451,7 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia, Colombia. A fast-rising farmer on the Penderisco River growing lulo, avocado, plantains and coffee. His washed Chiroso (up to 4-day clean-water ferment, shade-tent dried) is clean and lightly fruited — dried blueberry, raisin, mandarin.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_yesicallanqui",
@@ -4378,7 +4463,7 @@
         "v_gesha"
       ],
       "note": "Cusco, Peru. Yesica Llanqui Ale is a leading woman in her community and an advocate for women's participation in specialty coffee, with growing recognition across the Cusco region. Her washed Gesha (30h ferment, 16-day shaded-bed drying) is elegant and understated — white flowers, apricot, sweet lime, panela and pear, viscous yet clean.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_familiaccapa",
@@ -4390,7 +4475,7 @@
         "v_typica"
       ],
       "note": "Palanganayoc, Challabamba district, Cusco, Peru — Flowerchild's most remote source, about 10 hours from Cusco, where third-generation Typica trees from past generations still fruit. The Ccapa family entered specialty coffee in recent years; a balanced washed Typica with dark berry, plum, cacao and dried fruit (48h ferment).",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_joaquinlipa",
@@ -4402,7 +4487,7 @@
         "v_bourbon"
       ],
       "note": "Finca Santa Juana, Inambari, Puno, Peru. Joaquin Coaquira Lipa has made coffee his family's main income, tending coffee plants and the bee hives that, in an ancestral practice taught by his parents, improve flowering and fruiting. A full-bodied washed Bourbon — Malbec grape, currant, pluot, blueberry, cacao.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_lisbethmarino",
@@ -4414,7 +4499,7 @@
         "v_sl9"
       ],
       "note": "Pacaybamba, Cusco, Peru. Lisbeth Mariño trained as a cup taster and is now a leading woman in her district, providing technical guidance to other producers. Her double-fermented washed SL9 (\"Gesha Inca\") is intricate and floral — iris, pineberry, mango, peach and juicy citrus, best enjoyed neat.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_robertoflores",
@@ -4426,7 +4511,7 @@
         "v_gesha"
       ],
       "note": "Finca La Rinconada, Cusco, Peru. Roberto Carlos Palomino Flores, a 25-year-old agricultural technician, shares knowledge with neighbours and is building an expansive nursery. His washed Gesha (18h + 36h dry ferment) is opulent and berry-forward — raspberry, Fuji apple, cherry with lavender, rose and honeysuckle.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_manuelmarlo",
@@ -4438,7 +4523,7 @@
         "v_gesha"
       ],
       "note": "Finca Pacpa, Lonya Grande, Amazonas, Peru. A young producer building on his family's coffee legacy, working direct with Flowerchild. His washed Gesha is loud and layered — blackberry, Autumn Royal grape, plum, raspberry and violet florals with a long, punchy acidity.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_abelsalinas",
@@ -4450,7 +4535,8 @@
         "v_mejorado"
       ],
       "note": "Finca Arashi, Saraguro, Loja, Ecuador. Abel Salinas planted his first trees in 2016 and now has 22,000+; a Cup of Excellence winner in Ecuador renowned for processing consistency despite climate swings. His washed Mejorado is syrupy and clean — stone fruit, honeycomb, pluot, orange zest.",
-      "flagship": false
+      "notable": "A Cup of Excellence winner in Ecuador, known for processing consistency.",
+      "famous": true
     },
     {
       "id": "p_migueldota",
@@ -4462,8 +4548,9 @@
         "v_sidra"
       ],
       "note": "Saraguro, Loja, Ecuador. The Dota family each tend small garden plots; Miguel's tiny Sidra lot is among the most celebrated Ecuadorian coffees Flowerchild has offered — big yet delicate, with an umami undercurrent, marionberry, blood orange, vanilla, lemon meringue and a sharp citric structure.",
-      "flagship": false,
-      "region": "r_loja"
+      "region": "r_loja",
+      "notable": "Miguel's tiny Sidra lot is among the most celebrated Ecuadorian coffees Flowerchild has offered — big yet delicate, with an umami.",
+      "famous": true
     },
     {
       "id": "p_carlosmario",
@@ -4475,7 +4562,7 @@
         "v_pink_bourbon"
       ],
       "note": "Pitalito, Huila, Colombia. Carlos Mario has grown his operation over 15 years to two farms, working with his wife Patricia and uncle Hermes plus seasonal pickers. His washed Pink Bourbon (24h in cherry, 60h ferment) is lively with an almost Kenyan acidity — guava, raspberry, melon, stone fruit, red apple.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_cafeticuna",
@@ -4488,7 +4575,7 @@
         "v_caturron"
       ],
       "note": "Garzón, Huila, Colombia. A coffee project co-founded by importers José Jadir Losada and Kyle Bellinger, spanning three farms in Garzón plus El Mirador in Suaza. Unusually for Colombia they grow Kenyan SL-28 and the rare large-bean Caturrón (a Timor-hybrid × Bourbon/Caturra cross, related to Variedad Colombia) — both washed, clean and distinctive.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_reinel",
@@ -4500,7 +4587,7 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Espejo, Santa María, Huila, Colombia. Reinel Borbón is a widely respected 50-year-old second-generation grower on a 4-ha, ~13,000-tree farm, with his eldest son now learning the family processing recipe. His washed Pink Bourbon (20h in-cherry + 48h open-tank ferment) is clean and bright — red grape, citrus, raspberry, pomegranate, melon.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_victorbonilla",
@@ -4512,7 +4599,7 @@
         "v_aruzi"
       ],
       "note": "Finca La Chorrera, La Argentina, Huila, Colombia. Víctor Alfonso Bonilla, a Q-grader and third-generation grower, dedicates his 3.5-ha, 5,500-tree farm entirely to the rare Bourbon Aruzi, which he discovered and has championed to competition success. A balanced, buttery washed cup — black cherry, chocolate, date, dried fruit.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sergiocaro",
@@ -4524,7 +4611,8 @@
         "v_chiroso"
       ],
       "note": "Caicedo, Antioquia, Colombia. Sergio Caro fell for coffee while working at a cooperative in Urrao and planted Chiroso; one of his first viable harvests reached the finals of the Colombian Cup of Excellence. A big, silky washed Chiroso at 2,300m+ — black plum, dark berries, grape, nectarine, lavender syrup and pear.",
-      "flagship": false
+      "notable": "Reached the finals of the Colombian Cup of Excellence with an early harvest.",
+      "famous": true
     },
     {
       "id": "p_andresosorio",
@@ -4536,7 +4624,7 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Nogal, Santa María, Huila, Colombia. Andrés Felipe Osorio, a 20-year-old with already five years' experience, focuses his 11-ha, 11,000-tree farm exclusively on Pink Bourbon. A tropical, juicy washed Rosado — mandarin, lemon drop, pineapple, ripe stone fruit, heavy body.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_josemartinez",
@@ -4548,7 +4636,7 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Casino, Palestina, Huila, Colombia. José Elcias Martínez and his wife Francy have farmed for over 20 years, continuing a family legacy (and famously home to dozens of rescued dogs). A big-bodied washed Pink Bourbon — prickly pear, citrus zest, candied grape, tropical fruit.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_wilsonalba",
@@ -4560,7 +4648,7 @@
         "v_pink_bourbon"
       ],
       "note": "Palestina, Huila, Colombia. Don Wilson Alba Córdoba, a third-generation farmer, has grown his projects to ~13 ha across Fincas Sierra Morena and El Cedro, employing 20 local pickers at harvest. His fully washed Pink Bourbon (15h in-cherry ferment) is a perennial favourite — ruby grapefruit, raspberry, red currant, lemon and delicate florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nemesioramos",
@@ -4573,7 +4661,8 @@
         "v_caturra"
       ],
       "note": "Finca Galaxia, Vereda El Carmen, Tarqui, Huila, Colombia. Nemesio Ramos Trujillo, a third-generation grower of 35 years, farms ~3 ha high on the Cordillera Central with his wife and six children. An award winner for his Caturra; this washed lot blends Caturra with his floral Pink Bourbon for balance — apricot, papaya, creamy citrus, Rainier cherry.",
-      "flagship": false
+      "notable": "An award winner for his Caturra;",
+      "famous": true
     },
     {
       "id": "p_marthacartagena",
@@ -4585,8 +4674,8 @@
         "v_chiroso"
       ],
       "note": "Inzá, Cauca, Colombia. Martha Cartagena and her husband Arnulfo are building a new farm, Hoyo Rico, high in the mountains; Martha handles pricing, delivery scheduling and oversees drying. An elegant washed Chiroso — yellow cherry plum, mandarin, stone fruit, berry tea, round and juicy.",
-      "flagship": false,
-      "region": "r_antioquia"
+      "region": "r_antioquia",
+      "famous": false
     },
     {
       "id": "p_santiagocaro",
@@ -4598,7 +4687,7 @@
         "v_chiroso"
       ],
       "note": "Urrao, Antioquia, Colombia. Santiago Caro Bermúdez is a young producer and a quality analyst with Coffee Quest; his father bet on planting Chiroso a decade ago. A clean, comforting washed Chiroso — sugar cane, marshmallow-soft body, red cherry, candied grape, pear, light citrus.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_serviobotina",
@@ -4610,7 +4699,7 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Cedro, San Agustín, Huila, Colombia. Servio Tulio Botina Quinayas produces one of the most dynamic washed Pink Bourbon lots Flowerchild has seen — deliberately veering from the region's pulpy style toward clarity. Pluot, strawberry, currant, cranberry, with a structure that firms into a citric acidity as it cools.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gilbertochilito",
@@ -4622,7 +4711,7 @@
         "v_gesha"
       ],
       "note": "Llanada de Naranjos, San Agustín, Huila, Colombia. Finca Villa Caney — Gilberto Chilito has built coffee operations since age 15 and farms ~2 ha (1,300 Gesha trees) with his wife Marta and three children. A big, tropical late-harvest washed Gesha — raspberry, guava, passion fruit, blood orange and long florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_victorpineda",
@@ -4634,7 +4723,7 @@
         "v_chiroso"
       ],
       "note": "Finca La Cenovia, Caicedo, Antioquia, Colombia. Víctor Pineda has processed coffee for five years and recently planted Geisha and Chiroso as his step into specialty. A dense, well-structured washed Chiroso — apricot, honey, lemongrass, melon, Rainier cherry with a long honey finish.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_faverninco",
@@ -4646,7 +4735,7 @@
         "v_gesha"
       ],
       "note": "Finca Costa Rica, Santa María, Huila, Colombia. Faver Ninco learned coffee from his father and neighbours ~25 years ago and turned to specialty varietals; known for an unusually sweet expression of Gesha. Washed — purple grape, white nectarine, pineapple, blood orange and long jasmine/coffee-blossom florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_jhonbermudez",
@@ -4658,7 +4747,7 @@
         "v_chiroso"
       ],
       "note": "Finca La Estrella, Urrao, Antioquia, Colombia. Jhon Alexander Bermudez, a second-generation grower, farms ~3 ha (11,000 trees) of the now sought-after Chiroso. An approachable washed cup — apple, cinnamon, caramel, bright and dried stone fruit with a light body and delicate florality.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_ernedisrodriguez",
@@ -4671,7 +4760,7 @@
         "v_caturra"
       ],
       "note": "Gigante, Huila, Colombia. Ernedis Rodriguez farms a Colombian \"El Paraiso\" (entirely separate from Diego Bermúdez's El Paraíso in Cauca), producing washed Sidra, Caturra and field-blend lots of notable clarity.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_julioalberto",
@@ -4683,8 +4772,8 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Tabor, El Tabor, San Agustín, Huila, Colombia. Julio Alberto Muñoz Ordoñez has grown coffee his whole life (52 years) across a 15-ha farm with five varieties. His washed Borbón Rosado (1 day in cherry + 2-day sealed ferment) is intensely fruity — red tea, grape, rose, sticky-sweet fruit, hibiscus.",
-      "flagship": false,
-      "region": "r_huila"
+      "region": "r_huila",
+      "famous": false
     },
     {
       "id": "p_joseever",
@@ -4696,7 +4785,8 @@
         "v_pink_bourbon"
       ],
       "note": "Bajo Horizonte, Suaza, Huila, Colombia. José Ever Muñoz, farming since 2012 with his wife Fernanda, won the regional Copa de Oro with this coffee and is a member of the Cooperativa Divino Niño del Horizonte. A honey-processed Pink Bourbon — papaya, honeysuckle, melon, yellow cherry, mango, syrupy citrus.",
-      "flagship": false
+      "notable": "José Ever Muñoz, farming since 2012 with his wife Fernanda, won the regional Copa de Oro with this coffee and is a member of the.",
+      "famous": true
     },
     {
       "id": "p_cerromiraflores",
@@ -4708,7 +4798,7 @@
         "v_gesha"
       ],
       "note": "Garzón, Huila, Colombia. A group lot from nine producers around Cerro Miraflores (Miraflores Hill) on the Cordillera Oriental, an area of páramo and alpine-tundra biome, who pooled their best Gesha cherries. Washed — grape, pineapple acidity, berry, lemon, wildflower aromatics and a silken texture.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_alirio",
@@ -4720,7 +4810,7 @@
         "v_pink_bourbon"
       ],
       "note": "Finca El Roble, Bruselas, Huila, Colombia. Alirio Muñoz and his wife Anayibe Ortiz oversee three farms totalling ~14 ha with their three children, growing Pink Bourbon, Bourbon Aji, Ombligón and more. A bright, clean washed Pink Bourbon — strawberry, blood orange, tropical florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_divonino",
@@ -4732,7 +4822,7 @@
         "v_gesha"
       ],
       "note": "Suaza, Huila, Colombia. \"Divine Child\" — a five-producer group (via importer Osito) pooling Gesha so small farmers earn top price rather than losing it in a field blend. Coordinated picking, fermentation and drying yield a clean, juicy washed cup — peach, pear, golden apple, melon, honeysuckle.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nimrodpineda",
@@ -4744,7 +4834,7 @@
         "v_sl28"
       ],
       "note": "Santa Bárbara, Honduras. Nimrod Pineda lost his father at 9 and helped his older brother run the farm; he started his own nursery at 20 and began producing in 2022, now 25. A rare Honduran washed SL-28 of real refinement — currant, blackberry, pluot, juicy citrus, full body and integrated florality.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_ruberizaguirre",
@@ -4756,7 +4846,7 @@
         "v_pacas"
       ],
       "note": "Finca El Pino, El Cedral, Las Vegas, Santa Bárbara, Honduras. Ruber Izaguirre, a third-generation grower, farms just 0.7 ha of Pacas and Parainema with his father Crecencio. A balanced, comforting washed Pacas — caramelised tamarind, maple, raisin, date, peach.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_rumudamo",
@@ -4768,7 +4858,8 @@
         "v_74112"
       ],
       "note": "Arbegona woreda, Sidama, Ethiopia. The Arbegona Rumudamo washing station is managed by Asefa Dukamo Korma, with 600+ farmers delivering mostly 74112 and other heirloom varieties; the station placed 2nd and 3rd at the 2020 Ethiopia Cup of Excellence. A barrel-fermented washed lot — blackberry, raspberry, rose, milk chocolate, blood orange.",
-      "flagship": false
+      "notable": "Placed 2nd and 3rd at the 2020 Ethiopia Cup of Excellence.",
+      "famous": true
     },
     {
       "id": "p_bokusayisa",
@@ -4781,7 +4872,7 @@
         "v_74112"
       ],
       "note": "Hambela district, Western Guji, Ethiopia. Boku Sayisa (\"Blessed Valley\" in Amharic) draws cherry from ~565 high-altitude smallholders growing JARC, Dega and Kudhume landraces. A striking, very-high-grown washed community lot — blueberry, peony, sugar cane, stewed fruit, lychee and a long floral aftertaste.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_udesafora",
@@ -4794,7 +4885,7 @@
         "v_74158"
       ],
       "note": "Sukke Chiga, Kercha district, Guji, Ethiopia. Udesa Fora (\"resting under a tree\") is managed by Mekonnen Beriso, with 300–400 farmers growing heirloom 74112 and 74158; 72-hour ferment, washed, 8–12 day drying. Velvety and bright — blackberry, plum, apricot, peach, delicate florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_chelbessa",
@@ -4807,7 +4898,7 @@
         "v_74112"
       ],
       "note": "Gedeb, Gedeo, Ethiopia. The Chelbessa washing station draws on ~1,000 smallholders with tiny plots around 2,000 m, working Ethiopian heirloom landraces. A washed Gedeo benchmark — strawberry, nectarine, moon grape, passionfruit, with a rounded tea-like body and lingering candied-fruit florals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_keramo",
@@ -4820,7 +4911,8 @@
         "v_74112"
       ],
       "note": "Keramo Village, Bensa, Sidama, Ethiopia. A Daye Bensa-linked station (Asefa Dukamo) whose farmers hold Cup of Excellence titles for clarity and consistency. A sparkling, high-grown washed landrace — pink lemonade, deep berry, strawberry acidity, juniper, minerality and a sustained floral finish.",
-      "flagship": false
+      "notable": "A Daye Bensa-linked station (Asefa Dukamo) whose farmers hold Cup of Excellence titles for clarity and consistency.",
+      "famous": true
     },
     {
       "id": "p_gititu",
@@ -4835,7 +4927,7 @@
         "v_ruiru11"
       ],
       "note": "Kiambu County, ~47 km north-west of Nairobi, Kenya. Gititu Factory (one of seven under the Gititu Farmers Co-operative Society) brings in over a thousand smallholders, primarily growing SL-28. A clean AA washed separation — blackberry, currant, candied plum, goji, melon, citrus blossom, honey.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kathakwa",
@@ -4850,7 +4942,7 @@
         "v_ruiru11"
       ],
       "note": "Manyatta division, Embu County, Kenya, on the slopes of Mount Kenya. Kathakwa Factory (est. 1964, 1,000+ members) produced this bright AA separation of mostly SL-28 and SL-34. Round and juicy with melon character and lively acidity — a standout subscriber lot.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kiamugumo",
@@ -4865,7 +4957,7 @@
         "v_batian"
       ],
       "note": "Ngariama, Nyangeni, Kirinyaga County, Kenya, on the slopes of Mount Kenya. Kiamugumo Factory processes smallholder cherry with water from the Kii river; glacier-fed rivers keep the area at a privileged 55–75°F. A sparkling washed field blend — orange, blackcurrant, lemon-lime, rounded cherry and dried-fruit undertones.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gachatha",
@@ -4880,7 +4972,7 @@
         "v_batian"
       ],
       "note": "Nyeri County, Kenya. Gachatha Coffee Factory (est. 1963, ~1,542 members) sits on 392 acres between Muthuaini, Thiriku, Gachenge and Kianjau villages, treating all wastewater in soaking pits. A washed Nyeri standout — dried berry, mandarin orange, cane-juice viscosity, sharp clean complexity.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kayu",
@@ -4895,7 +4987,7 @@
         "v_batian"
       ],
       "note": "Kangema division, Murang'a County, Kenya. Kayu Coffee Factory (est. 1964) sits on 7 acres serving Kayu, Njumbi, Rwathia and Mihuti villages (~1,191 members) — the oldest factory near the area's tea zones. A glossy, multilayered washed cup — raspberry, date, rose, currant, black-raspberry, lemon-lime.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gaharo",
@@ -4907,8 +4999,8 @@
         "v_bourbon"
       ],
       "note": "Gaharo Hill, Gitega province, Burundi. Where the Long Miles Coffee Project began (founded by Ben & Kristy Carlson); cherries are processed at Bukeye, the first station Long Miles built, at the foot of Gaharo Hill — its bricks made from valley clay by the same farmers who now deliver there. Washed Bourbon — marigold, coffee blossom, currant, oolong, citrus.",
-      "flagship": false,
-      "region": "r_gitega"
+      "region": "r_gitega",
+      "famous": false
     },
     {
       "id": "p_giku",
@@ -4920,7 +5012,7 @@
         "v_bourbon"
       ],
       "note": "Giku Hill, Kayanza, Burundi — a remote hill near the Kibira Forest (Burundi's only indigenous rainforest), reached by crossing two rivers and two province borders, where communities have little access to clean water or electricity. A Long Miles project; a clean honey-processed Bourbon — nectarine, Rainier cherry, carob, baking spice, red tea.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_ninga",
@@ -4932,7 +5024,7 @@
         "v_bourbon"
       ],
       "note": "Ninga Hill, Muramvya, Burundi. Ninga washing station has its own borehole; processing includes a single dry ferment, traditional foot-\"dancing\" to loosen mucilage, density grading and a soak. A washed Bourbon field blend that evolves hot-to-cool — apricot, persimmon, meringue, baking spice, berry tea, clean citrus.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_remera",
@@ -4944,8 +5036,8 @@
         "v_bourbon"
       ],
       "note": "Kayanza, Burundi. Remera washing station is led by three friends — Picasso, Zephyrin and Jeremiah — who unusually are also farmers at scale, having planted 38,000+ trees and built an innovative direct supply chain. 12h wet + 12h dry cement-tank ferment, 20–25 day drying. Washed Red Bourbon — pink lady apple, whipped cream, blackberry, blueberry, silky florals.",
-      "flagship": false,
-      "region": "r_kayanza"
+      "region": "r_kayanza",
+      "famous": false
     },
     {
       "id": "p_bumba",
@@ -4957,7 +5049,7 @@
         "v_bourbon"
       ],
       "note": "Bumba Hill, Kayanza, Burundi — a remote community reached by crossing three rivers and two province borders, beyond clean water and electricity, where coffee competes with corn and beans. A clean, tart washed Bourbon — rhubarb, apple crisp, silky plum, pear and a singing acidity over a firm structure.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_juanpena",
@@ -4971,7 +5063,8 @@
         "v_gesha"
       ],
       "note": "Saraguro, Loja, Ecuador. Hacienda La Papaya is the pioneer of specialty coffee in Saraguro — founded ~2009 by Juan Peña, a former rose farmer and agricultural engineer who began exporting to the US in 2014 and has since become one of Ecuador's most internationally recognised producers (repeated top-three Cup of Excellence finishes and a fixture on the barista-competition circuit). The ~28-acre farm runs as a research center: drip irrigation and soil sensors across all plots, an iterating nursery, and obsessive brix/fermentation/drying control. ~80% of its formally-employed workforce are women from the Saraguro region. Grows curated Sidra, Mejorado (Typica Mejorado) and Gesha; fully washed lots prized for clarity.",
-      "flagship": true
+      "notable": "Hacienda La Papaya is the pioneer of specialty coffee in Saraguro — founded ~2009 by Juan Peña, a former rose farmer and agricultural.",
+      "famous": true
     },
     {
       "id": "p_lasalvaje",
@@ -4983,7 +5076,8 @@
         "v_gesha"
       ],
       "note": "Marcala / Santa Ana, Honduras. The personal project of Fabio Jr Caballero — grandson of the legendary Don Fabio Caballero — whose washed Geisha took 1st place at the 2025 Honduras Cup of Excellence on the farm's first full commercial harvest. Elegant florals, vibrant citrus, exceptional clarity.",
-      "flagship": true
+      "notable": "The personal project of Fabio Jr Caballero — grandson of the legendary Don Fabio Caballero — whose washed Geisha took 1st place at the.",
+      "famous": true
     },
     {
       "id": "p_lasvirginias",
@@ -4995,7 +5089,8 @@
         "v_gesha"
       ],
       "note": "Marcala, Honduras. A Caballero-family farm planted within the natural landscape; multiple Cup of Excellence wins across the family. Washed Geisha, mechanically demucilaged and slow low-temperature dried up to 70h — plum, pomelo, brown sugar.",
-      "flagship": false
+      "notable": "Multiple Cup of Excellence wins across the family.",
+      "famous": true
     },
     {
       "id": "p_plandelhoyo",
@@ -5007,7 +5102,8 @@
         "v_gesha"
       ],
       "note": "Apaneca-Ilamatepec, El Salvador. A de Sola family farm worked since 1957, latterly focused on coffee with strong Cup of Excellence results. Washed Geisha — 16h jute-sack ferment, ~16 days on brick patios — red apple, tangelo, yellow peach.",
-      "flagship": false
+      "notable": "A de Sola family farm worked since 1957, latterly focused on coffee with strong Cup of Excellence results.",
+      "famous": true
     },
     {
       "id": "p_lospirineos",
@@ -5025,7 +5121,8 @@
         "v_rume_sudan"
       ],
       "note": "Tecapa-Chinameca, Usulután, El Salvador. One of El Salvador's most iconic farms, run by the Baraona family for 130+ years atop the Tecapa volcano; legacy of the late Gilberto Baraona continued by son Diego. Renowned for Pacamara and meticulous CM/auction lots.",
-      "flagship": true
+      "notable": "Renowned for Pacamara and meticulous CM/auction lots.",
+      "famous": true
     },
     {
       "id": "p_emiliolopez",
@@ -5037,7 +5134,7 @@
         "v_gesha"
       ],
       "note": "Apaneca, El Salvador. Emilio López Díaz of the Cuatro M Cafés / Las Mercedes group is a leading Salvadoran producer-exporter known for clean, expressive lots. Washed Geisha.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_bridazul",
@@ -5050,7 +5147,7 @@
         "v_catuai"
       ],
       "note": "Dipilto, Nueva Segovia, Nicaragua. Bridazul works with smallholders across Nueva Segovia, centralising processing at the El Árbol mill with agronomy support and fair pricing. The \"Supernatural\" process gives deep purple grape, plum jam and Black Forest character.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elkinguzman",
@@ -5063,7 +5160,7 @@
         "v_tabi"
       ],
       "note": "Huila, Colombia. Elkin Guzmán manages Finca El Mirador (70+ years of family history) with an agricultural-engineering background and an experimental, fermentation-focused approach — one of Huila's most exciting sources. Honey-processed Striped Red Bourbon and Tabi.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sebastianramirez",
@@ -5077,7 +5174,7 @@
         "v_gesha"
       ],
       "note": "Calarcá, Quindío, Colombia. Fourth-generation producer who left law studies to transform the family farm El Placer into a \"seed to cup\" hub for experimental processing (long CO₂-injected anaerobic ferments, lactic inoculation). Known for boundary-pushing Pink Bourbon, Sidra and Geisha.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nestorlasso",
@@ -5090,7 +5187,8 @@
         "v_ombligon"
       ],
       "note": "Bruselas / Pitalito, Huila, Colombia. Brothers Nestor and Adrian Lasso with friend Jhoan Vergara built El Diviso into one of Colombia's most forward-thinking ventures — advanced thermal-shock and anaerobic fermentations, world-competition recognition. Sidra and Ombligón standouts.",
-      "flagship": true
+      "notable": "Brothers Nestor and Adrian Lasso with friend Jhoan Vergara built El Diviso into one of Colombia's most forward-thinking ventures —.",
+      "famous": true
     },
     {
       "id": "p_henrybonilla",
@@ -5103,7 +5201,7 @@
         "v_gesha"
       ],
       "note": "Huila, Colombia. Henry Bonilla took over Finca El Arrayán after his father's passing and pushed into rare varieties and experimental fermentation. His \"Flor de Jamaica\" (hibiscus) Pink Bourbon pre-ferments fruit into a concentrated juice added during processing — hibiscus, sakura, lollipop.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_jhonatangasca",
@@ -5115,7 +5213,7 @@
         "v_pacamara"
       ],
       "note": "Bella Vista, Bruselas, Huila, Colombia. Jhonatan Gasca farms Finca Bella Vista with his brother Johan, known for bold modern profiles and meticulous post-harvest work used in barista competitions. Thermal-Shock Natural Pacamara — cherry liqueur, Kyoho grape, dark chocolate.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elencanto_ff",
@@ -5127,7 +5225,7 @@
         "v_pink_bourbon"
       ],
       "note": "Paicol, Huila, Colombia. A family lot (\"The Enchantment\") grown by Faiver Fernández — washed Pink Bourbon, 26h airtight steel-tank ferment, 12-day sun drying. Silky bodied with nectarine, red berries and brown sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_thiagocorsi",
@@ -5139,7 +5237,7 @@
         "v_gesha"
       ],
       "note": "Cerrado Mineiro, Brazil. Fourth-generation Corsi family farm; Thiago is recognised for regenerative agriculture (soil health, biodiversity). His natural Gesha uses slow cold fermentation at 17–18°C — starfruit, loquat, cranberry.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_santuariosul",
@@ -5151,7 +5249,8 @@
         "v_gesha"
       ],
       "note": "Carmo de Minas, Mantiqueira de Minas, Brazil. Founded 2017 next to the renowned Irmãs Pereira farm, Santuario Sul grows 30+ exotic varieties as a hub of Brazilian innovation. Natural Geisha — strawberry, nectarine, sugar cane.",
-      "flagship": false
+      "notable": "Founded 2017 next to the renowned Irmãs Pereira farm, Santuario Sul grows 30+ exotic varieties as a hub of Brazilian innovation.",
+      "famous": true
     },
     {
       "id": "p_anasanchez",
@@ -5164,7 +5263,7 @@
         "v_bourbon"
       ],
       "note": "Alto Tambillo, San Ignacio, Cajamarca, Peru. Ana Melva Sampertegui Sánchez has farmed her 1-ha plot for nearly half her life, using biological pest controls (Beauveria bassiana) and selective pruning. Washed Caturra & Bourbon (24h cherry + 48h parchment ferment) — Bravo apple, berries, Darjeeling.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_roxanachambi",
@@ -5176,7 +5275,7 @@
         "v_catuai"
       ],
       "note": "Caranavi, La Paz, Bolivia. A 5-ha farm founded 2019 by Roxana Chambi; cherries handpicked at peak ripeness and naturally sun-dried. Natural Catuai — Nashi pear, prune, fudge.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_auroramachaca",
@@ -5189,7 +5288,7 @@
         "v_typica"
       ],
       "note": "Caranavi, La Paz, Bolivia. Established 2011 by Jhony Machaca; 3.5 ha of coffee (4,000 Red Catuai trees) on a 9-ha farm, hand-harvested June–September, mostly raised-bed natural dried. Washed lot — red currant, apricot, brown sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_milcumbres",
@@ -5201,7 +5300,7 @@
         "v_gesha"
       ],
       "note": "Cordillera, near Volcán, Chiriquí, Panama, on the slopes of Barú Volcano. \"A thousand hills\" — a former cattle pasture turned specialty farm (25 of 60 ha in coffee), reached via a reactivated timber trail. Natural Geisha — candied orange, red plum, longan, oolong.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kokeviolet",
@@ -5213,7 +5312,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Koke, Yirgacheffe, Ethiopia. Garden-coffee smallholders deliver to the Koke station; the \"Violet\" profile is dried whole on raised beds 18–30 days. Natural landrace — lilac, sapphire grape, papaya.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_chelle",
@@ -5225,7 +5324,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Gedeb woreda, Gedeo, Ethiopia. The \"Chelle\" lot from the Chelbesa wet mill — 36–72h concrete-tank ferment, 8–12 day shaded raised-bed drying. Washed landrace — jasmine, nectarine, sugarcane, tea-like.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_dumerso",
@@ -5237,7 +5336,8 @@
         "v_ethiopian_landrace"
       ],
       "note": "Gedeo, Yirgacheffe, Ethiopia. A renowned washing station; hundreds of smallholders deliver landrace garden coffee, fermented underwater 36–48h and dried up to two weeks. Apricot, orange zest, jasmine.",
-      "flagship": false
+      "notable": "A renowned washing station;",
+      "famous": true
     },
     {
       "id": "p_workasakaro",
@@ -5249,7 +5349,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Gedeo, Yirgacheffe, Ethiopia. A 120-ha high-altitude source pushing carbonic maceration in a washed-dominant region — 10-day CO₂ anaerobic ferment. CM Natural landrace — black plum, red grape, chocolate ganache.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_gargari",
@@ -5261,7 +5361,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Gutity, Kochere, Yirgacheffe, Ethiopia. A prized Kochere microzone with dry days and cool nights; the \"Amber\" lot is CO₂-flushed anaerobic, cherries at 20–22 Brix, slow thick-layer drying. Lychee, Kyoho grape, wine gums.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_hafursa",
@@ -5273,7 +5373,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Hafursa, Gedeo, Yirgacheffe, Ethiopia. Backyard-garden smallholders; washed, 12–24h fermentation, rinsed in channels, up to 15 days on raised beds. Mandarin, white floral, sugarcane.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_nansebo",
@@ -5285,7 +5385,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "West Arsi, Ethiopia. Backyard-garden heirloom at up to 2,300 m; natural, raised-bed dried 18–30 days with triple hand- and colour-sorting. Cherry, red grapefruit, molasses.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sharbomaro",
@@ -5299,7 +5399,7 @@
         "v_wolisho"
       ],
       "note": "Mokonisa, Wenago, Gedeo, Ethiopia. At 80, Sharbo Maro is among Mokonisa's most respected farmers, working 7 ha (large by local standards) with son Daniel; washed-only since 2015. 48h underwater ferment with daily water changes, shade then raised-bed dried. Peach, lemon sherbet, frangipani.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_abebecherfo",
@@ -5313,7 +5413,7 @@
         "v_74112"
       ],
       "note": "Rakko, Kochere, Yirgacheffe, Ethiopia. A single-farmer lot from Abebe Cherfo of the Jabanto Farmers Group (supported by G Broad Trading & Condesa Co.Lab), near Rakko Mountain; organic-certified washed. 48h soak in fresh mountain water, raised-bed dried. Tangelo, grapes, brown sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_karatina",
@@ -5327,7 +5427,7 @@
         "v_batian"
       ],
       "note": "Barichu, Nyeri County, Kenya, southern slopes of Mt Kenya. Part of the Barichu FCS (~1,450 smallholders) on red volcanic soils; traditional river-water washed, overnight ferment, 7–15 days on raised beds. Mulberry, dark plum, sugarcane.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kagumoini",
@@ -5341,7 +5441,7 @@
         "v_batian"
       ],
       "note": "Murang'a County, Kenya. Part of the Kamacharia FCS (1,300+ members) on red volcanic soils; classic Kenyan washed processing. Yellow peach, red berries, caramel.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_thageini",
@@ -5354,7 +5454,7 @@
         "v_sl34"
       ],
       "note": "Nyeri, Kenya. Part of the Aguthi FCS (~2,000 producers); the \"Amber\" lot is a rare Kenyan carbonic maceration — ripest cherries at 20–22 Brix, 8-day CO₂ ferment. Blackberry, cherry reduction, toffee.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kibingo",
@@ -5366,7 +5466,7 @@
         "v_bourbon"
       ],
       "note": "Kayanza commune, northern Burundi (~1,893 m). Kibingo serves 1,700+ growers across 18 hills, organised in groups of 30; 10 ferment tanks, 2 soaking tanks, 165 raised beds. Washed Red Bourbon — Bravo apple, blackberry, molasses.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_yinhui",
@@ -5379,7 +5479,7 @@
         "v_yellow_bourbon"
       ],
       "note": "Guangbiezhongzhai, Menglian, Pu'er, Yunnan, China. A 2,300-acre estate of ~200 growers founded by Hui Li, who trained with Nestlé agronomists and returned home to lift her village out of poverty through strict quality control. Catimor (T7963/T5175/PT688) and Yellow Bourbon; natural processing.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_cimizhu",
@@ -5391,7 +5491,7 @@
         "v_catimor"
       ],
       "note": "Lisuo, Ximeng, Pu'er, Yunnan, China. Founded by Po ZHA, who left banking in 2007 to build a quality-focused estate paying villagers on cherry quality; 2nd place Unwashed at the 2022 Best of Yunnan competition. Anaerobic Natural Catimor — bayberry, umeboshi, dark chocolate.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_xiuyuan",
@@ -5403,7 +5503,7 @@
         "v_catimor"
       ],
       "note": "Menglian, Pu'er, Yunnan, China. Managed by 550 smallholders across the 7,373-ha Menglian growing area; primarily Catimor. Anaerobic Natural (48–72h sealed ferment) — red plum, candied hawthorn, fudge.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_xingang",
@@ -5415,7 +5515,7 @@
         "v_catimor"
       ],
       "note": "Fuyan, near Menglian, Pu'er, Yunnan, China. Established 2006; second-generation producer Mei ZHAO has guided 2,700 farmers via a cooperative. Long anaerobic-natural (480h ferment + pile fermentation) Catimor T5715 — red grape, apricot, Pedro Ximénez.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_slope",
@@ -5427,7 +5527,7 @@
         "v_purple_caturra"
       ],
       "note": "Xiding, Menghai, Xishuangbanna, Yunnan, China. In a Blang ethnic-group village, Slope grows Purple Caturra (\"Purple Leaf\"), a natural Caturra mutation developed by the Dehong Tropical Research Institute. K72 washed (spring-water floated, double ferment) — pear, nectarine, macadamia.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elhigueron",
@@ -5441,7 +5541,7 @@
         "v_bourbon"
       ],
       "note": "San Lorenzo, Nariño, Colombia. Ever Gamboa worked for years as an \"andariego\" (travelling picker) before founding Finca Los Robles with his brother six years ago, moving into specialty cultivars. Washed Pink Bourbon — key lime pie, white peach, nectar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_lajoya_narino",
@@ -5454,7 +5554,7 @@
         "v_colombia"
       ],
       "note": "Chachagüí, Nariño, Colombia. A high-altitude Nariño lot in a municipality with deep Quillacinga indigenous heritage. Natural Caturra/Variedad Colombia — pineapple, raspberry, apricot compote.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elpalchimal",
@@ -5466,7 +5566,7 @@
         "v_castillo"
       ],
       "note": "Génova, Quindío, Colombia. Atilano, a third-generation grower (his father came from Antioquia in the 1950s), farms 70 ha of exclusively Castillo with soil-analysis-led organic practices and Guamo/Nogal shade. Washed — berry jam, raisin, caramel.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sebastiangomez",
@@ -5478,7 +5578,7 @@
         "v_caturra"
       ],
       "note": "Circasia, Quindío, Colombia. Sebastián Gómez produces meticulous microlots at Finca La Divisa — 30h underwater fermentation, temperature-controlled drying. Washed Caturra — apple, nectarine, brown sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_danielcalderon",
@@ -5491,7 +5591,7 @@
         "v_colombia"
       ],
       "note": "Algeciras, Huila, Colombia. Daniel Calderón Enciso farms 6 ha (≈3 in coffee) at Finca El Mirador, a partner producer of Azahar in a municipality where coffee shares the land with cane and cacao. Natural Caturra/Colombia — raisin, umeboshi, caramel.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_luzhelena",
@@ -5503,7 +5603,7 @@
         "v_caturra"
       ],
       "note": "La Leona, Armenia, Quindío, Colombia. Luz Helena Salazar produces a carefully sorted microlot — strict ripeness criteria, floated and hand-sorted, 30h underwater fermentation. Washed Caturra — Fuji apple, plum, brown sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elguamo",
@@ -5519,7 +5619,7 @@
         "v_sarchimor"
       ],
       "note": "Tacuba, Apaneca-Ilamatepec, El Salvador. INVERFINCA (Fernando Alfaro & Jose Enrique Gutierrez) — four generations of Salvadoran expertise — farms 45 ha beside Parque Nacional El Imposible. Natural Caturra — blackberry, miso, chocolate.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_ellimo",
@@ -5531,7 +5631,7 @@
         "v_san_pacho"
       ],
       "note": "Apaneca-Ilamatepec, El Salvador. Second-generation producer Jose Enrique Gutierrez bought his first farm in 2007 with a specialty mindset after his family left coffee during the civil war. Anaerobic Natural San Pacho (Bourbon) — purple grape, dark chocolate, Negroni.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_elpozo",
@@ -5545,7 +5645,7 @@
         "v_bourbon"
       ],
       "note": "Chalatenango, El Salvador (\"valley of water and sand\"), the country's coolest, northernmost region. Isaac Luna farms several small plots and was the first locally to process honey coffee. Natural Pacamara — ~20 days on raised beds.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_loschorros_gt",
@@ -5560,7 +5660,7 @@
         "v_maragogipe"
       ],
       "note": "San Pedro Necta, Huehuetenango, Guatemala. Virgilio Martínez farms 6.25 manzanas of mixed varieties; same-day depulping, 24–38h dry ferment, multiple washes, 3.5–6 days on concrete patios. Apricot, red apple, caramel.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_rogerdominguez",
@@ -5574,7 +5674,7 @@
         "v_caturra"
       ],
       "note": "La Paz, Marcala, Honduras. A young producer who inherited family farms in the early 1990s and refined them for quality — three 3–5 ha parcels of Bourbon, Catuai and Caturra. Natural Catuai Rojo — red plum, orange, chocolate.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_natcha",
@@ -5589,7 +5689,8 @@
         "v_catimor"
       ],
       "note": "West Java, Indonesia (highlands of Mt Pangrango, Mt Halu, Mt Cikurai), with a processing facility in Aceh, North Sumatra. Natanael Charis — \"Natcha\" — is one of Indonesia's most innovative producers, known for award-winning controlled carbonic maceration with selected wine yeasts and thermal-shock techniques that elevate clarity and structure.",
-      "flagship": true
+      "notable": "One of Indonesia's most awarded producers, known for carbonic-maceration innovation.",
+      "famous": true
     },
     {
       "id": "p_harusuke",
@@ -5601,7 +5702,7 @@
         "v_ethiopian_landrace"
       ],
       "note": "Haru village, Gedeo, Yirgacheffe, Ethiopia. A washing station established 2017 by Abreham Mengiste, serving 2,820 smallholders. Washed heirloom — candied lemon, white peach, jasmine tea; clean and delicate.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_hachi",
@@ -5614,7 +5715,8 @@
         "v_caturra"
       ],
       "note": "Jurutungo & Renacimiento, Volcán, Chiriquí, Panama. A venture by Diego Bermúdez (of El Paraíso fame) with Matheus Antonaci and Allan Hartmann, merging biotechnology and terroir — proprietary \"Enzyflow\" and \"Symbiotic\" fermentations (transferring aromatics between varieties via donor mosto). Boundary-pushing Gesha and Caturra.",
-      "flagship": true
+      "notable": "Diego Bermúdez's biotech-driven Panama venture pushing fermentation science.",
+      "famous": true
     },
     {
       "id": "p_brim",
@@ -5626,7 +5728,7 @@
         "v_catimor"
       ],
       "note": "Da Lat, Lam Dong, Vietnam. Brim works with ethnic-minority farmers in the Da Lat highlands growing Catimor, hand-picked and sun-dried on hand-woven bamboo nets ~30 days. Known for distinctive processing — bamboo-dried naturals and a 100-hour lavender co-ferment.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_barokah",
@@ -5639,7 +5741,7 @@
         "v_sigararutang"
       ],
       "note": "Gunung Tujuh, Kerinci, Sumatra, Indonesia. The Koerintji Barokah Bersama Cooperative (320 farmers, founded 2017, led by Triyono) sits at the foot of Mount Kerinci with nine UPH collection centres. Anaerobic Natural — mulled wine, plum reduction, sultana.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_asmanarianto",
@@ -5654,7 +5756,7 @@
         "v_timtim"
       ],
       "note": "Aceh Tengah, North Sumatra, Indonesia. Asman Arianto migrated to Aceh in 1998 and founded the Ribang Gayo Musara Cooperative (2018, 350+ members) delivering to Pantan Musara. Natural process — ruby grapefruit, spiced cola, palm sugar.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_asmangayo",
@@ -5669,7 +5771,7 @@
         "v_timtim"
       ],
       "note": "Pegasing, Takengon, Aceh, Sumatra, Indonesia. A small mill serving Pantan Musara producers who rebuilt after displacement; unusually for Sumatra it produces washed (and natural) coffees, with recirculated wash water. Pomelo, apricot, Ceylon tea.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_jayatani",
@@ -5683,7 +5785,7 @@
         "v_andungsari"
       ],
       "note": "Jernih Jaya, Kerinci, Jambi, Sumatra, Indonesia. A lot from the Koerintji Barokah Bersama Cooperative (Triyono; 380 members across 200+ ha) in the rainforest highlands below Mount Kerinci. Anaerobic Natural — golden kiwi, cherry, fresh figs.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_sukequto",
@@ -5696,7 +5798,8 @@
         "v_wolisho"
       ],
       "note": "Odo Shakisso, Guji, Ethiopia. Founded in 2000 by Ato Tesfaye Bekele, a former government natural-resource official who left his post to plant coffee after the 1997–99 Guji bushfires destroyed ~5,000 acres of forest — restoring the land while creating livelihoods. A semi-forest, certified Organic & Rainforest Alliance farm (two farms plus a washing station serving 170–290 outgrowers), regarded as one of the pioneers that put Guji on the specialty map; a long partnership with importer Trabocca. Unusually for Ethiopia the varieties are clearly identified — Kurume and Wolicho — grown under native shade with leaf-mulch fertilisation. Classic clean Guji cup: floral, stone fruit, citrus, tea-like.",
-      "flagship": true
+      "notable": "A semi-forest, certified Organic & Rainforest Alliance farm (two farms plus a washing station serving 170–290 outgrowers), regarded as.",
+      "famous": true
     },
     {
       "id": "p_anasora",
@@ -5709,7 +5812,8 @@
         "v_74110"
       ],
       "note": "Guji, Oromia, Ethiopia (east of Yirgacheffe, near Yirgalem). A ~250-ha private estate — rare in Ethiopia — founded in 2013 by Israel Degfa, the second-generation producer behind Kerchanshe Trading (20+ washing stations). Among the highest-grown coffees in the world at up to 2,350 m; the extreme altitude slows cherry maturation for intense sweetness and acidity. Israel grew up in coffee (father a mill manager, mother selling beans at a bus stop) and reinvests via the Nakala sustainability arm. Washed and natural 11/714 landrace.",
-      "flagship": true
+      "notable": "Among the highest-grown coffees in the world at up to 2,350 m;",
+      "famous": true
     },
     {
       "id": "p_dimtu",
@@ -5722,7 +5826,7 @@
         "v_74112"
       ],
       "note": "Hambela woreda, Guji, Ethiopia. A washing station in the Kerchanshe (Israel Degfa) network, known for perfumed, floral washed lots with concentrated berry, dark chocolate and baking-spice depth in naturals.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_hunkute",
@@ -5736,7 +5840,7 @@
         "v_74112"
       ],
       "note": "Hunkute, Sidama, Ethiopia. A large, long-established cooperative on the Sidama plateau, a benchmark washed-Sidama name — clean, citrus-and-floral with classic black-tea elegance.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_konga",
@@ -5748,7 +5852,8 @@
         "v_ethiopian_landrace"
       ],
       "note": "Konga, Yirgacheffe (Gedeo), Ethiopia. A celebrated Yirgacheffe kebele/station, one of the classic reference points for floral, citrus, jasmine-driven washed Yirgacheffe.",
-      "flagship": false
+      "notable": "A celebrated Yirgacheffe kebele/station, one of the classic reference points for floral, citrus, jasmine-driven washed Yirgacheffe.",
+      "famous": true
     },
     {
       "id": "p_chelelektu",
@@ -5760,7 +5865,8 @@
         "v_ethiopian_landrace"
       ],
       "note": "Chelelektu, Kochere, Yirgacheffe, Ethiopia. A renowned Kochere station; both washed and natural lots prized for stone fruit, citrus and intense florals.",
-      "flagship": false
+      "notable": "A renowned Kochere station;",
+      "famous": true
     },
     {
       "id": "p_karogoto",
@@ -5775,7 +5881,7 @@
         "v_batian"
       ],
       "note": "Tekangu FCS, Nyeri, Kenya. One of the standout Nyeri factories (Tekangu = Tegu/Karogoto/Ngunguru), classic blackcurrant-and-citrus washed Kenyan SL-28/SL-34.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_kiandu",
@@ -5790,7 +5896,7 @@
         "v_batian"
       ],
       "note": "Nyeri, Kenya. A well-regarded Nyeri factory producing dense, high-altitude washed lots with the region's signature blackcurrant, grapefruit and winey acidity.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_tamana",
@@ -5804,7 +5910,8 @@
         "v_castillo"
       ],
       "note": "Pitalito, Huila, Colombia. A widely celebrated farm popularised through exporter Pergamino and roasters worldwide; Elías Roa's meticulous plot-by-plot management and soil work made Tamana a reference Colombian washed coffee — caramel, red fruit, balanced and sweet.",
-      "flagship": false
+      "notable": "A widely celebrated farm popularised through exporter Pergamino and roasters worldwide;",
+      "famous": true
     },
     {
       "id": "p_carmenestate2",
@@ -5817,7 +5924,7 @@
         "v_caturra"
       ],
       "note": "Trujillo, Valle del Cauca, Colombia. One of Café Granja La Esperanza's farms (Herrera family), where some of Colombia's earliest and most awarded Geisha plantings were established — a benchmark Colombian Gesha source.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_fincaargentina",
@@ -5830,7 +5937,7 @@
         "v_pacas"
       ],
       "note": "Santa Ana (Ilamatepec/Apaneca), El Salvador. A historic farm associated with Aída Batlle, one of El Salvador's most influential producers and an early champion of meticulous picking and processing. Classic Salvadoran Bourbon — red fruit, caramel, citrus.",
-      "flagship": false
+      "famous": false
     },
     {
       "id": "p_abucoffee",
@@ -5843,7 +5950,8 @@
         "v_catuai"
       ],
       "note": "Cañas Verdes district, Boquete, Chiriquí, Panama. A ~11-ha farm on high-organic volcanic soil (pH 5.0–6.0, ~3,500 mm rainfall), producing Geisha and Catuai. 'Abu' (short for abuelo) honours José Guillermo Luttrell Tedman, the third-generation producer whose grand-uncle bought the original Geisha seed in 1971; current producer José Luttrell has earned multiple Best of Panama auction placements in only a few years (a Natural Geisha placed 11th). Known for double-phase anaerobic washed processing — jasmine, lychee, tangerine, chocolate and mixed berries.",
-      "flagship": false
+      "notable": "Multiple Best of Panama auction placements in only a few years.",
+      "famous": true
     }
   ],
   "processes": [
