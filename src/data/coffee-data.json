@@ -2636,18 +2636,18 @@
     },
     {
       "id": "p_india_estate",
-      "name": "Chikmagalur estates",
-      "people": "Karnataka hill estates",
+      "name": "Baarbara Estate",
+      "people": "Indavara family",
       "regionId": "r_chikmagalur",
-      "altitude": "1000–1500 m",
+      "altitude": "1100–1200 m",
       "varietyIds": [
-        "v_kent",
         "v_s795",
-        "v_cauvery",
-        "v_typica"
+        "v_kent",
+        "v_cauvery"
       ],
-      "note": "Chikmagalur, Karnataka — where coffee first entered India. Shade-grown Arabica with low acidity and sweet, sometimes spicy notes; home of the unusual Monsooned Malabar style.",
-      "famous": false
+      "note": "Bababudangiri, Chikmagalur, Karnataka — one of India’s oldest and most respected estates, run by the Indavara family since 1896. Dense, multi-tier shade over Selection 795 and other Indian Arabicas, intercropped with black pepper; a haven for tigers, wild boar and birdlife. Known for clean, low-acid, sweet and gently spiced cups, and certified for sustainability and quality.",
+      "famous": true,
+      "notable": "One of Karnataka’s oldest and most respected coffee farms, growing shade-grown Selection 795 in the Bababudangiri hills since 1896."
     },
     {
       "id": "p_nueva_linda",
@@ -2666,17 +2666,19 @@
     },
     {
       "id": "p_cajamarca",
-      "name": "Cajamarca smallholders",
-      "people": "Northern Peru cooperatives",
+      "name": "CENFROCAFE Cooperative",
+      "people": "2,000+ smallholder members (founded 1999)",
       "regionId": "r_cajamarca",
-      "altitude": "1600–2000 m",
+      "altitude": "1200–2050 m",
       "varietyIds": [
         "v_bourbon",
         "v_caturra",
-        "v_catimor"
+        "v_catimor",
+        "v_typica"
       ],
-      "note": "Cajamarca, northern Peru. High-altitude smallholder and cooperative coffee, increasingly organic and specialty-graded; sweet, mild, citric profiles.",
-      "famous": false
+      "note": "Jaén, Cajamarca, northern Peru — founded in 1999 with 220 farmers and now one of Latin America’s largest and best-organised cooperatives, serving 2,000+ smallholder families across twelve districts. Cajamarca produces the bulk of Peru’s best-cupping coffee, and CENFROCAFE members regularly reach the finals of the Peru Cup of Excellence. Mostly organic-certified washed Bourbon, Caturra, Typica and Catimor.",
+      "famous": true,
+      "notable": "One of Latin America’s largest and best-organised cooperatives, uniting 2,000+ Cajamarca smallholders, with members regularly placing in Peru’s Cup of Excellence."
     },
     {
       "id": "p_zouzhou",
@@ -2737,16 +2739,19 @@
     },
     {
       "id": "p_puer",
-      "name": "Pu'er producers",
-      "people": "Pu'er smallholders & co-ops",
+      "name": "Xiaowazi Coffee Manor",
+      "people": "Liao Xiugui",
       "regionId": "r_puer",
-      "altitude": "1100–1600 m",
+      "altitude": "1100–1400 m",
       "varietyIds": [
         "v_catimor",
-        "v_typica"
+        "v_typica",
+        "v_gesha",
+        "v_catuai"
       ],
-      "note": "Pu'er, Yunnan — the powerhouse of Chinese coffee, famed for tea, now a full coffee ecosystem of research, trade and rising specialty lots.",
-      "famous": false
+      "note": "Simao District, Pu'er, Yunnan — beside the Nandao River, about 17 km from the city. A roughly 20-hectare manor founded by Liao Xiugui, a local pioneer who began growing coffee in the late 1980s, now home to more than 40 coffee varieties. In 2022 it became one of the first estates authorised to use the “Pu'er Coffee” geographical indication, and is a benchmark for the region’s shift from commodity Catimor toward traceable specialty lots.",
+      "famous": true,
+      "notable": "A pioneering 20-hectare Pu'er estate with 40+ coffee varieties, among the first authorised to use the “Pu'er Coffee” geographical indication (2022)."
     },
     {
       "id": "p_doichang",
@@ -2808,28 +2813,28 @@
     },
     {
       "id": "p_kona",
-      "name": "Kona estates",
-      "people": "Kona District farms (Big Island)",
+      "name": "Greenwell Farms",
+      "people": "Greenwell family (founded by Henry Nicholas Greenwell)",
       "regionId": "r_kona",
-      "altitude": "150–800 m",
+      "altitude": "250–700 m",
       "varietyIds": [
         "v_typica"
       ],
-      "note": "Slopes of Hualālai and Mauna Loa, Big Island. 'Kona Typica' grown since 1825; famously smooth, sweet, low-acid and balanced — a benchmark of gentle, clean cup character.",
-      "notable": "Hawaii's iconic estate-grown origin, among the most recognised coffees in the world.",
+      "note": "Kealakekua, the “heart of Kona,” on the slopes of Hualālai and Mauna Loa, Big Island. Founded in 1850 by Henry Nicholas Greenwell and family-run for five generations, it earned a Recognition Diploma at the 1873 Vienna World’s Fair and remains one of Kona’s oldest and largest estates. Grows the heirloom Kona Typica and runs its own varietal breeding program (origin of the Mamo selection); famously smooth, sweet and low in acidity.",
+      "notable": "A landmark Kona estate cultivating 100% Kona coffee since 1850, awarded at the 1873 Vienna World’s Fair.",
       "famous": true
     },
     {
       "id": "p_blue_mtn",
-      "name": "Blue Mountain estates",
-      "people": "Jamaica Blue Mountain growers",
+      "name": "Clifton Mount Estate",
+      "people": "Sharp family",
       "regionId": "r_blue_mtn",
-      "altitude": "900–1700 m",
+      "altitude": "1300–1400 m",
       "varietyIds": [
         "v_typica"
       ],
-      "note": "Blue Mountains, eastern Jamaica. One of the world's most recognised and protected origins (Blue Mountain Typica); smooth, balanced, sweet and richly mild, with understated acidity.",
-      "notable": "One of the world’s most recognised and legally protected origins, prized for the clean, mild, balanced cup of its Blue Mountain Typica.",
+      "note": "Eastern slope of Catherine’s Peak, Newcastle, St. Andrew, Jamaica — at around 1,300 m in the heart of the Blue Mountains. Owned by the Sharp family since 1977 and fully vertically integrated (the only Jamaican plantation controlling every step from seedling to dry-milling), it is the island’s only Rainforest Alliance-certified estate. Grows classic Blue Mountain Typica, prized for an exquisitely balanced, smooth cup, and famous for its rare peaberry.",
+      "notable": "The only Rainforest Alliance-certified Jamaican estate, widely regarded as the finest producer of Blue Mountain coffee.",
       "famous": true
     },
     {
@@ -3724,17 +3729,20 @@
     },
     {
       "id": "p_nantou",
-      "name": "Nantou estates (Ren'ai / Xinyi)",
-      "people": "Nantou highland growers",
+      "name": "Lu Gao Coffee Estate (鹿篙咖啡莊園)",
+      "people": "Taiwan Agricultural & Industrial Corporation (TAIC)",
       "regionId": "r_nantou",
-      "altitude": "1100–1300 m",
+      "altitude": "700 m",
       "varietyIds": [
         "v_typica",
-        "v_gesha",
-        "v_sl34"
+        "v_sl34",
+        "v_catuai",
+        "v_villa_sarchi",
+        "v_gesha"
       ],
-      "note": "Central Taiwan. A diverse highland growing area (Ren'ai, Xinyi, Guoxing) producing clean, sweet Arabica; a recurring source of competition lots alongside Alishan.",
-      "famous": false
+      "note": "Yuchi Township, Nantou County, central Taiwan — a 10-hectare estate run by the Taiwan Agricultural & Industrial Corporation (TAIC), a company with roots in the Japanese colonial-era tea trade. Around 13,850 coffee trees grow at ~700 m under shade trees such as Taiwan incense cedar, spanning Typica, SL34, Catuai, Villa Sarchi and Geisha. Built first and foremost as a growing estate, with rigorous soil-and-water conservation and processing standards.",
+      "famous": true,
+      "notable": "A 10-hectare Nantou estate under the century-old TAIC, planting ~13,850 trees across Typica, SL34, Catuai, Villa Sarchi and Geisha."
     },
     {
       "id": "p_discovery_th",
@@ -5952,6 +5960,18 @@
       "note": "Cañas Verdes district, Boquete, Chiriquí, Panama. A ~11-ha farm on high-organic volcanic soil (pH 5.0–6.0, ~3,500 mm rainfall), producing Geisha and Catuai. 'Abu' (short for abuelo) honours José Guillermo Luttrell Tedman, the third-generation producer whose grand-uncle bought the original Geisha seed in 1971; current producer José Luttrell has earned multiple Best of Panama auction placements in only a few years (a Natural Geisha placed 11th). Known for double-phase anaerobic washed processing — jasmine, lychee, tangerine, chocolate and mixed berries.",
       "notable": "Multiple Best of Panama auction placements in only a few years.",
       "famous": true
+    },
+    {
+      "id": "p_uchangi",
+      "name": "Uchangi Estate",
+      "people": "",
+      "regionId": "r_chikmagalur",
+      "altitude": "900–1200 m",
+      "varietyIds": [
+        "v_s795"
+      ],
+      "note": "Chikmagalur, Karnataka, India, at roughly 900–1,200 m. A shade-grown estate in India’s oldest coffee region whose lots have reached specialty roasters abroad, including experimental yeast-fermented coffees. (Further detail on ownership and varieties to be confirmed.)",
+      "famous": false
     }
   ],
   "processes": [
@@ -6508,22 +6528,6 @@
       "name": "Gayo Sigarar Utang Wet-Hulled"
     },
     {
-      "id": "l_india_s795",
-      "producerId": "p_india_estate",
-      "varietyId": "v_s795",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Chikmagalur S795 Washed"
-    },
-    {
-      "id": "l_india_monsooned",
-      "producerId": "p_india_estate",
-      "varietyId": "v_cauvery",
-      "processId": "pr_natural",
-      "year": 2024,
-      "name": "Chikmagalur Cauvery Monsooned Malabar"
-    },
-    {
       "id": "l_zouzhou_songna",
       "producerId": "p_zouzhou",
       "varietyId": "v_songna",
@@ -6586,22 +6590,6 @@
       "processId": "pr_natural",
       "year": 2024,
       "name": "My Liberica Johor Natural"
-    },
-    {
-      "id": "l_kona_typica",
-      "producerId": "p_kona",
-      "varietyId": "v_typica",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Kona Typica Washed"
-    },
-    {
-      "id": "l_bluemtn_typica",
-      "producerId": "p_blue_mtn",
-      "varietyId": "v_typica",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Jamaica Blue Mountain Washed"
     },
     {
       "id": "l_labohemia_gesha",
@@ -6812,28 +6800,12 @@
       "name": "Finca Nueva Linda Bourbon Washed"
     },
     {
-      "id": "l_cajamarca_caturra",
-      "producerId": "p_cajamarca",
-      "varietyId": "v_caturra",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Cajamarca Caturra Washed"
-    },
-    {
       "id": "l_songyue_gesha",
       "producerId": "p_songyue",
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2023,
       "name": "Songyue Estate Gukeng Gesha Natural"
-    },
-    {
-      "id": "l_puer_catimor",
-      "producerId": "p_puer",
-      "varietyId": "v_catimor",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Puer Catimor Washed"
     },
     {
       "id": "l_injerto_pacamara",
@@ -7146,14 +7118,6 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "Nita Cafe Hualien Typica Washed"
-    },
-    {
-      "id": "l_nantou_gesha",
-      "producerId": "p_nantou",
-      "varietyId": "v_gesha",
-      "processId": "pr_washed",
-      "year": 2024,
-      "name": "Nantou Gesha Washed"
     },
     {
       "id": "l_discovery_gesha",
@@ -9799,6 +9763,95 @@
       "processId": "pr_washed",
       "year": 2024,
       "name": "Kainamui Ruiru 11 Washed"
+    },
+    {
+      "id": "l_baarbara_s795",
+      "producerId": "p_india_estate",
+      "varietyId": "v_s795",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Baarbara Estate Selection 795 Washed"
+    },
+    {
+      "id": "l_baarbara_natural",
+      "producerId": "p_india_estate",
+      "varietyId": "v_s795",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Baarbara Estate Selection 795 Natural"
+    },
+    {
+      "id": "l_greenwell_typica",
+      "producerId": "p_kona",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Greenwell Farms Kona Typica Washed"
+    },
+    {
+      "id": "l_clifton_typica",
+      "producerId": "p_blue_mtn",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Clifton Mount Blue Mountain Typica Washed"
+    },
+    {
+      "id": "l_cenfrocafe_bourbon",
+      "producerId": "p_cajamarca",
+      "varietyId": "v_bourbon",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "CENFROCAFE Bourbon Washed"
+    },
+    {
+      "id": "l_cenfrocafe_caturra",
+      "producerId": "p_cajamarca",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "CENFROCAFE Caturra Washed"
+    },
+    {
+      "id": "l_lugao_gesha",
+      "producerId": "p_nantou",
+      "varietyId": "v_gesha",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Lu Gao Estate Geisha Washed"
+    },
+    {
+      "id": "l_lugao_sl34",
+      "producerId": "p_nantou",
+      "varietyId": "v_sl34",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Lu Gao Estate SL34 Natural"
+    },
+    {
+      "id": "l_xiaowazi_honey",
+      "producerId": "p_puer",
+      "varietyId": "v_catimor",
+      "processId": "pr_honey",
+      "year": 2024,
+      "name": "Xiaowazi Catimor Honey"
+    },
+    {
+      "id": "l_xiaowazi_typica",
+      "producerId": "p_puer",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Xiaowazi Typica Washed"
+    },
+    {
+      "id": "l_uchangi_yeast",
+      "producerId": "p_uchangi",
+      "varietyId": "v_s795",
+      "processId": "pr_yeast",
+      "year": 2024,
+      "name": "Uchangi Estate Selection 795 Yeast Inoculated",
+      "source": "Shake Coffee"
     }
   ],
   "seedTastings": [
