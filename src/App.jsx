@@ -488,7 +488,7 @@ function CardFact({ label, value, accent }) {
   return (
     <>
       <span className="mono" style={{ fontSize: 10, letterSpacing: 1, color: "rgba(43,29,20,.4)", textTransform: "uppercase", fontWeight: 700, paddingTop: 2 }}>{label}</span>
-      <span style={{ fontSize: 13, fontWeight: 500, color: accent ? PINK : "rgba(43,29,20,.85)" }}>{value}</span>
+      <span style={{ fontSize: 13, fontWeight: 500, color: accent ? PINK : "rgba(43,29,20,.85)" }}>{(value && String(value).trim()) ? value : "—"}</span>
     </>
   );
 }
