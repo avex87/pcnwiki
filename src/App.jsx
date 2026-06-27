@@ -63,7 +63,7 @@ export default function CoffeeKB() {
   const [selectedVariety, setSelectedVariety] = useState(null);
   const [selectedFarm, setSelectedFarm] = useState(null);
   const [farmCountry, setFarmCountry] = useState("All");
-  const [flagshipOnly, setFlagshipOnly] = useState(false);
+  const [famousOnly, setFamousOnly] = useState(false);
 
   const regionById = useMemo(() => Object.fromEntries(REGIONS.map(r => [r.id, r])), []);
   const varietyById = useMemo(() => Object.fromEntries(VARIETIES.map(v => [v.id, v])), []);
@@ -104,13 +104,13 @@ export default function CoffeeKB() {
     return FARMS.filter(f => {
       const reg = regionById[f.regionId];
       const byCountry = farmCountry === "All" || (reg && reg.country === farmCountry);
-      const byFlagship = !flagshipOnly || f.flagship;
+      const byFamous = !famousOnly || f.famous;
       const grownVarieties = (f.varietyIds || []).map(id => varietyById[id] && varietyById[id].name).filter(Boolean);
       const matchQ = !q || [f.name, f.people, f.note, f.altitude, reg && reg.region, reg && reg.country]
         .some(field => normalize(field).includes(q)) || grownVarieties.some(n => normalize(n).includes(q));
-      return byCountry && byFlagship && matchQ;
+      return byCountry && byFamous && matchQ;
     });
-  }, [query, farmCountry, flagshipOnly, regionById, varietyById]);
+  }, [query, farmCountry, famousOnly, regionById, varietyById]);
 
   return (
     <div style={{ minHeight: "100vh", background: "#F7F4EF", color: ROAST, fontFamily: "'Inter', system-ui, sans-serif" }}>
@@ -235,11 +235,11 @@ export default function CoffeeKB() {
                 ))}
                 <span style={{ width: 1, height: 18, background: "rgba(43,29,20,.15)", margin: "0 4px" }} />
                 <button
-                  className={`chip ${flagshipOnly ? "on" : ""}`}
-                  onClick={() => setFlagshipOnly(v => !v)}
+                  className={`chip ${famousOnly ? "on" : ""}`}
+                  onClick={() => setFamousOnly(v => !v)}
                   style={{ display: "flex", alignItems: "center", gap: 5, fontWeight: 600 }}
                 >
-                  <Star size={12} fill={flagshipOnly ? "#fff" : "none"} /> Flagship only
+                  <Star size={12} fill={famousOnly ? "#fff" : "none"} /> Famous only
                 </button>
               </div>
               <CountLine shown={farms.length} total={FARMS.length} noun="farms" />
@@ -250,7 +250,7 @@ export default function CoffeeKB() {
                     <div key={f.id} className="card" style={{ padding: 18, cursor: "pointer" }} onClick={() => setSelectedFarm(f)}>
                       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8 }}>
                         <h3 style={{ fontSize: 19, fontWeight: 600, margin: 0, letterSpacing: "-0.01em" }}>{f.name}</h3>
-                        {f.flagship && <span className="mono" style={{ fontSize: 9, padding: "3px 7px", borderRadius: 6, background: "rgba(232,90,140,.12)", color: PINK, whiteSpace: "nowrap" }}>FLAGSHIP</span>}
+                        {f.notable && <span className="mono" title={f.notable || undefined} style={{ fontSize: 9, padding: "3px 7px", borderRadius: 6, background: "rgba(232,90,140,.12)", color: PINK, whiteSpace: "nowrap" }}>FAMOUS</span>}
                       </div>
                       <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "5px 12px", margin: "12px 0" }}>
                         <CardFact label="Grower" value={f.people} />
@@ -320,8 +320,15 @@ export default function CoffeeKB() {
         const reg = regionById[selectedFarm.regionId];
         return (
           <Drawer onClose={() => setSelectedFarm(null)}>
-            <span className="mono" style={{ fontSize: 11, color: PINK, letterSpacing: 1 }}>{reg ? reg.country.toUpperCase() : "FARM"}{selectedFarm.flagship ? " · FLAGSHIP" : ""}</span>
+            <span className="mono" style={{ fontSize: 11, color: PINK, letterSpacing: 1 }}>{reg ? reg.country.toUpperCase() : "FARM"}{selectedFarm.notable ? " · FAMOUS" : ""}</span>
             <h2 style={{ fontSize: 30, fontWeight: 600, margin: "6px 0 0", letterSpacing: "-0.02em" }}>{selectedFarm.name}</h2>
+            {selectedFarm.notable && (
+              <div style={{ marginTop: 12, padding: "10px 13px", background: "rgba(232,90,140,.08)", borderLeft: `3px solid ${PINK}`, borderRadius: 8 }}>
+                <span style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, lineHeight: 1.5, color: ROAST }}>
+                  <Star size={13} fill={PINK} color={PINK} style={{ flexShrink: 0 }} /> {selectedFarm.notable}
+                </span>
+              </div>
+            )}
             <div style={{ margin: "16px 0", paddingTop: 16, borderTop: "1px solid rgba(43,29,20,.1)", display: "grid", gridTemplateColumns: "auto 1fr", gap: "8px 14px" }}>
               <CardFact label="Grower" value={selectedFarm.people} />
               <CardFact label="Region" value={reg ? reg.region : "—"} />
