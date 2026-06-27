@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen } from "lucide-react";
+import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, Globe } from "lucide-react";
 import data from "./data/coffee-data.json";
 import pcnLogo from "./assets/pcn-wiki-logo.png";
 
@@ -566,9 +566,12 @@ function Drawer({ children, onClose }) {
 }
 
 function AddContribute() {
-  const [open, setOpen] = useState(null); // 'lot' | 'farm' | 'variety' | null
+  const [open, setOpen] = useState(null); // 'lot' | 'farm' | 'variety' | 'roaster' | null
   const [queue, setQueue] = useState([]);
   const [copied, setCopied] = useState(false);
+  const [clearPw, setClearPw] = useState("");
+  const [clearErr, setClearErr] = useState(false);
+  const CLEAR_PASSWORD = "nx2rkaro";
 
   // If a Worker URL is configured (window.PCN_QUEUE_API, set in index.html),
   // the queue is shared across all visitors via that backend. Otherwise it
@@ -607,6 +610,7 @@ function AddContribute() {
         { name: "lotName", label: "Lot name", placeholder: "e.g. Pink Bourbon Washed" },
         { name: "lotFarm", label: "Farm", placeholder: "Which farm grew it?" },
         { name: "country", label: "Country of origin", placeholder: "e.g. Colombia" },
+        { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
       ] },
     { key: "farm", label: "Add a farm", icon: MapPin,
       blurb: "A producer or estate that grows coffee.",
@@ -614,12 +618,21 @@ function AddContribute() {
         { name: "farmName", label: "Farm name", placeholder: "e.g. Finca El Mirador" },
         { name: "owner", label: "Owner's name", placeholder: "Who runs the farm?" },
         { name: "country", label: "Country", placeholder: "e.g. Ethiopia" },
+        { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
       ] },
     { key: "variety", label: "Add a variety", icon: Leaf,
       blurb: "A coffee cultivar or landrace.",
       fields: [
         { name: "varietyName", label: "Variety name", placeholder: "e.g. Sidra" },
         { name: "country", label: "Country of origin", placeholder: "e.g. Ecuador" },
+        { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
+      ] },
+    { key: "roaster", label: "Add a roaster", icon: Globe,
+      blurb: "A roaster's whole lineup, sourced from their website.",
+      note: "Add your favourite roaster's coffee lineup by simply typing in the roaster's website. Claude will add them if they're unique and not already found on the database.",
+      fields: [
+        { name: "website", label: "Roaster's website", placeholder: "e.g. flowerchildcoffee.com" },
+        { name: "contributor", label: "Contributor's name", placeholder: "Who's suggesting this?" },
       ] },
   ];
   const optByKey = Object.fromEntries(options.map(o => [o.key, o]));
@@ -660,7 +673,10 @@ function AddContribute() {
   };
 
   const clearQueue = () => {
+    if (clearPw !== CLEAR_PASSWORD) { setClearErr(true); return; }
     setQueue([]);
+    setClearPw("");
+    setClearErr(false);
     if (API) {
       fetch(API + "/clear", { method: "POST" }).catch(() => {});
     }
@@ -685,7 +701,7 @@ function AddContribute() {
     <div style={{ maxWidth: 640 }}>
       <h2 style={{ fontSize: 30, margin: "0 0 10px", fontWeight: 600, letterSpacing: "-0.02em" }}>Add to the database</h2>
       <p style={{ margin: "0 0 24px", color: "rgba(43,29,20,.7)", fontSize: 15, lineHeight: 1.6 }}>
-        Just sipped and enjoyed a coffee you can't find in the database? Contribute your experience via the forms below based on the information you have handy, and Eugene and his AI friend Claude will vet and fact-check weekly before adding it to the database.
+        Just sipped and enjoyed a coffee you can't find here? Contribute to the PCNWiki database using the forms below based on the information you have handy. Once they land in the queue, they'll be vetted and fact-checked weekly before being added — for the good of the community.
       </p>
 
       <div style={{ display: "grid", gap: 12 }}>
@@ -713,6 +729,7 @@ function AddContribute() {
                 <ContributeForm
                   fields={opt.fields}
                   submitLabel={opt.label}
+                  note={opt.note}
                   onSubmit={(vals) => { addToQueue(opt.key, vals); setOpen(null); }}
                 />
               )}
@@ -731,9 +748,6 @@ function AddContribute() {
             <div style={{ display: "flex", gap: 8 }}>
               <button onClick={copyAll} style={{ display: "flex", gap: 6, alignItems: "center", background: ROAST, color: "#fff", border: "none", padding: "7px 13px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
                 {copied ? "Copied ✓" : "Copy queue"}
-              </button>
-              <button onClick={clearQueue} style={{ background: "none", color: "rgba(43,29,20,.5)", border: "1px solid rgba(43,29,20,.15)", padding: "7px 13px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}>
-                Clear
               </button>
             </div>
           )}
@@ -767,19 +781,42 @@ function AddContribute() {
             })}
           </div>
         )}
+
+        {queue.length > 0 && (
+          <div style={{ marginTop: 16, paddingTop: 16, borderTop: "1px solid rgba(43,29,20,.08)", display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
+            <input
+              type="password"
+              value={clearPw}
+              onChange={ev => { setClearPw(ev.target.value); setClearErr(false); }}
+              placeholder="Password to clear queue"
+              style={{ padding: "7px 11px", borderRadius: 8, border: `1px solid ${clearErr ? PINK : "rgba(43,29,20,.15)"}`, fontSize: 13, background: "#fff", width: 200, boxSizing: "border-box" }}
+            />
+            <button
+              onClick={clearQueue}
+              style={{ background: "none", color: "rgba(43,29,20,.55)", border: "1px solid rgba(43,29,20,.15)", padding: "7px 14px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}
+            >
+              Clear queue
+            </button>
+            {clearErr && <span style={{ fontSize: 12, color: PINK }}>Incorrect password.</span>}
+          </div>
+        )}
       </div>
     </div>
   );
 }
 
-function ContributeForm({ fields, submitLabel, onSubmit }) {
+function ContributeForm({ fields, submitLabel, note, onSubmit }) {
   const [vals, setVals] = useState({});
   const inputStyle = { width: "100%", padding: "9px 12px", borderRadius: 9, border: "1px solid rgba(43,29,20,.15)", fontSize: 14, marginTop: 5, background: "#fff", boxSizing: "border-box" };
   const set = (n, v) => setVals(s => ({ ...s, [n]: v }));
-  const hasInput = fields.some(f => (vals[f.name] || "").trim());
+  // require at least one substantive field (not just the contributor's name)
+  const hasInput = fields.some(f => f.name !== "contributor" && (vals[f.name] || "").trim());
 
   return (
     <div style={{ padding: "4px 18px 20px", borderTop: "1px solid rgba(43,29,20,.08)", display: "grid", gap: 14 }}>
+      {note && (
+        <p style={{ margin: "10px 0 0", fontSize: 13, lineHeight: 1.55, color: "rgba(43,29,20,.6)" }}>{note}</p>
+      )}
       {fields.map(f => (
         <div key={f.name}>
           <Label>{f.label}</Label>
