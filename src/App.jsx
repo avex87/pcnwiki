@@ -134,8 +134,14 @@ export default function CoffeeKB() {
         .chip { cursor:pointer; border:1px solid rgba(43,29,20,.18); background:transparent; padding:4px 10px; border-radius:999px; font-size:12px; transition:all .15s; }
         .chip:hover { border-color:${PINK}; }
         .chip.on { background:${PINK}; color:#fff; border-color:${PINK}; }
-        .navbtn { cursor:pointer; background:none; border:none; padding:8px 4px; font-size:14px; font-weight:600; color:rgba(43,29,20,.45); border-bottom:2px solid transparent; display:flex; gap:6px; align-items:center; }
+        .navbtn { cursor:pointer; background:none; border:none; padding:8px 2px; font-size:14px; font-weight:600; color:rgba(43,29,20,.45); border-bottom:2px solid transparent; display:flex; gap:6px; align-items:center; white-space:nowrap; flex:0 0 auto; }
         .navbtn.on { color:${ROAST}; border-bottom-color:${PINK}; }
+        nav::-webkit-scrollbar { display:none; }
+        @media (max-width: 480px) {
+          .navbtn { font-size:13px; gap:5px; padding:8px 0; }
+          /* only when filtering (badges present) and space is tight: collapse inactive labels to icons */
+          nav.filtering .navbtn:not(.on):not(.navadd) .navlabel { display:none; }
+        }
         @media (prefers-reduced-motion: reduce){ * { animation:none !important } }
         .card { background:#fff; border:1px solid rgba(43,29,20,.08); border-radius:14px; transition:transform .15s, box-shadow .15s; }
         .card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(43,29,20,.08); }
@@ -155,12 +161,11 @@ export default function CoffeeKB() {
           <p style={{ margin: "8px 0 18px", color: "rgba(43,29,20,.6)", fontSize: 15, maxWidth: 560 }}>
             A living reference of specialty varieties, the farms and producers who grow them, and how they taste in the cup.
           </p>
-          <nav style={{ display: "flex", gap: 22, flexWrap: "wrap", rowGap: 8, alignItems: "center" }}>
-            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")}><Leaf size={15} />Varieties{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
-            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")}><MapPin size={15} />Farms{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
-            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")}><Sack size={15} />Lots{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
-            <span style={{ flex: 1 }} />
-            <button className={`navbtn ${view === "add" ? "on" : ""}`} onClick={() => setView("add")}><Plus size={15} />Add</button>
+          <nav className={filtering ? "filtering" : ""} style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "nowrap", overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none" }}>
+            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")} aria-label="Varieties"><Leaf size={15} /><span className="navlabel">Varieties</span>{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
+            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")} aria-label="Farms"><MapPin size={15} /><span className="navlabel">Farms</span>{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
+            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")} aria-label="Lots"><Sack size={15} /><span className="navlabel">Lots</span>{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
+            <button className={`navbtn navadd ${view === "add" ? "on" : ""}`} onClick={() => setView("add")} aria-label="Add"><Plus size={15} /><span className="navlabel">Add</span></button>
           </nav>
         </div>
       </header>
@@ -223,8 +228,8 @@ export default function CoffeeKB() {
                     <div className="mono" style={{ fontSize: 10, color: PINK, letterSpacing: 1 }}>{l.id.toUpperCase()} · {l.year}</div>
                     <h3 style={{ fontSize: 19, margin: "3px 0 8px", fontWeight: 600, letterSpacing: "-0.01em" }}>{l.name}</h3>
                     <div style={{ display: "flex", gap: 16, flexWrap: "wrap", fontSize: 13, color: "rgba(43,29,20,.7)" }}>
-                      <span style={{ display: "flex", gap: 5, alignItems: "center" }}><Leaf size={13} color={BEAN} />{v.name}</span>
-                      <span style={{ display: "flex", gap: 5, alignItems: "center" }}><MapPin size={13} color={BEAN} />{p ? p.name : "—"}{reg ? `, ${reg.region}` : ""}</span>
+                      <button onClick={() => v && setSelectedVariety(v)} style={{ display: "flex", gap: 5, alignItems: "center", background: "none", border: "none", padding: 0, font: "inherit", color: "inherit", cursor: v ? "pointer" : "default" }}><Leaf size={13} color={BEAN} /><span style={{ borderBottom: v ? "1px dotted rgba(43,29,20,.35)" : "none" }}>{v ? v.name : "—"}</span></button>
+                      <button onClick={() => p && setSelectedFarm(p)} style={{ display: "flex", gap: 5, alignItems: "center", background: "none", border: "none", padding: 0, font: "inherit", color: "inherit", cursor: p ? "pointer" : "default" }}><MapPin size={13} color={BEAN} /><span style={{ borderBottom: p ? "1px dotted rgba(43,29,20,.35)" : "none" }}>{p ? p.name : "—"}</span>{reg ? `, ${reg.region}` : ""}</button>
                       <span style={{ display: "flex", gap: 5, alignItems: "center" }}><Beaker size={13} color={BEAN} />{pr.name}</span>
                     </div>
                     {l.notes && l.notes.length > 0 && (
@@ -252,6 +257,16 @@ export default function CoffeeKB() {
         {view === "farms" && (() => {
           const countries = ["All", ...[...new Set(FARMS.map(f => regionById[f.regionId]?.country).filter(Boolean))].sort()];
           const farms = filteredFarms;
+          // how many farms match the SEARCH alone, ignoring the famous/country filters?
+          // tells the empty state whether a filter (not the query) is hiding results.
+          const q = normalize(query);
+          const matchesSearchOnly = FARMS.filter(f => {
+            const reg = regionById[f.regionId];
+            const grown = (f.varietyIds || []).map(id => varietyById[id] && varietyById[id].name).filter(Boolean);
+            return !q || [f.name, f.people, f.note, f.altitude, reg && reg.region, reg && reg.country]
+              .some(field => normalize(field).includes(q)) || grown.some(n => normalize(n).includes(q));
+          }).length;
+          const filterHidingMatches = farms.length === 0 && matchesSearchOnly > 0 && (famousOnly || farmCountry !== "All");
           return (
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginBottom: 20 }}>
@@ -293,7 +308,24 @@ export default function CoffeeKB() {
                   );
                 })}
               </div>
-              {farms.length === 0 && <EmptyState msg={filtering ? "No farms match your search." : "No farms yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />}
+              {farms.length === 0 && (
+                filterHidingMatches ? (
+                  <div style={{ gridColumn: "1/-1", padding: "40px 24px", textAlign: "center", color: "rgba(43,29,20,.6)", border: "1px dashed rgba(43,29,20,.2)", borderRadius: 14 }}>
+                    <Filter size={26} style={{ opacity: .4 }} />
+                    <p style={{ marginTop: 10, fontSize: 14 }}>
+                      {matchesSearchOnly} farm{matchesSearchOnly === 1 ? "" : "s"} match{matchesSearchOnly === 1 ? "es" : ""} your search, but {famousOnly && farmCountry !== "All" ? "your filters are" : famousOnly ? "“Famous only” is" : "the country filter is"} hiding {matchesSearchOnly === 1 ? "it" : "them"}.
+                    </p>
+                    <button
+                      onClick={() => { setFamousOnly(false); setFarmCountry("All"); }}
+                      style={{ marginTop: 6, background: ROAST, color: "#fff", border: "none", padding: "8px 16px", borderRadius: 9, fontSize: 14, fontWeight: 600, cursor: "pointer" }}
+                    >
+                      Clear filters
+                    </button>
+                  </div>
+                ) : (
+                  <EmptyState msg={filtering ? "No farms match your search." : "No farms yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />
+                )
+              )}
             </div>
           );
         })()}
@@ -444,8 +476,8 @@ function Label({ children }) {
 function TabCount({ n, active }) {
   return (
     <span style={{
-      marginLeft: 6, fontSize: 11, fontWeight: 700, lineHeight: 1,
-      padding: "2px 6px", borderRadius: 999,
+      marginLeft: 4, fontSize: 10, fontWeight: 700, lineHeight: 1,
+      padding: "2px 5px", borderRadius: 999, flexShrink: 0,
       background: active ? PINK : (n ? "rgba(232,90,140,.12)" : "rgba(43,29,20,.08)"),
       color: active ? "#fff" : (n ? PINK : "rgba(43,29,20,.4)"),
     }}>{n}</span>
