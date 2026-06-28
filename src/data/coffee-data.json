@@ -527,10 +527,10 @@
       "id": "v_pink_bourbon",
       "name": "Pink Bourbon",
       "species": "Arabica",
-      "origin": "Colombia",
-      "group": "Bourbon",
-      "parents": "Likely Bourbon × Typica selection",
-      "note": "A pink-cherried Bourbon selection (its colour the result of crossing red- and yellow-fruited Bourbon) prized in Huila and Nariño, Colombia. Low-yielding and prized by specialty growers for a high-toned, complex cup — tropical fruit, intense florals, and a bright, structured acidity.",
+      "origin": "Ethiopia (grown in Colombia)",
+      "group": "Ethiopian landrace",
+      "parents": "Ethiopian landrace (despite the name, not related to Bourbon)",
+      "note": "Despite its name, Pink Bourbon is not a Bourbon. Genetic testing commissioned by Cafe Imports (2017 and 2023) found no relation to the Bourbon family — it is an Ethiopian landrace, the same group as Gesha and Rume Sudan. The name came from a Colombian farmer who found the pink-cherried plant among his Red and Yellow Bourbon and assumed it was a cross. Now prized in Huila, Cauca and Nariño for a high-toned, complex cup — tropical fruit, intense florals and bright, structured acidity.",
       "refNotes": [
         "floral",
         "tropical fruit",
@@ -5964,13 +5964,15 @@
     {
       "id": "p_uchangi",
       "name": "Uchangi Estate",
-      "people": "",
+      "people": "Gupta family",
       "regionId": "r_chikmagalur",
       "altitude": "900–1200 m",
       "varietyIds": [
-        "v_s795"
+        "v_s795",
+        "v_liberica",
+        "v_robusta"
       ],
-      "note": "Chikmagalur, Karnataka, India, at roughly 900–1,200 m. A shade-grown estate in India’s oldest coffee region whose lots have reached specialty roasters abroad, including experimental yeast-fermented coffees. (Further detail on ownership and varieties to be confirmed.)",
+      "note": "Chikmagalur, Karnataka, India, at roughly 900–1,200 m. A shade-grown estate run by the Gupta family in India’s oldest coffee region, growing Arabica alongside Liberica and Robusta. Its lots have reached specialty roasters abroad, including experimental yeast-fermented coffees.",
       "famous": false
     }
   ],
