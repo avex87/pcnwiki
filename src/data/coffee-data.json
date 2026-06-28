@@ -5974,6 +5974,51 @@
       ],
       "note": "Chikmagalur, Karnataka, India, at roughly 900–1,200 m. A shade-grown estate run by the Gupta family in India’s oldest coffee region, growing Arabica alongside Liberica and Robusta. Its lots have reached specialty roasters abroad, including experimental yeast-fermented coffees.",
       "famous": false
+    },
+    {
+      "id": "p_iquira_elplacer",
+      "name": "Finca El Placer (Jesús Arbey Iquira)",
+      "people": "Jesús Arbey Iquira",
+      "regionId": "r_huila",
+      "altitude": "",
+      "varietyIds": [
+        "v_caturra",
+        "v_castillo"
+      ],
+      "note": "Acevedo, Huila, Colombia. A distinguished smallholder farm owned and operated by Jesús Arbey Iquira, known among visiting roasters for his warmth and hospitality. Produces clean, fruit-forward washed coffees with notes of grapefruit, malt and fruity sweetness. (Not to be confused with the separate Finca El Placer of Sebastián Ramírez in Quindío.)",
+      "famous": false
+    },
+    {
+      "id": "p_losnogales",
+      "name": "Finca Los Nogales (Oscar Hernández)",
+      "people": "Oscar Fernando Hernández",
+      "regionId": "r_huila",
+      "altitude": "1850–2000 m",
+      "varietyIds": [
+        "v_typica",
+        "v_pink_bourbon",
+        "v_gesha",
+        "v_tabi",
+        "v_wush"
+      ],
+      "famous": true,
+      "notable": "Won first place in Colombia’s inaugural 2005 Cup of Excellence; a multi-generational Pitalito farm now a benchmark for fermentation research.",
+      "note": "Pitalito, Huila, Colombia. A storied ~20-hectare farm established by Ricardo Hernández in the 1950s, later built into a specialty powerhouse by Ricaurte Hernández and now led by his son Oscar Fernando Hernández, a former naval officer. Won 1st place in Colombia’s first Cup of Excellence (2005) and is now a centre for varietal development and fermentation research — Typica, Pink Bourbon, Geisha, Tabi, Wush Wush and the orange-bourbon CH46i, processed with long lactic ferments, thermal shock and dark-room drying."
+    },
+    {
+      "id": "p_maguta",
+      "name": "Maguta Coffee Estate",
+      "people": "David Ngibuini",
+      "regionId": "r_nyeri",
+      "altitude": "1650–1800 m",
+      "varietyIds": [
+        "v_sl28",
+        "v_sl34",
+        "v_batian"
+      ],
+      "famous": true,
+      "notable": "David Ngibuini’s Nyeri estate and wet mill, a Project Origin partner pioneering carbonic, supernatural and nitrogen processing in Kenya.",
+      "note": "Nyeri and Embu counties, central Kenya, at ~1,650–1,800 m on red volcanic soil. Run by David Ngibuini, who left a city career in 2018 to revive the family farm, Maguta is both an estate and a wet mill processing cherries from the Murware farmers (~18,000 trees). In partnership with ONA/Project Origin it has built advanced infrastructure — 10 fermentation tanks, parabolic drying tables, carbonic-maceration capacity — producing washed, supernatural, carbonic and nitrogen-processed SL28, SL34 and Batian."
     }
   ],
   "processes": [
@@ -9854,6 +9899,76 @@
       "year": 2024,
       "name": "Uchangi Estate Selection 795 Yeast Inoculated",
       "source": "Shake Coffee"
+    },
+    {
+      "id": "l_iquira_washed",
+      "producerId": "p_iquira_elplacer",
+      "varietyId": "v_caturra",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "El Placer (Iquira) Caturra Washed",
+      "notes": [
+        "grapefruit",
+        "malt"
+      ],
+      "source": "Tact Coffee"
+    },
+    {
+      "id": "l_nogales_typica",
+      "producerId": "p_losnogales",
+      "varietyId": "v_typica",
+      "processId": "pr_washed",
+      "year": 2024,
+      "name": "Los Nogales Typica Lactic Washed",
+      "notes": [
+        "tropical fruit",
+        "banana",
+        "vanilla"
+      ],
+      "source": "Kindred Coffee"
+    },
+    {
+      "id": "l_nogales_wush",
+      "producerId": "p_losnogales",
+      "varietyId": "v_wush",
+      "processId": "pr_thermal",
+      "year": 2024,
+      "name": "Los Nogales Wush Wush Thermal Shock Washed",
+      "notes": [
+        "melon",
+        "lemongrass",
+        "floral"
+      ]
+    },
+    {
+      "id": "l_maguta_nitro",
+      "producerId": "p_maguta",
+      "varietyId": "v_sl28",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Maguta Estate SL28/SL34 Nitro Natural",
+      "notes": [
+        "cranberry",
+        "strawberry",
+        "blueberry",
+        "nectarine"
+      ],
+      "source": "Kindred Coffee"
+    },
+    {
+      "id": "l_maguta_super",
+      "producerId": "p_maguta",
+      "varietyId": "v_batian",
+      "processId": "pr_natural",
+      "year": 2024,
+      "name": "Maguta Estate Batian Supernatural",
+      "notes": [
+        "peach",
+        "apricot",
+        "orange",
+        "caramel"
+      ],
+      "source": "Project Origin"
     }
   ],
   "seedTastings": [
