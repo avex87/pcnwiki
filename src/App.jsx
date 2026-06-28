@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, Flame } from "lucide-react";
+import { Search, MapPin, Beaker, Star, Plus, X, Filter, Leaf, BookOpen, Flame, AlertTriangle } from "lucide-react";
 import data from "./data/coffee-data.json";
 import pcnLogo from "./assets/pcn-wiki-logo.png";
 
@@ -40,6 +40,38 @@ function normalize(s) {
 const PINK = "#E85A8C";
 const BEAN = "#3A5A40";
 const ROAST = "#2B1D14";
+
+// ── inaccuracy reports ────────────────────────────────────────────────────────
+// Reports are filed from the reference cards but reviewed in the Add page, so
+// they live in the same shared store as the queue (Worker if configured, else
+// localStorage). A window event lets a mounted report list refresh on the spot.
+const REPORTS_API = (typeof window !== "undefined" && window.PCN_QUEUE_API) || "";
+const REPORTS_KEY = "pcn-reports";
+function loadReportsLocal() {
+  try { const raw = window.localStorage.getItem(REPORTS_KEY); return raw ? JSON.parse(raw) : []; }
+  catch (e) { return []; }
+}
+function fileReport({ kind, refId, name }) {
+  const entry = {
+    id: "r" + Date.now() + Math.random().toString(36).slice(2, 6),
+    kind, refId, name,
+    date: new Date().toISOString().slice(0, 10),
+  };
+  if (REPORTS_API) {
+    fetch(REPORTS_API + "/report", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(entry),
+    }).catch(() => {});
+  } else {
+    try {
+      const list = loadReportsLocal();
+      list.unshift(entry);
+      window.localStorage.setItem(REPORTS_KEY, JSON.stringify(list));
+    } catch (e) { /* storage unavailable */ }
+  }
+  if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("pcn-report-filed", { detail: entry }));
+}
 
 // Custom coffee-sack icon (lucide has no sack). Stroke-based to match the
 // lucide icon set: takes a `size` prop and inherits color via currentColor.
@@ -369,6 +401,9 @@ export default function CoffeeKB() {
                 <p style={{ fontSize: 13, color: "rgba(43,29,20,.5)" }}>No lots logged yet for this variety.</p>
               )}
             </div>
+            <div style={{ marginTop: 22, paddingTop: 16, borderTop: "1px solid rgba(43,29,20,.1)" }}>
+              <ReportButton kind="variety" refId={selectedVariety.id} name={selectedVariety.name} />
+            </div>
           </div>
         </Drawer>
       )}
@@ -407,6 +442,9 @@ export default function CoffeeKB() {
                   </button>
                 ))}
               </div>
+            </div>
+            <div style={{ marginTop: 22, paddingTop: 16, borderTop: "1px solid rgba(43,29,20,.1)" }}>
+              <ReportButton kind="farm" refId={selectedFarm.id} name={selectedFarm.name} />
             </div>
           </Drawer>
         );
@@ -490,6 +528,33 @@ function CardFact({ label, value, accent }) {
       <span className="mono" style={{ fontSize: 10, letterSpacing: 1, color: "rgba(43,29,20,.4)", textTransform: "uppercase", fontWeight: 700, paddingTop: 2 }}>{label}</span>
       <span style={{ fontSize: 13, fontWeight: 500, color: accent ? PINK : "rgba(43,29,20,.85)" }}>{(value && String(value).trim()) ? value : "—"}</span>
     </>
+  );
+}
+
+// Small "Report inaccuracy" control placed on every reference card/drawer.
+// Filing a report adds it to the review list under the Add page's queue.
+function ReportButton({ kind, refId, name, style }) {
+  const [done, setDone] = useState(false);
+  const handle = (ev) => {
+    ev.stopPropagation();              // don't trigger the card's own click
+    if (done) return;
+    fileReport({ kind, refId, name });
+    setDone(true);
+    setTimeout(() => setDone(false), 2500);
+  };
+  return (
+    <button
+      onClick={handle}
+      title="Report an inaccuracy in this entry"
+      style={{
+        display: "inline-flex", alignItems: "center", gap: 4,
+        background: "none", border: "none", cursor: done ? "default" : "pointer",
+        color: done ? BEAN : "rgba(43,29,20,.4)", fontSize: 11, fontWeight: 600,
+        padding: 2, ...style,
+      }}
+    >
+      <AlertTriangle size={12} /> {done ? "Reported ✓" : "Report inaccuracy"}
+    </button>
   );
 }
 
@@ -772,9 +837,6 @@ function AddContribute() {
                   <span className="mono" style={{ flex: 1, fontSize: 13, color: "rgba(43,29,20,.85)" }}>
                     {parts.join("  ·  ") || "—"}
                   </span>
-                  <button onClick={() => removeFromQueue(e.id)} aria-label="Remove" style={{ background: "none", border: "none", cursor: "pointer", color: "rgba(43,29,20,.35)", padding: 4, lineHeight: 0 }}>
-                    <X size={15} />
-                  </button>
                 </div>
               );
             })}
@@ -800,6 +862,94 @@ function AddContribute() {
           </div>
         )}
       </div>
+
+      {/* ── INACCURACY REPORTS ── reviewer-only list, password-gated clear */}
+      <ReportReview />
+    </div>
+  );
+}
+
+function ReportReview() {
+  const [reports, setReports] = useState([]);
+  const [pw, setPw] = useState("");
+  const [err, setErr] = useState(false);
+  const CLEAR_PASSWORD = "nx2rkaro";
+
+  // load reports + refresh whenever a new one is filed elsewhere on the page
+  useEffect(() => {
+    const load = () => {
+      if (REPORTS_API) {
+        fetch(REPORTS_API + "/reports")
+          .then(r => r.json())
+          .then(d => { if (Array.isArray(d.reports)) setReports(d.reports); })
+          .catch(() => {});
+      } else {
+        setReports(loadReportsLocal());
+      }
+    };
+    load();
+    const onFiled = () => load();
+    window.addEventListener("pcn-report-filed", onFiled);
+    return () => window.removeEventListener("pcn-report-filed", onFiled);
+  }, []);
+
+  const clear = () => {
+    if (pw !== CLEAR_PASSWORD) { setErr(true); return; }
+    setReports([]);
+    setPw("");
+    setErr(false);
+    if (REPORTS_API) {
+      fetch(REPORTS_API + "/reports/clear", { method: "POST" }).catch(() => {});
+    } else {
+      try { window.localStorage.removeItem(REPORTS_KEY); } catch (e) { /* ignore */ }
+    }
+  };
+
+  return (
+    <div style={{ marginTop: 40 }}>
+      <div style={{ marginBottom: 4 }}>
+        <h3 style={{ fontSize: 22, margin: 0, fontWeight: 600, letterSpacing: "-0.01em" }}>
+          Reported inaccuracies {reports.length > 0 && <span style={{ color: PINK }}>({reports.length})</span>}
+        </h3>
+        <p style={{ margin: "4px 0 14px", fontSize: 13, color: "rgba(43,29,20,.55)" }}>
+          Entries readers have flagged for review. Look each one up, fix the data, then clear the list.
+        </p>
+      </div>
+
+      {reports.length === 0 ? (
+        <p style={{ fontSize: 14, color: "rgba(43,29,20,.5)" }}>No reports yet.</p>
+      ) : (
+        <div style={{ display: "grid", gap: 8 }}>
+          {reports.map(r => (
+            <div key={r.id} className="card" style={{ padding: "12px 14px", display: "flex", alignItems: "center", gap: 12 }}>
+              <span style={{ fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", color: PINK, background: "rgba(232,90,140,.1)", padding: "3px 8px", borderRadius: 6, flexShrink: 0 }}>
+                {r.kind}
+              </span>
+              <span style={{ flex: 1, fontSize: 14, color: ROAST }}>{r.name}</span>
+              <span className="mono" style={{ fontSize: 11, color: "rgba(43,29,20,.4)", flexShrink: 0 }}>{r.refId} · {r.date}</span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {reports.length > 0 && (
+        <div style={{ marginTop: 16, paddingTop: 16, borderTop: "1px solid rgba(43,29,20,.08)", display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
+          <input
+            type="password"
+            value={pw}
+            onChange={ev => { setPw(ev.target.value); setErr(false); }}
+            placeholder="Password to clear reports"
+            style={{ padding: "7px 11px", borderRadius: 8, border: `1px solid ${err ? PINK : "rgba(43,29,20,.15)"}`, fontSize: 13, background: "#fff", width: 210, boxSizing: "border-box" }}
+          />
+          <button
+            onClick={clear}
+            style={{ background: "none", color: "rgba(43,29,20,.55)", border: "1px solid rgba(43,29,20,.15)", padding: "7px 14px", borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: "pointer" }}
+          >
+            Clear reports
+          </button>
+          {err && <span style={{ fontSize: 12, color: PINK }}>Incorrect password.</span>}
+        </div>
+      )}
     </div>
   );
 }
