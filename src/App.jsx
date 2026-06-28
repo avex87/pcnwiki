@@ -463,11 +463,13 @@ export default function CoffeeKB() {
   );
 }
 
-// Variety character traits — a fixed, ordered controlled vocabulary.
+// Variety traits — STRUCTURAL / quality descriptors only (grounded in the WCR
+// variety-catalog axes: cup-quality potential, body, acidity). Flavour notes
+// live on lots, not varieties.
 const TRAIT_VOCAB = [
-  "Floral", "Tea-like", "Fruit-forward", "Citrussy", "Chocolatey", "Nutty", "Sweet", "Winey",
-  "High acidity", "Bright", "Mild acidity", "Full body", "Medium body", "Delicate body",
-  "Complex", "Clean", "Balanced",
+  "Exceptional cup", "Very good cup", "Good cup", "Standard cup",
+  "High acidity", "Medium acidity", "Low acidity",
+  "Full body", "Medium body", "Light body",
 ];
 
 // Varieties: filter by inherent character traits (green chips, controlled list).
