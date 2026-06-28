@@ -55,9 +55,17 @@ checkDupes(lots, "lots");
 // Varieties carry inherent CHARACTER traits (filterable). Lots carry free-form
 // tasting notes (roaster-dependent, not constrained here).
 const TRAIT_VOCAB = new Set([
-  "Exceptional cup", "Very good cup", "Good cup", "Standard cup",
-  "Full body", "Medium body", "Light body",
-  "High acidity", "Medium acidity", "Low acidity",
+  // aromatics / floral
+  "Floral", "Jasmine", "Tea-like", "Bergamot", "Perfumed",
+  // fruit
+  "Fruit-forward", "Tropical", "Stone fruit", "Berry-like", "Citrussy", "Winey",
+  // sweetness / richness
+  "Sweet", "Honeyed", "Caramelly", "Chocolatey", "Nutty",
+  // structure
+  "High acidity", "Bright", "Medium acidity", "Low acidity",
+  "Full body", "Medium body", "Delicate body", "Syrupy",
+  // overall
+  "Complex", "Elegant", "Clean", "Balanced", "Rustic",
 ]);
 
 // ── varieties: traits must be in the trait vocabulary ──
