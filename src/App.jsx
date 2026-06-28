@@ -15,7 +15,6 @@ const REGIONS = data.regions;
 const VARIETIES = data.varieties;
 const FARMS = data.farms;
 const PROCESSES = data.processes;
-const TASTING_NOTES = data.tastingNotes;
 const LOTS = data.lots;
 
 // ── derived tag sets ────────────────────────────────────────────────────────────
@@ -106,25 +105,33 @@ export default function CoffeeKB() {
   const toggleTag = (t) =>
     setActiveTags(a => a.includes(t) ? a.filter(x => x !== t) : [...a, t]);
 
+  // Varieties filter by character traits, Lots by free-form notes — different
+  // vocabularies, so clear active tags when switching between filterable views.
+  const changeView = (next) => {
+    setView(prev => {
+      if (prev !== next) setActiveTags([]);
+      return next;
+    });
+  };
+
   const filtering = query.trim().length > 0 || activeTags.length > 0;
 
-  // notes that actually appear on >=1 item, per view, so the picker can hide dead ones
-  const varietyNoteSet = useMemo(() => new Set(VARIETIES.flatMap(v => v.refNotes || [])), []);
+  // Varieties filter by inherent CHARACTER TRAITS (controlled list).
+  // Lots filter by their own free-form roaster TASTING NOTES.
+  const varietyTraitSet = useMemo(() => new Set(VARIETIES.flatMap(v => v.traits || [])), []);
   const lotNoteSet = useMemo(() => {
     const s = new Set();
-    for (const l of LOTS) {
-      const notes = (l.notes && l.notes.length) ? l.notes : (varietyById[l.varietyId]?.refNotes || []);
-      notes.forEach(n => s.add(n));
-    }
+    for (const l of LOTS) (l.notes || []).forEach(n => s.add(n));
     return s;
-  }, [varietyById]);
+  }, []);
 
   const filteredVarieties = useMemo(() => {
     const q = normalize(query);
     return VARIETIES.filter(v => {
+      const traits = v.traits || [];
       const matchQ = !q || [v.name, v.group, v.note, v.origin, v.species, v.parents]
-        .some(f => normalize(f).includes(q)) || v.refNotes.some(t => normalize(t).includes(q));
-      const matchTags = activeTags.length === 0 || activeTags.every(t => v.refNotes.includes(t));
+        .some(f => normalize(f).includes(q)) || traits.some(t => normalize(t).includes(q));
+      const matchTags = activeTags.length === 0 || activeTags.every(t => traits.includes(t));
       return matchQ && matchTags;
     });
   }, [query, activeTags]);
@@ -134,8 +141,7 @@ export default function CoffeeKB() {
     return LOTS.filter(l => {
       const v = varietyById[l.varietyId], p = farmById[l.producerId];
       const pr = processById[l.processId], reg = p && regionById[p.regionId];
-      // a lot's tasting notes: its own (real, from the roaster) if present, else its variety's
-      const lotNotes = (l.notes && l.notes.length) ? l.notes : (v ? v.refNotes : []);
+      const lotNotes = l.notes || [];   // free-form roaster notes only; no variety fallback
       const matchQ = !q || [l.name, String(l.year), l.source, v && v.name, p && p.name, p && p.people,
         pr && pr.name, reg && reg.region, reg && reg.country]
         .some(f => normalize(f).includes(q)) || lotNotes.some(t => normalize(t).includes(q));
@@ -194,10 +200,10 @@ export default function CoffeeKB() {
             A living reference of specialty varieties, the farms and producers who grow them, and how they taste in the cup.
           </p>
           <nav className={filtering ? "filtering" : ""} style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "nowrap", overflowX: "auto", WebkitOverflowScrolling: "touch", scrollbarWidth: "none" }}>
-            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => setView("varieties")} aria-label="Varieties"><Leaf size={15} /><span className="navlabel">Varieties</span>{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
-            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => setView("farms")} aria-label="Farms"><MapPin size={15} /><span className="navlabel">Farms</span>{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
-            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => setView("lots")} aria-label="Lots"><Sack size={15} /><span className="navlabel">Lots</span>{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
-            <button className={`navbtn navadd ${view === "add" ? "on" : ""}`} onClick={() => setView("add")} aria-label="Add"><Plus size={15} /><span className="navlabel">Add</span></button>
+            <button className={`navbtn ${view === "varieties" ? "on" : ""}`} onClick={() => changeView("varieties")} aria-label="Varieties"><Leaf size={15} /><span className="navlabel">Varieties</span>{filtering && <TabCount n={filteredVarieties.length} active={view === "varieties"} />}</button>
+            <button className={`navbtn ${view === "farms" ? "on" : ""}`} onClick={() => changeView("farms")} aria-label="Farms"><MapPin size={15} /><span className="navlabel">Farms</span>{filtering && <TabCount n={filteredFarms.length} active={view === "farms"} />}</button>
+            <button className={`navbtn ${view === "lots" ? "on" : ""}`} onClick={() => changeView("lots")} aria-label="Lots"><Sack size={15} /><span className="navlabel">Lots</span>{filtering && <TabCount n={filteredLots.length} active={view === "lots"} />}</button>
+            <button className={`navbtn navadd ${view === "add" ? "on" : ""}`} onClick={() => changeView("add")} aria-label="Add"><Plus size={15} /><span className="navlabel">Add</span></button>
           </nav>
         </div>
       </header>
@@ -215,8 +221,11 @@ export default function CoffeeKB() {
                 style={{ width: "100%", padding: "11px 14px 11px 40px", borderRadius: 10, border: "1px solid rgba(43,29,20,.15)", fontSize: 15, background: "#fff" }}
               />
             </div>
-            {(view === "varieties" || view === "lots") && (
-              <TastingNotePicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} liveNotes={view === "lots" ? lotNoteSet : varietyNoteSet} />
+            {view === "varieties" && (
+              <TraitPicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} present={varietyTraitSet} />
+            )}
+            {view === "lots" && lotNoteSet.size > 0 && (
+              <NotePicker activeTags={activeTags} toggleTag={toggleTag} clearTags={() => setActiveTags([])} notes={lotNoteSet} />
             )}
           </div>
         )}
@@ -236,13 +245,13 @@ export default function CoffeeKB() {
                 </div>
                 <p style={{ fontSize: 13.5, lineHeight: 1.5, color: "rgba(43,29,20,.75)", margin: "0 0 12px" }}>{v.note}</p>
                 <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-                  {v.refNotes.slice(0, 4).map(t => (
-                    <span key={t} style={{ fontSize: 11, padding: "2px 8px", borderRadius: 999, background: "rgba(232,90,140,.1)", color: PINK }}>{t}</span>
+                  {(v.traits || []).map(t => (
+                    <span key={t} style={{ fontSize: 11, padding: "2px 8px", borderRadius: 999, background: "rgba(58,90,64,.1)", color: BEAN }}>{t}</span>
                   ))}
                 </div>
               </div>
             ))}
-            {filteredVarieties.length === 0 && <EmptyState msg={filtering ? "No varieties match your search." : "No varieties yet."} elsewhere={[{ label: "farms", n: filteredFarms.length, onClick: () => setView("farms") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />}
+            {filteredVarieties.length === 0 && <EmptyState msg={filtering ? "No varieties match your search." : "No varieties yet."} elsewhere={[{ label: "farms", n: filteredFarms.length, onClick: () => changeView("farms") }, { label: "lots", n: filteredLots.length, onClick: () => changeView("lots") }]} />}
             </div>
           </div>
         )}
@@ -280,7 +289,7 @@ export default function CoffeeKB() {
                 </div>
               );
             })}
-            {filteredLots.length === 0 && <EmptyState msg={filtering ? "No lots match your search." : "No lots yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "farms", n: filteredFarms.length, onClick: () => setView("farms") }]} />}
+            {filteredLots.length === 0 && <EmptyState msg={filtering ? "No lots match your search." : "No lots yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => changeView("varieties") }, { label: "farms", n: filteredFarms.length, onClick: () => changeView("farms") }]} />}
             </div>
           </div>
         )}
@@ -355,7 +364,7 @@ export default function CoffeeKB() {
                     </button>
                   </div>
                 ) : (
-                  <EmptyState msg={filtering ? "No farms match your search." : "No farms yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => setView("varieties") }, { label: "lots", n: filteredLots.length, onClick: () => setView("lots") }]} />
+                  <EmptyState msg={filtering ? "No farms match your search." : "No farms yet."} elsewhere={[{ label: "varieties", n: filteredVarieties.length, onClick: () => changeView("varieties") }, { label: "lots", n: filteredLots.length, onClick: () => changeView("lots") }]} />
                 )
               )}
             </div>
@@ -384,10 +393,10 @@ export default function CoffeeKB() {
             <p style={{ margin: "4px 0 0", fontSize: 14, lineHeight: 1.55 }}>{selectedVariety.note}</p>
           </div>
           <div style={{ marginBottom: 16 }}>
-            <Label>Reference tasting notes</Label>
+            <Label>Character traits</Label>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: 8 }}>
-              {selectedVariety.refNotes.map(t => (
-                <span key={t} style={{ fontSize: 12, padding: "3px 10px", borderRadius: 999, background: "rgba(232,90,140,.1)", color: PINK }}>{t}</span>
+              {(selectedVariety.traits || []).map(t => (
+                <span key={t} style={{ fontSize: 12, padding: "3px 10px", borderRadius: 999, background: "rgba(58,90,64,.1)", color: BEAN }}>{t}</span>
               ))}
             </div>
           </div>
@@ -454,55 +463,61 @@ export default function CoffeeKB() {
   );
 }
 
-function TastingNotePicker({ activeTags, toggleTag, clearTags, liveNotes }) {
-  const [openFamily, setOpenFamily] = useState(null);
-  // only show families/notes that actually match something in the current view
-  const families = Object.entries(TASTING_NOTES)
-    .map(([fam, notes]) => [fam, notes.filter(n => !liveNotes || liveNotes.has(n))])
-    .filter(([, notes]) => notes.length > 0);
-  const activeSet = new Set(activeTags);
-  const openNotes = openFamily ? (TASTING_NOTES[openFamily] || []).filter(n => !liveNotes || liveNotes.has(n)) : [];
+// Variety character traits — a fixed, ordered controlled vocabulary.
+const TRAIT_VOCAB = [
+  "Floral", "Tea-like", "Fruit-forward", "Citrussy", "Chocolatey", "Nutty", "Sweet", "Winey",
+  "High acidity", "Bright", "Mild acidity", "Full body", "Medium body", "Delicate body",
+  "Complex", "Clean", "Balanced",
+];
 
+// Varieties: filter by inherent character traits (green chips, controlled list).
+function TraitPicker({ activeTags, toggleTag, clearTags, present }) {
+  const activeSet = new Set(activeTags);
+  const traits = TRAIT_VOCAB.filter(t => !present || present.has(t));
+  return (
+    <div>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+        <span style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12, color: "rgba(43,29,20,.5)", fontWeight: 600 }}><Filter size={13} /> Character</span>
+        {traits.map(t => (
+          <button
+            key={t}
+            onClick={() => toggleTag(t)}
+            className="chip"
+            style={activeSet.has(t)
+              ? { background: BEAN, color: "#fff", borderColor: BEAN }
+              : undefined}
+          >{t}</button>
+        ))}
+        {activeTags.length > 0 && (
+          <button className="chip" onClick={clearTags} style={{ color: PINK, fontWeight: 600 }}>clear ×</button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// Lots: filter by free-form roaster tasting notes (pink chips, only those present).
+function NotePicker({ activeTags, toggleTag, clearTags, notes }) {
+  const [open, setOpen] = useState(false);
+  const activeSet = new Set(activeTags);
+  const all = [...notes].sort();
+  const shown = open ? all : all.slice(0, 18);
   return (
     <div>
       <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
         <span style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 12, color: "rgba(43,29,20,.5)", fontWeight: 600 }}><Filter size={13} /> Tasting notes</span>
-        {families.map(([fam, notes]) => {
-          const activeInFam = notes.filter(n => activeSet.has(n)).length;
-          const isOpen = openFamily === fam;
-          return (
-            <button
-              key={fam}
-              className={`chip ${activeInFam ? "on" : ""}`}
-              aria-expanded={isOpen}
-              onClick={() => setOpenFamily(isOpen ? null : fam)}
-              style={isOpen && !activeInFam ? { borderColor: PINK, color: PINK } : undefined}
-            >
-              {fam}{activeInFam > 0 && <span style={{ marginLeft: 5, fontWeight: 700 }}>· {activeInFam}</span>}
-            </button>
-          );
-        })}
+        {shown.map(t => (
+          <button key={t} className={`chip ${activeSet.has(t) ? "on" : ""}`} onClick={() => toggleTag(t)}>{t}</button>
+        ))}
+        {all.length > 18 && (
+          <button className="chip" onClick={() => setOpen(o => !o)} style={{ color: BEAN, fontWeight: 600 }}>
+            {open ? "fewer −" : `+${all.length - 18} more`}
+          </button>
+        )}
         {activeTags.length > 0 && (
-          <button className="chip" onClick={clearTags} style={{ color: PINK, fontWeight: 600 }}>clear all ×</button>
+          <button className="chip" onClick={clearTags} style={{ color: PINK, fontWeight: 600 }}>clear ×</button>
         )}
       </div>
-
-      {openFamily && (
-        <div style={{ marginTop: 10, padding: "12px 14px", background: "rgba(43,29,20,.03)", borderRadius: 12, display: "flex", gap: 7, flexWrap: "wrap" }}>
-          {openNotes.map(n => (
-            <button key={n} className={`chip ${activeSet.has(n) ? "on" : ""}`} onClick={() => toggleTag(n)}>{n}</button>
-          ))}
-        </div>
-      )}
-
-      {activeTags.length > 0 && (
-        <div style={{ marginTop: 10, display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
-          <span style={{ fontSize: 12, color: "rgba(43,29,20,.5)" }}>Filtering by:</span>
-          {activeTags.map(t => (
-            <button key={t} className="chip on" onClick={() => toggleTag(t)}>{t} ×</button>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
