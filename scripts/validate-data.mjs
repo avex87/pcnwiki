@@ -13,6 +13,7 @@
      • every lot's producerId / varietyId / processId resolve
      • every lot's variety is actually grown at its farm (consistency)
      • every seed tasting's lotId resolves
+     • (warning) near-duplicate variety / region names (spelling & word-order variants)
    ──────────────────────────────────────────────────────────────────────────── */
 import fs from "node:fs";
 import path from "node:path";
@@ -50,13 +51,20 @@ const farmIds = checkDupes(farms, "farms");
 const processIds = checkDupes(processes, "processes");
 checkDupes(lots, "lots");
 
-// ── vocabulary of tasting notes ──
-const vocab = new Set(Object.values(tastingNotes).flat());
+// ── controlled vocabulary of variety character traits ──
+// Varieties carry inherent CHARACTER traits (filterable). Lots carry free-form
+// tasting notes (roaster-dependent, not constrained here).
+const TRAIT_VOCAB = new Set([
+  "High acidity", "Bright", "Mild acidity",
+  "Full body", "Medium body", "Delicate body",
+  "Floral", "Tea-like", "Sweet", "Citrussy", "Chocolatey", "Nutty",
+  "Fruit-forward", "Winey", "Complex", "Clean", "Balanced",
+]);
 
-// ── varieties: refNotes must be in vocab ──
+// ── varieties: traits must be in the trait vocabulary ──
 for (const v of varieties) {
-  for (const t of v.refNotes || []) {
-    if (!vocab.has(t)) errors.push(`variety "${v.id}": refNote "${t}" is not in the tasting-note vocabulary`);
+  for (const t of v.traits || []) {
+    if (!TRAIT_VOCAB.has(t)) errors.push(`variety "${v.id}": trait "${t}" is not a valid character trait`);
   }
 }
 
@@ -86,8 +94,35 @@ for (const t of seedTastings) {
   if (t.lotId && !lotIds.has(t.lotId)) errors.push(`seed tasting "${t.id || "?"}": lotId "${t.lotId}" does not exist`);
 }
 
+// ── near-duplicate name detection (catches spelling / word-order variants) ──
+// Normalizes a name so that e.g. "Rume Sudan" == "Sudan Rume" and
+// "Maragogipe" == "Maragogype": lowercase, strip accents & parentheticals,
+// sort words, then collapse y→i, doubled letters, and trailing e.
+function fuzzyName(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/\(.*?\)/g, "")
+    .replace(/[^a-z0-9 ]/g, "").trim()
+    .split(/\s+/).filter(Boolean).sort().join(" ")
+    .replace(/y/g, "i").replace(/(.)\1+/g, "$1").replace(/e\b/g, "");
+}
+function checkNearDupes(arr, label) {
+  const byKey = {};
+  for (const item of arr) {
+    const k = fuzzyName(item.name);
+    if (!k) continue;
+    (byKey[k] = byKey[k] || []).push(`"${item.name}" [${item.id}]`);
+  }
+  for (const group of Object.values(byKey)) {
+    if (group.length > 1) warn.push(`${label}: possible duplicate — ${group.join("  ↔  ")}`);
+  }
+}
+checkNearDupes(varieties, "varieties");
+checkNearDupes(regions, "regions");
+
 // ── report ──
-console.log(`PCN Wiki data: ${regions.length} regions · ${varieties.length} varieties · ${farms.length} farms · ${lots.length} lots · ${vocab.size} tasting notes`);
+console.log(`PCN Wiki data: ${regions.length} regions · ${varieties.length} varieties · ${farms.length} farms · ${lots.length} lots · ${TRAIT_VOCAB.size} character traits`);
 
 if (warn.length) {
   console.log("\nWarnings (non-fatal):");
