@@ -6351,7 +6351,13 @@
       "varietyId": "v_wolisho",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Danche Wolisho Washed"
+      "name": "Danche Wolisho Washed",
+      "notes": [
+        "white flowers",
+        "citrus",
+        "honey",
+        "black tea"
+      ]
     },
     {
       "id": "l_danche_natural",
@@ -6359,7 +6365,13 @@
       "varietyId": "v_dega",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Danche Dega Natural"
+      "name": "Danche Dega Natural",
+      "notes": [
+        "dried rose",
+        "blackberry",
+        "floral",
+        "strawberry"
+      ]
     },
     {
       "id": "l_danche_jarc",
@@ -6367,7 +6379,13 @@
       "varietyId": "v_74110",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "Danche 74110 Washed"
+      "name": "Danche 74110 Washed",
+      "notes": [
+        "white flowers",
+        "lemon",
+        "honey",
+        "black tea"
+      ]
     },
     {
       "id": "l_chelchele_washed",
@@ -6534,7 +6552,12 @@
       "varietyId": "v_sl34",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kii SL34 AB Washed"
+      "name": "Kii SL34 AB Washed",
+      "notes": [
+        "blackcurrant",
+        "gooseberry",
+        "lime"
+      ]
     },
     {
       "id": "l_kii_batian",
@@ -6542,7 +6565,12 @@
       "varietyId": "v_batian",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kii Batian Washed"
+      "name": "Kii Batian Washed",
+      "notes": [
+        "blackcurrant",
+        "plum",
+        "caramel"
+      ]
     },
     {
       "id": "l_ndaroini_washed",
@@ -6558,7 +6586,12 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Daterra Yellow Bourbon Natural"
+      "name": "Daterra Yellow Bourbon Natural",
+      "notes": [
+        "yellow fruit",
+        "sugar cane",
+        "brown sugar"
+      ]
     },
     {
       "id": "l_daterra_icatu",
@@ -6582,7 +6615,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Las Lajas Perla Negra Caturra Natural"
+      "name": "Las Lajas Perla Negra Caturra Natural",
+      "notes": [
+        "strawberry",
+        "cherry",
+        "cacao",
+        "dark honey"
+      ]
     },
     {
       "id": "l_laslajas_honey",
@@ -6590,7 +6629,12 @@
       "varietyId": "v_catuai",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Las Lajas Catuaí Red Honey"
+      "name": "Las Lajas Catuaí Red Honey",
+      "notes": [
+        "red fruit",
+        "caramel",
+        "dark honey"
+      ]
     },
     {
       "id": "l_coopac_bourbon",
@@ -6726,7 +6770,12 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "El Vergel Pink Bourbon Co-Ferment"
+      "name": "El Vergel Pink Bourbon Co-Ferment",
+      "notes": [
+        "tropical fruit",
+        "citrus",
+        "rose"
+      ]
     },
     {
       "id": "l_elvergel_gesha",
@@ -6828,7 +6877,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Carmen Geisha Especial Natural"
+      "name": "Carmen Geisha Especial Natural",
+      "notes": [
+        "blackberry",
+        "tangerine",
+        "apricot",
+        "hibiscus"
+      ]
     },
     {
       "id": "l_adaura_kaizen",
@@ -6852,7 +6907,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "Janson Family Geisha Washed"
+      "name": "Janson Family Geisha Washed",
+      "notes": [
+        "strawberry",
+        "blueberry",
+        "honey",
+        "violet"
+      ]
     },
     {
       "id": "l_mounttotumas_gesha",
@@ -6860,7 +6921,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2023,
-      "name": "Mount Totumas De La Rosa Geisha (BoP 2023, 96.25 pts)"
+      "name": "Mount Totumas De La Rosa Geisha (BoP 2023, 96.25 pts)",
+      "notes": [
+        "mandarin",
+        "blueberry",
+        "white flowers",
+        "white peach"
+      ]
     },
     {
       "id": "l_nuguo_washed",
@@ -6868,7 +6935,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Nuguo Washed Geisha (BoP 2024 #3 Washed)"
+      "name": "Nuguo Washed Geisha (BoP 2024 #3 Washed)",
+      "notes": [
+        "jasmine",
+        "raspberry",
+        "orange",
+        "elderflower"
+      ]
     },
     {
       "id": "l_lamula_gesha",
@@ -6948,7 +7021,13 @@
       "varietyId": "v_pacamara",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Injerto Pacamara Washed"
+      "name": "El Injerto Pacamara Washed",
+      "notes": [
+        "tropical fruit",
+        "floral",
+        "cocoa",
+        "citrus"
+      ]
     },
     {
       "id": "l_injerto_gesha",
@@ -6956,7 +7035,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "El Injerto Gesha Natural"
+      "name": "El Injerto Gesha Natural",
+      "notes": [
+        "jasmine",
+        "mango",
+        "raspberry",
+        "peach"
+      ]
     },
     {
       "id": "l_socorro_gesha",
@@ -6964,7 +7049,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "El Socorro Gesha Washed (CoE #1)"
+      "name": "El Socorro Gesha Washed (CoE #1)",
+      "notes": [
+        "nectarine",
+        "honey",
+        "jasmine",
+        "peach"
+      ]
     },
     {
       "id": "l_bellavista_bourbon",
@@ -7100,7 +7191,12 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Santa Inês Yellow Bourbon Natural"
+      "name": "Santa Inês Yellow Bourbon Natural",
+      "notes": [
+        "cocoa",
+        "caramel",
+        "red berry"
+      ]
     },
     {
       "id": "l_rioverde_gesha",
@@ -7180,7 +7276,13 @@
       "varietyId": "v_dega",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Hambela Guji Natural"
+      "name": "Hambela Guji Natural",
+      "notes": [
+        "strawberry",
+        "blueberry",
+        "floral",
+        "orange"
+      ]
     },
     {
       "id": "l_aricha_natural",
@@ -7212,7 +7314,12 @@
       "varietyId": "v_sl34",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kainamui SL34 Washed"
+      "name": "Kainamui SL34 Washed",
+      "notes": [
+        "blackcurrant",
+        "plum",
+        "redcurrant"
+      ]
     },
     {
       "id": "l_gaturiri_sl28",
@@ -7332,7 +7439,13 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Monteblanco Pink Bourbon Cold Ferment"
+      "name": "Monteblanco Pink Bourbon Cold Ferment",
+      "notes": [
+        "raisin",
+        "passionfruit",
+        "blackberry",
+        "cocoa"
+      ]
     },
     {
       "id": "l_obraje_gesha",
@@ -7356,7 +7469,12 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "FAF Yellow Bourbon Natural"
+      "name": "FAF Yellow Bourbon Natural",
+      "notes": [
+        "milk chocolate",
+        "brazil nut",
+        "caramel"
+      ]
     },
     {
       "id": "l_joaohamilton_natural",
@@ -7380,7 +7498,12 @@
       "varietyId": "v_74110",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kerchanshe Guji Washed"
+      "name": "Kerchanshe Guji Washed",
+      "notes": [
+        "jasmine",
+        "lemon",
+        "peach"
+      ]
     },
     {
       "id": "l_dayebensa_keramo",
@@ -7388,7 +7511,13 @@
       "varietyId": "v_74112",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Daye Bensa Keramo Natural"
+      "name": "Daye Bensa Keramo Natural",
+      "notes": [
+        "apricot",
+        "strawberry",
+        "floral",
+        "oolong"
+      ]
     },
     {
       "id": "l_iris_aril",
@@ -7516,7 +7645,12 @@
       "varietyId": "v_74158",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Daye Bensa Hamasho 74158 Washed"
+      "name": "Daye Bensa Hamasho 74158 Washed",
+      "notes": [
+        "jasmine",
+        "orange",
+        "green grape"
+      ]
     },
     {
       "id": "l_guariroba_catucai",
@@ -7532,7 +7666,12 @@
       "varietyId": "v_catuai",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Guariroba Catuaí Natural (CoE lineage)"
+      "name": "Guariroba Catuaí Natural (CoE lineage)",
+      "notes": [
+        "milk chocolate",
+        "peanut",
+        "caramel"
+      ]
     },
     {
       "id": "l_kiangoi_sl",
@@ -7588,7 +7727,12 @@
       "varietyId": "v_gesha",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Monteblanco Geisha Anaerobic"
+      "name": "Monteblanco Geisha Anaerobic",
+      "notes": [
+        "jasmine",
+        "tropical fruit",
+        "peach"
+      ]
     },
     {
       "id": "l_monteblanco_caturra",
@@ -7628,7 +7772,12 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Guariroba Yellow Bourbon Natural"
+      "name": "Guariroba Yellow Bourbon Natural",
+      "notes": [
+        "chocolate",
+        "caramel",
+        "yellow fruit"
+      ]
     },
     {
       "id": "l_granjaesp_sidra",
@@ -9670,7 +9819,12 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2022,
-      "name": "Nuguo Geisha Natural (Café Gallardo)"
+      "name": "Nuguo Geisha Natural (Café Gallardo)",
+      "notes": [
+        "violet",
+        "lychee",
+        "mango"
+      ]
     },
     {
       "id": "l_nuguo_fermented",
@@ -9678,7 +9832,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_anaerobic",
       "year": 2021,
-      "name": "Nuguo Geisha Fermented (BoP 2021 Winner, Café Gallardo)"
+      "name": "Nuguo Geisha Fermented (BoP 2021 Winner, Café Gallardo)",
+      "notes": [
+        "violet",
+        "lychee",
+        "mango",
+        "red grape"
+      ]
     },
     {
       "id": "l_totumas_washed",
@@ -9686,7 +9846,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Mount Totumas Geisha Washed (Milky Way / Del Rio)"
+      "name": "Mount Totumas Geisha Washed (Milky Way / Del Rio)",
+      "notes": [
+        "rose",
+        "jasmine",
+        "orange blossom",
+        "honey"
+      ]
     },
     {
       "id": "l_totumas_pacamara",
@@ -9702,7 +9868,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Injerto Legendary Geisha Washed (Pandora)"
+      "name": "El Injerto Legendary Geisha Washed (Pandora)",
+      "notes": [
+        "jasmine",
+        "bergamot",
+        "peach",
+        "earl grey"
+      ]
     },
     {
       "id": "l_injerto_pacamarapandora",
@@ -9710,7 +9882,13 @@
       "varietyId": "v_pacamara",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Injerto Pacamara Pandora Reserva del Comendador"
+      "name": "El Injerto Pacamara Pandora Reserva del Comendador",
+      "notes": [
+        "tropical fruit",
+        "floral",
+        "cocoa",
+        "citrus"
+      ]
     },
     {
       "id": "l_injerto_maragogype",
@@ -9726,7 +9904,13 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Injerto Bourbon Washed"
+      "name": "El Injerto Bourbon Washed",
+      "notes": [
+        "tangerine",
+        "peach",
+        "pineapple",
+        "caramel"
+      ]
     },
     {
       "id": "l_socorro_pacamara_nat",
@@ -9734,7 +9918,12 @@
       "varietyId": "v_pacamara",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "El Socorro Pacamara Natural"
+      "name": "El Socorro Pacamara Natural",
+      "notes": [
+        "yellow apple",
+        "vanilla",
+        "rocky road"
+      ]
     },
     {
       "id": "l_socorro_bourbon",
@@ -9742,7 +9931,12 @@
       "varietyId": "v_bourbon",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "El Socorro Bourbon Washed"
+      "name": "El Socorro Bourbon Washed",
+      "notes": [
+        "red apple",
+        "caramel",
+        "citrus"
+      ]
     },
     {
       "id": "l_socorro_java",
@@ -9774,7 +9968,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Las Lajas Alma Negra Caturra Natural"
+      "name": "Las Lajas Alma Negra Caturra Natural",
+      "notes": [
+        "dried pineapple",
+        "banana",
+        "raisin"
+      ]
     },
     {
       "id": "l_laslajas_blackhoney",
@@ -9782,7 +9981,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Las Lajas Black Honey Caturra"
+      "name": "Las Lajas Black Honey Caturra",
+      "notes": [
+        "red fruit",
+        "brown sugar",
+        "cacao"
+      ]
     },
     {
       "id": "l_laslajas_yellowhoney",
@@ -9790,7 +9994,12 @@
       "varietyId": "v_catuai",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Las Lajas Yellow Honey Catuaí"
+      "name": "Las Lajas Yellow Honey Catuaí",
+      "notes": [
+        "honey",
+        "citrus",
+        "clean"
+      ]
     },
     {
       "id": "l_laslajas_villasarchi",
@@ -9798,7 +10007,12 @@
       "varietyId": "v_villa_sarchi",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Las Lajas Villa Sarchí Honey"
+      "name": "Las Lajas Villa Sarchí Honey",
+      "notes": [
+        "candied orange",
+        "strawberry jam",
+        "honey"
+      ]
     },
     {
       "id": "l_laslajas_bourbon",
@@ -9806,7 +10020,12 @@
       "varietyId": "v_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Las Lajas Bourbon Natural"
+      "name": "Las Lajas Bourbon Natural",
+      "notes": [
+        "red berry",
+        "wine",
+        "dark chocolate"
+      ]
     },
     {
       "id": "l_cerroazul_sidra",
@@ -9838,7 +10057,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Aquiares Caturra Washed"
+      "name": "Aquiares Caturra Washed",
+      "notes": [
+        "red berry",
+        "milk chocolate",
+        "caramel"
+      ]
     },
     {
       "id": "l_aquiares_marsellesa",
@@ -9862,7 +10086,13 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Daterra Stardust Yellow Bourbon (Dried-on-Tree Natural)"
+      "name": "Daterra Stardust Yellow Bourbon (Dried-on-Tree Natural)",
+      "notes": [
+        "pineapple",
+        "nectarine",
+        "peach",
+        "apricot"
+      ]
     },
     {
       "id": "l_daterra_sweetyellow",
@@ -9870,7 +10100,12 @@
       "varietyId": "v_catuai",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Daterra Sweet Yellow Catuaí (Pulped Natural)"
+      "name": "Daterra Sweet Yellow Catuaí (Pulped Natural)",
+      "notes": [
+        "yellow fruit",
+        "brown sugar",
+        "caramel"
+      ]
     },
     {
       "id": "l_daterra_blossom",
@@ -9878,7 +10113,13 @@
       "varietyId": "v_yellow_bourbon",
       "processId": "pr_honey",
       "year": 2024,
-      "name": "Daterra Blossom (Natural + Pulped)"
+      "name": "Daterra Blossom (Natural + Pulped)",
+      "notes": [
+        "floral",
+        "tropical fruit",
+        "peach",
+        "milk chocolate"
+      ]
     },
     {
       "id": "l_geshavillage_oma_natural",
@@ -10110,7 +10351,12 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kii SL28 AA Washed"
+      "name": "Kii SL28 AA Washed",
+      "notes": [
+        "blackcurrant",
+        "grapefruit",
+        "black tea"
+      ]
     },
     {
       "id": "l_kii_ruiru",
@@ -10118,7 +10364,12 @@
       "varietyId": "v_ruiru11",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kii Ruiru 11 Washed"
+      "name": "Kii Ruiru 11 Washed",
+      "notes": [
+        "blackcurrant",
+        "cranberry",
+        "caramel"
+      ]
     },
     {
       "id": "l_kainamui_sl28_aa",
@@ -10126,7 +10377,12 @@
       "varietyId": "v_sl28",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kainamui SL28 AA Washed"
+      "name": "Kainamui SL28 AA Washed",
+      "notes": [
+        "blackcurrant",
+        "blackberry",
+        "toffee"
+      ]
     },
     {
       "id": "l_kainamui_ruiru",
@@ -10134,7 +10390,12 @@
       "varietyId": "v_ruiru11",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Kainamui Ruiru 11 Washed"
+      "name": "Kainamui Ruiru 11 Washed",
+      "notes": [
+        "blackcurrant",
+        "cranberry",
+        "toffee"
+      ]
     },
     {
       "id": "l_baarbara_s795",
