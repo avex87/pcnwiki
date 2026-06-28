@@ -516,9 +516,12 @@
       "parents": "Ethiopian landrace (Gori Gesha)",
       "note": "Floral, jasmine and bergamot-forward; tea-like body. Panama Geisha brought it global fame in 2004.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Jasmine",
+        "Tea-like",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -530,9 +533,12 @@
       "parents": "Ethiopian landrace (despite the name, not related to Bourbon)",
       "note": "Despite its name, Pink Bourbon is not a Bourbon. Genetic testing commissioned by Cafe Imports (2017 and 2023) found no relation to the Bourbon family — it is an Ethiopian landrace, the same group as Gesha and Rume Sudan. The name came from a Colombian farmer who found the pink-cherried plant among his Red and Yellow Bourbon and assumed it was a cross. Now prized in Huila, Cauca and Nariño for a high-toned, complex cup — tropical fruit, intense florals and bright, structured acidity.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Fruit-forward",
+        "Tropical",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -544,9 +550,11 @@
       "parents": "Reported Red Bourbon × Typica",
       "note": "An Ecuadorian-associated selection (often linked to Typica/Bourbon parentage and Nestlé varietal work, a sibling of Typica Mejorado) now increasingly grown in Colombia. Sought after for crystalline cup clarity — floral aromatics, layered stone fruit and citrus, and a tea-like delicacy that has made it a competition favourite.",
       "traits": [
-        "Exceptional cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Tea-like",
+        "Fruit-forward",
+        "Medium acidity",
+        "Delicate body"
       ]
     },
     {
@@ -558,9 +566,12 @@
       "parents": "Ethiopian landrace",
       "note": "Named for the Wush Wush region of southwestern Ethiopia from which the seed stock originates; now a boutique, high-value selection grown in small quantities in Colombia and Central America. Delicate and aromatic — jasmine and tropical florals over juicy stone fruit and a silky body.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Jasmine",
+        "Tea-like",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -572,9 +583,12 @@
       "parents": "Bourbon-derived (Scott Labs selection)",
       "note": "The benchmark Kenyan cultivar, selected at Scott Agricultural Laboratories in the 1930s from a drought-resistant Tanganyika Bourbon-type. Deep-rooted and well suited to lower, drier zones, it is famously susceptible to leaf rust yet endures for its cup: intense blackcurrant, grapefruit and a bright, structured phosphoric acidity that became the global reference for \"Kenyan\" flavour.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "High acidity"
+        "Fruit-forward",
+        "Berry-like",
+        "Citrussy",
+        "High acidity",
+        "Bright",
+        "Medium body"
       ]
     },
     {
@@ -586,9 +600,12 @@
       "parents": "Selected at Scott Labs, Kenya",
       "note": "A Bourbon-Typica-type selection made at Scott Agricultural Laboratories (Scott Labs) in Kenya in the 1930s alongside SL28. More tolerant of higher-altitude, higher-rainfall conditions than SL28 and reliant on deep soils; it gives a full body with deep, syrupy sweetness and the structured citrus-and-blackcurrant acidity that defines the classic Kenyan cup.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "High acidity"
+        "Berry-like",
+        "Citrussy",
+        "Sweet",
+        "High acidity",
+        "Bright",
+        "Medium body"
       ]
     },
     {
@@ -600,9 +617,11 @@
       "parents": "Founding Arabica lineage",
       "note": "One of the two foundational Arabica lineages (with Bourbon) from which most cultivated varieties descend — carried from Ethiopia/Yemen to India, Java, and the Americas. Tall, low-yielding and rust-susceptible, but prized for an exceptionally clean, sweet, well-balanced cup with gentle citrus and a classic, refined profile.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Citrussy",
+        "Sweet",
+        "Medium acidity",
+        "Elegant",
+        "Medium body"
       ]
     },
     {
@@ -614,9 +633,11 @@
       "parents": "Founding Arabica lineage (Réunion/Bourbon Is.)",
       "note": "One of the two ancestral cultivated lineages, via Réunion. Rounded caramel sweetness and balance; parent to Caturra, Pacas, Mundo Novo and many more.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Caramelly",
+        "Medium acidity",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -628,9 +649,10 @@
       "parents": "Bourbon (yellow-cherry selection)",
       "note": "Yellow-fruited Bourbon selection from Brazil, noted for soft sweetness and a rounder, less acidic cup than red Bourbon.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Sweet",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -642,9 +664,11 @@
       "parents": "Single-gene dwarf mutation of Bourbon",
       "note": "Compact dwarf mutation found in Brazil in the 1930s. Higher-yielding and easier to harvest than Bourbon; bright, clean, citric at altitude.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Citrussy",
+        "Bright",
+        "Medium acidity",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -656,9 +680,12 @@
       "parents": "Dwarf mutation of Bourbon",
       "note": "Salvadoran dwarf Bourbon mutation discovered by the Pacas family in 1949. Bright citrus acidity with caramel sweetness; a Pacamara parent.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Citrussy",
+        "Sweet",
+        "Caramelly",
+        "Bright",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -670,9 +697,11 @@
       "parents": "Dwarf mutation of Bourbon",
       "note": "Costa Rican dwarf Bourbon, wind-resistant and excellent at high altitude. Elegant acidity, intense fruit, structured sweetness.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Sweet",
+        "Medium acidity",
+        "Elegant",
+        "Medium body"
       ]
     },
     {
@@ -684,9 +713,9 @@
       "parents": "Bourbon mutation (Bourbon Pointu)",
       "note": "Naturally low-caffeine Bourbon mutation with pointed leaves. Delicate, gentle, low-bitterness cup; rare and pest-prone.",
       "traits": [
-        "Exceptional cup",
-        "Medium body",
-        "Medium acidity"
+        "Tea-like",
+        "Medium acidity",
+        "Delicate body"
       ]
     },
     {
@@ -698,9 +727,11 @@
       "parents": "Typica-derived (Ethiopian-origin, via Indonesia)",
       "note": "A Typica selection long grown in Indonesia and now Latin America. Clean, sweet, often floral with good structure.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Sweet",
+        "Medium acidity",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -712,9 +743,11 @@
       "parents": "Natural mutation of Typica",
       "note": "The 'elephant bean' — a giant-seeded natural mutation of Typica first found near Maragogipe, Bahia, Brazil. Low-yielding but prized for a soft, sweet, elegant, clean cup; a parent of both Pacamara and Maracaturra.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Medium acidity",
+        "Elegant",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -726,9 +759,11 @@
       "parents": "Natural Bourbon × Typica (Sumatra)",
       "note": "Vigorous natural cross found in Brazil in 1943. Heavy body, mild acidity, sweet chocolate and dried-fruit tones.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Sweet",
+        "Chocolatey",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -740,9 +775,9 @@
       "parents": "Pacas × Maragogipe",
       "note": "Large-beaned Salvadoran cross. High-risk, high-reward: explosive flavours from herbal and savoury to papaya and cherry-tomato.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Tropical",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -754,9 +789,10 @@
       "parents": "Rume Sudan × Caturra-type (T5296)",
       "note": "F1 hybrid bred for vigour, disease resistance and cup. Complex, sweet and high-yielding; notable at competitions.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Medium acidity",
+        "Complex",
+        "Medium body"
       ]
     },
     {
@@ -768,9 +804,11 @@
       "parents": "Caturra × Timor Hybrid (Cenicafé)",
       "note": "Colombia's workhorse rust-resistant variety (2005), a multi-line composite. Once doubted on quality; modern processing yields clean nutty-citric-chocolate cups.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Citrussy",
+        "Chocolatey",
+        "Nutty",
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -782,9 +820,9 @@
       "parents": "Caturra × Timor Hybrid (Cenicafé)",
       "note": "Cenicafé's earlier rust-resistant composite (1982), forerunner to Castillo. Productive and hardy with a balanced commercial cup.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -796,9 +834,11 @@
       "parents": "Caturra × Timor Hybrid",
       "note": "Disease-resistant hybrid group developed in Portugal. Variable, sometimes earthy/herbal — though high-altitude lots can surprise with clean fruit.",
       "traits": [
-        "Good cup",
+        "Fruit-forward",
+        "Low acidity",
+        "Clean",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -810,9 +850,11 @@
       "parents": "Caturra × Mundo Novo (IAC, Brazil)",
       "note": "Compact, wind-resistant and highly productive; red- and yellow-fruited lines. Nutty, chocolatey, low-acid, creamy body.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Chocolatey",
+        "Nutty",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -824,9 +866,10 @@
       "parents": "Typica × Bourbon × Timor Hybrid (Cenicafé)",
       "note": "Colombian rust-resistant variety (2002); 'Tabi' means 'good'. Tall with large cherries and a sweet, balanced cup closer to Typica/Bourbon.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Medium acidity"
+        "Sweet",
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -838,9 +881,8 @@
       "parents": "Timor Hybrid × Villa Sarchi (CIRAD/CATIE)",
       "note": "Sarchimor-family variety with strong leaf-rust resistance and good cup quality; performs in challenging climates.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Medium acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -852,9 +894,11 @@
       "parents": "Sarchimor (Timor Hybrid × Villa Sarchi)",
       "note": "High-yielding Honduran Sarchimor with rust resistance. Aromatic, medium body, balanced — tropical fruit, citrus and caramel.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Medium acidity"
+        "Floral",
+        "Fruit-forward",
+        "Tropical",
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -866,9 +910,11 @@
       "parents": "Ethiopian landrace (long called 'Caturra Chiroso')",
       "note": "Elongated-bean variety from Urrao, Antioquia, genetically tied to Ethiopian landrace. Floral and herbal with juicy citrus — Colombia's 'local Gesha'.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Citrussy",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -880,9 +926,12 @@
       "parents": "Uncertain — possible Ethiopian landrace; some link to Caturra/Bourbon/Castillo",
       "note": "Huila variety named for the navel-like dimple on its oblong cherry. Rust-resistant and robust; intense red-fruit, cherry-cola and tropical character, especially under experimental processing.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Fruit-forward",
+        "Tropical",
+        "High acidity",
+        "Bright",
+        "Delicate body",
+        "Rustic"
       ]
     },
     {
@@ -894,9 +943,12 @@
       "parents": "Ethiopian landrace (Gedeo)",
       "note": "Named Ethiopian landrace from the Gedeo zone, common in Yirgacheffe lots. Floral, citric and delicate with a tea-like body.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Tea-like",
+        "Citrussy",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -908,9 +960,11 @@
       "parents": "Ethiopian landrace (Gedeo)",
       "note": "Ethiopian landrace named after an indigenous tree. Sweet and aromatic, frequently blended into washed Yirgacheffe selections.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Sweet",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -922,9 +976,12 @@
       "parents": "DNA-confirmed African/Ethiopian origin; previously unnamed",
       "note": "Discovered by Fang Cheng-lun at Zou Zhou Yuan among Gesha plantings — ~70 oddly-shaped trees that WCR testing confirmed as an uncategorised Ethiopian-origin landrace. Named 'best' in the Tsou language. High-toned and floral, Gesha-like, with citrus, orange blossom and a tea-like body.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Tea-like",
+        "Citrussy",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -936,9 +993,10 @@
       "parents": "Selection from a single tree, Doddengooda Estate (1911)",
       "note": "An Indian selection traced to seed Baba Budan reportedly brought from Yemen in 1670. Selected by L.P. Kent for rust resistance; carried to East Africa and the Pacific. Mild, sweet and balanced.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Medium acidity",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -950,9 +1008,11 @@
       "parents": "Kent × S288 (an Arabica × Liberica-derived line)",
       "note": "India's most widely grown selection (also 'Jember' in Indonesia). Carries a touch of Liberica ancestry via S288; soft maple-syrup, caramel and brown-sugar sweetness with a gentle cup.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Caramelly",
+        "Medium acidity",
+        "Syrupy",
+        "Medium body"
       ]
     },
     {
@@ -964,9 +1024,9 @@
       "parents": "Local Catimor sub-variety (Caturra × Timor Hybrid line)",
       "note": "India's locally selected Catimor, bred for leaf-rust resistance and yield. Balanced and low-acid; a backbone variety of Indian Arabica and Monsooned Malabar lots.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -978,9 +1038,10 @@
       "parents": "French Mission Bourbon selection (Legelet Estate)",
       "note": "A Kenyan Bourbon selection (Scott Labs, released 1936) grown across Kenya and Tanzania. Tolerant of leaf rust and berry disease; large beans with good cup quality at altitude.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Berry-like",
+        "High acidity",
+        "Bright",
+        "Medium body"
       ]
     },
     {
@@ -992,9 +1053,11 @@
       "parents": "Bourbon selection (TaCRI / Lyamungu Research Station)",
       "note": "A Tanzanian Bourbon selection bred at Lyamungu for yield. A backbone of Kilimanjaro and Mbeya production; bright, winey, blackcurrant-leaning East African character.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Berry-like",
+        "Winey",
+        "Bright",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1006,9 +1069,10 @@
       "parents": "A Typica or French Mission type; origins debated",
       "note": "Named for the Mt. Meru area of Tanzania and also widely grown in Papua New Guinea. Classic, clean and balanced with medium body — a workhorse of East African and Pacific highland coffee.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Clean",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -1020,9 +1084,10 @@
       "parents": "Natural Arabica × Robusta (C. canephora)",
       "note": "A natural Arabica–Robusta cross found on Timor in the 1920s–40s ('Tim Tim'), formally identified in the 1950s. The genetic foundation of every rust-resistant Catimor and Sarchimor. Earthy, mild and nutty with low acidity and Robusta-derived body.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1034,9 +1099,10 @@
       "parents": "Villa Sarchi × Timor Hybrid",
       "note": "A group of pure-line cultivars from Villa Sarchi crossed with the Timor Hybrid; parent of Marsellesa and Parainema. Rust-resistant and productive at low-to-mid altitudes, with balanced, mildly sweet cups.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Sweet",
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1048,9 +1114,11 @@
       "parents": "Wild collection from Sudan (1940s)",
       "note": "A rare wild, disease-resistant Sudanese landrace collected from the Boma Plateau on the Sudan–Ethiopia border, prized as a breeding parent (in Centroamericano, Ruiru 11 and Batian). On its own it can be strikingly complex — intense and syrupy, with bright acidity and fruity, floral character — and is grown in tiny quantities at elite farms.",
       "traits": [
-        "Exceptional cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Fruit-forward",
+        "Medium acidity",
+        "Complex",
+        "Medium body"
       ]
     },
     {
@@ -1062,9 +1130,11 @@
       "parents": "Catimor (female) × complex male of K7, SL28, N39, Rume Sudan & Timor Hybrid",
       "note": "A compact, hand-pollinated composite released in Kenya in 1985 after the 1968 CBD epidemic. Disease-resistant and high-yielding; a decent, fruit-leaning cup though typically less complex than SL28/SL34.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "High acidity",
+        "Bright",
+        "Complex",
+        "Medium body"
       ]
     },
     {
@@ -1076,9 +1146,12 @@
       "parents": "SL28, SL34, Rume Sudan, N39, K7, SL4 & Timor Hybrid",
       "note": "Released in Kenya in 2010 and named for the highest peak of Mt. Kenya. Open-pollinated (so farmers can save seed), disease-resistant and, unlike Ruiru 11, capable of real specialty quality — plum, citrus zest and jasmine above 1,700 m.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Jasmine",
+        "Stone fruit",
+        "Citrussy",
+        "High acidity",
+        "Bright",
+        "Medium body"
       ]
     },
     {
@@ -1090,9 +1163,11 @@
       "parents": "C. canephora (chromosome-doubled) × Red Bourbon, backcrossed to Mundo Novo",
       "note": "A tall, high-yielding Brazilian cultivar (released 1993) with Robusta-derived rust resistance bred back toward Arabica quality. Mild, sweet and nutty.",
       "traits": [
-        "Good cup",
+        "Sweet",
+        "Nutty",
+        "Medium acidity",
         "Medium body",
-        "Medium acidity"
+        "Rustic"
       ]
     },
     {
@@ -1104,9 +1179,10 @@
       "parents": "Natural cross of Icatú × Catuaí",
       "note": "A productive, rust-tolerant Brazilian cross (first selected 1988), in red and yellow forms. Uniform ripening and a balanced cup of sweetness, acidity and body comparable to Catuaí.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Sweet",
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1118,9 +1194,11 @@
       "parents": "A selection within the Mundo Novo (Bourbon × Typica) line",
       "note": "A Brazilian Mundo Novo selection (1977) with larger beans. Classic Brazilian profile: sweet, nutty and chocolatey with a soft, full body.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Chocolatey",
+        "Nutty",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1132,9 +1210,10 @@
       "parents": "Sarchimor (Villa Sarchi × Timor Hybrid) line",
       "note": "A compact, rust-resistant Brazilian Sarchimor selection grown for reliable yield; clean and balanced, increasingly shown off in well-processed filter lots.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Medium acidity"
+        "Low acidity",
+        "Clean",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1146,9 +1225,8 @@
       "parents": "Caturra × Timor Hybrid (Catimor)",
       "note": "A Honduran Catimor released in the 1980s that underpinned Honduras's rise as Central America's biggest exporter. Reliable and productive, though now eclipsed on cup quality by newer hybrids.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1160,9 +1238,9 @@
       "parents": "Caturra × Timor Hybrid (Catimor)",
       "note": "Alongside Parainema, one of Honduras's two most widely planted varieties. High-yielding and once strongly rust-resistant, with a balanced, mild cup; some rust resistance has since broken down.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1174,9 +1252,10 @@
       "parents": "Natural Pacamara/Maragogipe × Catimor cross",
       "note": "A serendipitous Guatemalan cross from the 1980s (Pacamara or Maragogipe with a Timor Hybrid line). Rust-resistant and drought-tolerant with surprisingly good, sweet, balanced cup quality.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Sweet",
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1188,9 +1267,8 @@
       "parents": "Caturra × Timor Hybrid 1343",
       "note": "A compact, highly productive Colombian variety from the FNC's Cenicafé program, bred for rust and CBD resistance and broad adaptability — a successor line to Castillo.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Low acidity",
+        "Medium body"
       ]
     },
     {
@@ -1202,9 +1280,11 @@
       "parents": "Once thought a Caturra mutant; WCR ties it to Ethiopian landraces",
       "note": "A rare Huila variety with a distinctive elongated, papaya-like cherry (hence the name). Genetic testing links it to Ethiopian landraces rather than Caturra; sweet and floral when well grown.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Tropical",
+        "Sweet",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1216,9 +1296,11 @@
       "parents": "Selected from wild trees, Metu-Bishari forest",
       "note": "A compact, CBD-resistant selection developed by the Jimma Agricultural Research Center (released 1979) from forest trees in Illubabor. Widely planted in southern Ethiopia; clean, sweet, floral washed profiles.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Sweet",
+        "Medium acidity",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -1230,9 +1312,11 @@
       "parents": "Selected from wild trees, Metu-Bishari forest",
       "note": "A sister JARC selection to 74110, chosen for CBD resistance and yield. Common across Yirgacheffe and Guji; bright, floral and fruit-forward in the cup.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Fruit-forward",
+        "Bright",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1244,9 +1328,10 @@
       "parents": "Caturra × Timor Hybrid (HdT 831) line",
       "note": "A widely planted Sumatran variety whose name translates roughly as 'pay off debt quickly' — it fruits almost year-round. Sweet and full-bodied, a backbone of Aceh and North Sumatra production.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Fruit-forward",
+        "Sweet",
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1258,9 +1343,9 @@
       "parents": "Catimor (Caturra × Timor Hybrid) line",
       "note": "A common Indonesian name (from Aceh Tengah) for locally grown Catimor types. Hardy and productive; heavy-bodied, earthy-herbal wet-hulled Sumatran character.",
       "traits": [
-        "Good cup",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1272,9 +1357,10 @@
       "parents": "Wild species; a parent of Arabica (with Robusta)",
       "note": "A separate species and one of Arabica's two parents. Remarkably low caffeine and intensely sweet — sesame, toasted marshmallow, lemon drop; soft, silky and low-acid. Rare and very expensive.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "Medium acidity"
+        "Citrussy",
+        "Sweet",
+        "Medium acidity",
+        "Delicate body"
       ]
     },
     {
@@ -1286,9 +1372,11 @@
       "parents": "Distinct species; a parent of Arabica",
       "note": "The second commercial species, ~40% of world output. High caffeine, hardy, heavy-bodied; harsh as commodity but capable of clean cocoa/nutty fine-Robusta lots.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Chocolatey",
+        "Nutty",
+        "Low acidity",
+        "Clean",
+        "Full body"
       ]
     },
     {
@@ -1300,9 +1388,10 @@
       "parents": "A cultivar group of C. canephora",
       "note": "An Ugandan Robusta cultivar group (the other main one being 'Robusta' proper). Often spreading/bushy in habit; used for hardy, heavy-bodied lots and as rootstock.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1314,9 +1403,10 @@
       "parents": "A cultivar group of C. canephora",
       "note": "A C. canephora group known as Conilon in Brazil, where it dominates low-altitude Robusta production. Earthy, woody and full-bodied; the workhorse of commercial Robusta.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1328,9 +1418,11 @@
       "parents": "Distinct species (West/Central Africa)",
       "note": "Large asymmetric 'hooked' beans on towering trees. Bold and aromatic — jackfruit, tropical fruit, floral over smoky-woody depth. Known as Barako in the Philippines.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Floral",
+        "Fruit-forward",
+        "Tropical",
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1342,9 +1434,11 @@
       "parents": "Reclassified as a variety of Liberica",
       "note": "Lighter and brighter than classic Liberica: tart berry, tamarind and tropical tones over a faint smoky backnote. Mostly Southeast Asian; prized in blends and as a single origin.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Tropical",
+        "Berry-like",
+        "Low acidity",
+        "Balanced",
+        "Full body"
       ]
     },
     {
@@ -1356,9 +1450,11 @@
       "parents": "Distinct species (Inhambane / Mozambique coffee)",
       "note": "A rare drought-tolerant species from the coastal forest belt of Mozambique and northern KwaZulu-Natal — endemic to under 150 km². Naturally low caffeine (~0.8%), with tiny beans, fast 3-month ripening and a delicate, sweet, citrus-and-floral cup. Production measured in kilograms; a climate-resilience hope for coffee's future.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Tea-like",
+        "Citrussy",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1370,9 +1466,11 @@
       "parents": "Distinct species; rediscovered in the wild in 2018",
       "note": "A West African species once cultivated, then lost to commerce in the 20th century and rediscovered wild in Sierra Leone in 2018. Heat-tolerant yet — unusually — reported to taste remarkably Arabica-like, with sweetness, complexity and a delicate fruit-and-floral character. A key climate-adaptation candidate.",
       "traits": [
-        "Good cup",
-        "Light body",
-        "Medium acidity"
+        "Floral",
+        "Tea-like",
+        "Fruit-forward",
+        "Medium acidity",
+        "Delicate body"
       ]
     },
     {
@@ -1384,9 +1482,10 @@
       "parents": "A Caturra whose cherries ripen deep purple",
       "note": "A Caturra type whose cherries ripen to a deep purple. Nearly proprietary to Finca Monteblanco (Rodrigo Sánchez), where it was rediscovered among 1980s plantings; higher Brix and a distinctive sweet, dark-fruited cup, used for special processing.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Sweet",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1398,9 +1497,8 @@
       "parents": "Bourbon (mass selection)",
       "note": "An improved Bourbon selected by the Salvadoran Institute for Coffee Research (ISIC) from 1949, released 1977. Ripens early, very good cup at altitude; makes up a large share of El Salvador production. Susceptible to leaf rust.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1412,9 +1510,8 @@
       "parents": "T5296 (Sarchimor: Timor Hybrid × Villa Sarchí)",
       "note": "A Sarchimor-type developed by PROCAFÉ in El Salvador from the T5296 line. Rust-resistant, suited to medium altitude.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1426,9 +1523,8 @@
       "parents": "Catimor × Pacas lineage",
       "note": "A leaf-rust-resistant Catimor-type developed in El Salvador (PROCAFÉ/ISIC), released around 1977. A working, disease-resistant cultivar.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1440,9 +1536,10 @@
       "parents": "Typica (dwarf mutation)",
       "note": "A dwarf mutation of Typica first observed at Finca El Brito, Santa Rosa, Guatemala. Compact like Caturra; clean, balanced Typica cup.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Clean",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -1454,9 +1551,10 @@
       "parents": "Caturra × Pache Común",
       "note": "A compact Guatemalan variety, a hybrid of Caturra and Pache Común — shorter than either parent. Clean, well-balanced Typica-family character.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Clean",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -1468,9 +1566,8 @@
       "parents": "Typica selection",
       "note": "A Typica-group selection associated with Costa Rica; tall plant valued for cup quality and adaptability at altitude.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1482,9 +1579,8 @@
       "parents": "Marsellesa × wild Ethiopian (Sudan-derived) male sterile line",
       "note": "The first F1 hybrid that can be propagated by seed (not only clones), developed by CIRAD with ECOM. Rust-resistant with good cup potential.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1496,9 +1592,8 @@
       "parents": "Maragogipe × Caturra",
       "note": "A cross of Maragogipe and Caturra producing very large beans on a semi-dwarf plant; prized in competitions for big, expressive cups.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1510,9 +1605,8 @@
       "parents": "Catimor lineage",
       "note": "A leaf-rust-resistant Catimor-type developed in Mexico (INIFAP), released 1990s; widely planted for durability.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1524,9 +1618,11 @@
       "parents": "Typica progeny",
       "note": "A Typica progeny long grown around Pluma Hidalgo, Oaxaca; classic mild, sweet, clean Typica profile.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Stone fruit",
+        "Sweet",
+        "Medium acidity",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -1538,9 +1634,8 @@
       "parents": "T5296 (Sarchimor) lineage",
       "note": "A Sarchimor-derived rust-resistant variety released by ICAFE in Costa Rica (named for its 1995 release). Vigorous, medium-altitude workhorse.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1552,9 +1647,8 @@
       "parents": "Villa Sarchí × Timor Hybrid (IAC)",
       "note": "A Sarchimor-line cultivar developed by IAC/EPAMIG in Brazil; rust-resistant, compact, good yields.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1566,9 +1660,8 @@
       "parents": "Mundo Novo × Catuaí",
       "note": "A Brazilian cultivar (Rubi MG 1192) from a Mundo Novo × Catuaí cross; productive, good cup, widely planted in Minas Gerais.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1580,9 +1673,9 @@
       "parents": "Mundo Novo × Catuaí (IAC)",
       "note": "A Brazilian IAC cultivar from the Mundo Novo × Catuaí lineage; balanced productivity and cup, suited to Brazilian conditions.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -1594,9 +1687,8 @@
       "parents": "Catuaí × Timor Hybrid (EPAMIG)",
       "note": "A Brazilian EPAMIG cultivar with leaf-rust resistance and good cup potential; part of the modern Minas Gerais portfolio.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -1608,9 +1700,10 @@
       "parents": "Metu/Bishari forest selection (JARC)",
       "note": "A JARC selection from the 1974 Illubabor/Metu collections, chosen for coffee berry disease resistance. Good cup in matched zones.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Berry-like",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1622,9 +1715,9 @@
       "parents": "Metu/Bishari forest selection (JARC)",
       "note": "A JARC landrace selection (1974 series) bred for disease resistance; an Ethiopian heirloom subvariety.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1636,9 +1729,10 @@
       "parents": "JARC forest selection",
       "note": "A widely planted JARC selection noted for leaf-rust resistance and high-altitude adaptability; expressive, fruit-forward cups (e.g. Hamasho naturals).",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Fruit-forward",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1650,9 +1744,9 @@
       "parents": "JARC forest selection",
       "note": "A JARC heirloom selection (1974 series) catalogued for disease resistance; common in Sidama/Guji plantings.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1664,9 +1758,9 @@
       "parents": "JARC forest selection (1975 series)",
       "note": "A JARC selection from the 1975 collections; an Ethiopian heirloom subvariety grown across the south-west.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1678,9 +1772,9 @@
       "parents": "Landrace from Bishari village, Illubabor",
       "note": "An Ethiopian heirloom subvariety from Bishari village in Illubabor — the same source population behind several JARC selections (e.g. 74110).",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1692,9 +1786,11 @@
       "parents": "Landrace selection",
       "note": "An Ethiopian heirloom subvariety catalogued among the local landraces; grown in the south, prized for clarity and florals.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "High acidity",
+        "Bright",
+        "Clean",
+        "Delicate body"
       ]
     },
     {
@@ -1706,9 +1802,8 @@
       "parents": "Bourbon selection",
       "note": "A Bourbon-derived variety named for Mibirizi, Rwanda, where it was selected in the 1930s; widespread across Rwanda, Burundi and the Great Lakes region.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1720,9 +1815,10 @@
       "parents": "Bourbon selection",
       "note": "A Bourbon selection (Jackson 2/1257) long grown in Rwanda, Burundi and East Africa; classic Bourbon sweetness and acidity.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Medium acidity",
+        "Balanced",
+        "Medium body"
       ]
     },
     {
@@ -1734,9 +1830,8 @@
       "parents": "Bourbon (early French missionary plantings)",
       "note": "A name for the Bourbon plants spread through East Africa by French missionaries in the late 1800s; foundational to Kenyan and Tanzanian Bourbon stock.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1748,9 +1843,8 @@
       "parents": "Tafarikela × HdT (Indian selection)",
       "note": "An Indian Arabica selection (Selection 9) from a cross involving an Ethiopian type and Timor Hybrid; valued in Indian estates for cup and rust resistance.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1762,9 +1856,10 @@
       "parents": "Conilon × Robusta natural cross (Embrapa)",
       "note": "One of Embrapa’s individually registered Amazonian Robusta clones, selected in Rondônia for vigour, yield and rust resistance.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1776,9 +1871,10 @@
       "parents": "Conilon × Robusta hybrid clone (Embrapa)",
       "note": "An Embrapa \"Robusta Amazônico\" clonal hybrid cultivar for the western Amazon, characterised individually for yield, bean size and quality.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1790,9 +1886,10 @@
       "parents": "C. canephora selection (IAC, ex-CATIE germplasm)",
       "note": "A productive Brazilian Robusta cultivar released by IAC in 1987; nematode-resistant and widely used as a rootstock as well as for production.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -1804,9 +1901,8 @@
       "parents": "Catuaí × Icatu (yellow-fruited)",
       "note": "A high-yielding, rust-tolerant Brazilian cultivar from the Catucaí line (a Catuaí × Icatu natural cross), ripening yellow. Common in Minas Gerais specialty lots, especially fermentation-focused ones.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1818,9 +1914,10 @@
       "parents": "Mundo Novo × Catuaí (IAC/EPAMIG)",
       "note": "A Brazilian cultivar (Topázio MG-1190) from a Mundo Novo × Catuaí cross, ripening yellow. Valued for sweetness and consistency; used in many specialty and experimentally-fermented Minas lots.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Winey",
+        "Sweet",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1832,9 +1929,11 @@
       "parents": "Sarchimor T-5296 × Ethiopian landrace ET25",
       "note": "An F1 hybrid created by CATIE/CIRAD/World Coffee Research crossing rust-resistant Sarchimor T-5296 with Ethiopian landrace ET25. Rare at commercial scale; grown notably at Aquiares Estate. Clean, sweet, floral-leaning cup.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Sweet",
+        "Medium acidity",
+        "Clean",
+        "Medium body"
       ]
     },
     {
@@ -1846,9 +1945,11 @@
       "parents": "Scott Laboratories selection; genetically Gesha-like / Ethiopian landrace",
       "note": "A Gesha-like variety grown in the Cusco highlands of Peru, colloquially called \"Gesha Inca.\" Genetic testing suggests it is close to an old Scott Laboratories (SL) selection; Gesha-like in stature and a berry-forward, floral, Ethiopian-landrace cup profile.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Berry-like",
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1860,9 +1961,11 @@
       "parents": "Undetermined; Bourbon-like in habit and cup",
       "note": "A variety colloquially known as Las Tolas, grown in Pichincha, Ecuador (notably at Terrazas del Pisque). Bourbon-like in format with dark-fruit, dried-berry and cacao character; its precise lineage is not formally established.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Berry-like",
+        "Chocolatey",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1874,9 +1977,10 @@
       "parents": "Reportedly a natural Bourbon × Ethiopian-landrace cross found in Ecuador",
       "note": "An Ecuadorian variety (“improved”) associated with high-end farms such as Finca Soledad; thought to be a natural cross with Ethiopian-landrace character, prized for floral, tropical cups.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Tropical",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1888,9 +1992,8 @@
       "parents": "Not formally documented",
       "note": "A rare variety name encountered in Huila, Colombia (e.g. Victor Bonilla, Finca La Chorrera). Limited public documentation of its lineage.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1902,9 +2005,8 @@
       "parents": "A large-seeded selection associated with Caturra",
       "note": "A \"Caturrón\" (large-bean Caturra-type) selection grown in Huila, Colombia, e.g. by Café Ticuna in Garzón.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1916,9 +2018,9 @@
       "parents": "Red Bourbon selection",
       "note": "A striped-fruit selection of Red Bourbon grown in Huila, Colombia (e.g. Elkin Guzmán, Finca El Mirador).",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Fruit-forward",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1930,9 +2032,11 @@
       "parents": "Pink-fruited Pacamara selection",
       "note": "A pink-cherried selection of Pacamara, the large-beaned Salvadoran cross of Pacas and Maragogipe. Grown in small quantities (notably at Los Pirineos in El Salvador) and valued for combining Pacamara’s big body and structure with delicate floral, stone-fruit and pear-like sweetness.",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Tea-like",
+        "Fruit-forward",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1944,9 +2048,8 @@
       "parents": "Mundo Novo × Caturra (red-fruited)",
       "note": "The red-cherry form of Catuai, a compact high-yielding Brazilian cultivar widely grown across Latin America (e.g. Bolivia).",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -1958,9 +2061,12 @@
       "parents": "Indigenous Ethiopian landrace",
       "note": "A small-cherry, small-leaf Ethiopian landrace type prized in Yirgacheffe/Gedeo for floral, tea-like clarity; often grown among mixed garden varieties.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "Floral",
+        "Tea-like",
+        "High acidity",
+        "Bright",
+        "Clean",
+        "Delicate body"
       ]
     },
     {
@@ -1972,9 +2078,9 @@
       "parents": "Indigenous mixed heirloom population",
       "note": "The catch-all term for the thousands of indigenous heirloom Arabica types grown as mixed \"garden coffee\" across Ethiopia; not a single cultivar but a diverse landrace population.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -1986,9 +2092,8 @@
       "parents": "Bourbon selection",
       "note": "A Salvadoran Bourbon selection grown in Apaneca-Ilamatepec; associated with producer Jose Enrique Gutierrez (El Limo).",
       "traits": [
-        "Very good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -2000,9 +2105,9 @@
       "parents": "Catimor-line selection released in Indonesia",
       "note": "A widely planted Indonesian Arabica line, high-yielding and continuously fruiting (\"Sigarar Utang\" loosely means \"pay debts immediately\"); Catimor-derived, common across Sumatra and Java.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Fruit-forward",
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -2014,9 +2119,8 @@
       "parents": "Catimor/Timor-hybrid derivative",
       "note": "An Indonesian Catimor-type selection (\"Ateng\" from Aceh + Tengah), valued for disease resistance and yield in Sumatra and Java.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -2028,9 +2132,10 @@
       "parents": "Hibrido de Timor",
       "note": "\"Tim Tim\" (Timor-Timur) is the Indonesian name for Hibrido de Timor types — natural Arabica × Robusta hybrids brought from Timor, foundational to many Indonesian plantings.",
       "traits": [
-        "Good cup",
+        "Nutty",
+        "Low acidity",
         "Full body",
-        "Low acidity"
+        "Rustic"
       ]
     },
     {
@@ -2042,9 +2147,8 @@
       "parents": "Early Ethiopian-derived introduction",
       "note": "An older Ethiopian-origin Arabica selection long grown in Sumatra/Aceh; valued for cup quality among the region's mixed garden plantings.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -2056,9 +2160,8 @@
       "parents": "Local Gayo-highland selection",
       "note": "A locally named Arabica selection from the Gayo highlands of Aceh, Sumatra; part of the mixed-variety smallholder plantings typical of the region.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -2070,9 +2173,9 @@
       "parents": "Local selection",
       "note": "A locally named Sumatran Arabica selection grown among Aceh and Gayo highland smallholdings. Part of the mixed-variety garden plantings typical of the region, contributing to the herbal, sweet, full-bodied character of Gayo coffees.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Sweet",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -2084,9 +2187,8 @@
       "parents": "Catimor-line Indonesian research release",
       "note": "An Indonesian Arabica research line (Andung Sari) derived from Catimor stock, released for disease resistance and adaptability; planted in Kerinci and elsewhere.",
       "traits": [
-        "Good cup",
-        "Full body",
-        "Low acidity"
+        "Low acidity",
+        "Full body"
       ]
     },
     {
@@ -2098,9 +2200,11 @@
       "parents": "Selected from indigenous Ethiopian landrace by the Jimma Agricultural Research Center",
       "note": "A JARC-released improved selection of indigenous Ethiopian landrace, planted notably at Israel Degfa's Ana Sora estate in Guji; valued for disease resistance and a bright, fruity, floral cup at high altitude.",
       "traits": [
-        "Good cup",
-        "Medium body",
-        "Medium acidity"
+        "Floral",
+        "Fruit-forward",
+        "Bright",
+        "Medium acidity",
+        "Medium body"
       ]
     },
     {
@@ -2112,9 +2216,9 @@
       "parents": "Wild heirloom from the Gori Gesha forest",
       "note": "An heirloom Gesha selection harvested from the Gori Gesha forest near Gesha Village — the forest genetically identified as the collection site of the Panamanian Geisha. Replicates the wild forest population diversity.",
       "traits": [
-        "Exceptional cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     },
     {
@@ -2126,9 +2230,9 @@
       "parents": "Selected from a 1974 Illubabor coffee-forest expedition",
       "note": "A disease-resistant Ethiopian landrace selection made from a 1974 expedition to the Illubabor coffee forest; grown at Gesha Village alongside its Gesha types.",
       "traits": [
-        "Very good cup",
-        "Light body",
-        "High acidity"
+        "High acidity",
+        "Bright",
+        "Delicate body"
       ]
     }
   ],
@@ -6176,7 +6280,14 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Granja Paraíso 92 Pink Bourbon Double Anaerobic"
+      "name": "Granja Paraíso 92 Pink Bourbon Double Anaerobic",
+      "notes": [
+        "lychee",
+        "passionfruit",
+        "rose",
+        "strawberry",
+        "pineapple"
+      ]
     },
     {
       "id": "l_paraiso_eugenioides",
@@ -6346,7 +6457,14 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Elida Estate Geisha Natural"
+      "name": "Elida Estate Geisha Natural",
+      "notes": [
+        "jasmine",
+        "bergamot",
+        "peach",
+        "tropical fruit",
+        "berry"
+      ]
     },
     {
       "id": "l_ninetyplus_gesha",
@@ -6672,7 +6790,14 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Elida Geisha Natural Vuelta (BoP 2024)"
+      "name": "Elida Geisha Natural Vuelta (BoP 2024)",
+      "notes": [
+        "jasmine",
+        "bergamot",
+        "peach",
+        "tropical fruit",
+        "berry"
+      ]
     },
     {
       "id": "l_sophia_olympus",
@@ -6680,7 +6805,14 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2025,
-      "name": "Finca Sophia Olympus Washed Geisha"
+      "name": "Finca Sophia Olympus Washed Geisha",
+      "notes": [
+        "cherry",
+        "bergamot",
+        "floral",
+        "citrus",
+        "plum"
+      ]
     },
     {
       "id": "l_hartmann_blackjaguar",
@@ -7885,7 +8017,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Yesica Ale Llanqui",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "jasmine",
+        "apricot",
+        "pear"
+      ]
     },
     {
       "id": "l_familiaccapa_typica",
@@ -7894,7 +8031,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Familia Ccapa",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "nutty",
+        "raisin",
+        "black cherry"
+      ]
     },
     {
       "id": "l_joaquinlipa_bourbon",
@@ -7903,7 +8045,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Joaquin Lipa",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "grape",
+        "currant jam",
+        "cacao"
+      ]
     },
     {
       "id": "l_lisbethmarino_sl9",
@@ -7912,7 +8059,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Lisbeth Mariño",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "iris",
+        "pineberry",
+        "citrus"
+      ]
     },
     {
       "id": "l_robertoflores_gesha",
@@ -7930,7 +8082,14 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Manuel Marlo",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "blackberry",
+        "autumn royal grapes",
+        "violet",
+        "long",
+        "punchy acidity"
+      ]
     },
     {
       "id": "l_abelsalinas_mejorado",
@@ -7939,7 +8098,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Abel Salinas",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "peaches",
+        "floral",
+        "honey"
+      ]
     },
     {
       "id": "l_migueldota_sidra",
@@ -7948,7 +8112,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Miguel Dota",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "marionberry",
+        "grapefruit",
+        "floral"
+      ]
     },
     {
       "id": "l_carlosmario_pink_bourbon",
@@ -7957,7 +8126,11 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Carlos Mario",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "guava",
+        "raspberry"
+      ]
     },
     {
       "id": "l_reinel_pink_bourbon",
@@ -7966,7 +8139,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Reinel",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "red grape",
+        "citrus",
+        "red cherry"
+      ]
     },
     {
       "id": "l_victorbonilla_aruzi",
@@ -7975,7 +8153,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Victor Bonilla",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "black cherry",
+        "chocolate",
+        "date"
+      ]
     },
     {
       "id": "l_sergiocaro_chiroso",
@@ -7984,7 +8167,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Sergio Caro",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "plum",
+        "nectarine",
+        "berry preserves"
+      ]
     },
     {
       "id": "l_andresosorio_pink_bourbon",
@@ -7993,7 +8181,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Andrés Felipe Osorio",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "mango",
+        "clementine",
+        "meyer lemon"
+      ]
     },
     {
       "id": "l_josemartinez_pink_bourbon",
@@ -8002,7 +8195,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "José Martínez",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "tropical fruit",
+        "lemon zest",
+        "prickly pear"
+      ]
     },
     {
       "id": "l_wilsonalba_pink_bourbon",
@@ -8011,7 +8209,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Wilson Alba",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "raspberry",
+        "hibiscus",
+        "ripe citrus"
+      ]
     },
     {
       "id": "l_nemesioramos_pink_bourbon",
@@ -8020,7 +8223,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Nemesio Ramos",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "lemon meringue",
+        "stone fruit",
+        "rainier cherry"
+      ]
     },
     {
       "id": "l_marthacartagena_chiroso",
@@ -8029,7 +8237,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Martha Cartagena",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "agave syrup",
+        "floral",
+        "mirabelle plum"
+      ]
     },
     {
       "id": "l_santiagocaro_chiroso",
@@ -8038,7 +8251,10 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Santiago Caro",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "sugar cane"
+      ]
     },
     {
       "id": "l_serviobotina_pink_bourbon",
@@ -8047,7 +8263,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Servio Botina",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "citrus",
+        "raspberry",
+        "plum"
+      ]
     },
     {
       "id": "l_gilbertochilito_gesha",
@@ -8056,7 +8277,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Gilberto Chilito",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "raspberry",
+        "guava",
+        "passion fruit"
+      ]
     },
     {
       "id": "l_victorpineda_chiroso",
@@ -8065,7 +8291,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Victor Pineda",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "honey",
+        "stone-fruit",
+        "citrus"
+      ]
     },
     {
       "id": "l_faverninco_gesha",
@@ -8074,7 +8305,13 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Faver Ninco",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "grape",
+        "nectarine",
+        "pineapple",
+        "floral"
+      ]
     },
     {
       "id": "l_jhonbermudez_chiroso",
@@ -8092,7 +8329,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Julio Alberto",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "stewed fruit",
+        "hibiscus",
+        "santina cherry"
+      ]
     },
     {
       "id": "l_joseever_pink_bourbon",
@@ -8101,7 +8343,13 @@
       "processId": "pr_honey",
       "year": 2024,
       "name": "Jose Ever Muñoz",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "papaya",
+        "honeysuckle",
+        "viscous",
+        "tropical"
+      ]
     },
     {
       "id": "l_cerromiraflores_gesha",
@@ -8110,7 +8358,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Cerro Miraflores",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "grapes",
+        "tropical fruits",
+        "wildflower aroma"
+      ]
     },
     {
       "id": "l_alirio_pink_bourbon",
@@ -8119,7 +8372,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Alirio Muñoz",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "strawberry",
+        "blood orange",
+        "tropical florals"
+      ]
     },
     {
       "id": "l_divonino_gesha",
@@ -8128,7 +8386,14 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Divo Niño",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "peach",
+        "pear",
+        "golden apple",
+        "medium body",
+        "light florals"
+      ]
     },
     {
       "id": "l_nimrodpineda_sl28",
@@ -8137,7 +8402,13 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Nimrod Pineda",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "blackberry",
+        "full bodied",
+        "pluot",
+        "citrus"
+      ]
     },
     {
       "id": "l_ruberizaguirre_pacas",
@@ -8146,7 +8417,13 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Ruber Izaguirre",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "brown sugar",
+        "date",
+        "pear",
+        "apple"
+      ]
     },
     {
       "id": "l_rumudamo_74112",
@@ -8155,7 +8432,12 @@
       "processId": "pr_anaerobic",
       "year": 2025,
       "name": "Rumudamo Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "blackberry",
+        "raspberry",
+        "rose"
+      ]
     },
     {
       "id": "l_bokusayisa_74112",
@@ -8164,7 +8446,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Boku Sayisa Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "blueberry",
+        "peony",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_udesafora_74112",
@@ -8173,7 +8460,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Udesa Fora Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "berries",
+        "pluot",
+        "bright"
+      ]
     },
     {
       "id": "l_chelbessa_74112",
@@ -8182,7 +8474,14 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Chelbessa Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "strawberry",
+        "nectarine",
+        "floral",
+        "multi-dimensional sweetness",
+        "acidity"
+      ]
     },
     {
       "id": "l_keramo_74158",
@@ -8200,7 +8499,11 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Gititu Factory",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "currant",
+        "boisenberry"
+      ]
     },
     {
       "id": "l_kathakwa_sl28",
@@ -8209,7 +8512,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Kathakwa Factory",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "citrus",
+        "juicy",
+        "melon"
+      ]
     },
     {
       "id": "l_kiamugumo_sl28",
@@ -8218,7 +8526,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Kiamugumo Factory",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "orange",
+        "blackcurrant",
+        "lemon-lime"
+      ]
     },
     {
       "id": "l_gachatha_sl28",
@@ -8227,7 +8540,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Gachatha Factory",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "currant",
+        "sugar cane",
+        "mandarin"
+      ]
     },
     {
       "id": "l_kayu_sl28",
@@ -8236,7 +8554,13 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Kayu Factory",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "raspberry",
+        "date",
+        "rose",
+        "hawthorn"
+      ]
     },
     {
       "id": "l_gaharo_bourbon",
@@ -8245,7 +8569,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Gaharo Hill",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "orange",
+        "floral",
+        "grapes"
+      ]
     },
     {
       "id": "l_giku_bourbon",
@@ -8254,7 +8583,12 @@
       "processId": "pr_honey",
       "year": 2025,
       "name": "Giku Hill",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "nectarine",
+        "rainier cherry",
+        "carob"
+      ]
     },
     {
       "id": "l_ninga_bourbon",
@@ -8263,7 +8597,14 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Ninga Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "apricot",
+        "persimmon",
+        "sweet",
+        "tart",
+        "dried berries"
+      ]
     },
     {
       "id": "l_remera_bourbon",
@@ -8272,7 +8613,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Remera Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "mixed berries",
+        "whipped cream",
+        "pink lady apple"
+      ]
     },
     {
       "id": "l_bumba_bourbon",
@@ -8281,7 +8627,15 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Bumba Washing Station",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "rhubarb",
+        "apple crisp",
+        "silky plumb",
+        "singing acidity",
+        "firm structure",
+        "pear"
+      ]
     },
     {
       "id": "l_cafeticuna_sl28",
@@ -8290,7 +8644,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Café Ticuna SL-28 Washed",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "wild berries",
+        "peach",
+        "apple"
+      ]
     },
     {
       "id": "l_cafeticuna_caturron",
@@ -8326,7 +8685,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Juan Peña La Papaya Sidra Washed",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "loquat",
+        "oolong",
+        "berry compote"
+      ]
     },
     {
       "id": "l_juanpena_mejorado",
@@ -8335,7 +8699,12 @@
       "processId": "pr_washed",
       "year": 2025,
       "name": "Juan Peña La Papaya Mejorado Washed",
-      "source": "Flowerchild"
+      "source": "Flowerchild",
+      "notes": [
+        "loquat",
+        "oolong",
+        "berry compote"
+      ]
     },
     {
       "id": "l_lasalvaje_gesha",
