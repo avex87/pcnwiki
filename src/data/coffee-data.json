@@ -6799,7 +6799,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "Cerro Azul Geisha Washed"
+      "name": "Cerro Azul Geisha Washed",
+      "notes": [
+        "jasmine",
+        "grapefruit",
+        "caramel",
+        "melon"
+      ]
     },
     {
       "id": "l_elzafiro_sidra",
@@ -6869,7 +6875,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_natural",
       "year": 2022,
-      "name": "Hartmann Black Jaguar Geisha (BoP 2022)"
+      "name": "Hartmann Black Jaguar Geisha (BoP 2022)",
+      "notes": [
+        "blueberry",
+        "peach",
+        "pineapple",
+        "floral"
+      ]
     },
     {
       "id": "l_carmen_especial",
@@ -6949,7 +6961,13 @@
       "varietyId": "v_gesha",
       "processId": "pr_washed",
       "year": 2023,
-      "name": "Finca La Mula Geisha Washed"
+      "name": "Finca La Mula Geisha Washed",
+      "notes": [
+        "jasmine",
+        "citrus",
+        "peach",
+        "floral"
+      ]
     },
     {
       "id": "l_auromar_gesha",
@@ -7383,7 +7401,13 @@
       "varietyId": "v_caturra",
       "processId": "pr_carbonic",
       "year": 2024,
-      "name": "Edwin Noreña Watermelon Co-Ferment (Caturra)"
+      "name": "Edwin Noreña Watermelon Co-Ferment (Caturra)",
+      "notes": [
+        "watermelon",
+        "sweet peach",
+        "kiwi",
+        "sugar cane"
+      ]
     },
     {
       "id": "l_campohermoso_ipa",
@@ -7391,7 +7415,13 @@
       "varietyId": "v_pink_bourbon",
       "processId": "pr_anaerobic",
       "year": 2024,
-      "name": "Edwin Noreña IPA/Hops Mossto (Pink Bourbon)"
+      "name": "Edwin Noreña IPA/Hops Mossto (Pink Bourbon)",
+      "notes": [
+        "guava",
+        "passionfruit",
+        "hops",
+        "pineapple"
+      ]
     },
     {
       "id": "l_campohermoso_sidra",
@@ -7407,7 +7437,13 @@
       "varietyId": "v_castillo",
       "processId": "pr_thermal",
       "year": 2024,
-      "name": "El Paraíso Lychee Thermal Shock (Castillo)"
+      "name": "El Paraíso Lychee Thermal Shock (Castillo)",
+      "notes": [
+        "osmanthus",
+        "lychee",
+        "peach",
+        "strawberry"
+      ]
     },
     {
       "id": "l_paraiso_gesha",
@@ -10033,7 +10069,12 @@
       "varietyId": "v_sidra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Cerro Azul Sidra Washed"
+      "name": "Cerro Azul Sidra Washed",
+      "notes": [
+        "tropical fruit",
+        "floral",
+        "citrus"
+      ]
     },
     {
       "id": "l_cerroazul_caturra",
@@ -10041,7 +10082,12 @@
       "varietyId": "v_caturra",
       "processId": "pr_washed",
       "year": 2024,
-      "name": "Cerro Azul Caturra Washed"
+      "name": "Cerro Azul Caturra Washed",
+      "notes": [
+        "floral",
+        "red fruit",
+        "white chocolate"
+      ]
     },
     {
       "id": "l_cerroazul_bourbon",
@@ -10049,7 +10095,12 @@
       "varietyId": "v_bourbon",
       "processId": "pr_natural",
       "year": 2024,
-      "name": "Cerro Azul Bourbon Natural"
+      "name": "Cerro Azul Bourbon Natural",
+      "notes": [
+        "red wine",
+        "cocoa",
+        "cherry"
+      ]
     },
     {
       "id": "l_aquiares_caturra",
